@@ -92,13 +92,24 @@ export default function Web3ThreatsPage() {
     const fetchData = async () => {
       setLoading(true);
       try {
+        const response = await fetch(apiUrl('/web3-threats'));
+        const payload = await response.json();
 
-      const response = await fetch(apiUrl('/web3-threats'));
-        const data: ApiResponse = await response.json();
-        setExploits(data.data);
-        setTotalRecords(data.total_records);
+        if (!response.ok) {
+          console.error('Web3 API error:', payload);
+          setExploits([]);
+          setTotalRecords(0);
+          return;
+        }
+
+        const data = payload as Partial<ApiResponse>;
+        const safeData = Array.isArray(data.data) ? data.data : [];
+        setExploits(safeData as ExploitDetail[]);
+        setTotalRecords(typeof data.total_records === 'number' ? data.total_records : safeData.length);
       } catch (error) {
         console.error('Error fetching data:', error);
+        setExploits([]);
+        setTotalRecords(0);
       } finally {
         setLoading(false);
       }

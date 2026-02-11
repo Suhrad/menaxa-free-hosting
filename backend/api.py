@@ -127,10 +127,15 @@ def get_latest_rekt_file():
             logger.error(f"Directory not found: {data_dir}")
             raise HTTPException(status_code=404, detail="No rekt database files found")
         
-        # Get all JSON files in the directory
+        # Prefer timestamped snapshots when available.
         json_files = list(data_dir.glob("rekt_db_*.json"))
         if not json_files:
-            logger.error("No JSON files found in directory")
+            # Fallback to stable file for fresh deploys where snapshots may be absent.
+            stable_file = data_dir / "rekt_db.json"
+            if stable_file.exists():
+                logger.info(f"Using stable rekt file fallback: {stable_file}")
+                return stable_file
+            logger.error("No rekt database files found in directory")
             raise HTTPException(status_code=404, detail="No rekt database files found")
         
         # Use file modification time to avoid filename-format edge cases.
