@@ -236,9 +236,14 @@ def get_cve_files(year: str = None):
 def filter_record(record):
     """Filter a record to only include specified fields"""
     try:
-        # Get the scam type first to check if it should be excluded
-        scam_type = record.get("scam_type", {}).get("type") if record.get("scam_type") else None
-        if scam_type == "Honeypot":
+        # Support both legacy source shape (scam_type object) and normalized shape (string).
+        scam_type_raw = record.get("scam_type")
+        if isinstance(scam_type_raw, dict):
+            scam_type = scam_type_raw.get("type")
+        else:
+            scam_type = scam_type_raw
+
+        if isinstance(scam_type, str) and scam_type.strip().lower() == "honeypot":
             return None
             
         return {
@@ -248,7 +253,14 @@ def filter_record(record):
             "funds_lost": record.get("funds_lost"),
             "scam_type": scam_type,
             "date": record.get("date"),
-            "root_cause": record.get("root_cause")
+            "root_cause": record.get("root_cause"),
+            "quick_summary": record.get("quick_summary"),
+            "details": record.get("details"),
+            "block_data": record.get("block_data"),
+            "proof_link": record.get("proof_link"),
+            "chain": record.get("chain"),
+            "token_name": record.get("token_name"),
+            "token_address": record.get("token_address")
         }
     except Exception as e:
         logger.error(f"Error filtering record: {str(e)}")
@@ -322,13 +334,23 @@ async def refresh_rekt_data():
         with open(latest_file, 'r', encoding='utf-8') as f:
             data = json.load(f)
         
-        if not data or "items" not in data:
-            logger.error("Invalid data format in JSON file")
+        if not data or not isinstance(data, dict):
+            logger.error("Invalid rekt JSON format: expected object")
             return
-        
+
+        # Support both formats:
+        # 1) Legacy puller: {"items":[...]}
+        # 2) Normalized snapshots: {"data":[...]}
+        records = data.get("items")
+        if not isinstance(records, list):
+            records = data.get("data")
+        if not isinstance(records, list):
+            logger.error("Invalid rekt JSON format: missing 'items' or 'data' array")
+            return
+
         # Filter the records to only include specified fields
         filtered_records = []
-        for record in data.get("items", []):
+        for record in records:
             filtered_record = filter_record(record)
             if filtered_record:
                 filtered_records.append(filtered_record)
