@@ -1,0 +1,716 @@
+[
+  {
+    "name": "Capital.com",
+    "url": "https://www.intigriti.com/programs/capitalcom/capitalcom/detail",
+    "logo": null,
+    "max_bounty": 15000
+  },
+  {
+    "name": "Personio",
+    "url": "https://www.intigriti.com/programs/personio/personio/detail",
+    "logo": null,
+    "max_bounty": 5000
+  },
+  {
+    "name": "Arm",
+    "url": "https://www.intigriti.com/programs/arm/arm/detail",
+    "logo": null,
+    "max_bounty": null
+  },
+  {
+    "name": "Moralis VDP",
+    "url": "https://www.intigriti.com/programs/moralis/moralisio/detail",
+    "logo": null,
+    "max_bounty": 0
+  },
+  {
+    "name": "Axel Springer National Media & Tech",
+    "url": "https://www.intigriti.com/programs/axelspringerse/nmt/detail",
+    "logo": null,
+    "max_bounty": 2500
+  },
+  {
+    "name": "Bpost",
+    "url": "https://www.intigriti.com/programs/bpost/dummy/detail",
+    "logo": null,
+    "max_bounty": 1500
+  },
+  {
+    "name": "Signicat Responsible Disclosure",
+    "url": "https://www.intigriti.com/programs/signicat/signicatresponsibledisclosure/detail",
+    "logo": null,
+    "max_bounty": 0
+  },
+  {
+    "name": "Arbonia VDP program",
+    "url": "https://www.intigriti.com/programs/arbonia/arboniavdpprogram/detail",
+    "logo": null,
+    "max_bounty": 0
+  },
+  {
+    "name": "Ninja Kiwi Games Bug Bounty program",
+    "url": "https://www.intigriti.com/programs/ninjakiwigames/ninjakiwigames/detail",
+    "logo": null,
+    "max_bounty": 4125
+  },
+  {
+    "name": "Lansweeper Bug Bounty Program",
+    "url": "https://www.intigriti.com/programs/lansweeper/lansweeper1/detail",
+    "logo": null,
+    "max_bounty": 6000
+  },
+  {
+    "name": "Exact Vulnerability Disclosure Program",
+    "url": "https://www.intigriti.com/programs/exact/exactvulnerabilitydisclosureprogram/detail",
+    "logo": null,
+    "max_bounty": 0
+  },
+  {
+    "name": "Aikido Security: Bug Bounty Program",
+    "url": "https://www.intigriti.com/programs/aikido/aikido/detail",
+    "logo": null,
+    "max_bounty": 2500
+  },
+  {
+    "name": "Kinepolis Group",
+    "url": "https://www.intigriti.com/programs/kinepolis/website/detail",
+    "logo": null,
+    "max_bounty": 5000
+  },
+  {
+    "name": "Fing Bug Bounty Program",
+    "url": "https://www.intigriti.com/programs/lansweeper/fing/detail",
+    "logo": null,
+    "max_bounty": 3500
+  },
+  {
+    "name": "Delen Private Bank",
+    "url": "https://www.intigriti.com/programs/delenprivatebank/privatebankdelen/detail",
+    "logo": null,
+    "max_bounty": 15000
+  },
+  {
+    "name": "Spring Heist 2025",
+    "url": "https://www.intigriti.com/programs/belgianbankinsurer/springheist2025/detail",
+    "logo": null,
+    "max_bounty": null
+  },
+  {
+    "name": "SimScale",
+    "url": "https://www.intigriti.com/programs/simscale/simscale/detail",
+    "logo": null,
+    "max_bounty": 6000
+  },
+  {
+    "name": "PDQ bug bounty program",
+    "url": "https://www.intigriti.com/programs/pdq/pdqcomprivate/detail",
+    "logo": null,
+    "max_bounty": 3500
+  },
+  {
+    "name": "Robinhood Bug Bounty Program",
+    "url": "https://www.intigriti.com/programs/robinhood/robinhoodbbp/detail",
+    "logo": null,
+    "max_bounty": 50000
+  },
+  {
+    "name": "Voi Scooters",
+    "url": "https://www.intigriti.com/programs/voi/voiscooters/detail",
+    "logo": null,
+    "max_bounty": 3500
+  },
+  {
+    "name": "OVO VDP",
+    "url": "https://www.intigriti.com/programs/ovoenergy/ovovdp/detail",
+    "logo": null,
+    "max_bounty": 0
+  },
+  {
+    "name": "Donorbox VDP",
+    "url": "https://www.intigriti.com/programs/donorbox/donorboxvdp/detail",
+    "logo": null,
+    "max_bounty": 0
+  },
+  {
+    "name": "InnoGames",
+    "url": "https://www.intigriti.com/programs/innogames/innogames/detail",
+    "logo": null,
+    "max_bounty": 4500
+  },
+  {
+    "name": "Kiwa Vulnerability Disclosure Program",
+    "url": "https://www.intigriti.com/programs/kiwa/kiwavdp/detail",
+    "logo": null,
+    "max_bounty": 0
+  },
+  {
+    "name": "Visma",
+    "url": "https://www.intigriti.com/programs/visma/visma/detail",
+    "logo": null,
+    "max_bounty": 7500
+  },
+  {
+    "name": "Port of Antwerp-Bruges",
+    "url": "https://www.intigriti.com/programs/portofantwerp/portofantwerp/detail",
+    "logo": null,
+    "max_bounty": 4500
+  },
+  {
+    "name": "DataCamp",
+    "url": "https://www.intigriti.com/programs/datacamp/datacamp/detail",
+    "logo": null,
+    "max_bounty": 1500
+  },
+  {
+    "name": "AMD Product Security Bug Bounty Program",
+    "url": "https://www.intigriti.com/programs/amd/amd/detail",
+    "logo": null,
+    "max_bounty": 30000
+  },
+  {
+    "name": "Yahoo Bug Bounty",
+    "url": "https://www.intigriti.com/programs/yahoo/yahoobugbounty/detail",
+    "logo": null,
+    "max_bounty": 15000
+  },
+  {
+    "name": "VRT",
+    "url": "https://www.intigriti.com/programs/vrtnv/vrtnv/detail",
+    "logo": null,
+    "max_bounty": 2000
+  },
+  {
+    "name": "Social Deal",
+    "url": "https://www.intigriti.com/programs/socialdeal/socialdeal/detail",
+    "logo": null,
+    "max_bounty": 750
+  },
+  {
+    "name": "Suivo bug bounty",
+    "url": "https://www.intigriti.com/programs/suivo/suivoweb/detail",
+    "logo": null,
+    "max_bounty": 2000
+  },
+  {
+    "name": "WP Engine Bug Bounty",
+    "url": "https://www.intigriti.com/programs/wpengine/wpenginebugbounty/detail",
+    "logo": null,
+    "max_bounty": 2500
+  },
+  {
+    "name": "BMW Group",
+    "url": "https://www.intigriti.com/programs/bmw/bmwgroup/detail",
+    "logo": null,
+    "max_bounty": 6000
+  },
+  {
+    "name": "Veriff Bug Bounty",
+    "url": "https://www.intigriti.com/programs/veriff/veriffbugbounty/detail",
+    "logo": null,
+    "max_bounty": 6000
+  },
+  {
+    "name": "B\u00fchler Group VDP",
+    "url": "https://www.intigriti.com/programs/buhlergroup/buhlergroupvdp/detail",
+    "logo": null,
+    "max_bounty": 0
+  },
+  {
+    "name": "WP Engine VDP",
+    "url": "https://www.intigriti.com/programs/wpengine/wpengine/detail",
+    "logo": null,
+    "max_bounty": 0
+  },
+  {
+    "name": "CM.com",
+    "url": "https://www.intigriti.com/programs/cmcom/cmcom/detail",
+    "logo": null,
+    "max_bounty": 3500
+  },
+  {
+    "name": "Grafana Labs",
+    "url": "https://www.intigriti.com/programs/grafanalabs/grafanaossbbp/detail",
+    "logo": null,
+    "max_bounty": 15000
+  },
+  {
+    "name": "Rivian Bug Bounty",
+    "url": "https://www.intigriti.com/programs/rivian/rivianbugbounty/detail",
+    "logo": null,
+    "max_bounty": 5000
+  },
+  {
+    "name": "Monzo Public Bug Bounty Program",
+    "url": "https://www.intigriti.com/programs/monzobank/monzopublicbugbountyprogram/detail",
+    "logo": null,
+    "max_bounty": 12500
+  },
+  {
+    "name": "Zabka Group Vulnerability Disclosure Program",
+    "url": "https://www.intigriti.com/programs/zabkapolska/zabkagroup-vdp/detail",
+    "logo": null,
+    "max_bounty": 0
+  },
+  {
+    "name": "Vlerick Business School",
+    "url": "https://www.intigriti.com/programs/vlerickbusinessschool/vlerickbusinessschool/detail",
+    "logo": null,
+    "max_bounty": 0
+  },
+  {
+    "name": "Trouw",
+    "url": "https://www.intigriti.com/programs/dpgm/trouw/detail",
+    "logo": null,
+    "max_bounty": 2200
+  },
+  {
+    "name": "Intergamma",
+    "url": "https://www.intigriti.com/programs/intergamma/intergamma/detail",
+    "logo": null,
+    "max_bounty": 5500
+  },
+  {
+    "name": "TrueLayer",
+    "url": "https://www.intigriti.com/programs/truelayer/truelayer/detail",
+    "logo": null,
+    "max_bounty": 6000
+  },
+  {
+    "name": "Nexuzhealth Web PACS",
+    "url": "https://www.intigriti.com/programs/uz%20leuven/nexuzhealthwebpacs/detail",
+    "logo": null,
+    "max_bounty": 1000
+  },
+  {
+    "name": "Orbia Responsible Disclosure",
+    "url": "https://www.intigriti.com/programs/orbia/orbiavdp/detail",
+    "logo": null,
+    "max_bounty": 0
+  },
+  {
+    "name": "Henkel",
+    "url": "https://www.intigriti.com/programs/henkel/henkel/detail",
+    "logo": null,
+    "max_bounty": 0
+  },
+  {
+    "name": "Ubisoft VDP",
+    "url": "https://www.intigriti.com/programs/ubisoft/ubisoftvdp/detail",
+    "logo": null,
+    "max_bounty": 0
+  },
+  {
+    "name": "Wolt",
+    "url": "https://www.intigriti.com/programs/wolt/wolt/detail",
+    "logo": null,
+    "max_bounty": 3500
+  },
+  {
+    "name": "Driessen Vulnerability Disclosure Program",
+    "url": "https://www.intigriti.com/programs/driessengroep/driessenvdp/detail",
+    "logo": null,
+    "max_bounty": 0
+  },
+  {
+    "name": "Here Technologies",
+    "url": "https://www.intigriti.com/programs/heretechnologies/heretechnologies/detail",
+    "logo": null,
+    "max_bounty": 2000
+  },
+  {
+    "name": "Tweakers",
+    "url": "https://www.intigriti.com/programs/dpgm/tweakers/detail",
+    "logo": null,
+    "max_bounty": 2200
+  },
+  {
+    "name": "Red Bull",
+    "url": "https://www.intigriti.com/programs/redbull/redbull/detail",
+    "logo": null,
+    "max_bounty": 0
+  },
+  {
+    "name": "DigitalOcean",
+    "url": "https://www.intigriti.com/programs/digitalocean/digitalocean/detail",
+    "logo": null,
+    "max_bounty": 10000
+  },
+  {
+    "name": "9altitudes - Vulnerability Disclosure Program",
+    "url": "https://www.intigriti.com/programs/ninealtitudes/VDP/detail",
+    "logo": null,
+    "max_bounty": 0
+  },
+  {
+    "name": "eHealth Hub VZN KUL",
+    "url": "https://www.intigriti.com/programs/uz%20leuven/ehealthhub%26meta-hubvznkul/detail",
+    "logo": null,
+    "max_bounty": 2000
+  },
+  {
+    "name": "House of HR Vulnerability Disclosure Program",
+    "url": "https://www.intigriti.com/programs/houseofhr/houseofhrvulnerabilitydisclosureprogram/detail",
+    "logo": null,
+    "max_bounty": 0
+  },
+  {
+    "name": "Axel Springer SE Vulnerability Disclosure Program",
+    "url": "https://www.intigriti.com/programs/axelspringerse/axelspringersevulnerabilitydisclosureprogram/detail",
+    "logo": null,
+    "max_bounty": 0
+  },
+  {
+    "name": "Yacht",
+    "url": "https://www.intigriti.com/programs/randstad/yacht/detail",
+    "logo": null,
+    "max_bounty": 0
+  },
+  {
+    "name": "Allegro",
+    "url": "https://www.intigriti.com/programs/allegro/allegrobugbounty/detail",
+    "logo": null,
+    "max_bounty": 3500
+  },
+  {
+    "name": "BMC",
+    "url": "https://www.intigriti.com/programs/randstad/bmc/detail",
+    "logo": null,
+    "max_bounty": 0
+  },
+  {
+    "name": "Randstad",
+    "url": "https://www.intigriti.com/programs/randstad/randstad/detail",
+    "logo": null,
+    "max_bounty": 0
+  },
+  {
+    "name": "Sixt",
+    "url": "https://www.intigriti.com/programs/sixt/sixt/detail",
+    "logo": null,
+    "max_bounty": 0
+  },
+  {
+    "name": "Cloudways by DigitalOcean",
+    "url": "https://www.intigriti.com/programs/digitalocean/cloudways/detail",
+    "logo": null,
+    "max_bounty": 4000
+  },
+  {
+    "name": "Housing Application (huisvestingsapp) Bug Bounty Program",
+    "url": "https://www.intigriti.com/programs/kuleuven/huisvesting/detail",
+    "logo": null,
+    "max_bounty": 2000
+  },
+  {
+    "name": "Universit\u00e4tsspital Z\u00fcrich VDP",
+    "url": "https://www.intigriti.com/programs/universitatsspitalzurich/usz-vdp/detail",
+    "logo": null,
+    "max_bounty": 0
+  },
+  {
+    "name": "e-tracker",
+    "url": "https://www.intigriti.com/programs/bpost/e-tracker/detail",
+    "logo": null,
+    "max_bounty": 0
+  },
+  {
+    "name": "PeopleCert VDP",
+    "url": "https://www.intigriti.com/programs/peoplecert/peoplecert/detail",
+    "logo": null,
+    "max_bounty": 0
+  },
+  {
+    "name": "Revolut VDP",
+    "url": "https://www.intigriti.com/programs/revolut/revolutvdp/detail",
+    "logo": null,
+    "max_bounty": 0
+  },
+  {
+    "name": "VTM GO",
+    "url": "https://www.intigriti.com/programs/dpgm/vtmgo/detail",
+    "logo": null,
+    "max_bounty": 2200
+  },
+  {
+    "name": "Citymesh Responsible Vulnerability Disclosure Program",
+    "url": "https://www.intigriti.com/programs/citymesh/responsiblevulnerabilitydisclosureprogram/detail",
+    "logo": null,
+    "max_bounty": 0
+  },
+  {
+    "name": "Speakap Responsible Disclosure",
+    "url": "https://www.intigriti.com/programs/speakap/speakapresponsibledisclosure/detail",
+    "logo": null,
+    "max_bounty": 0
+  },
+  {
+    "name": "De Morgen",
+    "url": "https://www.intigriti.com/programs/dpgm/demorgen/detail",
+    "logo": null,
+    "max_bounty": 2200
+  },
+  {
+    "name": "Tempo-Team ",
+    "url": "https://www.intigriti.com/programs/randstad/tempo-team/detail",
+    "logo": null,
+    "max_bounty": 0
+  },
+  {
+    "name": "DPG Media",
+    "url": "https://www.intigriti.com/programs/dpgm/dpgmedia/detail",
+    "logo": null,
+    "max_bounty": 500
+  },
+  {
+    "name": "BMW Group Automotive",
+    "url": "https://www.intigriti.com/programs/bmw/bmwgroup-automotive/detail",
+    "logo": null,
+    "max_bounty": 15000
+  },
+  {
+    "name": "Water-Link",
+    "url": "https://www.intigriti.com/programs/waterlink/water-link/detail",
+    "logo": null,
+    "max_bounty": 5000
+  },
+  {
+    "name": "Nestl\u00e9 VDP",
+    "url": "https://www.intigriti.com/programs/nestl%C3%A9/nestl%C3%A9vdp/detail",
+    "logo": null,
+    "max_bounty": 0
+  },
+  {
+    "name": "Humo",
+    "url": "https://www.intigriti.com/programs/dpgm/humo/detail",
+    "logo": null,
+    "max_bounty": 2200
+  },
+  {
+    "name": "Nexuzhealth",
+    "url": "https://www.intigriti.com/programs/uz%20leuven/mobile%20apps/detail",
+    "logo": null,
+    "max_bounty": 4000
+  },
+  {
+    "name": "intigriti",
+    "url": "https://www.intigriti.com/programs/intigriti/intigriti/detail",
+    "logo": null,
+    "max_bounty": 13337
+  },
+  {
+    "name": "De Lijn",
+    "url": "https://www.intigriti.com/programs/delijn/delijn/detail",
+    "logo": null,
+    "max_bounty": 0
+  },
+  {
+    "name": "Altera",
+    "url": "https://www.intigriti.com/programs/altera/altera/detail",
+    "logo": null,
+    "max_bounty": 30000
+  },
+  {
+    "name": "Sqills",
+    "url": "https://www.intigriti.com/programs/sqills/sqillscorporatewebsite/detail",
+    "logo": null,
+    "max_bounty": 2500
+  },
+  {
+    "name": "Het Laatste Nieuws",
+    "url": "https://www.intigriti.com/programs/dpgm/hetlaatstenieuws/detail",
+    "logo": null,
+    "max_bounty": 2200
+  },
+  {
+    "name": "Mobile Vikings",
+    "url": "https://www.intigriti.com/programs/mv/mobilevikings/detail",
+    "logo": null,
+    "max_bounty": 5000
+  },
+  {
+    "name": "ING Responsible Disclosure",
+    "url": "https://www.intigriti.com/programs/ing/ing-responsible-disclosure/detail",
+    "logo": null,
+    "max_bounty": 0
+  },
+  {
+    "name": "Twago",
+    "url": "https://www.intigriti.com/programs/randstad/twago/detail",
+    "logo": null,
+    "max_bounty": 0
+  },
+  {
+    "name": "HRS Group VDP",
+    "url": "https://www.intigriti.com/programs/hrsgroup/hrsgroupvdp/detail",
+    "logo": null,
+    "max_bounty": 0
+  },
+  {
+    "name": "Telenet - Base - Wyre - Tadaam",
+    "url": "https://www.intigriti.com/programs/telenet/telenetgroup/detail",
+    "logo": null,
+    "max_bounty": null
+  },
+  {
+    "name": "RGF BE - VDP",
+    "url": "https://www.intigriti.com/programs/rgfstaffing/rgfbe-vdp/detail",
+    "logo": null,
+    "max_bounty": 0
+  },
+  {
+    "name": "Say Technologies Bug Bounty Program",
+    "url": "https://www.intigriti.com/programs/robinhood/saytechnologiesbbp/detail",
+    "logo": null,
+    "max_bounty": 10000
+  },
+  {
+    "name": "Digitaal Vlaanderen",
+    "url": "https://www.intigriti.com/programs/vod/digitaalvlaanderen/detail",
+    "logo": null,
+    "max_bounty": 0
+  },
+  {
+    "name": "Libelle",
+    "url": "https://www.intigriti.com/programs/dpgm/libelle/detail",
+    "logo": null,
+    "max_bounty": 2200
+  },
+  {
+    "name": "Skoda Auto Bug Bounty Program",
+    "url": "https://www.intigriti.com/programs/skodaauto/skodaautoprivatebugbountyprogram/detail",
+    "logo": null,
+    "max_bounty": 5000
+  },
+  {
+    "name": "Het Parool",
+    "url": "https://www.intigriti.com/programs/dpgm/hetparool/detail",
+    "logo": null,
+    "max_bounty": 2200
+  },
+  {
+    "name": "KU Leuven Responsible Disclosure Program",
+    "url": "https://www.intigriti.com/programs/kuleuven/kuleuvenrdp/detail",
+    "logo": null,
+    "max_bounty": 0
+  },
+  {
+    "name": "Visma Responsible Disclosure",
+    "url": "https://www.intigriti.com/programs/visma/VismaResponsibleDisclosure/detail",
+    "logo": null,
+    "max_bounty": 0
+  },
+  {
+    "name": "Algemeen Dagblad",
+    "url": "https://www.intigriti.com/programs/dpgm/algemeendagblad/detail",
+    "logo": null,
+    "max_bounty": 2200
+  },
+  {
+    "name": "Online enrollment for students Bug Bounty Program",
+    "url": "https://www.intigriti.com/programs/kuleuven/onlineinschrijvingenbetalingstoepassing/detail",
+    "logo": null,
+    "max_bounty": 2000
+  },
+  {
+    "name": "Tomorrowland",
+    "url": "https://www.intigriti.com/programs/tomorrowland/tomorrowland/detail",
+    "logo": null,
+    "max_bounty": 2500
+  },
+  {
+    "name": "UZ Leuven",
+    "url": "https://www.intigriti.com/programs/uz%20leuven/uzleuven/detail",
+    "logo": null,
+    "max_bounty": 5000
+  },
+  {
+    "name": "Uphold",
+    "url": "https://www.intigriti.com/programs/Uphold/upholdcom/detail",
+    "logo": null,
+    "max_bounty": 6000
+  },
+  {
+    "name": "Azena",
+    "url": "https://www.intigriti.com/programs/azena/azenaresponsibledisclosure/detail",
+    "logo": null,
+    "max_bounty": 0
+  },
+  {
+    "name": "RIPE NCC",
+    "url": "https://www.intigriti.com/programs/ripencc/ripencc/detail",
+    "logo": null,
+    "max_bounty": 2000
+  },
+  {
+    "name": "DHL Group Vulnerability Disclosure Program",
+    "url": "https://www.intigriti.com/programs/dhlgroup/dhlvdp/detail",
+    "logo": null,
+    "max_bounty": 0
+  },
+  {
+    "name": "SBB - Swiss Federal Railways",
+    "url": "https://www.intigriti.com/programs/sbb/sbbglobal/detail",
+    "logo": null,
+    "max_bounty": 5000
+  },
+  {
+    "name": "Oda",
+    "url": "https://www.intigriti.com/programs/oda/oda/detail",
+    "logo": null,
+    "max_bounty": 4000
+  },
+  {
+    "name": "Newpharma",
+    "url": "https://www.intigriti.com/programs/colruyt/newpharma/detail",
+    "logo": null,
+    "max_bounty": null
+  },
+  {
+    "name": "Cyber Security Coalition",
+    "url": "https://www.intigriti.com/programs/cybersecuritycoalition/cybersecuritycoalition/detail",
+    "logo": null,
+    "max_bounty": 0
+  },
+  {
+    "name": "Doccle Bug Bounty program",
+    "url": "https://www.intigriti.com/programs/doccle/doccle/detail",
+    "logo": null,
+    "max_bounty": null
+  },
+  {
+    "name": "Intel\u00ae",
+    "url": "https://www.intigriti.com/programs/intel/intel/detail",
+    "logo": null,
+    "max_bounty": 100000
+  },
+  {
+    "name": "De Volkskrant",
+    "url": "https://www.intigriti.com/programs/dpgm/devolkskrant/detail",
+    "logo": null,
+    "max_bounty": 2200
+  },
+  {
+    "name": "Torfs",
+    "url": "https://www.intigriti.com/programs/torfs/torfs/detail",
+    "logo": null,
+    "max_bounty": 6500
+  },
+  {
+    "name": "Capture Our Flag",
+    "url": "https://www.intigriti.com/programs/intigriti/captureourflag/detail",
+    "logo": null,
+    "max_bounty": null
+  },
+  {
+    "name": "The Coca-Cola Company Vulnerability Disclosure Program",
+    "url": "https://www.intigriti.com/programs/tccc/coca-cola/detail",
+    "logo": null,
+    "max_bounty": 0
+  },
+  {
+    "name": "Canada Post + Purolator - Responsible Disclosure Program",
+    "url": "https://www.intigriti.com/programs/innovapost/innovapost/detail",
+    "logo": null,
+    "max_bounty": 0
+  }
+]

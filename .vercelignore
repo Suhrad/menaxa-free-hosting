@@ -1,0 +1,8 @@
+.git
+.github
+backend/
+frontend/
+node_modules/
+.next/
+*.log
+*.zip

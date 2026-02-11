@@ -1,0 +1,2174 @@
+[
+  {
+    "name": "subDomainsBrute",
+    "short_description": "A fast sub domain brute tool for pentesters ![](svg/Windows.svg)![](svg/linux.svg)![](svg/mac.svg)",
+    "Link": "https://github.com/lijiejie/subDomainsBrute",
+    "Category": "Subdomain"
+  },
+  {
+    "name": "ksubdomain",
+    "short_description": "Subdomain enumeration tool, asynchronous dns packets, use pcap to scan 1600,000 subdomains in 1 second ![](svg/Windows.svg)![](svg/linux.svg)![](svg/mac.svg)",
+    "Link": "https://github.com/boy-hack/ksubdomain",
+    "Category": "Subdomain"
+  },
+  {
+    "name": "Sublist3r",
+    "short_description": "Fast subdomains enumeration tool for penetration testers ![](svg/Windows.svg)![](svg/linux.svg)![](svg/mac.svg)",
+    "Link": "https://github.com/aboul3la/Sublist3r",
+    "Category": "Subdomain"
+  },
+  {
+    "name": "OneForAll",
+    "short_description": "\ud83d\udc4a OneForAll is a powerful subdomain integration tool ![](svg/Windows.svg)![](svg/linux.svg)![](svg/mac.svg)",
+    "Link": "https://github.com/shmilylty/OneForAll",
+    "Category": "Subdomain"
+  },
+  {
+    "name": "LayerDomainFinder",
+    "short_description": "a subdomains enumeration tool by Layer ![](svg/Windows.svg)",
+    "Link": "https://github.com/euphrat1ca/LayerDomainFinder",
+    "Category": "Subdomain"
+  },
+  {
+    "name": "ct",
+    "short_description": "Collect information tools about the target domain.",
+    "Link": "https://github.com/knownsec/ct",
+    "Category": "Subdomain"
+  },
+  {
+    "name": "whois",
+    "short_description": "Windows Whois performs the registration record for the domain name or IP address that you specify.",
+    "Link": "https://docs.microsoft.com/en-us/sysinternals/downloads/whois",
+    "Category": "Domain Name"
+  },
+  {
+    "name": "DNSrecon-gui",
+    "short_description": "DNSrecon tool with GUI for Kali Linux",
+    "Link": "https://github.com/micro-joan/DNSrecon-gui",
+    "Category": "Domain Name"
+  },
+  {
+    "name": "Dnsx",
+    "short_description": "Tool description: dnsx is a fast and multi-purpose DNS toolkit allow to run multiple DNS queries of your choice with a list of user-supplied resolvers.",
+    "Link": "https://github.com/projectdiscovery/dnsx",
+    "Category": "Domain Name"
+  },
+  {
+    "name": "Subfinder",
+    "short_description": "Subfinder is a subdomain discovery tool that discovers valid subdomains for websites. Designed as a passive framework to be useful for bug bounties and safe for penetration testing.",
+    "Link": "https://github.com/projectdiscovery/subfinder",
+    "Category": "Subdomain"
+  },
+  {
+    "name": "Probable_subdomains",
+    "short_description": "Subdomains analysis and generation tool. Reveal the hidden!",
+    "Link": "https://github.com/zzzteph/probable_subdomains",
+    "Category": "Subdomain"
+  },
+  {
+    "name": "domains",
+    "short_description": "Generate subdomains and wordlists Online.",
+    "Link": "https://weakpass.com/generate/domains",
+    "Category": "Subdomain"
+  },
+  {
+    "name": "MassDNS",
+    "short_description": "High-performance DNS stub resolver targeting those who seek to resolve a massive amount of domain names in the order of millions or even billions.",
+    "Link": "https://github.com/blechschmidt/massdns",
+    "Category": "Subdomain"
+  },
+  {
+    "name": "altdns",
+    "short_description": "Altdns takes in words that could be present in subdomains under a domain (such as test, dev, staging) as well as takes in a list of subdomains that you know of.",
+    "Link": "https://github.com/infosec-au/altdns",
+    "Category": "Subdomain"
+  },
+  {
+    "name": "dnscan",
+    "short_description": "Fast and lightweight dns bruteforcer with built-in wordlist and zone transfer checks.",
+    "Link": "https://github.com/rbsec/dnscan",
+    "Category": "Subdomain"
+  },
+  {
+    "name": "GHDB",
+    "short_description": "Google Hack Database  ![](svg/chrome.svg)",
+    "Link": "https://www.exploit-db.com/google-hacking-database/",
+    "Category": "Google Hacking"
+  },
+  {
+    "name": "SearchDiggity",
+    "short_description": "SearchDiggity 3.1 is the primary attack tool of the Google Hacking Diggity Project",
+    "Link": "http://www.bishopfox.com/resources/tools/google-hacking-diggity/attack-tools/",
+    "Category": "Google Hacking"
+  },
+  {
+    "name": "Katana",
+    "short_description": "A Python Tool For google Hacking",
+    "Link": "https://github.com/adnane-X-tebbaa/Katana",
+    "Category": "Google Hacking"
+  },
+  {
+    "name": "GooFuzz",
+    "short_description": "GooFuzz is a tool to perform fuzzing with an OSINT approach, managing to enumerate directories, files, subdomains or parameters without leaving evidence on the target's server and by means of advanced Google searches (Google Dorking).",
+    "Link": "https://github.com/m3n0sd0n4ld/GooFuzz",
+    "Category": "Google Hacking"
+  },
+  {
+    "name": "Pagodo",
+    "short_description": "Tool description: pagodo (Passive Google Dork) - Automate Google Hacking Database scraping and searching .",
+    "Link": "https://github.com/opsdisk/pagodo",
+    "Category": "Google Hacking"
+  },
+  {
+    "name": "Google-Dorks",
+    "short_description": "Useful Google Dorks for WebSecurity and Bug Bounty",
+    "Link": "https://github.com/Proviesec/google-dorks",
+    "Category": "Google Hacking"
+  },
+  {
+    "name": "GitHacker",
+    "short_description": "\ud83d\udd77\ufe0f A Git source leak exploit tool that restores the entire Git repository, including data from stash, for white-box auditing and analysis of developers' mind.",
+    "Link": "https://github.com/WangYihang/GitHacker",
+    "Category": "Github "
+  },
+  {
+    "name": "GitGraber",
+    "short_description": "Tool description: gitGraber is a tool developed in Python3 to monitor GitHub to search and find sensitive data in real time for different online services.",
+    "Link": "https://github.com/hisxo/gitGraber",
+    "Category": "Github "
+  },
+  {
+    "name": "GitHound",
+    "short_description": "Use GitHub Code Search API to find exposed API keys across all of GitHub, not just known repos and orgs. Comes with a web dashboard for filtering and tracking your results",
+    "Link": "https://github.com/tillson/git-hound",
+    "Category": "Github "
+  },
+  {
+    "name": "GitMiner",
+    "short_description": "Tool for advanced mining for content on Github.",
+    "Link": "https://github.com/UnkL4b/GitMiner",
+    "Category": "Github "
+  },
+  {
+    "name": "Gitrob",
+    "short_description": "Reconnaissance tool for GitHub organizations.",
+    "Link": "https://github.com/michenriksen/gitrob",
+    "Category": "Github "
+  },
+  {
+    "name": "GitDump",
+    "short_description": "A pentesting tool that dumps the source code from .git even when the directory traversal is disabled",
+    "Link": "https://github.com/Ebryx/GitDump",
+    "Category": "Github "
+  },
+  {
+    "name": "svnExploit",
+    "short_description": "Support for SVN source code disclosure of full version and Dump it.",
+    "Link": "https://github.com/admintony/svnExploit",
+    "Category": "SVN"
+  },
+  {
+    "name": "SvnHack",
+    "short_description": "SvnHack is a SVN folder disclosure exploit. :lock:",
+    "Link": "https://github.com/callmefeifei/SvnHack",
+    "Category": "SVN"
+  },
+  {
+    "name": "Nmap | Zenmap",
+    "short_description": "Free and open source utility for network discovery and security auditing",
+    "Link": "https://nmap.org/",
+    "Category": "Port Scan"
+  },
+  {
+    "name": "Masscan",
+    "short_description": "TCP port scanner, spews SYN packets asynchronously",
+    "Link": "https://github.com/robertdavidgraham/masscan",
+    "Category": "Port Scan"
+  },
+  {
+    "name": "Ports",
+    "short_description": "Common service ports and exploitations",
+    "Link": "https://github.com/nixawk/pentest-wiki/blob/master/3.Exploitation-Tools/Network-Exploitation/ports_number.md",
+    "Category": "Port Scan"
+  },
+  {
+    "name": "Goby",
+    "short_description": "Attack surface mapping",
+    "Link": "https://gobies.org/",
+    "Category": "Port Scan"
+  },
+  {
+    "name": "Gobyu-POC",
+    "short_description": "The POC of Goby .",
+    "Link": "https://github.com/20142995/Goby",
+    "Category": "Port Scan"
+  },
+  {
+    "name": "Goscan",
+    "short_description": "Interactive Network Scanner",
+    "Link": "https://github.com/marco-lancini/goscan",
+    "Category": "Port Scan"
+  },
+  {
+    "name": "NimScan",
+    "short_description": "\ud83d\ude80 Fast Port Scanner \ud83d\ude80",
+    "Link": "https://github.com/elddy/NimScan",
+    "Category": "Port Scan"
+  },
+  {
+    "name": "RustScan",
+    "short_description": "\ud83e\udd16 The Modern Port Scanner \ud83e\udd16",
+    "Link": "https://github.com/RustScan/RustScan",
+    "Category": "Port Scan"
+  },
+  {
+    "name": "TXPortMap",
+    "short_description": "Port Scanner & Banner Identify From TianXiang",
+    "Link": "https://github.com/4dogs-cn/TXPortMap",
+    "Category": "Port Scan"
+  },
+  {
+    "name": "Scaninfo",
+    "short_description": "Tool description: fast scan for redtools",
+    "Link": "https://github.com/redtoolskobe/scaninfo",
+    "Category": "Port Scan"
+  },
+  {
+    "name": "SX",
+    "short_description": "\ud83d\udd96 Fast, modern, easy-to-use network scanner",
+    "Link": "https://github.com/v-byte-cpu/sx",
+    "Category": "Port Scan"
+  },
+  {
+    "name": "Naabu",
+    "short_description": "A fast port scanner written in go with a focus on reliability and simplicity.",
+    "Link": "https://github.com/projectdiscovery/naabu",
+    "Category": "Port Scan"
+  },
+  {
+    "name": "theHarvester",
+    "short_description": "E-mails, subdomains and names Harvester - OSINT",
+    "Link": "https://github.com/laramies/theHarvester",
+    "Category": "OSINT"
+  },
+  {
+    "name": "SpiderFoot",
+    "short_description": "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.",
+    "Link": "https://github.com/smicallef/spiderfoot",
+    "Category": "OSINT"
+  },
+  {
+    "name": "Recon-ng",
+    "short_description": "Open Source Intelligence gathering tool aimed at reducing the time spent harvesting information from open sources.",
+    "Link": "https://github.com/lanmaster53/recon-ng",
+    "Category": "OSINT"
+  },
+  {
+    "name": "FOCA",
+    "short_description": "Tool to find metadata and hidden information in the documents.",
+    "Link": "https://github.com/ElevenPaths/FOCA",
+    "Category": "OSINT"
+  },
+  {
+    "name": "Amass",
+    "short_description": "In-depth Attack Surface Mapping and Asset Discovery",
+    "Link": "https://github.com/OWASP/Amass",
+    "Category": "OSINT"
+  },
+  {
+    "name": "Censys-subdomain-finder",
+    "short_description": "Perform subdomain enumeration using the certificate transparency logs from Censys.",
+    "Link": "https://github.com/christophetd/censys-subdomain-finder",
+    "Category": "OSINT"
+  },
+  {
+    "name": "EmailHarvester",
+    "short_description": "Email addresses harvester",
+    "Link": "https://github.com/maldevel/EmailHarvester",
+    "Category": "OSINT"
+  },
+  {
+    "name": "Finalrecon",
+    "short_description": "The Last Web Recon Tool You'll Need.",
+    "Link": "https://github.com/thewhiteh4t/FinalRecon",
+    "Category": "OSINT"
+  },
+  {
+    "name": "LittleBrother",
+    "short_description": "Information gathering (OSINT) on a person (EU)",
+    "Link": "https://github.com/lulz3xploit/LittleBrother",
+    "Category": "OSINT"
+  },
+  {
+    "name": "Octosuite",
+    "short_description": "Advanced Github OSINT Framework",
+    "Link": "https://github.com/rly0nheart/octosuite",
+    "Category": "OSINT"
+  },
+  {
+    "name": "Kunyu",
+    "short_description": "Kunyu, more efficient corporate asset collection",
+    "Link": "https://github.com/knownsec/Kunyu",
+    "Category": "OSINT"
+  },
+  {
+    "name": "Glass",
+    "short_description": "OSINT Framework with Fofa/ZoomEye/Shodan/360 API",
+    "Link": "https://github.com/s7ckTeam/Glass",
+    "Category": "OSINT"
+  },
+  {
+    "name": "BBOT",
+    "short_description": "OSINT automation for hackers.",
+    "Link": "https://github.com/blacklanternsecurity/bbot",
+    "Category": "OSINT"
+  },
+  {
+    "name": "octosuite",
+    "short_description": "Advanced Github OSINT Framework",
+    "Link": "https://github.com/bellingcat/octosuite",
+    "Category": "OSINT"
+  },
+  {
+    "name": "GHunt",
+    "short_description": "\ud83d\udd75\ufe0f\u200d\u2642\ufe0f Offensive Google framework.",
+    "Link": "https://github.com/mxrch/GHunt",
+    "Category": "OSINT"
+  },
+  {
+    "name": "gophish",
+    "short_description": "Open-Source Phishing Toolkit",
+    "Link": "https://github.com/gophish/gophish",
+    "Category": "OSINT"
+  },
+  {
+    "name": "AdvPhishing",
+    "short_description": "This is Advance Phishing Tool ! OTP PHISHING",
+    "Link": "https://github.com/Ignitetch/AdvPhishing",
+    "Category": "OSINT"
+  },
+  {
+    "name": "SocialFish",
+    "short_description": "Educational Phishing Tool & Information Collector",
+    "Link": "https://github.com/UndeadSec/SocialFish",
+    "Category": "OSINT"
+  },
+  {
+    "name": "Zphisher",
+    "short_description": "An automated phishing tool with 30+ templates. This Tool is made for educational purpose only ! Author will not be responsible for any misuse of this toolkit !",
+    "Link": "https://github.com/htr-tech/zphisher",
+    "Category": "OSINT"
+  },
+  {
+    "name": "Nexphisher",
+    "short_description": "Advanced Phishing tool for Linux & Termux",
+    "Link": "https://github.com/htr-tech/nexphisher",
+    "Category": "OSINT"
+  },
+  {
+    "name": "httpX",
+    "short_description": "Tool description: httpx is a fast and multi-purpose HTTP toolkit that allows running multiple probes using the retryablehttp library.",
+    "Link": "https://github.com/projectdiscovery/httpx",
+    "Category": "Fuzzing"
+  },
+  {
+    "name": "Struts-Scan",
+    "short_description": "Struts2 vulnerability detection and utilization tools",
+    "Link": "https://github.com/Lucifer1993/struts-scan",
+    "Category": "Vulnerability Scanner"
+  },
+  {
+    "name": "Nikto",
+    "short_description": "Nikto is an Open Source (GPL) web server scanner which performs comprehensive tests against web servers for multiple items",
+    "Link": "https://github.com/sullo/nikto",
+    "Category": "Vulnerability Scanner"
+  },
+  {
+    "name": "W3af",
+    "short_description": "Web application attack and audit framework, the open source web vulnerability scanner",
+    "Link": "https://github.com/andresriancho/w3af/",
+    "Category": "Vulnerability Scanner"
+  },
+  {
+    "name": "Openvas",
+    "short_description": "The world's most advanced Open Source vulnerability scanner and manager",
+    "Link": "http://www.openvas.org/",
+    "Category": "Vulnerability Scanner"
+  },
+  {
+    "name": "Archery",
+    "short_description": "Open Source Vulnerability Assessment and Management helps developers and pentesters to perform scans and manage vulnerabilities",
+    "Link": "https://github.com/archerysec/archerysec",
+    "Category": "Vulnerability Scanner"
+  },
+  {
+    "name": "Taipan",
+    "short_description": "Web application vulnerability scanner",
+    "Link": "https://github.com/enkomio/Taipan",
+    "Category": "Vulnerability Scanner"
+  },
+  {
+    "name": "Arachni",
+    "short_description": "Web Application Security Scanner Framework",
+    "Link": "https://github.com/Arachni/arachni",
+    "Category": "Vulnerability Scanner"
+  },
+  {
+    "name": "Nuclei",
+    "short_description": "Fast and customizable vulnerability scanner based on simple YAML based DSL.",
+    "Link": "https://github.com/projectdiscovery/nuclei",
+    "Category": "Vulnerability Scanner"
+  },
+  {
+    "name": "Xray",
+    "short_description": "A passive-vulnerability-scanner Tool.",
+    "Link": "https://github.com/chaitin/xray",
+    "Category": "Vulnerability Scanner"
+  },
+  {
+    "name": "Super-Xray",
+    "short_description": "Web Vulnerability Scanner XRAY GUI Starter",
+    "Link": "https://github.com/4ra1n/super-xray",
+    "Category": "Vulnerability Scanner"
+  },
+  {
+    "name": "SiteScan",
+    "short_description": "AllinOne Website Information Gathering Tools for pentest.",
+    "Link": "https://github.com/kracer127/SiteScan",
+    "Category": "Vulnerability Scanner"
+  },
+  {
+    "name": "Banli",
+    "short_description": "High-risk asset identification and high-risk vulnerability scanner.",
+    "Link": "https://github.com/Goqi/Banli",
+    "Category": "Vulnerability Scanner"
+  },
+  {
+    "name": "vscan",
+    "short_description": "Open Source Vulnerability Scanner.",
+    "Link": "https://github.com/veo/vscan",
+    "Category": "Vulnerability Scanner"
+  },
+  {
+    "name": "Wapiti",
+    "short_description": "Web vulnerability scanner written in Python3.",
+    "Link": "https://github.com/wapiti-scanner/wapiti",
+    "Category": "Vulnerability Scanner"
+  },
+  {
+    "name": "osv-scanner",
+    "short_description": "Vulnerability scanner written in Go which uses the data provided by https://osv.dev",
+    "Link": "https://github.com/google/osv-scanner",
+    "Category": "Vulnerability Scanner"
+  },
+  {
+    "name": "Afrog",
+    "short_description": "A Vulnerability Scanning Tools For Penetration Testing",
+    "Link": "https://github.com/zan8in/afrog",
+    "Category": "Vulnerability Scanner"
+  },
+  {
+    "name": "OpalOPC",
+    "short_description": "A vulnerability and misconfiguration scanner for OPC UA applications",
+    "Link": "https://opalopc.com/",
+    "Category": "Vulnerability Scanner"
+  },
+  {
+    "name": "ZeroThreat",
+    "short_description": "An Ai-Powered Web App & API Vulnerability Scanning and Pentesting Platform.",
+    "Link": "https://zerothreat.ai/",
+    "Category": "Vulnerability Scanner"
+  },
+  {
+    "name": "AngelSword",
+    "short_description": "CMS vulnerability detection framework :lock:",
+    "Link": "https://github.com/Lucifer1993/AngelSword",
+    "Category": " CMS & Framwork Identification"
+  },
+  {
+    "name": "WhatWeb",
+    "short_description": "Next generation web scanner",
+    "Link": "https://github.com/urbanadventurer/WhatWeb",
+    "Category": " CMS & Framwork Identification"
+  },
+  {
+    "name": "Wappalyzer",
+    "short_description": "Cross-platform utility that uncovers the technologies used on websites ![](svg/chrome.svg)",
+    "Link": "https://github.com/AliasIO/Wappalyzer",
+    "Category": " CMS & Framwork Identification"
+  },
+  {
+    "name": "Whatruns",
+    "short_description": "A free browser extension that helps you identify technologies used on any website at the click of a button (Just for chrome)![](svg/chrome.svg)",
+    "Link": "https://www.whatruns.com/",
+    "Category": " CMS & Framwork Identification"
+  },
+  {
+    "name": "WhatCMS",
+    "short_description": "CMS Detection and Exploit Kit based on Whatcms.org API",
+    "Link": "https://github.com/HA71/WhatCMS",
+    "Category": " CMS & Framwork Identification"
+  },
+  {
+    "name": "CMSeeK",
+    "short_description": "CMS Detection and Exploitation suite - Scan WordPress, Joomla, Drupal and over 180 other CMSs",
+    "Link": "https://github.com/Tuhinshubhra/CMSeeK",
+    "Category": " CMS & Framwork Identification"
+  },
+  {
+    "name": "EHole",
+    "short_description": "CMS Detection for RedTeam",
+    "Link": "https://github.com/EdgeSecurityTeam/EHole",
+    "Category": " CMS & Framwork Identification"
+  },
+  {
+    "name": "ObserverWard",
+    "short_description": "Cross platform community web fingerprint identification tool",
+    "Link": "https://github.com/0x727/ObserverWard",
+    "Category": " CMS & Framwork Identification"
+  },
+  {
+    "name": "FingerprintHub",
+    "short_description": "The Database of ObserverWard",
+    "Link": "https://github.com/0x727/FingerprintHub",
+    "Category": " CMS & Framwork Identification"
+  },
+  {
+    "name": "Yunsee",
+    "short_description": "Online website for to find the CMS footprint ![](svg/chrome.svg)",
+    "Link": "http://www.yunsee.cn/",
+    "Category": " CMS & Framwork Identification"
+  },
+  {
+    "name": "Bugscaner",
+    "short_description": "A simple online fingerprint identification system that supports hundreds of cms source code recognition ![](svg/chrome.svg)",
+    "Link": "http://whatweb.bugscaner.com/look/",
+    "Category": " CMS & Framwork Identification"
+  },
+  {
+    "name": "WhatCMS online",
+    "short_description": "CMS Detection and Exploit Kit website Whatcms.org  ![](svg/chrome.svg)",
+    "Link": "https://whatcms.org/",
+    "Category": " CMS & Framwork Identification"
+  },
+  {
+    "name": "TideFinger",
+    "short_description": "Fingerprinter Tool from TideSec Team :lock: ![](svg/chrome.svg)",
+    "Link": "http://finger.tidesec.com/",
+    "Category": " CMS & Framwork Identification"
+  },
+  {
+    "name": "360finger-p",
+    "short_description": "Fingerprinter Tool from 360 Team ![](svg/chrome.svg)",
+    "Link": "https://fp.shuziguanxing.com/",
+    "Category": " CMS & Framwork Identification"
+  },
+  {
+    "name": "Burpsuite",
+    "short_description": "Burpsuite is a graphical tool for testing Web application security",
+    "Link": "https://portswigger.net/",
+    "Category": "Web Applications Proxies"
+  },
+  {
+    "name": "Mitmproxy",
+    "short_description": "An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers.",
+    "Link": "https://github.com/mitmproxy/mitmproxy",
+    "Category": "Web Applications Proxies"
+  },
+  {
+    "name": "Broxy",
+    "short_description": "An HTTP/HTTPS intercept proxy written in Go.",
+    "Link": "https://github.com/rhaidiz/broxy",
+    "Category": "Web Applications Proxies"
+  },
+  {
+    "name": "Hetty",
+    "short_description": "An HTTP toolkit for security research.",
+    "Link": "https://github.com/dstotijn/hetty",
+    "Category": "Web Applications Proxies"
+  },
+  {
+    "name": "Proxify",
+    "short_description": "Swiss Army knife Proxy tool for HTTP/HTTPS traffic capture, manipulation, and replay on the go.",
+    "Link": "https://github.com/projectdiscovery/proxify",
+    "Category": "Web Applications Proxies"
+  },
+  {
+    "name": "Hack-Tools",
+    "short_description": "The all-in-one Red Team extension for Web Pentester \ud83d\udee0",
+    "Link": "https://github.com/LasCC/Hack-Tools",
+    "Category": "web browser extension"
+  },
+  {
+    "name": "Dirbrute",
+    "short_description": "Multi-thread WEB directory blasting tool (with dics inside) :lock:",
+    "Link": "https://github.com/Xyntax/DirBrute",
+    "Category": "Web Crawlers & Directory Brute Force"
+  },
+  {
+    "name": "Dirb",
+    "short_description": "DIRB is a Web Content Scanner. It looks for existing (and/or hidden) Web Objects. It basically works by launching a dictionary based attack against a web server and analyzing the responses.",
+    "Link": "https://dirb.sourceforge.net/",
+    "Category": "Web Crawlers & Directory Brute Force"
+  },
+  {
+    "name": "ffuf",
+    "short_description": "Fast web fuzzer written in Go.",
+    "Link": "https://github.com/ffuf/ffuf",
+    "Category": "Web Crawlers & Directory Brute Force"
+  },
+  {
+    "name": "Dirbuster",
+    "short_description": "DirBuster is a multi threaded java application designed to brute force directories and files names on web/application servers.",
+    "Link": "https://sourceforge.net/projects/dirbuster/",
+    "Category": "Web Crawlers & Directory Brute Force"
+  },
+  {
+    "name": "Dirsearch",
+    "short_description": "Web path scanner.",
+    "Link": "https://github.com/maurosoria/dirsearch",
+    "Category": "Web Crawlers & Directory Brute Force"
+  },
+  {
+    "name": "WebPathBrute",
+    "short_description": "Web path Bruter.",
+    "Link": "https://github.com/7kbstorm/7kbscan-WebPathBrute",
+    "Category": "Web Crawlers & Directory Brute Force"
+  },
+  {
+    "name": "wfuzz",
+    "short_description": "Web application fuzzer",
+    "Link": "https://github.com/xmendez/wfuzz",
+    "Category": "Web Crawlers & Directory Brute Force"
+  },
+  {
+    "name": "Dirmap",
+    "short_description": "An advanced web directory & file scanning tool that will be more powerful than DirBuster, Dirsearch, cansina, and Yu Jian.",
+    "Link": "https://github.com/H4ckForJob/dirmap",
+    "Category": "Web Crawlers & Directory Brute Force"
+  },
+  {
+    "name": "YJdirscan",
+    "short_description": "Yujian dirscan Gui Pro",
+    "Link": "https://github.com/foryujian/yjdirscan",
+    "Category": "Web Crawlers & Directory Brute Force"
+  },
+  {
+    "name": "Fuxi-Scanner",
+    "short_description": "Tool description: open source network security vulnerability scanner, it comes with multiple functions. ![](svg/Docker.svg)",
+    "Link": "https://github.com/jeffzh3ng/Fuxi-Scanner",
+    "Category": "Docker Scanners"
+  },
+  {
+    "name": "Xunfeng",
+    "short_description": "The patrol is a rapid emergency response and cruise scanning system for enterprise intranets. ![](svg/Docker.svg)",
+    "Link": "https://github.com/ysrc/xunfeng",
+    "Category": "Docker Scanners"
+  },
+  {
+    "name": "WebMap",
+    "short_description": "Nmap Web Dashboard and Reporting. ![](svg/Docker.svg)",
+    "Link": "https://github.com/SabyasachiRana/WebMap",
+    "Category": "Docker Scanners"
+  },
+  {
+    "name": "Pentest-Collaboration-Framework",
+    "short_description": "Opensource, cross-platform and portable toolkit for automating routine processes when carrying out various works for testing!",
+    "Link": "https://gitlab.com/invuls/pentest-projects/pcf",
+    "Category": "Docker Scanners"
+  },
+  {
+    "name": "Enumdb",
+    "short_description": "Relational database brute force and post exploitation tool for MySQL and MSSQL",
+    "Link": "https://github.com/m8sec/enumdb",
+    "Category": "Docker Scanners"
+  },
+  {
+    "name": "MDUT",
+    "short_description": "Multiple Database Utilization Tools",
+    "Link": "https://github.com/SafeGroceryStore/MDUT",
+    "Category": "Docker Scanners"
+  },
+  {
+    "name": "Sylas",
+    "short_description": "Multiple Database Exploitation Tools",
+    "Link": "https://github.com/Ryze-T/Sylas",
+    "Category": "Docker Scanners"
+  },
+  {
+    "name": "ODAT",
+    "short_description": "Oracle Database Attacking Tool",
+    "Link": "https://github.com/quentinhardy/odat",
+    "Category": "Docker Scanners"
+  },
+  {
+    "name": "MSDAT",
+    "short_description": "Microsoft SQL Database Attacking Tool",
+    "Link": "https://github.com/quentinhardy/msdat",
+    "Category": "Docker Scanners"
+  },
+  {
+    "name": "Hydra",
+    "short_description": "Hydra is a parallelized login cracker which supports numerous protocols to attack",
+    "Link": "https://github.com/vanhauser-thc/thc-hydra",
+    "Category": "Docker Scanners"
+  },
+  {
+    "name": "Medusa",
+    "short_description": "Medusa is intended to be a speedy, massively parallel, modular, login brute-forcer",
+    "Link": "http://foofus.net/goons/jmk/medusa/medusa.html",
+    "Category": "Docker Scanners"
+  },
+  {
+    "name": "Sparta",
+    "short_description": "Network Infrastructure Penetration Testing Tool.",
+    "Link": "https://github.com/SECFORCE/sparta",
+    "Category": "Docker Scanners"
+  },
+  {
+    "name": "Hashcat",
+    "short_description": "World's fastest and most advanced password recovery utility",
+    "Link": "https://github.com/hashcat/hashcat",
+    "Category": "Docker Scanners"
+  },
+  {
+    "name": "Patator",
+    "short_description": "Patator is a multi-purpose brute-forcer, with a modular design and a flexible usage.",
+    "Link": "https://github.com/lanjelot/patator",
+    "Category": "Docker Scanners"
+  },
+  {
+    "name": "HackBrowserDat",
+    "short_description": "Decrypt passwords/cookies/history/bookmarks from the browser",
+    "Link": "https://github.com/moonD4rk/HackBrowserData",
+    "Category": "Docker Scanners"
+  },
+  {
+    "name": "John",
+    "short_description": "John the Ripper jumbo - advanced offline password cracker, which supports hundreds of hash and cipher types, and runs on many operating systems, CPUs, GPUs, and even some FPGAs.",
+    "Link": "https://github.com/openwall/john",
+    "Category": "Docker Scanners"
+  },
+  {
+    "name": "crowbar",
+    "short_description": "Tool description: brute forcing tool that can be used during penetration tests. Supports OpenVPN, RDP (with NLA), ssh and VNC.",
+    "Link": "https://github.com/galkan/crowbar",
+    "Category": "Docker Scanners"
+  },
+  {
+    "name": "wordlists",
+    "short_description": "Real-world infosec wordlists, updated regularly",
+    "Link": "https://github.com/trickest/wordlists/",
+    "Category": "Wordlists"
+  },
+  {
+    "name": "psudohash",
+    "short_description": "Password list generator that focuses on keywords mutated by commonly used password creation patterns",
+    "Link": "https://github.com/t3l3machus/psudohash",
+    "Category": "Wordlists"
+  },
+  {
+    "name": "wister",
+    "short_description": "A wordlist generator tool, that allows you to supply a set of words, giving you the possibility to craft multiple variations from the given words, creating a unique and ideal wordlist to use regarding a specific target.",
+    "Link": "https://github.com/cycurity/wister",
+    "Category": "Wordlists"
+  },
+  {
+    "name": "Rockyou",
+    "short_description": "Tool description: wordlists packaging for Kali Linux.",
+    "Link": "https://gitlab.com/kalilinux/packages/wordlists",
+    "Category": "Wordlists"
+  },
+  {
+    "name": "Weakpass",
+    "short_description": "For any kind of bruteforce find wordlists.",
+    "Link": "https://weakpass.com/",
+    "Category": "Wordlists"
+  },
+  {
+    "name": "Fern Wifi cracker",
+    "short_description": "Fern-Wifi-Cracker is designed to be used in testing and discovering flaws in ones own network with the aim of fixing the flaws detected",
+    "Link": "https://github.com/savio-code/fern-wifi-cracker",
+    "Category": "Wireless Tools"
+  },
+  {
+    "name": "EAPHammer",
+    "short_description": "EAPHammer is a toolkit for performing targeted evil twin attacks against WPA2-Enterprise networks.",
+    "Link": "https://github.com/s0lst1c3/eaphammer",
+    "Category": "Wireless Tools"
+  },
+  {
+    "name": "Wifite2",
+    "short_description": "Wifite is designed to use all known methods for retrieving the password of a wireless access point.",
+    "Link": "https://github.com/derv82/wifite2",
+    "Category": "Wireless Tools"
+  },
+  {
+    "name": "JackIt",
+    "short_description": "Implementation of Bastille's MouseJack exploit. Easy entry point through wireless keyboards and mices during redteam engagement.",
+    "Link": "https://github.com/insecurityofthings/jackit",
+    "Category": "Wireless Tools"
+  },
+  {
+    "name": "Ollydbg",
+    "short_description": "OllyDbg is a 32-bit assembler level analysing debugger for Microsoft Windows",
+    "Link": "http://www.ollydbg.de/",
+    "Category": "Wireless Tools"
+  },
+  {
+    "name": "SPLOITUS",
+    "short_description": "Sploitus is \u0430 convenient central place for identifying the newest exploits and finding attacks that exploit known vulnerabilities",
+    "Link": "https://sploitus.com",
+    "Category": "Vulnerability Search"
+  },
+  {
+    "name": "SearchSploit",
+    "short_description": "The official Exploit Database repository",
+    "Link": "https://github.com/offensive-security/exploitdb",
+    "Category": "Vulnerability Search"
+  },
+  {
+    "name": "Getsploit",
+    "short_description": "Command line utility for searching and downloading exploits",
+    "Link": "https://github.com/vulnersCom/getsploit",
+    "Category": "Vulnerability Search"
+  },
+  {
+    "name": "Houndsploit",
+    "short_description": "An advanced graphical search engine for Exploit-DB",
+    "Link": "https://github.com/nicolas-carolo/houndsploit",
+    "Category": "Vulnerability Search"
+  },
+  {
+    "name": "OSV",
+    "short_description": "Open source vulnerability DB and triage service.",
+    "Link": "https://osv.dev/",
+    "Category": "Vulnerability Search"
+  },
+  {
+    "name": "BeeF",
+    "short_description": "The Browser Exploitation Framework Project",
+    "Link": "https://github.com/beefproject/beef",
+    "Category": "Cross-site Scripting\uff08XSS\uff09"
+  },
+  {
+    "name": "BlueLotus_XSSReceiver",
+    "short_description": "XSS Receiver platform without SQL",
+    "Link": "https://github.com/firesunCN/BlueLotus_XSSReceiver",
+    "Category": "Cross-site Scripting\uff08XSS\uff09"
+  },
+  {
+    "name": "XSStrike",
+    "short_description": "Most advanced XSS scanner.",
+    "Link": "https://github.com/s0md3v/XSStrike",
+    "Category": "Cross-site Scripting\uff08XSS\uff09"
+  },
+  {
+    "name": "xssor2",
+    "short_description": "XSS'OR - Hack with JavaScript.",
+    "Link": "https://github.com/evilcos/xssor2",
+    "Category": "Cross-site Scripting\uff08XSS\uff09"
+  },
+  {
+    "name": "Xsser-Varbaek",
+    "short_description": "From XSS to RCE 2.75 - Black Hat Europe Arsenal 2017 + Extras",
+    "Link": "https://github.com/Varbaek/xsser",
+    "Category": "Cross-site Scripting\uff08XSS\uff09"
+  },
+  {
+    "name": "Xsser-Epsylon",
+    "short_description": "Cross Site \"Scripter\" (aka XSSer) is an automatic framework  to detect, exploit and report XSS vulnerabilities in web-based applications.",
+    "Link": "https://github.com/epsylon/xsser",
+    "Category": "Cross-site Scripting\uff08XSS\uff09"
+  },
+  {
+    "name": "Xenotix",
+    "short_description": "An advanced Cross Site Scripting (XSS) vulnerability detection and exploitation framework",
+    "Link": "https://github.com/ajinabraham/OWASP-Xenotix-XSS-Exploit-Framework",
+    "Category": "Cross-site Scripting\uff08XSS\uff09"
+  },
+  {
+    "name": "PwnXSS",
+    "short_description": "PwnXSS: Vulnerability (XSS) scanner exploit",
+    "Link": "https://github.com/pwn0sec/PwnXSS",
+    "Category": "Cross-site Scripting\uff08XSS\uff09"
+  },
+  {
+    "name": "dalfox",
+    "short_description": "\ud83c\udf19\ud83e\udd8a DalFox is an powerful open source XSS scanning tool and parameter analyzer, utility",
+    "Link": "https://github.com/hahwul/dalfox",
+    "Category": "Cross-site Scripting\uff08XSS\uff09"
+  },
+  {
+    "name": "ezXSS",
+    "short_description": "Tool description: ezXSS is an easy way for penetration testers and bug bounty hunters to test (blind) Cross Site Scripting.",
+    "Link": "https://github.com/ssl/ezXSS",
+    "Category": "Cross-site Scripting\uff08XSS\uff09"
+  },
+  {
+    "name": "Sqlmap",
+    "short_description": "Automatic SQL injection and database takeover tool",
+    "Link": "https://github.com/sqlmapproject/sqlmap",
+    "Category": " Sql Injection"
+  },
+  {
+    "name": "SSQLInjection",
+    "short_description": "SSQLInjection is a SQL injection tool , support Access/MySQL/SQLServer/Oracle/PostgreSQL/DB2/SQLite/Informix Database.",
+    "Link": "https://github.com/shack2/SuperSQLInjectionV1",
+    "Category": " Sql Injection"
+  },
+  {
+    "name": "NoSQLMap",
+    "short_description": "Automated NoSQL database enumeration and web application exploitation tool.",
+    "Link": "https://github.com/codingo/NoSQLMap",
+    "Category": " Sql Injection"
+  },
+  {
+    "name": "Sqlmate",
+    "short_description": "A friend of SQLmap which will do what you always expected from SQLmap",
+    "Link": "https://github.com/s0md3v/sqlmate",
+    "Category": " Sql Injection"
+  },
+  {
+    "name": "SQLiScanner",
+    "short_description": "Automatic SQL injection with Charles and sqlmap api",
+    "Link": "https://github.com/0xbug/SQLiScanner",
+    "Category": " Sql Injection"
+  },
+  {
+    "name": "sql-injection-payload-list",
+    "short_description": "\ud83c\udfaf SQL Injection Payload List",
+    "Link": "https://github.com/payloadbox/sql-injection-payload-list",
+    "Category": " Sql Injection"
+  },
+  {
+    "name": "Advanced-SQL-Injection-Cheatsheet",
+    "short_description": "A cheat sheet that contains advanced queries for SQL Injection of all types.",
+    "Link": "https://github.com/kleiton0x00/Advanced-SQL-Injection-Cheatsheet",
+    "Category": " Sql Injection"
+  },
+  {
+    "name": "Commix",
+    "short_description": "Automated All-in-One OS command injection and exploitation tool",
+    "Link": "https://github.com/commixproject/commix",
+    "Category": "Command Injection"
+  },
+  {
+    "name": "LFIsuite",
+    "short_description": "Totally Automatic LFI Exploiter (+ Reverse Shell) and Scanner",
+    "Link": "https://github.com/D35m0nd142/LFISuite",
+    "Category": "File Include"
+  },
+  {
+    "name": "Lfi-Space",
+    "short_description": "Lfi Scan Tool",
+    "Link": "https://github.com/capture0x/Lfi-Space",
+    "Category": "File Include"
+  },
+  {
+    "name": "Kadimus",
+    "short_description": "Kadimus is a tool to check sites to lfi vulnerability , and also exploit it",
+    "Link": "https://github.com/P0cL4bs/Kadimus",
+    "Category": "File Include"
+  },
+  {
+    "name": "Shellfire",
+    "short_description": "Exploitation shell for exploiting LFI, RFI, and command injection vulnerabilities",
+    "Link": "https://github.com/unix-ninja/shellfire",
+    "Category": "File Include"
+  },
+  {
+    "name": "LFIter2",
+    "short_description": "LFIter2 Local File Include (LFI) Tool - Auto File Extractor & Username Bruteforcer",
+    "Link": "https://github.com/3mrgnc3/LFIter2",
+    "Category": "File Include"
+  },
+  {
+    "name": "FDsploit",
+    "short_description": "File Inclusion & Directory Traversal fuzzing, enumeration & exploitation tool.",
+    "Link": "https://github.com/chrispetrou/FDsploit",
+    "Category": "File Include"
+  },
+  {
+    "name": "Fuxploider",
+    "short_description": "File upload vulnerability scanner and exploitation tool",
+    "Link": "https://github.com/almandin/fuxploider",
+    "Category": "File Upload vulnerability"
+  },
+  {
+    "name": "XXEinjector",
+    "short_description": "Tool for automatic exploitation of XXE vulnerability using direct and different out of band methods",
+    "Link": "https://github.com/enjoiz/XXEinjector",
+    "Category": "XML External Entity Attack\uff08XXE\uff09"
+  },
+  {
+    "name": "Oxml_xxe",
+    "short_description": "A tool for embedding XXE/XML exploits into different filetypes",
+    "Link": "https://github.com/BuffaloWill/oxml_xxe",
+    "Category": "XML External Entity Attack\uff08XXE\uff09"
+  },
+  {
+    "name": "Deemon",
+    "short_description": "Deemon is a tool to detect CSRF in web application",
+    "Link": "https://github.com/tgianko/deemon/",
+    "Category": "Cross-site request forgery \uff08CSRF\uff09"
+  },
+  {
+    "name": "Ysomap",
+    "short_description": "A helpful Java Deserialization exploit framework.",
+    "Link": "https://github.com/wh1t3p1g/ysomap",
+    "Category": "Deserialization exploit framework"
+  },
+  {
+    "name": "POC-T",
+    "short_description": "Pentest Over Concurrent Toolkit",
+    "Link": "https://github.com/Xyntax/POC-T",
+    "Category": "Exploit Framework"
+  },
+  {
+    "name": "Pocsuite3",
+    "short_description": "Tool description: pocsuite3 is an open-sourced remote vulnerability testing framework developed by the Knownsec 404 Team.",
+    "Link": "https://github.com/knownsec/pocsuite3",
+    "Category": "Exploit Framework"
+  },
+  {
+    "name": "Metasploit",
+    "short_description": "The world\u2019s most used penetration testing framework",
+    "Link": "https://github.com/rapid7/metasploit-framework",
+    "Category": "Exploit Framework"
+  },
+  {
+    "name": "Venom",
+    "short_description": "Shellcode generator/compiler/handler (metasploit)",
+    "Link": "https://github.com/r00t-3xp10it/venom",
+    "Category": "Exploit Framework"
+  },
+  {
+    "name": "Empire",
+    "short_description": "Empire is a PowerShell and Python post-exploitation agent",
+    "Link": "https://github.com/BC-SECURITY/Empire",
+    "Category": "Exploit Framework"
+  },
+  {
+    "name": "Starkiller",
+    "short_description": "Starkiller is a Frontend for PowerShell Empire.",
+    "Link": "https://github.com/BC-SECURITY/Starkiller",
+    "Category": "Exploit Framework"
+  },
+  {
+    "name": "Koadic",
+    "short_description": "Koadic C3 COM Command & Control - JScript RAT",
+    "Link": "https://github.com/zerosum0x0/koadic",
+    "Category": "Exploit Framework"
+  },
+  {
+    "name": "Viper",
+    "short_description": "Tool description: metasploit-framework UI manager Tools",
+    "Link": "https://github.com/FunnyWolf/Viper",
+    "Category": "Exploit Framework"
+  },
+  {
+    "name": "MSFvenom-gui",
+    "short_description": "Tool description: gui tool to create normal payload by msfvenom",
+    "Link": "https://github.com/ssooking/msfvenom-gui",
+    "Category": "Exploit Framework"
+  },
+  {
+    "name": "MYExploit",
+    "short_description": "A GUI Tools for Scanning OA vulnerabilities",
+    "Link": "https://github.com/achuna33/MYExploit",
+    "Category": "Exploit Framework"
+  },
+  {
+    "name": "ronin-exploits",
+    "short_description": "A Ruby micro-framework for writing and running exploits and payloads.",
+    "Link": "https://github.com/ronin-rb/ronin-exploits#readme",
+    "Category": "Exploit Framework"
+  },
+  {
+    "name": "DeepExploit",
+    "short_description": "Fully automatic penetration test tool using Machine Learning",
+    "Link": "https://github.com/13o-bbr-bbq/machine_learning_security/tree/master/DeepExploit",
+    "Category": "Machine Learning"
+  },
+  {
+    "name": "GyoiThon",
+    "short_description": "GyoiThon is a growing penetration test tool using Machine Learning",
+    "Link": "https://github.com/gyoisamurai/GyoiThon",
+    "Category": "Machine Learning"
+  },
+  {
+    "name": "Generator",
+    "short_description": "Fully automatically generate numerous injection codes for web application assessment",
+    "Link": "https://github.com/13o-bbr-bbq/machine_learning_security/tree/master/Generator",
+    "Category": "Machine Learning"
+  },
+  {
+    "name": "AutoSploit",
+    "short_description": "Automated Mass Exploiter",
+    "Link": "https://github.com/NullArray/AutoSploit",
+    "Category": "Automate"
+  },
+  {
+    "name": "WinPwn",
+    "short_description": "Automation for internal Windows Penetrationtest / AD-Security",
+    "Link": "https://github.com/SecureThisShit/WinPwn",
+    "Category": "Automate"
+  },
+  {
+    "name": "WireShark",
+    "short_description": "Wireshark is a network traffic analyzer, or \"sniffer\", for Unix and Unix-like operating systems.",
+    "Link": "https://github.com/wireshark/wireshark",
+    "Category": "Automate"
+  },
+  {
+    "name": "Cain & abel",
+    "short_description": "Cain & Abel is a password recovery tool for Microsoft Operating Systems.",
+    "Link": "http://www.oxid.it/cain.html",
+    "Category": "Automate"
+  },
+  {
+    "name": "Responder",
+    "short_description": "Responder is an LLMNR, NBT-NS and MDNS poisoner.",
+    "Link": "https://github.com/lgandx/Responder",
+    "Category": "Automate"
+  },
+  {
+    "name": "bettercap",
+    "short_description": "ARP, DNS, NDP and DHCPv6 spoofers for MITM attacks on IPv4 and IPv6 based networks",
+    "Link": "https://github.com/bettercap/bettercap",
+    "Category": "Automate"
+  },
+  {
+    "name": "EvilFOCA",
+    "short_description": "Evil Foca is a tool for security pentesters and auditors whose purpose it is to test security in IPv4 and IPv6 data networks.",
+    "Link": "https://github.com/ElevenPaths/EvilFOCA",
+    "Category": "Automate"
+  },
+  {
+    "name": "Goshell",
+    "short_description": "Generate reverse shells in command line with Go !",
+    "Link": "https://github.com/eze-kiel/goshell",
+    "Category": "Shell"
+  },
+  {
+    "name": "Print-My-Shell",
+    "short_description": "Python script wrote to automate the process of generating various reverse shells.",
+    "Link": "https://github.com/sameera-madushan/Print-My-Shell",
+    "Category": "Shell"
+  },
+  {
+    "name": "Reverse-shell-generator",
+    "short_description": "Hosted Reverse Shell generator with a ton of functionality. -- (Great for CTFs)",
+    "Link": "https://github.com/0dayCTF/reverse-shell-generator",
+    "Category": "Shell"
+  },
+  {
+    "name": "Girsh",
+    "short_description": "Automatically spawn a reverse shell fully interactive for Linux or Windows victim",
+    "Link": "https://github.com/nodauf/Girsh",
+    "Category": "Shell"
+  },
+  {
+    "name": "Blueshell",
+    "short_description": "Generate a reverse shells for RedTeam",
+    "Link": "https://github.com/whitehatnote/BlueShell",
+    "Category": "Shell"
+  },
+  {
+    "name": "Clink",
+    "short_description": "Powerful Bash-style command line editing for cmd.exe",
+    "Link": "http://mridgers.github.io/clink/",
+    "Category": "Shell"
+  },
+  {
+    "name": "Natpass",
+    "short_description": "A new RAT Tools, Support Web VNC and Webshell",
+    "Link": "https://github.com/jkstack/natpass",
+    "Category": "Shell"
+  },
+  {
+    "name": "shells",
+    "short_description": "Script for generating revshells",
+    "Link": "https://github.com/4ndr34z/shells/",
+    "Category": "Shell"
+  },
+  {
+    "name": "Reverse_ssh",
+    "short_description": "SSH based reverse shell",
+    "Link": "https://github.com/NHAS/reverse_ssh",
+    "Category": "Shell"
+  },
+  {
+    "name": "Hoaxshell",
+    "short_description": "A Windows reverse shell payload generator and handler that abuses the http(s) protocol to establish a beacon-like reverse shell.",
+    "Link": "https://github.com/t3l3machus/hoaxshell",
+    "Category": "Shell"
+  },
+  {
+    "name": "Netcat",
+    "short_description": "Netcat is a featured networking utility which reads and writes data across network connections, using the TCP/IP protocol.",
+    "Link": "https://netcat.sourceforge.net/",
+    "Category": "Listener"
+  },
+  {
+    "name": "Rustcat",
+    "short_description": "Rustcat(rcat) - The modern Port listener and Reverse shell.",
+    "Link": "https://github.com/robiot/rustcat",
+    "Category": "Listener"
+  },
+  {
+    "name": "Rlwrap",
+    "short_description": "A readline wrapper.",
+    "Link": "https://github.com/hanslub42/rlwrap",
+    "Category": "Listener"
+  },
+  {
+    "name": "Pwncat",
+    "short_description": "Fancy reverse and bind shell handler.",
+    "Link": "https://github.com/calebstewart/pwncat",
+    "Category": "Listener"
+  },
+  {
+    "name": "Powercat",
+    "short_description": "Tool description: netshell features all in version 2 powershell.",
+    "Link": "https://github.com/besimorhino/powercat",
+    "Category": "Listener"
+  },
+  {
+    "name": "Socat",
+    "short_description": "Socat is a flexible, multi-purpose relay tool.",
+    "Link": "https://repo.or.cz/socat.git",
+    "Category": "Listener"
+  },
+  {
+    "name": "Document",
+    "short_description": "AntSword is a cross-platform website management toolkit",
+    "Link": "https://doc.u0u.us/zh-hans/index.html",
+    "Category": "Web Shell"
+  },
+  {
+    "name": "CKnife",
+    "short_description": "The cross platform webshell tool in java",
+    "Link": "https://github.com/Chora10/Cknife",
+    "Category": "Web Shell"
+  },
+  {
+    "name": "Behinder",
+    "short_description": "Tool description: dynamic binary encryption webshell management client",
+    "Link": "https://github.com/rebeyond/Behinder",
+    "Category": "Web Shell"
+  },
+  {
+    "name": "Godzilla",
+    "short_description": "Tool description: a Java tool to encrypt network traffic",
+    "Link": "https://github.com/BeichenDream/Godzilla",
+    "Category": "Web Shell"
+  },
+  {
+    "name": "Skyscorpion",
+    "short_description": "Modified version of Behinder.",
+    "Link": "https://github.com/shack2/skyscorpion",
+    "Category": "Web Shell"
+  },
+  {
+    "name": "PyShell",
+    "short_description": "Multiplatform Python WebShell.",
+    "Link": "https://github.com/JoelGMSec/PyShell",
+    "Category": "Web Shell"
+  },
+  {
+    "name": "Weevely3",
+    "short_description": "Weaponized web shell.",
+    "Link": "https://github.com/epinna/weevely3",
+    "Category": "Web Shell"
+  },
+  {
+    "name": "Bantam",
+    "short_description": "A PHP backdoor management and generation tool/C2 featuring end to end encrypted payload streaming designed to bypass WAF, IDS, SIEM systems.",
+    "Link": "https://github.com/gellin/bantam",
+    "Category": "Web Shell"
+  },
+  {
+    "name": "Awsome-Webshells",
+    "short_description": "Collection of reverse shells.",
+    "Link": "https://github.com/abhinavprasad47/Awsome-Webshells",
+    "Category": "Web Shell"
+  },
+  {
+    "name": "php-reverse-shell",
+    "short_description": "Simple php reverse shell implemented using binary.",
+    "Link": "https://github.com/pentestmonkey/php-reverse-shell",
+    "Category": "Web Shell"
+  },
+  {
+    "name": "Webshell_Generate",
+    "short_description": "Generate kind of Webshells bypass AV",
+    "Link": "https://github.com/cseroad/Webshell_Generate",
+    "Category": "Web Shell"
+  },
+  {
+    "name": "windows-exploit-suggester",
+    "short_description": "This tool compares a targets patch levels against the Microsoft vulnerability database in order to detect potential missing patches on the target",
+    "Link": "https://github.com/GDSSecurity/Windows-Exploit-Suggester",
+    "Category": "Privilege Escalation Auxiliary"
+  },
+  {
+    "name": "Windows-kernel-exploits",
+    "short_description": "Tool description: windows-kernel-exploits",
+    "Link": "https://github.com/SecWiki/windows-kernel-exploits",
+    "Category": "Privilege Escalation Auxiliary"
+  },
+  {
+    "name": "linux-exploit-suggester-2",
+    "short_description": "Next-Generation Linux Kernel Exploit Suggester",
+    "Link": "https://github.com/jondonas/linux-exploit-suggester-2",
+    "Category": "Privilege Escalation Auxiliary"
+  },
+  {
+    "name": "Linux-kernel-exploits",
+    "short_description": "Tool description: linux-kernel-exploits Linux",
+    "Link": "https://github.com/SecWiki/linux-kernel-exploits",
+    "Category": "Privilege Escalation Auxiliary"
+  },
+  {
+    "name": "BeRoot",
+    "short_description": "Privilege Escalation Project - Windows / Linux / Mac",
+    "Link": "https://github.com/AlessandroZ/BeRoot",
+    "Category": "Privilege Escalation Auxiliary"
+  },
+  {
+    "name": "PE-Linux",
+    "short_description": "Linux Privilege Escalation Tool By WazeHell",
+    "Link": "https://github.com/WazeHell/PE-Linux",
+    "Category": "Privilege Escalation Auxiliary"
+  },
+  {
+    "name": "Portia",
+    "short_description": "Portia aims to automate a number of techniques commonly performed on internal network penetration tests after a low privileged account has been compromised.",
+    "Link": "https://github.com/SpiderLabs/portia",
+    "Category": "Privilege Escalation Auxiliary"
+  },
+  {
+    "name": "PEASS-ng",
+    "short_description": "PEASS - Privilege Escalation Awesome Scripts SUITE (with colors)",
+    "Link": "https://github.com/carlospolop/PEASS-ng",
+    "Category": "Privilege Escalation Auxiliary"
+  },
+  {
+    "name": "GTFOBins",
+    "short_description": "GTFOBins is a curated list of Unix binaries that can be used to bypass local security restrictions in misconfigured systems.",
+    "Link": "https://gtfobins.github.io/",
+    "Category": "Privilege Escalation Auxiliary"
+  },
+  {
+    "name": "LOLBAS",
+    "short_description": "Living Off The Land Binaries, Scripts and Libraries.",
+    "Link": "https://lolbas-project.github.io/",
+    "Category": "Privilege Escalation Auxiliary"
+  },
+  {
+    "name": "WADComs",
+    "short_description": "WADComs is an interactive cheat sheet, containing a curated list of offensive security tools and their respective commands, to be used against Windows/AD environments.",
+    "Link": "https://wadcoms.github.io/",
+    "Category": "Privilege Escalation Auxiliary"
+  },
+  {
+    "name": "HijackLibs",
+    "short_description": "DLL Hijacking is, in the broadest sense, tricking a legitimate/trusted application into loading an arbitrary DLL.",
+    "Link": "https://hijacklibs.net/",
+    "Category": "Privilege Escalation Auxiliary"
+  },
+  {
+    "name": "GTFOBLookup",
+    "short_description": "Offline command line lookup utility for GTFOBins\u3001LOLBAS and WADComs.",
+    "Link": "https://github.com/nccgroup/GTFOBLookup",
+    "Category": "Privilege Escalation Auxiliary"
+  },
+  {
+    "name": "PrintNotifyPotato",
+    "short_description": "PrintNotifyPotato",
+    "Link": "https://github.com/BeichenDream/PrintNotifyPotato",
+    "Category": "Privilege Escalation Auxiliary"
+  },
+  {
+    "name": "DeimosC2",
+    "short_description": "DeimosC2 is a Golang command and control framework for post-exploitation.",
+    "Link": "https://github.com/DeimosC2/DeimosC2",
+    "Category": "C2"
+  },
+  {
+    "name": "Sliver",
+    "short_description": "Implant framework",
+    "Link": "https://github.com/BishopFox/sliver",
+    "Category": "C2"
+  },
+  {
+    "name": "PHPSploit",
+    "short_description": "Full-featured C2 framework which silently persists on webserver via evil PHP oneliner \ud83d\ude08",
+    "Link": "https://github.com/nil0x42/phpsploit",
+    "Category": "C2"
+  },
+  {
+    "name": "Shad0w",
+    "short_description": "A post exploitation framework designed to operate covertly on heavily monitored environments (Win8\u3001Win10)",
+    "Link": "https://github.com/bats3c/shad0w",
+    "Category": "C2"
+  },
+  {
+    "name": "Covenant",
+    "short_description": "Covenant is a collaborative .NET C2 framework for red teamers.",
+    "Link": "https://github.com/cobbr/Covenant",
+    "Category": "C2"
+  },
+  {
+    "name": "Emp3r0r",
+    "short_description": "Tool description: linux post-exploitation framework made by linux user",
+    "Link": "https://github.com/jm33-m0/emp3r0r",
+    "Category": "C2"
+  },
+  {
+    "name": "C3",
+    "short_description": "Custom Command and Control (C3). A framework for rapid prototyping of custom C2 channels, while still providing integration with existing offensive toolkits.",
+    "Link": "https://github.com/FSecureLABS/C3",
+    "Category": "C2"
+  },
+  {
+    "name": "byob",
+    "short_description": "An open-source post-exploitation framework for students, researchers and developers.",
+    "Link": "https://github.com/malwaredllc/byob",
+    "Category": "C2"
+  },
+  {
+    "name": "Havoc",
+    "short_description": "Havoc is a modern and malleable post-exploitation command and control framework.",
+    "Link": "https://github.com/HavocFramework/Havoc",
+    "Category": "C2"
+  },
+  {
+    "name": "Villain",
+    "short_description": "Villain is a Windows & Linux backdoor generator and multi-session handler that allows users to connect with sibling servers (other machines running Villain) and share their backdoor sessions, handy for working as a team.",
+    "Link": "https://github.com/t3l3machus/Villain",
+    "Category": "C2"
+  },
+  {
+    "name": "Shellcodeloader",
+    "short_description": "ShellcodeLoader of windows can bypass AV.",
+    "Link": "https://github.com/knownsec/shellcodeloader",
+    "Category": "Bypass AV"
+  },
+  {
+    "name": "AV_Evasion_Tool",
+    "short_description": "AntiVirus Shellcode generation tool.",
+    "Link": "https://github.com/1y0n/AV_Evasion_Tool",
+    "Category": "Bypass AV"
+  },
+  {
+    "name": "BypassAntiVirus",
+    "short_description": "Remote control anti-kill series articles and supporting tools.",
+    "Link": "https://github.com/TideSec/BypassAntiVirus",
+    "Category": "Bypass AV"
+  },
+  {
+    "name": "MateuszEx",
+    "short_description": "Bypass AV generation tool",
+    "Link": "https://github.com/sairson/MateuszEx",
+    "Category": "Bypass AV"
+  },
+  {
+    "name": "FourEye",
+    "short_description": "AV Evasion Tool For Red Team Ops",
+    "Link": "https://github.com/lengjibo/FourEye",
+    "Category": "Bypass AV"
+  },
+  {
+    "name": "Phantom-Evasion",
+    "short_description": "Python antivirus evasion tool",
+    "Link": "https://github.com/oddcod3/Phantom-Evasion",
+    "Category": "Bypass AV"
+  },
+  {
+    "name": "Terminator",
+    "short_description": "Terminating all EDR/XDR/AVs processes by abusing the zam64.sys driver",
+    "Link": "https://github.com/ZeroMemoryEx/Terminator",
+    "Category": "Bypass AV"
+  },
+  {
+    "name": "foolavc",
+    "short_description": "Obscures your executable for file checks and executes it in memory.",
+    "Link": "https://github.com/hvqzao/foolavc",
+    "Category": "Bypass AV"
+  },
+  {
+    "name": "ServerScan",
+    "short_description": "A high concurrency network scanning and service detection tool developed by golang.",
+    "Link": "https://github.com/Adminisme/ServerScan",
+    "Category": "Bypass AV"
+  },
+  {
+    "name": "Vulnreport",
+    "short_description": "Open-source pentesting management and automation platform by Salesforce Product Security",
+    "Link": "https://github.com/salesforce/vulnreport",
+    "Category": "Bypass AV"
+  },
+  {
+    "name": "CervantesSec",
+    "short_description": "Cervantes is an opensource collaborative platform for pentesters or red teams who want to save time to manage their projects, clients, vulnerabilities and reports in one place.",
+    "Link": "https://github.com/CervantesSec/cervantes",
+    "Category": "Bypass AV"
+  },
+  {
+    "name": "Hexway Hive",
+    "short_description": "Self hosted pentest collaboration, multi-source data aggregation and reporting framework with customizable templatess, methodologies and cats \ud83d\ude40",
+    "Link": "https://hexway.io/hive/",
+    "Category": "Bypass AV"
+  },
+  {
+    "name": "Cloc",
+    "short_description": "Tool description: cloc counts blank lines, comment lines, and physical lines of source code in many programming languages",
+    "Link": "https://github.com/AlDanial/cloc",
+    "Category": "Bypass AV"
+  },
+  {
+    "name": "Cobra",
+    "short_description": "Source Code Security Audit",
+    "Link": "https://github.com/WhaleShark-Team/cobra",
+    "Category": "Bypass AV"
+  },
+  {
+    "name": "Cobra-W",
+    "short_description": "Cobra for white hat",
+    "Link": "https://github.com/LoRexxar/Cobra-W",
+    "Category": "Bypass AV"
+  },
+  {
+    "name": "Graudit",
+    "short_description": "Grep rough audit - source code auditing tool",
+    "Link": "https://github.com/wireghoul/graudit",
+    "Category": "Bypass AV"
+  },
+  {
+    "name": "Rips",
+    "short_description": "A static source code analyser for vulnerabilities in PHP scripts",
+    "Link": "https://github.com/ripsscanner/rips",
+    "Category": "Bypass AV"
+  },
+  {
+    "name": "Kunlun-M",
+    "short_description": "KunLun-M is a static code analysis system that automates the detecting vulnerabilities and security issue.",
+    "Link": "https://github.com/LoRexxar/Kunlun-M",
+    "Category": "Bypass AV"
+  },
+  {
+    "name": "Semgrep",
+    "short_description": "Semgrep is a fast, open-source, static analysis engine for finding bugs, detecting vulnerabilities in third-party dependencies, and enforcing code standards.",
+    "Link": "https://semgrep.dev/",
+    "Category": "Bypass AV"
+  },
+  {
+    "name": "Netspy",
+    "short_description": "A tool to quickly detect the reachable network segments of the intranet.",
+    "Link": "https://github.com/shmilylty/netspy",
+    "Category": "Service Detection"
+  },
+  {
+    "name": "Cube",
+    "short_description": "Intranet penetration testing tools, weak password blasting, information collection and vulnerability scanning.",
+    "Link": "https://github.com/JKme/cube",
+    "Category": "Service Detection"
+  },
+  {
+    "name": "EarthWorm",
+    "short_description": "Tool for tunnel",
+    "Link": "https://github.com/rootkiter/EarthWorm",
+    "Category": "Port Forwarding & Proxies"
+  },
+  {
+    "name": "Termite",
+    "short_description": "Tool for tunnel (Version 2)",
+    "Link": "https://github.com/rootkiter/Termite/",
+    "Category": "Port Forwarding & Proxies"
+  },
+  {
+    "name": "Frp",
+    "short_description": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet",
+    "Link": "https://github.com/fatedier/frp",
+    "Category": "Port Forwarding & Proxies"
+  },
+  {
+    "name": "Nps",
+    "short_description": "A lightweight, high-performance, powerful intranet penetration proxy server, with a powerful web management terminal.",
+    "Link": "https://github.com/ehang-io/nps/",
+    "Category": "Port Forwarding & Proxies"
+  },
+  {
+    "name": "Goproxy",
+    "short_description": "A high-performance, full-featured, cross platform proxy server",
+    "Link": "https://github.com/snail007/goproxy",
+    "Category": "Port Forwarding & Proxies"
+  },
+  {
+    "name": "ReGeorg",
+    "short_description": "The successor to reDuh, pwn a bastion webserver and create SOCKS proxies through the DMZ. Pivot and pwn",
+    "Link": "https://github.com/sensepost/reGeorg",
+    "Category": "Port Forwarding & Proxies"
+  },
+  {
+    "name": "Neo-reGeorg",
+    "short_description": "Neo-reGeorg is a project that seeks to aggressively refactor reGeorg",
+    "Link": "https://github.com/L-codes/Neo-reGeorg",
+    "Category": "Port Forwarding & Proxies"
+  },
+  {
+    "name": "Venom",
+    "short_description": "A Multi-hop Proxy for Penetration Testers",
+    "Link": "https://github.com/Dliv3/Venom",
+    "Category": "Port Forwarding & Proxies"
+  },
+  {
+    "name": "Stowaway",
+    "short_description": "\ud83d\udc7b Stowaway -- Multi-hop Proxy Tool for pentesters",
+    "Link": "https://github.com/ph4ntonn/Stowaway",
+    "Category": "Port Forwarding & Proxies"
+  },
+  {
+    "name": "rport",
+    "short_description": "Manage remote systems with ease.",
+    "Link": "https://github.com/cloudradar-monitoring/rport",
+    "Category": "Port Forwarding & Proxies"
+  },
+  {
+    "name": "PortForward",
+    "short_description": "The port forwarding tool developed by Golang solves the problem that the internal and external networks cannot communicate in certain scenarios.",
+    "Link": "https://github.com/knownsec/PortForward",
+    "Category": "Port Forwarding & Proxies"
+  },
+  {
+    "name": "Suo5",
+    "short_description": "A high-performance http proxy tunneling tool",
+    "Link": "https://github.com/zema1/suo5",
+    "Category": "Port Forwarding & Proxies"
+  },
+  {
+    "name": "Beurk",
+    "short_description": "BEURK Experimental Unix RootKit",
+    "Link": "https://github.com/unix-thrust/beurk",
+    "Category": "Port Forwarding & Proxies"
+  },
+  {
+    "name": "Bedevil",
+    "short_description": "LD_PRELOAD Linux rootkit (x86 & ARM)",
+    "Link": "https://github.com/naworkcaj/bdvl",
+    "Category": "Port Forwarding & Proxies"
+  },
+  {
+    "name": "DevAudit",
+    "short_description": "Open-source, cross-platform, multi-purpose security auditing tool",
+    "Link": "https://github.com/OSSIndex/DevAudit",
+    "Category": "Port Forwarding & Proxies"
+  },
+  {
+    "name": "Backbox Linux",
+    "short_description": "Tool description: penetration testing and security assessment oriented Linux distribution",
+    "Link": "https://linux.backbox.org",
+    "Category": "Port Forwarding & Proxies"
+  },
+  {
+    "name": "Kali Linux",
+    "short_description": "Debian-based pentesting distribution",
+    "Link": "https://www.kali.org",
+    "Category": "Port Forwarding & Proxies"
+  },
+  {
+    "name": "BlackArch Linux",
+    "short_description": "Arch Linux-based penetration testing distribution",
+    "Link": "https://blackarch.org",
+    "Category": "Port Forwarding & Proxies"
+  },
+  {
+    "name": "Parrot Security",
+    "short_description": "The ultimate framework for your Cyber Security operations",
+    "Link": "https://parrotlinux.org",
+    "Category": "Port Forwarding & Proxies"
+  },
+  {
+    "name": "ArchStrike",
+    "short_description": "Arch Linux respository for security professionals",
+    "Link": "https://archstrike.org",
+    "Category": "Port Forwarding & Proxies"
+  },
+  {
+    "name": "DVWA",
+    "short_description": "Damn Vulnerable Web Application (DVWA)",
+    "Link": "https://github.com/ethicalhack3r/DVWA",
+    "Category": "Vulnerability application"
+  },
+  {
+    "name": "WebGoat",
+    "short_description": "WebGoat is a deliberately insecure web application maintained by OWASP designed to teach web application security lessons",
+    "Link": "https://github.com/WebGoat/WebGoat",
+    "Category": "Vulnerability application"
+  },
+  {
+    "name": "DSVW",
+    "short_description": "DSVW is a deliberately vulnerable web application written in under 100 lines of code, created for educational purposes",
+    "Link": "https://github.com/stamparm/DSVW",
+    "Category": "Vulnerability application"
+  },
+  {
+    "name": "DVWS",
+    "short_description": "Damn Vulnerable Web Services is an insecure web application with multiple vulnerable web service components that can be used to learn real world web service vulnerabilities",
+    "Link": "https://github.com/snoopysecurity/dvws",
+    "Category": "Vulnerability application"
+  },
+  {
+    "name": "XVWA",
+    "short_description": "XVWA is a badly coded web application written in PHP/MySQL that helps security enthusiasts to learn application security",
+    "Link": "https://github.com/s4n7h0/xvwa",
+    "Category": "Vulnerability application"
+  },
+  {
+    "name": "BWAPP",
+    "short_description": "A buggy web application whit more than 100 vulnerabilities",
+    "Link": "http://www.mmebvba.com/sites/bwapp/index.htm",
+    "Category": "Vulnerability application"
+  },
+  {
+    "name": "Sqli-lab",
+    "short_description": "SQLI labs to test error based, Blind boolean based, Time based",
+    "Link": "https://github.com/Audi-1/sqli-labs",
+    "Category": "Vulnerability application"
+  },
+  {
+    "name": "HackMe-SQL-Injection-Challenges",
+    "short_description": "Hack your friend's online MMORPG game - specific focus, sql injection opportunities",
+    "Link": "https://github.com/breakthenet/HackMe-SQL-Injection-Challenges",
+    "Category": "Vulnerability application"
+  },
+  {
+    "name": "XSS-labs",
+    "short_description": "Small set of scripts to practice exploit XSS and CSRF vulnerabilities",
+    "Link": "https://github.com/paralax/xss-labs",
+    "Category": "Vulnerability application"
+  },
+  {
+    "name": "SSRF-lab",
+    "short_description": "Lab for exploring SSRF vulnerabilities",
+    "Link": "https://github.com/m6a-UdS/ssrf-lab",
+    "Category": "Vulnerability application"
+  },
+  {
+    "name": "SSRF_Vulnerable_Lab",
+    "short_description": "This Lab contain the sample codes which are vulnerable to Server-Side Request Forgery attack",
+    "Link": "https://github.com/incredibleindishell/SSRF_Vulnerable_Lab",
+    "Category": "Vulnerability application"
+  },
+  {
+    "name": "LFI-labs",
+    "short_description": "Small set of PHP scripts to practice exploiting LFI, RFI and CMD injection vulns",
+    "Link": "https://github.com/paralax/lfi-labs",
+    "Category": "Vulnerability application"
+  },
+  {
+    "name": "Commix-testbed",
+    "short_description": "A collection of web pages, vulnerable to command injection flaws",
+    "Link": "https://github.com/commixproject/commix-testbed",
+    "Category": "Vulnerability application"
+  },
+  {
+    "name": "File-Upload-Lab",
+    "short_description": "Damn Vulnerable File Upload V 1.1",
+    "Link": "https://github.com/LunaM00n/File-Upload-Lab",
+    "Category": "Vulnerability application"
+  },
+  {
+    "name": "Upload-labs",
+    "short_description": "A summary of all types of uploading vulnerabilities for you",
+    "Link": "https://github.com/c0ny1/upload-labs",
+    "Category": "Vulnerability application"
+  },
+  {
+    "name": "XXE-Lab",
+    "short_description": "A XXE vulnerability Demo containing language versions such as PHP, Java, python, C#, etc",
+    "Link": "https://github.com/c0ny1/xxe-lab",
+    "Category": "Vulnerability application"
+  },
+  {
+    "name": "Vulnerable-Flask-App",
+    "short_description": "Erlik2 Vulnerable-Flask-App provided by [anil-yelken](https://github.com/anil-yelken).",
+    "Link": "https://github.com/anil-yelken/Vulnerable-Flask-App",
+    "Category": "Vulnerability application"
+  },
+  {
+    "name": "Fopnp",
+    "short_description": "A Network Playground for",
+    "Link": "https://github.com/brandon-rhodes/fopnp/tree/m/playground",
+    "Category": "Simulation Range"
+  },
+  {
+    "name": "CyberRange",
+    "short_description": "The Open-Source AWS Cyber Range",
+    "Link": "https://github.com/secdevops-cuse/CyberRange",
+    "Category": "Simulation Range"
+  },
+  {
+    "name": "Pentest-Ground",
+    "short_description": "Pentest-Ground is a free playground with deliberately vulnerable web applications and network services.",
+    "Link": "https://pentest-ground.com/",
+    "Category": "Simulation Range"
+  },
+  {
+    "name": "DecoyMini",
+    "short_description": "A highly scalable, safe, free enterprise honeypots",
+    "Link": "https://github.com/decoymini/DecoyMini/",
+    "Category": "Honeyhots"
+  },
+  {
+    "name": "Vulnhub",
+    "short_description": "VulnHub provides materials allowing anyone to gain practical hands-on experience with digital security, computer applications and network administration",
+    "Link": "https://www.vulnhub.com/",
+    "Category": "CTF challenges"
+  },
+  {
+    "name": "TryHackMe",
+    "short_description": "TryHackMe is a free online platform for learning cyber security, using hands-on exercises and labs, all through your browser!",
+    "Link": "https://tryhackme.com/",
+    "Category": "CTF challenges"
+  },
+  {
+    "name": "Hackthebox",
+    "short_description": "Hack The Box is a massive, online cybersecurity training platform, allowing individuals, companies, universities and all kinds of organizations around the world to level up their hacking skills.",
+    "Link": "https://www.hackthebox.com/",
+    "Category": "CTF challenges"
+  },
+  {
+    "name": "Root Me",
+    "short_description": "Root Me allows everyone to test and improve their knowledge in computer security and hacking.",
+    "Link": "https://www.root-me.org/",
+    "Category": "CTF challenges"
+  },
+  {
+    "name": "Pentestit",
+    "short_description": "Penetration testing laboratories \"Test lab\" emulate an IT infrastructure of real companies and are created for a legal pen testing and improving penetration testing skills",
+    "Link": "https://lab.pentestit.ru/",
+    "Category": "CTF challenges"
+  },
+  {
+    "name": "Pentesterlab",
+    "short_description": "Learn Web Penetration Testing: The Right Way",
+    "Link": "https://pentesterlab.com/",
+    "Category": "CTF challenges"
+  },
+  {
+    "name": "Cyberseclabs",
+    "short_description": "At CyberSecLabs, we aim to provide secure, high-quality training services that allow information security students the opportunity to safely learn and practice penetration testing skills.",
+    "Link": "https://www.cyberseclabs.co.uk/",
+    "Category": "CTF challenges"
+  },
+  {
+    "name": "Web Security Academy",
+    "short_description": "Free, online web security training from the creators of Burp Suite",
+    "Link": "https://portswigger.net/web-security",
+    "Category": "CTF challenges"
+  },
+  {
+    "name": "Vulnmachines",
+    "short_description": "A place to learn and improve penetration testing/ethical hacking skills for FREE",
+    "Link": "https://www.vulnmachines.com/",
+    "Category": "CTF challenges"
+  },
+  {
+    "name": "Rawsec's CyberSecurity Inventory",
+    "short_description": "An inventory of tools and resources about CyberSecurity.",
+    "Link": "https://inventory.raw.pm/tools.html#title-tools-osint-and-reconnaissance",
+    "Category": "CTF challenges"
+  },
+  {
+    "name": "All-Defense-Tool",
+    "short_description": "A List for Defense Tools.",
+    "Link": "https://github.com/guchangan1/All-Defense-Tool",
+    "Category": "CTF challenges"
+  },
+  {
+    "name": "Awesome-POC",
+    "short_description": "A POC knowledge base of various vulnerabilities.",
+    "Link": "https://github.com/Threekiii/Awesome-POC",
+    "Category": "CTF challenges"
+  },
+  {
+    "name": "AVET",
+    "short_description": "Post-process exploits containing executable files targeted for Windows machines to avoid being recognized by antivirus software.",
+    "Link": "https://github.com/govolution/avet",
+    "Category": "Anti-virus Evasion Tools"
+  },
+  {
+    "name": "CarbonCopy",
+    "short_description": "Creates a spoofed certificate of any online website and signs an Executable for AV evasion.",
+    "Link": "https://github.com/paranoidninja/CarbonCopy",
+    "Category": "Anti-virus Evasion Tools"
+  },
+  {
+    "name": "Hyperion",
+    "short_description": "Runtime encryptor for 32-bit portable executables (PE `.exe`s) to evade antivirus detection.",
+    "Link": "http://nullsecurity.net/tools/binary.html",
+    "Category": "Anti-virus Evasion Tools"
+  },
+  {
+    "name": "Shellter",
+    "short_description": "Dynamic shellcode injection tool and the first truly dynamic PE infector ever created.",
+    "Link": "https://www.shellterproject.com/",
+    "Category": "Anti-virus Evasion Tools"
+  },
+  {
+    "name": "UniByAv",
+    "short_description": "Obfuscator that takes raw shellcode and generates AV-friendly executables using a brute-forcable 32-bit XOR key.",
+    "Link": "https://github.com/Mr-Un1k0d3r/UniByAv",
+    "Category": "Anti-virus Evasion Tools"
+  },
+  {
+    "name": "Veil",
+    "short_description": "Generates Metasploit payloads that bypass common antivirus solutions.",
+    "Link": "https://www.veil-framework.com/",
+    "Category": "Anti-virus Evasion Tools"
+  },
+  {
+    "name": "peCloakCapstone",
+    "short_description": "Multi-platform fork of the peCloak.py automated malware antivirus evasion tool.",
+    "Link": "https://github.com/v-p-b/peCloakCapstone",
+    "Category": "Anti-virus Evasion Tools"
+  },
+  {
+    "name": "Amber",
+    "short_description": "Reflective PE packer to convert native PE files to position-independent shellcode for evasion.",
+    "Link": "https://github.com/EgeBalci/amber",
+    "Category": "Anti-virus Evasion Tools"
+  },
+  {
+    "name": "angr",
+    "short_description": "A powerful and platform-independent binary analysis framework used for reverse engineering complex binaries.",
+    "Link": "https://angr.io/",
+    "Category": "Reverse Engineering Tools"
+  },
+  {
+    "name": "Capstone",
+    "short_description": "A lightweight, multi-platform disassembly framework supporting multiple architectures.",
+    "Link": "http://www.capstone-engine.org/",
+    "Category": "Reverse Engineering Tools"
+  },
+  {
+    "name": "Detect It Easy (DiE)",
+    "short_description": "A file type identifier tool for Windows, Linux, and macOS focused on reverse engineering binaries.",
+    "Link": "https://github.com/horsicq/Detect-It-Easy",
+    "Category": "Reverse Engineering Tools"
+  },
+  {
+    "name": "Evan's Debugger",
+    "short_description": "A debugger similar to OllyDbg but designed for GNU/Linux environments.",
+    "Link": "http://www.codef00.com/projects#debugger",
+    "Category": "Reverse Engineering Tools"
+  },
+  {
+    "name": "Frida",
+    "short_description": "A dynamic instrumentation toolkit ideal for reverse engineering and runtime analysis.",
+    "Link": "https://www.frida.re/",
+    "Category": "Reverse Engineering Tools"
+  },
+  {
+    "name": "Fridax",
+    "short_description": "A tool to inspect and hook functions in Xamarin/Mono compiled mobile apps using Frida.",
+    "Link": "https://github.com/NorthwaveNL/fridax",
+    "Category": "Reverse Engineering Tools"
+  },
+  {
+    "name": "Ghidra",
+    "short_description": "A free reverse engineering suite developed by the NSA, offering disassembly, decompilation, and more.",
+    "Link": "https://www.ghidra-sre.org/",
+    "Category": "Reverse Engineering Tools"
+  },
+  {
+    "name": "Immunity Debugger",
+    "short_description": "A robust debugger for analyzing malware and writing exploits on Windows systems.",
+    "Link": "https://immunityinc.com/products/debugger/",
+    "Category": "Reverse Engineering Tools"
+  },
+  {
+    "name": "IDA Pro",
+    "short_description": "A multi-platform disassembler and debugger with extensive analysis capabilities.",
+    "Link": "https://www.hex-rays.com/products/ida/",
+    "Category": "Reverse Engineering Tools"
+  },
+  {
+    "name": "Medusa",
+    "short_description": "An open-source interactive disassembler with cross-platform support.",
+    "Link": "https://github.com/wisk/medusa",
+    "Category": "Reverse Engineering Tools"
+  },
+  {
+    "name": "PyREBox",
+    "short_description": "A Python-powered reverse engineering sandbox used to analyze malicious software behavior.",
+    "Link": "https://github.com/Cisco-Talos/pyrebox",
+    "Category": "Reverse Engineering Tools"
+  },
+  {
+    "name": "Radare2",
+    "short_description": "A complete open-source reverse engineering framework that supports multiple platforms and file types.",
+    "Link": "http://rada.re/r/index.html",
+    "Category": "Reverse Engineering Tools"
+  },
+  {
+    "name": "UEFITool",
+    "short_description": "A tool to view and modify UEFI firmware images, commonly used for firmware reverse engineering.",
+    "Link": "https://github.com/LongSoft/UEFITool",
+    "Category": "Reverse Engineering Tools"
+  },
+  {
+    "name": "Voltron",
+    "short_description": "A Python toolkit for extending and customizing debugger UIs during reverse engineering sessions.",
+    "Link": "https://github.com/snare/voltron",
+    "Category": "Reverse Engineering Tools"
+  },
+  {
+    "name": "WDK/WinDbg",
+    "short_description": "Microsoft's official Windows debugging and driver development tools.",
+    "Link": "https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/debugger-download-tools",
+    "Category": "Reverse Engineering Tools"
+  },
+  {
+    "name": "binwalk",
+    "short_description": "A tool used for analyzing, reverse engineering, and extracting embedded firmware images.",
+    "Link": "https://github.com/devttys0/binwalk",
+    "Category": "Reverse Engineering Tools"
+  },
+  {
+    "name": "boxxy",
+    "short_description": "A sandbox interaction tool for navigating environments linked to binaries or processes.",
+    "Link": "https://github.com/kpcyrd/boxxy-rs",
+    "Category": "Reverse Engineering Tools"
+  },
+  {
+    "name": "dnSpy",
+    "short_description": "A .NET assembly editor and debugger ideal for inspecting and modifying .NET apps.",
+    "Link": "https://github.com/0xd4d/dnSpy",
+    "Category": "Reverse Engineering Tools"
+  },
+  {
+    "name": "plasma",
+    "short_description": "An interactive disassembler for various architectures with support for readable pseudo-code output.",
+    "Link": "https://github.com/joelpx/plasma",
+    "Category": "Reverse Engineering Tools"
+  },
+  {
+    "name": "pwndbg",
+    "short_description": "An advanced GDB extension aimed at simplifying debugging and reverse engineering workflows.",
+    "Link": "https://github.com/pwndbg/pwndbg",
+    "Category": "Reverse Engineering Tools"
+  },
+  {
+    "name": "rVMI",
+    "short_description": "A tool that provides introspection and debugging across user, kernel, and preboot environments.",
+    "Link": "https://github.com/fireeye/rVMI",
+    "Category": "Reverse Engineering Tools"
+  },
+  {
+    "name": "x64dbg",
+    "short_description": "An open-source debugging utility for Windows supporting both x64 and x32 executables.",
+    "Link": "http://x64dbg.com/",
+    "Category": "Reverse Engineering Tools"
+  },
+  {
+    "name": "Anevicon",
+    "short_description": "A high-performance UDP load generator written in Rust, useful for simulating UDP traffic floods in testing environments.",
+    "Link": "https://github.com/rozgo/anevicon",
+    "Category": "DDoS Tools"
+  },
+  {
+    "name": "D(HE)ater",
+    "short_description": "A security tool that sends forged cryptographic handshake messages to force Diffie-Hellman key exchanges, designed for testing cryptographic resilience.",
+    "Link": "https://github.com/Balasys/dheater",
+    "Category": "DDoS Tools"
+  },
+  {
+    "name": "HOIC",
+    "short_description": "An updated DDoS attack tool that allows use of 'boosters' to bypass basic anti-DDoS mechanisms, targeting high-volume HTTP requests.",
+    "Link": "https://sourceforge.net/projects/high-orbit-ion-cannon/",
+    "Category": "DDoS Tools"
+  },
+  {
+    "name": "Low Orbit Ion Canon (LOIC)",
+    "short_description": "A widely known open-source stress testing tool for launching DDoS attacks using TCP, UDP, or HTTP requests.",
+    "Link": "https://github.com/NewEraCracker/LOIC",
+    "Category": "DDoS Tools"
+  },
+  {
+    "name": "Memcrashed",
+    "short_description": "A tool exploiting unsecured Memcached servers for amplification DDoS attacks by sending spoofed UDP packets.",
+    "Link": "https://github.com/649/Memcrashed-DDoS-Exploit",
+    "Category": "DDoS Tools"
+  },
+  {
+    "name": "SlowLoris",
+    "short_description": "A resource-efficient DoS tool that keeps many connections to a web server open and holds them open as long as possible.",
+    "Link": "https://github.com/gkbrk/slowloris",
+    "Category": "DDoS Tools"
+  },
+  {
+    "name": "T50",
+    "short_description": "A powerful and flexible stress testing tool that supports multiple protocols for network traffic flooding.",
+    "Link": "https://gitlab.com/fredericopissarra/t50/",
+    "Category": "DDoS Tools"
+  },
+  {
+    "name": "UFONet",
+    "short_description": "A Layer 7 DDoS attack tool leveraging 'zombies' for HTTP GET/POST floods, evasion techniques, proxy chaining, and origin spoofing.",
+    "Link": "https://github.com/epsylon/ufonet",
+    "Category": "DDoS Tools"
+  },
+  {
+    "name": "DET",
+    "short_description": "A proof-of-concept tool to exfiltrate data using one or multiple covert channels simultaneously.",
+    "Link": "https://github.com/sensepost/DET",
+    "Category": "Exfiltration Tools"
+  },
+  {
+    "name": "Iodine",
+    "short_description": "Tool for tunneling IPv4 data through DNS queries, useful for bypassing firewalls with DNS-only outbound access.",
+    "Link": "https://code.kryo.se/iodine/",
+    "Category": "Exfiltration Tools"
+  },
+  {
+    "name": "TrevorC2",
+    "short_description": "Command and control framework that disguises data exfiltration as standard web browsing traffic.",
+    "Link": "https://github.com/trustedsec/trevorc2",
+    "Category": "Exfiltration Tools"
+  },
+  {
+    "name": "reconFTW",
+    "short_description": "Designed to perform automated recon on a target domain by running the best set of tools to perform scanning and finding out vulnerabilities.",
+    "Link": "https://github.com/six2dez/reconftw",
+    "Category": "Automate"
+  },
+  {
+    "name": "dnscat2",
+    "short_description": "Encrypted C2 communication tool leveraging DNS tunneling for stealthy exfiltration.",
+    "Link": "https://github.com/iagox86/dnscat2",
+    "Category": "Exfiltration Tools"
+  },
+  {
+    "name": "pwnat",
+    "short_description": "Firewall/NAT bypassing tool for covert connections without port forwarding or external servers.",
+    "Link": "https://github.com/samyk/pwnat",
+    "Category": "Exfiltration Tools"
+  },
+  {
+    "name": "tgcd",
+    "short_description": "Lightweight TCP/IP tunneling tool to extend internal services across firewalled networks.",
+    "Link": "http://tgcd.sourceforge.net/",
+    "Category": "Exfiltration Tools"
+  },
+  {
+    "name": "QueenSono",
+    "short_description": "ICMP-based data exfiltration tool designed to bypass typical traffic monitoring filters.",
+    "Link": "https://github.com/ariary/QueenSono",
+    "Category": "Exfiltration Tools"
+  }
+]

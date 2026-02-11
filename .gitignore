@@ -1,0 +1,45 @@
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Frontend build/deps
+node_modules/
+.next/
+out/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+frontend-*.log
+
+# Env
+.env.local
+.env*.local
+
+# Python env/cache/logs
+backend/.venv/
+backend/venv/
+backend/__pycache__/
+backend/*.log
+backend/*.out
+backend/*.pid
+*.pyc
+
+# Large/generated archives and dumps
+*.zip
+*.tar
+*.gz
+*.sqlite
+*.db
+
+# Keep data folder in repo, but skip noisy snapshots
+backend/data/rekt_db/rekt_db_*.json
+!backend/data/rekt_db/rekt_db.json
+backend/data/wiz-threats/*.xml
+backend/data/wiz-threats/*.json
+backend/data/ransomware-live-data/*.json
+backend/data/ransomwhe-re-data/*.json
+backend/data/web3_releases_*.json
+
+.vercel

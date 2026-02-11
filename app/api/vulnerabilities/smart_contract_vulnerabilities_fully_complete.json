@@ -1,0 +1,576 @@
+[
+  {
+    "name": "Reentrancy",
+    "short_description": "A contract makes an external call before updating its state, allowing repeated calls.",
+    "detailed_description": "Reentrancy occurs when a contract sends Ether to an external contract before updating its own state. The external contract can re-enter the original function and exploit the unchanged state to drain funds or perform actions multiple times.This attack vector became widely known after the DAO hack on Ethereum in 2016, where a recursive withdrawal pattern allowed the attacker to drain over $60 million worth of ETH.Preventing reentrancy involves using the checks-effects-interactions pattern, employing `reentrancyGuard` modifiers, and updating contract state before making external calls.",
+    "example": "function withdraw() public {\n  require(balances[msg.sender] > 0);\n  (bool success, ) = msg.sender.call{value: balances[msg.sender]}(\"\");\n  require(success);\n  balances[msg.sender] = 0;\n}",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Front-running",
+    "short_description": "Attackers preempt a transaction by submitting one with higher gas fees.",
+    "detailed_description": "In blockchain networks, transactions are visible before confirmation. Attackers can observe pending transactions and issue a similar one with a higher gas fee, causing miners to process theirs first. This is common in DEXes and auctions where timing impacts outcome.It's especially dangerous in DeFi applications, where attackers profit from sandwich attacks or trade manipulation.Mitigations include commit-reveal schemes, batch auctions, and increasing transaction opacity.",
+    "example": "Monitor mempool \u2192 Copy target transaction \u2192 Increase gas price \u2192 Front-run the user",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Integer Overflow/Underflow",
+    "short_description": "Arithmetic operations exceed or drop below storage limits without checks.",
+    "detailed_description": "In Solidity versions before 0.8.0, arithmetic operations that exceed the type's limits would wrap around without throwing errors. This allowed attackers to manipulate token balances or counters by causing overflows or underflows.For example, a token contract that incorrectly handles balances could allow an attacker to mint massive quantities of tokens. This was common before Solidity 0.8.0, which introduced built-in overflow checks.",
+    "example": "uint8 x = 255;\nx = x + 1;  // Overflow: x becomes 0",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Denial-of-Service (DoS)",
+    "short_description": "Malicious users block contract functionality or increase gas cost to failure.",
+    "detailed_description": "A DoS in smart contracts can occur by exhausting gas limits, preventing contract execution, or locking key components. This includes blocking loops, filling up storage, or reverting in fallback functions during external calls.A classic example includes contracts looping over user arrays where a malicious actor adds many entries. Gas griefing and blocked fallback calls can also result in unintentional service disruptions.",
+    "example": "Unbounded loop over external addresses \u2192 attacker adds too many entries",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Uninitialized Storage Pointers",
+    "short_description": "Uninitialized variables may reference and overwrite unexpected storage slots.",
+    "detailed_description": "When a struct or array is declared in storage without initialization, it points to slot 0 by default. Writing to it overwrites critical contract variables such as ownership or balances, leading to severe unintended behavior.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "struct Data { uint a; }\nData data;  // uninitialized storage pointer\ndata.a = 123;  // may overwrite slot 0",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Unchecked External Calls",
+    "short_description": "Calls to external contracts without validating the return value.",
+    "detailed_description": "When a contract makes low-level calls like `.call()` or `.delegatecall()` and doesn't check the return value, it may assume the call succeeded even if it failed. This can result in skipped logic or fund losses. This can allow an attacker to disrupt contract flow or exploit assumptions about external behavior.Developers should always check return values and use patterns like `require(success)` to handle failures explicitly.",
+    "example": "(bool success, ) = otherContract.call(data);  // No require(success)",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Access Control Issues",
+    "short_description": "Failure to restrict sensitive functions to authorized users.",
+    "detailed_description": "Access control flaws occur when privileged functions lack proper `require(msg.sender == owner)` or role-based checks. Attackers can then exploit these to drain funds, change ownership, or alter configurations.One of the most common vulnerabilities, exploited in several real-world hacks such as the Parity Multisig wallet. Robust use of `onlyOwner`, OpenZeppelin's AccessControl, and multi-signature authorization can reduce this risk.",
+    "example": "function changeOwner(address newOwner) public { owner = newOwner; }",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Ether Withdrawal Issues",
+    "short_description": "Poorly handled Ether withdrawals can lead to funds being stuck or stolen.",
+    "detailed_description": "If withdrawal logic uses `transfer` or `send` with fixed gas stipends, it may fail due to increased gas costs (e.g., from EIP-1884). Also, if fallback functions revert or consume excess gas, Ether may get permanently locked.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "msg.sender.transfer(amount);  // May fail silently",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Transaction-Ordering Dependence (TOD)",
+    "short_description": "Contract behavior is influenced by the order of transactions within a block.",
+    "detailed_description": "TOD vulnerabilities arise when the correctness of a contract function depends on the order in which transactions are mined. Attackers can front-run or reorder transactions to manipulate outcomes like winning auctions or claiming rewards.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "If (block.timestamp <= deadline) { claimReward(); }  // Miner may include transactions in harmful order",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Oracle Manipulation",
+    "short_description": "Manipulating external price feeds or data sources.",
+    "detailed_description": "Smart contracts that rely on oracles for asset prices or event data are vulnerable if the oracle itself is untrusted or manipulatable. Attackers can trade assets or trigger liquidations at favorable rates using flash loans or manipulation of DEX prices. This class of attack has been used in several high-profile DeFi exploits, such as the bZx and Harvest Finance hacks.Mitigations include using time-weighted average prices (TWAPs), Chainlink oracles, and multiple independent data sources.",
+    "example": "Manipulate price feed on Uniswap \u2192 trigger liquidation",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Chain Reorganizations",
+    "short_description": "Contracts relying on recent blocks can be broken by chain reorgs.",
+    "detailed_description": "Smart contracts that use recent block numbers, timestamps, or hashes may behave unexpectedly during chain reorganizations. Attackers can exploit this to reverse transactions or invalidate previous actions in forks.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "Use of blockhash(block.number - 1) in a lottery contract",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Inadequate Auditing and Testing",
+    "short_description": "Poorly reviewed contracts lead to missed critical vulnerabilities.",
+    "detailed_description": "Lack of formal auditing or comprehensive testing results in contracts going live with logic flaws, reentrancy, or incorrect access controls. Rushed deployments without test coverage or fuzzing are particularly vulnerable.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "Mainnet deployment without unit or integration tests",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Gas-related Vulnerabilities",
+    "short_description": "Functions fail or become unusable due to high or unbounded gas costs.",
+    "detailed_description": "Gas vulnerabilities include unbounded loops, excessive storage writes, or functions that cost more than the block gas limit. Attackers may exploit this to permanently lock funds or disable critical contract functionality.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "for(uint i=0; i<users.length; i++) { ... }  // unbounded loop",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Time-dependent Vulnerabilities",
+    "short_description": "Contracts using timestamps are vulnerable to miner manipulation.",
+    "detailed_description": "Miners can slightly manipulate block timestamps within a ~15-second window. Contracts using time for randomness, deadlines, or access control can be gamed if not implemented securely.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "if (block.timestamp % 2 == 0) { reward(); }",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Unintended Token Transfers",
+    "short_description": "Contracts unintentionally accept or send tokens they don't support.",
+    "detailed_description": "Some contracts receive tokens (ETH or ERC20) without implementing proper fallback or handling logic. These tokens may get stuck, or attackers may use token mechanics (like callbacks) to cause reentrancy or DoS.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "ERC20 sent to a contract with no `onERC20Received` handler",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Inadequate Exception Handling",
+    "short_description": "Contracts fail silently when exceptions occur, hiding critical issues.",
+    "detailed_description": "Failing to handle exceptions properly may cause execution to continue after critical failures, leading to incorrect behavior or untracked loss. This is common with low-level calls (e.g., call, delegatecall) without checking for success.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "if (external.call(data)) {}  // execution continues even if call fails",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Unsafe delegatecall Usage",
+    "short_description": "delegatecall executes external code in the caller's context, risking state corruption.",
+    "detailed_description": "`delegatecall` runs the callee's code in the context of the caller\u2019s storage. If improperly used, it can modify ownership, balances, or logic variables.It's especially risky in proxy contracts where logic is separated from data.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "address(lib).delegatecall(abi.encodeWithSignature(\"pwn()\"))",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Proxy Contract Vulnerabilities",
+    "short_description": "Incorrect proxy setups can lead to broken upgrade paths or logic hijacking.",
+    "detailed_description": "Improperly configured proxy contracts can break upgradeability, leave storage collisions, or allow unauthorized upgrades. If admin logic is stored in overlapping slots or lacks access control, it can be exploited.Proxy-based upgradable patterns (e.g., UUPS, Transparent Proxy) are powerful but error-prone. Incorrect storage layout or missing authorization in `upgradeTo` can lead to complete contract compromise.Always follow established proxy patterns and audit thoroughly.",
+    "example": "Storage slot collision between implementation and proxy variables",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Batch Overflow Vulnerabilities",
+    "short_description": "Token minting via loops without overflow checks causes mass issuance.",
+    "detailed_description": "When minting or transferring tokens in a loop, a lack of overflow protection can result in huge values being written to storage. This can inflate token supply or create millions of tokens unintentionally.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "for (i = 0; i < count; i++) balances[msg.sender] += amount;",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Insecure Token Standards",
+    "short_description": "Custom or non-standard implementations break expected ERC20/ERC721 behavior.",
+    "detailed_description": "Implementing tokens without following standard interfaces (ERC20, ERC721) can break interoperability with wallets, DEXes, or bridges. Deviations may result in lost tokens, failed approvals, or broken transfers.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "transfer() doesn't return bool or reverts inconsistently",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Arbitrary Data Storage and Retrieval",
+    "short_description": "Unrestricted storage access can lead to data corruption or leakage.",
+    "detailed_description": "If contracts allow arbitrary read/write to storage slots, attackers can overwrite or leak sensitive variables. This may happen due to incorrect use of low-level assembly or generic storage APIs.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "storage[attackerInput] = 1  // attacker sets arbitrary keys",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Storage Layout Vulnerabilities",
+    "short_description": "Mismatched storage layout in upgrades causes variable corruption.",
+    "detailed_description": "When upgrading proxy contracts, the implementation and proxy must maintain consistent storage layouts. Adding or reordering variables can corrupt existing storage and cause critical logic failures or permission leaks.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "Upgraded contract adds variable above `owner`, shifting its slot",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Flash Loan Attacks",
+    "short_description": "Exploiting instant uncollateralized loans to manipulate contracts.",
+    "detailed_description": "Flash loans allow borrowing large amounts of tokens within a single transaction. Attackers use this to manipulate oracles, vote in governance, or drain pools by exploiting momentary liquidity and contract assumptions.Flash loans have been used in attacks on protocols like bZx, Alpha Homora, and Yearn. They enable attackers to exploit financial logic under momentary conditions. Proper collateralization, reentrancy protection, and oracle robustness are essential mitigations.",
+    "example": "Flash loan \u2192 manipulate price \u2192 drain lending protocol \u2192 repay in same tx",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Short Address Attack",
+    "short_description": "Truncated address input causes misaligned parameters and fund misdirection.",
+    "detailed_description": "In old Solidity/EVM versions, sending insufficient bytes in `transfer(to, amount)` could cause the `amount` to be interpreted incorrectly. This led to sending excessive tokens to unintended addresses.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "sendData = short address + amount \u2192 decoded as longer address, bigger amount",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Unprotected Upgrades",
+    "short_description": "Anyone can upgrade logic due to missing access control.",
+    "detailed_description": "Proxy contracts must restrict upgradeability to trusted parties. If `upgradeTo()` or `setImplementation()` lacks access controls, anyone can point the proxy to malicious code and hijack the contract.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "upgradeTo(maliciousContract)  // called by any external user",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Incorrectly Implemented Token Standards",
+    "short_description": "Breaking expected ERC20/ERC721 behavior causes compatibility issues.",
+    "detailed_description": "Failure to follow token standards (e.g., not returning boolean from transfer, not emitting events) breaks integrations with wallets, exchanges, and dApps. This can lead to user funds being lost or contracts becoming unusable.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "ERC20 token omits `return true` in transfer(), causing failures in dApps expecting it",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Unpredictable External Contract Calls",
+    "short_description": "External contracts may behave unexpectedly or maliciously.",
+    "detailed_description": "When calling external contracts, there\u2019s no guarantee of their behavior. They may reenter, revert, or consume excess gas. This unpredictability requires careful validation and protections around every call.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "contract.call(payload)  // assumes receiver behaves fairly",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Malicious Contract Dependencies",
+    "short_description": "Relying on untrusted or unknown contracts introduces backdoors.",
+    "detailed_description": "Using libraries or interacting with third-party contracts without proper review can introduce logic bombs, permission leaks, or rug pulls. Dependency risks are high in composable DeFi ecosystems.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "Import 'SafeMath' from unverified GitHub source with hidden logic",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Solidity Compiler Bugs",
+    "short_description": "Certain compiler versions have known bugs affecting bytecode generation.",
+    "detailed_description": "Some Solidity versions generate incorrect bytecode under specific conditions, affecting function execution or contract state. Using vulnerable compiler versions can introduce subtle but exploitable flaws.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "Solidity 0.4.10 generates incorrect encoding for array literals",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Overflowing Mapping Storage",
+    "short_description": "Mapping keys manipulated to overwrite unintended storage slots.",
+    "detailed_description": "Mappings are not bounds-checked. Malicious inputs can be crafted to target specific storage slots, particularly when using predictable keys or arithmetic on indexes. This can overwrite critical contract data.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "mapping(bytes32 => uint256) data; data[keccak256(0)] = attacker_value",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Non-standard Fallback Functions",
+    "short_description": "Improper fallback logic leads to fund loss or unexpected behavior.",
+    "detailed_description": "If a contract has both `fallback()` and `receive()` functions, or poorly implemented logic in either, it may reject Ether or behave unexpectedly.It's especially dangerous in proxy contracts and minimal forwarders.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "fallback() { revert(); }  // contract can't accept ETH via send()",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Incorrect Gas Calculations",
+    "short_description": "Misjudging gas requirements can cause execution failures.",
+    "detailed_description": "Failing to account for gas usage in loops, storage writes, or external calls can cause operations to run out of gas. Gas underestimation can also be weaponized in DoS attacks.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "Send 2300 gas to a contract with complex fallback \u2192 fails silently",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Uninitialized Contract Variables",
+    "short_description": "Default values create unintended logic or privileges.",
+    "detailed_description": "If critical variables like `owner` or `admin` are left uninitialized in a constructor or mistakenly redeclared, they default to zero (address 0). This can lock contract logic or allow anyone to claim ownership later.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "address public owner;  // never set \u2192 owner = 0x0",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "DoS Through block.timestamp Reliance",
+    "short_description": "Using block.timestamp for control logic enables manipulation.",
+    "detailed_description": "Miners can influence timestamps slightly. Contracts that rely on `block.timestamp` for time-based access, randomness, or behavior control may be gamed or frozen.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "if (block.timestamp % 5 == 0) { execute(); }",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Excessive Contract Complexity",
+    "short_description": "Overly complex logic makes bugs and exploits more likely.",
+    "detailed_description": "Long contracts with deeply nested logic, multiple inheritance paths, or extensive modifiers increase attack surface and reduce auditability. Gas inefficiencies and maintainability issues also arise.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "5000+ lines in a single DeFi pool contract",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Vulnerable Third-party Libraries",
+    "short_description": "Using outdated or malicious libraries can introduce critical flaws.",
+    "detailed_description": "Many smart contracts rely on open-source libraries. If these libraries have known vulnerabilities or are maliciously modified, they can expose contracts to serious attacks like overflow, reentrancy, or logic corruption.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "Using unverified version of OpenZeppelin\u2019s SafeMath with removed checks",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Incorrect Event Log Handling",
+    "short_description": "Events may emit misleading or missing data, breaking auditing and monitoring.",
+    "detailed_description": "Events are critical for off-chain systems and transparency. If events emit incorrect values or are not triggered at all, it may mislead users and external tools, especially during token transfers or upgrades.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "emit Transfer(msg.sender, msg.sender, amount);  // incorrect 'to' field",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Contract Function Visibility Issues",
+    "short_description": "Wrong visibility allows unauthorized or inaccessible function calls.",
+    "detailed_description": "Functions not marked as `private` or `internal` may be called externally. Conversely, necessary public/external functions marked as internal could break functionality. Misuse of visibility specifiers often leads to access control flaws or logic bugs.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "function withdraw() public \u2192 should be onlyOwner",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Poorly Implemented Randomness Generation",
+    "short_description": "Using block data for randomness enables manipulation.",
+    "detailed_description": "Block variables like `block.timestamp`, `block.difficulty`, and `blockhash` are predictable or manipulable by miners. Using these for randomness allows attackers to bias results in lotteries, games, or reward selection.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "random = uint(keccak256(abi.encode(block.timestamp))) % 100;",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Lack of Access Control in Upgradeable Contracts",
+    "short_description": "Upgradable contracts without role protection allow arbitrary logic changes.",
+    "detailed_description": "Contracts that use proxies for upgrades must secure functions like `upgradeTo` or `initialize`. If these are not protected with role checks or are accidentally left public, attackers can hijack the contract.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "function upgradeTo(address newImpl) public \u2192 no onlyOwner modifier",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Vulnerable Constructor Functions",
+    "short_description": "Incorrectly defined or public constructors allow attackers to reinitialize contracts.",
+    "detailed_description": "In older Solidity versions (<0.4.22), constructors were defined as functions named after the contract. A typo or mismatch would make it a public function that anyone could call, enabling attackers to reset ownership or logic.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "function ContractName() public { owner = msg.sender; }  // typo allows re-execution",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Race Conditions in Contract Execution",
+    "short_description": "Simultaneous transactions manipulate shared contract state.",
+    "detailed_description": "If a contract's logic is non-atomic and relies on mutable shared state, multiple transactions can create race conditions. Attackers exploit these to double-withdraw, overwrite entries, or disrupt ordering.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "Two users claim the same reward before state is updated",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Token Supply Vulnerabilities",
+    "short_description": "Token supply can be inflated or drained due to poor logic.",
+    "detailed_description": "Improper minting and burning logic can lead to inflation bugs, where attackers mint unlimited tokens, or deflation bugs that lock supply permanently. Incorrect totalSupply handling is a common flaw.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "Mint() function missing cap or access control",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Gas Token Vulnerabilities",
+    "short_description": "Using gas tokens (e.g., GST2) exposes contracts to DoS or manipulation.",
+    "detailed_description": "Gas tokens allow refunding gas by freeing storage. If contracts interact with users using these tokens, attackers can create DoS conditions or inflate gas refunds unfairly. Many of these tokens are now deprecated.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "User spams contract with GST2 operations \u2192 inflates gas use",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Smart Contract Selfdestruct Vulnerabilities",
+    "short_description": "Selfdestruct can remove contracts or refund gas unexpectedly.",
+    "detailed_description": "Using `selfdestruct` without tight access control can allow attackers to remove contract code permanently, disrupting users. Some contracts allow selfdestruct during upgrades or from inherited contracts unintentionally.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "selfdestruct(payable(attacker));  // no access control",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Replay Attacks (Cross-Chain)",
+    "short_description": "Transactions are reused across chains causing unintended effects.",
+    "detailed_description": "Replay attacks happen when the same transaction is valid on multiple chains. Without chain-specific protections, users may unknowingly repeat actions like approvals, transfers, or governance votes on forked networks.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "Approve() on Ethereum is replayed on a forked chain, allowing token theft",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Immutable Contract Vulnerabilities",
+    "short_description": "Immutable contracts can't be upgraded even if a flaw is found.",
+    "detailed_description": "Deploying contracts without upgrade mechanisms (proxies or factories) makes them immutable. Bugs in such contracts are permanent, forcing project shutdowns or migrations.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "Lost admin privileges in a non-upgradeable staking contract",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Compiler Backdoor or Bugs",
+    "short_description": "Compiler errors or supply chain backdoors can introduce malicious code.",
+    "detailed_description": "Smart contract compilers like Solidity have had critical bugs that produced incorrect bytecode. Malicious actors can also introduce backdoors in custom builds or during the build process if not verified properly.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "Modified solc outputs exploitable storage mismatch during CI/CD",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Proxy Contract Misconfigurations",
+    "short_description": "Incorrect proxy setups expose logic or break upgrade flow.",
+    "detailed_description": "If the proxy doesn't use a unique storage slot for the implementation address, or lacks admin protection, attackers may upgrade logic or hijack control. Storage collisions and logic bugs are common here.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "UpgradeableBeacon incorrectly shared between proxies",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Economic Attacks (e.g., Flash Loan Arbitrage)",
+    "short_description": "Game-theory flaws allow attackers to manipulate protocol behavior.",
+    "detailed_description": "Smart contracts can be economically manipulated through market imbalance, oracle gaming, MEV exploitation, or price manipulation. Protocols with poorly designed incentives can be drained or abused in single-block operations.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "Flash loan \u2192 manipulate pool ratio \u2192 profit via arbitrage or liquidation",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Governance Flaws (DAO Exploits)",
+    "short_description": "DAOs without quorum, delays, or safeguards are vulnerable to hostile takeover.",
+    "detailed_description": "If voting mechanisms lack minimum thresholds or safeguards, attackers can accumulate governance tokens and pass malicious proposals. This enables draining treasuries, changing logic, or bricking core systems.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "DAO proposal to send all funds to attacker wallet passed with flash-loaned votes",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Bridging Vulnerabilities (Cross-Chain Bridges)",
+    "short_description": "Smart contract bridges are often exploited via logic or validation bugs.",
+    "detailed_description": "Bridges rely on oracles or multi-sig validators to verify events from other chains. Bugs in these mechanisms, combined with large funds at stake, make them prime targets. Flaws in token minting, replay protections, or message validation have led to massive bridge hacks.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "Fake deposit proof used to mint tokens on destination chain",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Fork Vulnerabilities",
+    "short_description": "Post-fork behavior differences can introduce inconsistencies or vulnerabilities.",
+    "detailed_description": "Forks (like Ethereum mainnet vs PoW forks) create chain splits with duplicated contract state. If applications or bridges don\u2019t account for this, users may lose assets, double-claim rewards, or become exposed to replays or arbitrage.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "Claim reward on both chains using same Merkle proof",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Smart Contract Upgrade Risks",
+    "short_description": "Upgradeability introduces complexity and potential for logic corruption.",
+    "detailed_description": "Even well-implemented upgrade systems (UUPS, Transparent Proxy) are vulnerable to initialization errors, broken compatibility, or logic flaws. Improper upgrades can brick contracts, destroy storage, or lock user funds.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "Upgrade contract to incompatible version \u2192 disables withdrawals",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Supply Chain Attacks (Library Hijack)",
+    "short_description": "Malicious code is introduced via a compromised or fake dependency.",
+    "detailed_description": "If developers use libraries from unverified sources or allow automated updates, attackers can inject malicious behavior. This affects build artifacts, contract logic, or deployment scripts.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "Inject code in npm package \u2192 included in contract compilation",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Chainlink and Oracle-Specific Vulnerabilities",
+    "short_description": "Misconfigured or manipulated oracles lead to wrong data and economic attacks.",
+    "detailed_description": "Even trusted oracle networks like Chainlink can be misused if not integrated securely. Using stale prices, low update frequency, or assuming perfect liveness opens the door to price manipulation and exploit opportunities.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "Using Chainlink price feed with stale data for loan collateral checks",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Security Token Standard Issues (e.g., ERC1400)",
+    "short_description": "Complex compliance features can create logic errors or expose control paths.",
+    "detailed_description": "Standards like ERC1400 or ERC777 add layers like partitions, regulatory hooks, or operator permissions. Incorrect implementation of these layers can allow unauthorized token transfers, stuck funds, or disabled trading.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "ERC1400: Issuer role bypass due to unchecked `isOperatorFor()`",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Asset Pegging Vulnerabilities (Stablecoins, Wrapped Tokens)",
+    "short_description": "Logic flaws in mint/burn or redeem paths break 1:1 peg and lead to imbalance.",
+    "detailed_description": "Pegged assets rely on tight mint/redeem mechanisms. Issues in conversion paths or unbalanced collateral can cause undercollateralization, peg loss, or attacks like infinite minting.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "Wrapped token allows mint without burning locked counterpart",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Sybil Attacks (Fake Identity Generation)",
+    "short_description": "Creating multiple identities to manipulate governance or farming systems.",
+    "detailed_description": "Contracts that trust unique wallet addresses for identity or voting are vulnerable to Sybil attacks. Attackers create thousands of wallets to farm rewards or swing votes.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "Airdrop farming using 10,000 wallets created via script",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Web3.js Client Vulnerabilities (Front-end)",
+    "short_description": "Poor front-end integration with smart contracts exposes user actions to attack.",
+    "detailed_description": "Issues in dApp front-ends like exposing sensitive data, reusing signatures, or failing to validate smart contract responses can open users to phishing, spoofing, or front-running.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "Web3.js signs arbitrary messages due to lack of user prompt validation",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Gas Price Manipulation",
+    "short_description": "Attackers adjust gas prices to affect transaction order or outcome.",
+    "detailed_description": "Attackers can front-run or back-run victims by adjusting gas fees. In systems that rely on ordering (like auctions or liquidations), this can lead to unfair advantage or denial of service.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "Attacker uses priority fee to insert transaction before a liquidation tx",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Transaction Malleability",
+    "short_description": "Transactions can be altered before inclusion, changing txHash but preserving effect.",
+    "detailed_description": "Some transactions can be modified in a way that changes their txHash but not their outcome. This may affect systems that rely on transaction hashes for tracking (e.g., bridges or off-chain coordination).Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "Change signature in a transaction to modify txHash and break bridge state sync",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Resource Depletion Attacks",
+    "short_description": "Consuming gas or storage to render contract unusable or costly to interact with.",
+    "detailed_description": "Attackers can intentionally fill contract storage, bloat arrays, or force expensive computation. This increases cost or makes contract calls fail, especially when done repeatedly.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "Push 1M entries into a public array \u2192 gas costs exceed block limit",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Zero-Day Exploits in Deployed Logic",
+    "short_description": "Undisclosed bugs used to attack widely used live smart contracts.",
+    "detailed_description": "Zero-day vulnerabilities are bugs not known to developers or auditors at the time of attack. If discovered and exploited before a patch, they often lead to catastrophic fund loss or governance takeover.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "Newly found overflow in staking contract exploited hours after deployment",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Stuck Ether (Unreachable Balances)",
+    "short_description": "Contracts without withdrawal or fallback logic permanently lock funds.",
+    "detailed_description": "If a contract receives Ether but lacks a payable fallback or withdrawal function, the Ether becomes inaccessible. This may happen after proxy upgrades or with `selfdestruct` edge cases.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "Deployer sends ETH to contract without receive() \u2192 ETH lost forever",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Solidity-specific Vulnerabilities",
+    "short_description": "Flaws that arise due to quirks or misunderstood behaviors in Solidity.",
+    "detailed_description": "Solidity has nuances like default visibility, unintuitive fallback behavior, or type conversion issues. Developers unfamiliar with these can introduce bugs, even in otherwise logically correct contracts.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "Unintended public visibility due to missing `private` keyword",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Frontrunning in DEXes",
+    "short_description": "Exploiting pending swap transactions in decentralized exchanges.",
+    "detailed_description": "Attackers observe swaps or liquidity movements in DEXes and insert higher-fee transactions to profit by buying before or selling after the target. This leads to slippage or MEV-based losses.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "User swaps 1000 ETH for DAI \u2192 attacker buys ahead, raises price, and dumps after",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Insufficient Input Validation",
+    "short_description": "Failing to check user inputs allows unexpected contract behavior.",
+    "detailed_description": "If contracts do not validate input length, types, or constraints, they may behave unexpectedly or be exploited for logic bypass, array issues, or incorrect calculations.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "Transfer function accepts negative values interpreted as large uint",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Ether Lockup Vulnerabilities",
+    "short_description": "Contracts with no way to withdraw received ETH cause permanent lockup.",
+    "detailed_description": "If a contract can receive ETH but has no payable fallback or withdrawal method, the funds are locked forever. This can happen after proxy upgrades or in one-time use contracts.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "Deployer sends ETH to contract without `receive()` or `fallback()`",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Logic Flaws in Upgradeable Contracts",
+    "short_description": "Incorrect logic after upgrades can break contract functionality.",
+    "detailed_description": "New versions of upgradeable contracts must preserve the intended behavior. Logic errors in upgraded implementations can change how funds are handled or break expected invariants.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "Upgrade changes rewards logic \u2192 allows infinite claiming",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Token Supply Vulnerabilities (e.g., inflation bugs)",
+    "short_description": "Logic bugs allow unauthorized minting or misreporting of total supply.",
+    "detailed_description": "Improper validation of mint/burn functions or total supply updates can lead to supply inflation or deflation, affecting the token\u2019s value and trust.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "Mint() function callable by anyone \u2192 attacker creates infinite tokens",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Integer Arithmetic Vulnerabilities (Unchecked Math)",
+    "short_description": "Lack of overflow/underflow checks causes incorrect calculations.",
+    "detailed_description": "Before Solidity 0.8, arithmetic overflows and underflows were silent. Without SafeMath or manual checks, this leads to logic errors, especially in token or accounting operations.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "uint a = 0; a -= 1; // underflows to 2^256 - 1",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Insufficient Gas Stipends for External Calls (call, send)",
+    "short_description": "Using `send()` or `call()` with low gas can cause calls to fail unexpectedly.",
+    "detailed_description": "`send()` forwards 2300 gas by default, which may not be enough after opcode price increases. Contracts relying on these calls may experience failures or be unable to withdraw funds.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "msg.sender.send(amount); // fails if receiver has complex fallback",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Incorrect Array Handling (Out-of-Bounds, Underflow)",
+    "short_description": "Array operations without bounds checks cause data corruption or DoS.",
+    "detailed_description": "Push, pop, or access operations on arrays without validation can result in accessing invalid memory, reverts, or denial of service.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "access array[-1] or array[array.length]",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Short Address Attacks",
+    "short_description": "Manipulating transaction input to shift parameter decoding.",
+    "detailed_description": "Some front-ends or old Solidity versions incorrectly assume fixed-length inputs. A short address can shift parameters and result in unintended behavior or loss of tokens.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "Malicious input missing last byte causes `amount` to be interpreted as `to`",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Gas Limit Exhaustion Attacks",
+    "short_description": "Triggering high-gas functions to consume block gas and disable contract.",
+    "detailed_description": "Attackers intentionally call functions with expensive logic (loops, storage writes) to exhaust gas, preventing other users from interacting with the contract.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "fill array with 1000s of entries \u2192 gas cost exceeds block limit",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Replay Attacks (Especially Across Chains)",
+    "short_description": "Reuse of transaction data on multiple chains due to shared state.",
+    "detailed_description": "Lack of chainID checks or unique nonce mechanisms can allow the same transaction to be replayed across forked or side chains.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "approve() on Ethereum reused on testnet fork",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Economic Attacks (Market Manipulation, Flash Loan Exploits)",
+    "short_description": "Abusing incentive models to drain value or profit unfairly.",
+    "detailed_description": "DeFi protocols with complex economic models can be gamed using flash loans, MEV, or synthetic positions to manipulate pools, pricing, or reward systems.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "Flash loan to skew AMM price \u2192 borrow undervalued collateral",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Governance Flaws (DAO Governance Exploits)",
+    "short_description": "Weak governance models allow hostile takeovers or vote manipulation.",
+    "detailed_description": "If governance logic lacks quorum checks, voting delays, or vote-locking, attackers can accumulate tokens quickly (via flash loans or bribes) and pass malicious proposals.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "DAO treasury drained via malicious proposal passed with flash-loaned votes",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Bridging Vulnerabilities (Cross-Chain Bridge Hacks)",
+    "short_description": "Incorrect message validation or syncing leads to fake minting or theft.",
+    "detailed_description": "Cross-chain bridges are a major attack surface due to reliance on oracles, multi-sigs, or proofs. If any part fails or is misconfigured, attackers can mint fake tokens or steal bridged funds.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "Replay old bridge message \u2192 trigger second token mint",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Fork Vulnerabilities (Post-Chain Fork Inconsistencies)",
+    "short_description": "Forks duplicate state, opening replay, double-claim, and asset loss issues.",
+    "detailed_description": "If a chain is forked and apps don't update logic to distinguish networks, users may claim rewards, withdraw funds, or submit votes multiple times.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "Airdrop claimable on mainnet and fork with same wallet and signature",
+    "list": "Smart Contract Vulnerabilities"
+  },
+  {
+    "name": "Supply Chain Attacks (Library or Dependency Hijack)",
+    "short_description": "Malicious or compromised dependencies introduce vulnerabilities.",
+    "detailed_description": "Attackers can publish fake or modified libraries with similar names to common packages. When imported, they execute backdoors, exfiltrate keys, or inject malicious opcodes.Developers should apply secure design patterns, conduct regular audits, and test edge cases rigorously to mitigate this class of vulnerability.",
+    "example": "Import `openzeppelin-solidity` typo package with exploit in `Ownable`",
+    "list": "Smart Contract Vulnerabilities"
+  }
+]

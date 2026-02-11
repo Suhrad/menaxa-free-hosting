@@ -1,0 +1,2946 @@
+{
+  "last_updated": "2025-04-29T23:18:31.608191",
+  "total_records": 420,
+  "data": [
+    {
+      "name": "testnet-v1.48.0",
+      "author": "MystenLabs",
+      "created_at": "2025-04-28T20:57:53Z",
+      "days_since_launch": 0,
+      "html_url": "https://github.com/MystenLabs/sui/releases/tag/testnet-v1.48.0"
+    },
+    {
+      "name": "devnet-v1.48.0",
+      "author": "MystenLabs",
+      "created_at": "2025-04-28T16:18:30Z",
+      "days_since_launch": 1,
+      "html_url": "https://github.com/MystenLabs/sui/releases/tag/devnet-v1.48.0"
+    },
+    {
+      "name": "v2.0.0-alpha.1",
+      "author": "OpenZeppelin",
+      "created_at": "2025-04-26T09:20:41Z",
+      "days_since_launch": 3,
+      "html_url": "https://github.com/OpenZeppelin/cairo-contracts/releases/tag/v2.0.0-alpha.1"
+    },
+    {
+      "name": "v1.5.12",
+      "author": "bnb-chain",
+      "created_at": "2025-04-25T12:18:58Z",
+      "days_since_launch": 4,
+      "html_url": "https://github.com/bnb-chain/bsc/releases/tag/v1.5.12"
+    },
+    {
+      "name": "Omni-Capacitors (v1.15.10)",
+      "author": "ethereum",
+      "created_at": "2025-04-25T10:44:25Z",
+      "days_since_launch": 4,
+      "html_url": "https://github.com/ethereum/go-ethereum/releases/tag/v1.15.10"
+    },
+    {
+      "name": "Aptos CLI Release v7.3.0",
+      "author": "aptos-labs",
+      "created_at": "2025-04-25T00:51:33Z",
+      "days_since_launch": 4,
+      "html_url": "https://github.com/aptos-labs/aptos-core/releases/tag/aptos-cli-v7.3.0"
+    },
+    {
+      "name": "2.6.0-rc.2",
+      "author": "near",
+      "created_at": "2025-04-24T10:52:08Z",
+      "days_since_launch": 5,
+      "html_url": "https://github.com/near/nearcore/releases/tag/2.6.0-rc.2"
+    },
+    {
+      "name": "Aptos Node Release v1.28.8",
+      "author": "aptos-labs",
+      "created_at": "2025-04-23T18:18:21Z",
+      "days_since_launch": 5,
+      "html_url": "https://github.com/aptos-labs/aptos-core/releases/tag/aptos-node-v1.28.8"
+    },
+    {
+      "name": "mainnet-v1.47.1",
+      "author": "MystenLabs",
+      "created_at": "2025-04-22T22:39:50Z",
+      "days_since_launch": 6,
+      "html_url": "https://github.com/MystenLabs/sui/releases/tag/mainnet-v1.47.1"
+    },
+    {
+      "name": "Multicapacitor (v1.15.9)",
+      "author": "ethereum",
+      "created_at": "2025-04-21T12:56:16Z",
+      "days_since_launch": 8,
+      "html_url": "https://github.com/ethereum/go-ethereum/releases/tag/v1.15.9"
+    },
+    {
+      "name": "op-node/v1.13.2 - Isthmus Mainnet",
+      "author": "ethereum-optimism",
+      "created_at": "2025-04-18T13:02:43Z",
+      "days_since_launch": 11,
+      "html_url": "https://github.com/ethereum-optimism/optimism/releases/tag/op-node/v1.13.2"
+    },
+    {
+      "name": "v1.5.11",
+      "author": "bnb-chain",
+      "created_at": "2025-04-18T02:01:10Z",
+      "days_since_launch": 11,
+      "html_url": "https://github.com/bnb-chain/bsc/releases/tag/v1.5.11"
+    },
+    {
+      "name": "op-challenger/v1.4.0",
+      "author": "ethereum-optimism",
+      "created_at": "2025-04-15T14:53:04Z",
+      "days_since_launch": 14,
+      "html_url": "https://github.com/ethereum-optimism/optimism/releases/tag/op-challenger/v1.4.0"
+    },
+    {
+      "name": "testnet-v1.47.0",
+      "author": "MystenLabs",
+      "created_at": "2025-04-14T22:07:55Z",
+      "days_since_launch": 14,
+      "html_url": "https://github.com/MystenLabs/sui/releases/tag/testnet-v1.47.0"
+    },
+    {
+      "name": "[Testnet] Aptos Node Release v1.29.0-rc",
+      "author": "aptos-labs",
+      "created_at": "2025-04-14T21:15:33Z",
+      "days_since_launch": 14,
+      "html_url": "https://github.com/aptos-labs/aptos-core/releases/tag/aptos-node-v1.29.0-rc"
+    },
+    {
+      "name": "devnet-v1.47.0",
+      "author": "MystenLabs",
+      "created_at": "2025-04-14T16:58:23Z",
+      "days_since_launch": 15,
+      "html_url": "https://github.com/MystenLabs/sui/releases/tag/devnet-v1.47.0"
+    },
+    {
+      "name": "mainnet-v1.46.3",
+      "author": "MystenLabs",
+      "created_at": "2025-04-11T17:56:39Z",
+      "days_since_launch": 17,
+      "html_url": "https://github.com/MystenLabs/sui/releases/tag/mainnet-v1.46.3"
+    },
+    {
+      "name": "Combatives Upgrade (v1.15.8)",
+      "author": "ethereum",
+      "created_at": "2025-04-11T09:31:16Z",
+      "days_since_launch": 18,
+      "html_url": "https://github.com/ethereum/go-ethereum/releases/tag/v1.15.8"
+    },
+    {
+      "name": "op-node v1.13.1 - Worldchain Sepolia Fix",
+      "author": "ethereum-optimism",
+      "created_at": "2025-04-10T20:34:46Z",
+      "days_since_launch": 18,
+      "html_url": "https://github.com/ethereum-optimism/optimism/releases/tag/op-node/v1.13.1"
+    },
+    {
+      "name": "Algorand 4.0.3",
+      "author": "algorand",
+      "created_at": "2025-04-10T16:29:33Z",
+      "days_since_launch": 19,
+      "html_url": "https://github.com/algorand/go-algorand/releases/tag/v4.0.3-stable"
+    },
+    {
+      "name": "v1.5.10",
+      "author": "bnb-chain",
+      "created_at": "2025-04-10T02:58:26Z",
+      "days_since_launch": 19,
+      "html_url": "https://github.com/bnb-chain/bsc/releases/tag/v1.5.10"
+    },
+    {
+      "name": "Aptos CLI Release v7.2.0",
+      "author": "aptos-labs",
+      "created_at": "2025-04-09T23:48:47Z",
+      "days_since_launch": 19,
+      "html_url": "https://github.com/aptos-labs/aptos-core/releases/tag/aptos-cli-v7.2.0"
+    },
+    {
+      "name": "v5.3.0",
+      "author": "OpenZeppelin",
+      "created_at": "2025-04-09T15:50:56Z",
+      "days_since_launch": 20,
+      "html_url": "https://github.com/OpenZeppelin/openzeppelin-contracts/releases/tag/v5.3.0"
+    },
+    {
+      "name": "Algorand BetaNet 4.0.3",
+      "author": "algorand",
+      "created_at": "2025-04-08T23:28:28Z",
+      "days_since_launch": 20,
+      "html_url": "https://github.com/algorand/go-algorand/releases/tag/v4.0.3-beta"
+    },
+    {
+      "name": "mainnet-v1.46.2",
+      "author": "MystenLabs",
+      "created_at": "2025-04-08T22:06:37Z",
+      "days_since_launch": 20,
+      "html_url": "https://github.com/MystenLabs/sui/releases/tag/mainnet-v1.46.2"
+    },
+    {
+      "name": "testnet-v1.46.2",
+      "author": "MystenLabs",
+      "created_at": "2025-04-07T21:46:51Z",
+      "days_since_launch": 21,
+      "html_url": "https://github.com/MystenLabs/sui/releases/tag/testnet-v1.46.2"
+    },
+    {
+      "name": "[Mainnet] Aptos Framework Release v1.28.7",
+      "author": "aptos-labs",
+      "created_at": "2025-04-07T18:46:40Z",
+      "days_since_launch": 21,
+      "html_url": "https://github.com/aptos-labs/aptos-core/releases/tag/aptos-framework-v1.28.7"
+    },
+    {
+      "name": "2.6.0-rc.1",
+      "author": "near",
+      "created_at": "2025-04-07T13:44:49Z",
+      "days_since_launch": 22,
+      "html_url": "https://github.com/near/nearcore/releases/tag/2.6.0-rc.1"
+    },
+    {
+      "name": "op-batcher v1.12.0 - Isthmus",
+      "author": "ethereum-optimism",
+      "created_at": "2025-04-03T20:22:21Z",
+      "days_since_launch": 25,
+      "html_url": "https://github.com/ethereum-optimism/optimism/releases/tag/op-batcher/v1.12.0"
+    },
+    {
+      "name": "op-node v1.13.0 - Isthmus Sepolia",
+      "author": "ethereum-optimism",
+      "created_at": "2025-04-03T20:17:26Z",
+      "days_since_launch": 25,
+      "html_url": "https://github.com/ethereum-optimism/optimism/releases/tag/op-node/v1.13.0"
+    },
+    {
+      "name": "testnet-v1.46.1",
+      "author": "MystenLabs",
+      "created_at": "2025-04-03T19:49:11Z",
+      "days_since_launch": 25,
+      "html_url": "https://github.com/MystenLabs/sui/releases/tag/testnet-v1.46.1"
+    },
+    {
+      "name": "Rust 1.86.0",
+      "author": "rust-lang",
+      "created_at": "2025-04-03T09:42:32Z",
+      "days_since_launch": 26,
+      "html_url": "https://github.com/rust-lang/rust/releases/tag/1.86.0"
+    },
+    {
+      "name": "2.5.2",
+      "author": "near",
+      "created_at": "2025-04-02T08:03:14Z",
+      "days_since_launch": 27,
+      "html_url": "https://github.com/near/nearcore/releases/tag/2.5.2"
+    },
+    {
+      "name": "v1.5.9",
+      "author": "bnb-chain",
+      "created_at": "2025-04-02T02:25:26Z",
+      "days_since_launch": 27,
+      "html_url": "https://github.com/bnb-chain/bsc/releases/tag/v1.5.9"
+    },
+    {
+      "name": "Aptos CLI Release v7.1.0",
+      "author": "aptos-labs",
+      "created_at": "2025-04-01T21:21:22Z",
+      "days_since_launch": 27,
+      "html_url": "https://github.com/aptos-labs/aptos-core/releases/tag/aptos-cli-v7.1.0"
+    },
+    {
+      "name": "testnet-v1.46.0",
+      "author": "MystenLabs",
+      "created_at": "2025-03-31T22:08:36Z",
+      "days_since_launch": 28,
+      "html_url": "https://github.com/MystenLabs/sui/releases/tag/testnet-v1.46.0"
+    },
+    {
+      "name": "devnet-v1.46.0",
+      "author": "MystenLabs",
+      "created_at": "2025-03-31T19:39:24Z",
+      "days_since_launch": 28,
+      "html_url": "https://github.com/MystenLabs/sui/releases/tag/devnet-v1.46.0"
+    },
+    {
+      "name": "Juggernaut Shield (v1.15.7)",
+      "author": "ethereum",
+      "created_at": "2025-03-31T16:27:43Z",
+      "days_since_launch": 29,
+      "html_url": "https://github.com/ethereum/go-ethereum/releases/tag/v1.15.7"
+    },
+    {
+      "name": "Aptos Node Release v1.28.7",
+      "author": "aptos-labs",
+      "created_at": "2025-03-28T15:17:20Z",
+      "days_since_launch": 32,
+      "html_url": "https://github.com/aptos-labs/aptos-core/releases/tag/aptos-node-v1.28.7"
+    },
+    {
+      "name": "[testnet] Aptos Node Release v1.28.6-rc ",
+      "author": "aptos-labs",
+      "created_at": "2025-03-27T18:01:17Z",
+      "days_since_launch": 32,
+      "html_url": "https://github.com/aptos-labs/aptos-core/releases/tag/aptos-node-v1.28.6-rc"
+    },
+    {
+      "name": "Aptos Node Release v1.28.5-rc",
+      "author": "aptos-labs",
+      "created_at": "2025-03-26T21:46:00Z",
+      "days_since_launch": 33,
+      "html_url": "https://github.com/aptos-labs/aptos-core/releases/tag/aptos-node-v1.28.5-rc"
+    },
+    {
+      "name": "mainnet-v1.45.3",
+      "author": "MystenLabs",
+      "created_at": "2025-03-25T21:29:29Z",
+      "days_since_launch": 34,
+      "html_url": "https://github.com/MystenLabs/sui/releases/tag/mainnet-v1.45.3"
+    },
+    {
+      "name": "Aptos CLI Release v7.0.0",
+      "author": "aptos-labs",
+      "created_at": "2025-03-25T17:42:28Z",
+      "days_since_launch": 35,
+      "html_url": "https://github.com/aptos-labs/aptos-core/releases/tag/aptos-cli-v7.0.0"
+    },
+    {
+      "name": "Mental Focuser (v1.15.6)",
+      "author": "ethereum",
+      "created_at": "2025-03-25T10:30:13Z",
+      "days_since_launch": 35,
+      "html_url": "https://github.com/ethereum/go-ethereum/releases/tag/v1.15.6"
+    },
+    {
+      "name": "v1.5.8",
+      "author": "bnb-chain",
+      "created_at": "2025-03-23T06:40:01Z",
+      "days_since_launch": 37,
+      "html_url": "https://github.com/bnb-chain/bsc/releases/tag/v1.5.8"
+    },
+    {
+      "name": "Fortuna - C-Chain Fee Overhaul",
+      "author": "ava-labs",
+      "created_at": "2025-03-21T17:43:17Z",
+      "days_since_launch": 39,
+      "html_url": "https://github.com/ava-labs/avalanchego/releases/tag/v1.13.0"
+    },
+    {
+      "name": "testnet-v1.45.2",
+      "author": "MystenLabs",
+      "created_at": "2025-03-21T14:33:36Z",
+      "days_since_launch": 39,
+      "html_url": "https://github.com/MystenLabs/sui/releases/tag/testnet-v1.45.2"
+    },
+    {
+      "name": "Release v2.0.0-alpha.0",
+      "author": "OpenZeppelin",
+      "created_at": "2025-03-21T10:59:57Z",
+      "days_since_launch": 39,
+      "html_url": "https://github.com/OpenZeppelin/cairo-contracts/releases/tag/v2.0.0-alpha.0"
+    },
+    {
+      "name": "op-dispute-mon/v1.4.0",
+      "author": "ethereum-optimism",
+      "created_at": "2025-03-20T15:44:12Z",
+      "days_since_launch": 40,
+      "html_url": "https://github.com/ethereum-optimism/optimism/releases/tag/op-dispute-mon/v1.4.0"
+    },
+    {
+      "name": "op-challenger/v1.3.3",
+      "author": "ethereum-optimism",
+      "created_at": "2025-03-20T15:40:20Z",
+      "days_since_launch": 40,
+      "html_url": "https://github.com/ethereum-optimism/optimism/releases/tag/op-challenger/v1.3.3"
+    },
+    {
+      "name": "[Testnet] Aptos Node Release v1.28.0-rc4",
+      "author": "aptos-labs",
+      "created_at": "2025-03-19T22:39:19Z",
+      "days_since_launch": 40,
+      "html_url": "https://github.com/aptos-labs/aptos-core/releases/tag/aptos-node-v1.28.0-rc4"
+    },
+    {
+      "name": "v5.3.0-rc.0",
+      "author": "OpenZeppelin",
+      "created_at": "2025-03-19T17:02:18Z",
+      "days_since_launch": 41,
+      "html_url": "https://github.com/OpenZeppelin/openzeppelin-contracts/releases/tag/v5.3.0-rc.0"
+    },
+    {
+      "name": "op-node v1.12.2",
+      "author": "ethereum-optimism",
+      "created_at": "2025-03-18T19:58:29Z",
+      "days_since_launch": 41,
+      "html_url": "https://github.com/ethereum-optimism/optimism/releases/tag/op-node/v1.12.2"
+    },
+    {
+      "name": "Rust 1.85.1",
+      "author": "rust-lang",
+      "created_at": "2025-03-18T17:41:29Z",
+      "days_since_launch": 42,
+      "html_url": "https://github.com/rust-lang/rust/releases/tag/1.85.1"
+    },
+    {
+      "name": "testnet-v1.45.0",
+      "author": "MystenLabs",
+      "created_at": "2025-03-17T22:33:27Z",
+      "days_since_launch": 42,
+      "html_url": "https://github.com/MystenLabs/sui/releases/tag/testnet-v1.45.0"
+    },
+    {
+      "name": "devnet-v1.45.0",
+      "author": "MystenLabs",
+      "created_at": "2025-03-17T16:25:16Z",
+      "days_since_launch": 43,
+      "html_url": "https://github.com/MystenLabs/sui/releases/tag/devnet-v1.45.0"
+    },
+    {
+      "name": "op-deployer/v0.3.0-rc.5",
+      "author": "ethereum-optimism",
+      "created_at": "2025-03-15T15:39:09Z",
+      "days_since_launch": 45,
+      "html_url": "https://github.com/ethereum-optimism/optimism/releases/tag/op-deployer/v0.3.0-rc.5"
+    },
+    {
+      "name": "op-deployer/v0.3.0-rc.4",
+      "author": "ethereum-optimism",
+      "created_at": "2025-03-14T19:15:13Z",
+      "days_since_launch": 45,
+      "html_url": "https://github.com/ethereum-optimism/optimism/releases/tag/op-deployer/v0.3.0-rc.4"
+    },
+    {
+      "name": "op-deployer/v0.3.0-rc.3",
+      "author": "ethereum-optimism",
+      "created_at": "2025-03-14T16:45:11Z",
+      "days_since_launch": 46,
+      "html_url": "https://github.com/ethereum-optimism/optimism/releases/tag/op-deployer/v0.3.0-rc.3"
+    },
+    {
+      "name": "op-node/v1.12.1",
+      "author": "ethereum-optimism",
+      "created_at": "2025-03-14T16:26:22Z",
+      "days_since_launch": 46,
+      "html_url": "https://github.com/ethereum-optimism/optimism/releases/tag/op-node/v1.12.1"
+    },
+    {
+      "name": "[Testnet] Aptos Node Release v1.28.0-rc3",
+      "author": "aptos-labs",
+      "created_at": "2025-03-13T01:45:05Z",
+      "days_since_launch": 47,
+      "html_url": "https://github.com/aptos-labs/aptos-core/releases/tag/aptos-node-v1.28.0-rc3"
+    },
+    {
+      "name": "op-deployer/v0.2.0-rc.2",
+      "author": "ethereum-optimism",
+      "created_at": "2025-03-12T20:35:16Z",
+      "days_since_launch": 47,
+      "html_url": "https://github.com/ethereum-optimism/optimism/releases/tag/op-deployer/v0.2.0-rc.2"
+    },
+    {
+      "name": "op-deployer/v0.3.0-rc.2",
+      "author": "ethereum-optimism",
+      "created_at": "2025-03-12T20:32:35Z",
+      "days_since_launch": 47,
+      "html_url": "https://github.com/ethereum-optimism/optimism/releases/tag/op-deployer/v0.3.0-rc.2"
+    },
+    {
+      "name": "op-deployer/v0.0.13",
+      "author": "ethereum-optimism",
+      "created_at": "2025-03-12T20:28:37Z",
+      "days_since_launch": 47,
+      "html_url": "https://github.com/ethereum-optimism/optimism/releases/tag/op-deployer/v0.0.13"
+    },
+    {
+      "name": "Version 0.8.29",
+      "author": "ethereum",
+      "created_at": "2025-03-12T06:51:54Z",
+      "days_since_launch": 48,
+      "html_url": "https://github.com/ethereum/solidity/releases/tag/v0.8.29"
+    },
+    {
+      "name": "Aptos Node Release v1.27.2",
+      "author": "aptos-labs",
+      "created_at": "2025-03-12T02:41:51Z",
+      "days_since_launch": 48,
+      "html_url": "https://github.com/aptos-labs/aptos-core/releases/tag/aptos-node-v1.27.2"
+    },
+    {
+      "name": "mainnet-v1.44.3",
+      "author": "MystenLabs",
+      "created_at": "2025-03-11T23:13:20Z",
+      "days_since_launch": 48,
+      "html_url": "https://github.com/MystenLabs/sui/releases/tag/mainnet-v1.44.3"
+    },
+    {
+      "name": "op-node v1.12.0 - L1 Pectra Readiness & Sepolia Pectra Blob Schedule Fix",
+      "author": "ethereum-optimism",
+      "created_at": "2025-03-11T21:05:42Z",
+      "days_since_launch": 48,
+      "html_url": "https://github.com/ethereum-optimism/optimism/releases/tag/op-node/v1.12.0"
+    },
+    {
+      "name": "op-batcher/v1.11.5",
+      "author": "ethereum-optimism",
+      "created_at": "2025-03-11T19:37:09Z",
+      "days_since_launch": 48,
+      "html_url": "https://github.com/ethereum-optimism/optimism/releases/tag/op-batcher/v1.11.5"
+    },
+    {
+      "name": "testnet-v1.44.3",
+      "author": "MystenLabs",
+      "created_at": "2025-03-10T22:02:43Z",
+      "days_since_launch": 49,
+      "html_url": "https://github.com/MystenLabs/sui/releases/tag/testnet-v1.44.3"
+    },
+    {
+      "name": "op-deployer/v0.3.0-rc.1",
+      "author": "ethereum-optimism",
+      "created_at": "2025-03-10T02:47:27Z",
+      "days_since_launch": 50,
+      "html_url": "https://github.com/ethereum-optimism/optimism/releases/tag/op-deployer/v0.3.0-rc.1"
+    },
+    {
+      "name": "op-contracts/v3.0.0-rc.1",
+      "author": "ethereum-optimism",
+      "created_at": "2025-03-07T13:22:03Z",
+      "days_since_launch": 53,
+      "html_url": "https://github.com/ethereum-optimism/optimism/releases/tag/op-contracts/v3.0.0-rc.1"
+    },
+    {
+      "name": "Fortuna - C-Chain Fee Overhaul - Fuji Pre-Release",
+      "author": "ava-labs",
+      "created_at": "2025-03-06T20:20:30Z",
+      "days_since_launch": 53,
+      "html_url": "https://github.com/ava-labs/avalanchego/releases/tag/v1.13.0-fuji"
+    },
+    {
+      "name": "2.5.1",
+      "author": "near",
+      "created_at": "2025-03-05T22:36:17Z",
+      "days_since_launch": 54,
+      "html_url": "https://github.com/near/nearcore/releases/tag/2.5.1"
+    },
+    {
+      "name": "Stronghold Package (v1.15.5)",
+      "author": "ethereum",
+      "created_at": "2025-03-05T10:55:17Z",
+      "days_since_launch": 55,
+      "html_url": "https://github.com/ethereum/go-ethereum/releases/tag/v1.15.5"
+    },
+    {
+      "name": "testnet-v1.44.2",
+      "author": "MystenLabs",
+      "created_at": "2025-03-04T22:39:06Z",
+      "days_since_launch": 55,
+      "html_url": "https://github.com/MystenLabs/sui/releases/tag/testnet-v1.44.2"
+    },
+    {
+      "name": "2.5.0",
+      "author": "near",
+      "created_at": "2025-03-04T12:03:56Z",
+      "days_since_launch": 56,
+      "html_url": "https://github.com/near/nearcore/releases/tag/2.5.0"
+    },
+    {
+      "name": "op-proposer/v1.10.0",
+      "author": "ethereum-optimism",
+      "created_at": "2025-03-04T07:15:21Z",
+      "days_since_launch": 56,
+      "html_url": "https://github.com/ethereum-optimism/optimism/releases/tag/op-proposer/v1.10.0"
+    },
+    {
+      "name": "op-batcher/v1.11.4",
+      "author": "ethereum-optimism",
+      "created_at": "2025-03-04T07:14:44Z",
+      "days_since_launch": 56,
+      "html_url": "https://github.com/ethereum-optimism/optimism/releases/tag/op-batcher/v1.11.4"
+    },
+    {
+      "name": "Aptos CLI Release v6.2.0",
+      "author": "aptos-labs",
+      "created_at": "2025-03-04T03:40:00Z",
+      "days_since_launch": 56,
+      "html_url": "https://github.com/aptos-labs/aptos-core/releases/tag/aptos-cli-v6.2.0"
+    },
+    {
+      "name": "Adhoc Release 20250310",
+      "author": "aptos-labs",
+      "created_at": "2025-03-04T00:44:57Z",
+      "days_since_launch": 56,
+      "html_url": "https://github.com/aptos-labs/aptos-core/releases/tag/adhoc-20250310"
+    },
+    {
+      "name": "Adhoc Release 20250304",
+      "author": "aptos-labs",
+      "created_at": "2025-03-04T00:44:57Z",
+      "days_since_launch": 56,
+      "html_url": "https://github.com/aptos-labs/aptos-core/releases/tag/adhoc-20250304"
+    },
+    {
+      "name": "[Mainnet] Aptos Framework Release v1.27.1",
+      "author": "aptos-labs",
+      "created_at": "2025-03-03T23:10:55Z",
+      "days_since_launch": 56,
+      "html_url": "https://github.com/aptos-labs/aptos-core/releases/tag/aptos-framework-v1.27.1"
+    },
+    {
+      "name": "devnet-v1.44.0",
+      "author": "MystenLabs",
+      "created_at": "2025-03-03T19:35:18Z",
+      "days_since_launch": 56,
+      "html_url": "https://github.com/MystenLabs/sui/releases/tag/devnet-v1.44.0"
+    },
+    {
+      "name": "op-deployer/v0.2.0-rc.1",
+      "author": "ethereum-optimism",
+      "created_at": "2025-03-03T15:59:55Z",
+      "days_since_launch": 57,
+      "html_url": "https://github.com/ethereum-optimism/optimism/releases/tag/op-deployer/v0.2.0-rc.1"
+    },
+    {
+      "name": "op-challenger/v1.3.2",
+      "author": "ethereum-optimism",
+      "created_at": "2025-03-03T03:29:20Z",
+      "days_since_launch": 57,
+      "html_url": "https://github.com/ethereum-optimism/optimism/releases/tag/op-challenger/v1.3.2"
+    },
+    {
+      "name": "Commando Package (v1.15.4)",
+      "author": "ethereum",
+      "created_at": "2025-03-01T20:37:47Z",
+      "days_since_launch": 58,
+      "html_url": "https://github.com/ethereum/go-ethereum/releases/tag/v1.15.4"
+    },
+    {
+      "name": "v0.4.1",
+      "author": "vyperlang",
+      "created_at": "2025-03-01T18:00:09Z",
+      "days_since_launch": 58,
+      "html_url": "https://github.com/vyperlang/vyper/releases/tag/v0.4.1"
+    },
+    {
+      "name": "op-batcher/v1.11.3",
+      "author": "ethereum-optimism",
+      "created_at": "2025-02-28T16:37:16Z",
+      "days_since_launch": 60,
+      "html_url": "https://github.com/ethereum-optimism/optimism/releases/tag/op-batcher/v1.11.3"
+    },
+    {
+      "name": "v1.5.7",
+      "author": "bnb-chain",
+      "created_at": "2025-02-28T11:07:33Z",
+      "days_since_launch": 60,
+      "html_url": "https://github.com/bnb-chain/bsc/releases/tag/v1.5.7"
+    },
+    {
+      "name": "op-batcher/v1.11.2",
+      "author": "ethereum-optimism",
+      "created_at": "2025-02-26T10:37:26Z",
+      "days_since_launch": 62,
+      "html_url": "https://github.com/ethereum-optimism/optimism/releases/tag/op-batcher/v1.11.2"
+    },
+    {
+      "name": "mainnet-v1.43.1",
+      "author": "MystenLabs",
+      "created_at": "2025-02-25T23:50:11Z",
+      "days_since_launch": 62,
+      "html_url": "https://github.com/MystenLabs/sui/releases/tag/mainnet-v1.43.1"
+    },
+    {
+      "name": "op-contracts/v2.0.0",
+      "author": "ethereum-optimism",
+      "created_at": "2025-02-25T20:13:01Z",
+      "days_since_launch": 62,
+      "html_url": "https://github.com/ethereum-optimism/optimism/releases/tag/op-contracts/v2.0.0"
+    },
+    {
+      "name": "op-contracts/v2.0.0-rc.1",
+      "author": "ethereum-optimism",
+      "created_at": "2025-02-25T20:13:01Z",
+      "days_since_launch": 62,
+      "html_url": "https://github.com/ethereum-optimism/optimism/releases/tag/op-contracts/v2.0.0-rc.1"
+    },
+    {
+      "name": "Expert Package (v1.15.3)",
+      "author": "ethereum",
+      "created_at": "2025-02-25T15:18:34Z",
+      "days_since_launch": 63,
+      "html_url": "https://github.com/ethereum/go-ethereum/releases/tag/v1.15.3"
+    },
+    {
+      "name": "v0.4.1rc3",
+      "author": "vyperlang",
+      "created_at": "2025-02-25T13:31:23Z",
+      "days_since_launch": 63,
+      "html_url": "https://github.com/vyperlang/vyper/releases/tag/v0.4.1rc3"
+    },
+    {
+      "name": "op-node v1.11.2 - Ink Mainnet Holocene Update",
+      "author": "ethereum-optimism",
+      "created_at": "2025-02-24T17:49:57Z",
+      "days_since_launch": 63,
+      "html_url": "https://github.com/ethereum-optimism/optimism/releases/tag/op-node/v1.11.2"
+    },
+    {
+      "name": "v1.0.0",
+      "author": "OpenZeppelin",
+      "created_at": "2025-02-21T15:34:30Z",
+      "days_since_launch": 67,
+      "html_url": "https://github.com/OpenZeppelin/cairo-contracts/releases/tag/v1.0.0"
+    },
+    {
+      "name": "v0.4.1rc2",
+      "author": "vyperlang",
+      "created_at": "2025-02-21T12:55:43Z",
+      "days_since_launch": 67,
+      "html_url": "https://github.com/vyperlang/vyper/releases/tag/v0.4.1rc2"
+    },
+    {
+      "name": "[Mainnet] Aptos Node Release v1.27.1",
+      "author": "aptos-labs",
+      "created_at": "2025-02-20T20:12:49Z",
+      "days_since_launch": 67,
+      "html_url": "https://github.com/aptos-labs/aptos-core/releases/tag/aptos-node-v1.27.1-rc"
+    },
+    {
+      "name": "[Mainnet] Aptos Node Release v1.27.1",
+      "author": "aptos-labs",
+      "created_at": "2025-02-20T20:12:49Z",
+      "days_since_launch": 67,
+      "html_url": "https://github.com/aptos-labs/aptos-core/releases/tag/aptos-node-v1.27.1"
+    },
+    {
+      "name": "Rust 1.85.0",
+      "author": "rust-lang",
+      "created_at": "2025-02-20T17:09:25Z",
+      "days_since_launch": 68,
+      "html_url": "https://github.com/rust-lang/rust/releases/tag/1.85.0"
+    },
+    {
+      "name": "2.5.0-rc.3",
+      "author": "near",
+      "created_at": "2025-02-19T17:35:26Z",
+      "days_since_launch": 69,
+      "html_url": "https://github.com/near/nearcore/releases/tag/2.5.0-rc.3"
+    },
+    {
+      "name": "op-node v1.11.1- L1 Pectra Readiness & bootnodes fix",
+      "author": "ethereum-optimism",
+      "created_at": "2025-02-19T15:39:04Z",
+      "days_since_launch": 69,
+      "html_url": "https://github.com/ethereum-optimism/optimism/releases/tag/op-node/v1.11.1"
+    },
+    {
+      "name": "testnet-v1.43.1",
+      "author": "MystenLabs",
+      "created_at": "2025-02-18T16:30:31Z",
+      "days_since_launch": 70,
+      "html_url": "https://github.com/MystenLabs/sui/releases/tag/testnet-v1.43.1"
+    },
+    {
+      "name": "testnet-v1.43.0",
+      "author": "MystenLabs",
+      "created_at": "2025-02-17T22:00:02Z",
+      "days_since_launch": 70,
+      "html_url": "https://github.com/MystenLabs/sui/releases/tag/testnet-v1.43.0"
+    },
+    {
+      "name": "devnet-v1.43.0",
+      "author": "MystenLabs",
+      "created_at": "2025-02-17T18:27:12Z",
+      "days_since_launch": 70,
+      "html_url": "https://github.com/MystenLabs/sui/releases/tag/devnet-v1.43.0"
+    },
+    {
+      "name": "Survivor Loadout (v1.15.2)",
+      "author": "ethereum",
+      "created_at": "2025-02-17T10:59:48Z",
+      "days_since_launch": 71,
+      "html_url": "https://github.com/ethereum/go-ethereum/releases/tag/v1.15.2"
+    },
+    {
+      "name": "v1.4.18",
+      "author": "bnb-chain",
+      "created_at": "2025-02-15T06:51:33Z",
+      "days_since_launch": 73,
+      "html_url": "https://github.com/bnb-chain/bsc/releases/tag/v1.4.18"
+    },
+    {
+      "name": "Algorand 4.0.2",
+      "author": "algorand",
+      "created_at": "2025-02-14T21:37:36Z",
+      "days_since_launch": 73,
+      "html_url": "https://github.com/algorand/go-algorand/releases/tag/v4.0.2-stable"
+    },
+    {
+      "name": "v1.5.6",
+      "author": "bnb-chain",
+      "created_at": "2025-02-14T08:28:01Z",
+      "days_since_launch": 74,
+      "html_url": "https://github.com/bnb-chain/bsc/releases/tag/v1.5.6"
+    },
+    {
+      "name": "2.5.0-rc.2",
+      "author": "near",
+      "created_at": "2025-02-13T22:53:06Z",
+      "days_since_launch": 74,
+      "html_url": "https://github.com/near/nearcore/releases/tag/2.5.0-rc.2"
+    },
+    {
+      "name": "Algorand BetaNet 4.0.2",
+      "author": "algorand",
+      "created_at": "2025-02-13T16:46:12Z",
+      "days_since_launch": 75,
+      "html_url": "https://github.com/algorand/go-algorand/releases/tag/v4.0.2-beta"
+    },
+    {
+      "name": "Engineering Kit (v1.15.1)",
+      "author": "ethereum",
+      "created_at": "2025-02-13T15:21:36Z",
+      "days_since_launch": 75,
+      "html_url": "https://github.com/ethereum/go-ethereum/releases/tag/v1.15.1"
+    },
+    {
+      "name": "op-challenger/v1.3.1 - L1 Pectra Readiness",
+      "author": "ethereum-optimism",
+      "created_at": "2025-02-13T00:22:35Z",
+      "days_since_launch": 75,
+      "html_url": "https://github.com/ethereum-optimism/optimism/releases/tag/op-challenger/v1.3.1"
+    },
+    {
+      "name": "mainnet-v1.42.2",
+      "author": "MystenLabs",
+      "created_at": "2025-02-11T23:06:14Z",
+      "days_since_launch": 76,
+      "html_url": "https://github.com/MystenLabs/sui/releases/tag/mainnet-v1.42.2"
+    },
+    {
+      "name": "testnet-v1.42.2",
+      "author": "MystenLabs",
+      "created_at": "2025-02-10T23:02:28Z",
+      "days_since_launch": 77,
+      "html_url": "https://github.com/MystenLabs/sui/releases/tag/testnet-v1.42.2"
+    },
+    {
+      "name": "2.5.0-rc.1",
+      "author": "near",
+      "created_at": "2025-02-10T21:23:23Z",
+      "days_since_launch": 77,
+      "html_url": "https://github.com/near/nearcore/releases/tag/2.5.0-rc.1"
+    },
+    {
+      "name": "v1.5.5",
+      "author": "bnb-chain",
+      "created_at": "2025-02-07T07:57:40Z",
+      "days_since_launch": 81,
+      "html_url": "https://github.com/bnb-chain/bsc/releases/tag/v1.5.5"
+    },
+    {
+      "name": "Aptos CLI Release v6.1.1",
+      "author": "aptos-labs",
+      "created_at": "2025-02-06T15:54:35Z",
+      "days_since_launch": 82,
+      "html_url": "https://github.com/aptos-labs/aptos-core/releases/tag/aptos-cli-v6.1.1"
+    },
+    {
+      "name": "Aptos CLI Release v6.1.0",
+      "author": "aptos-labs",
+      "created_at": "2025-02-06T15:54:35Z",
+      "days_since_launch": 82,
+      "html_url": "https://github.com/aptos-labs/aptos-core/releases/tag/aptos-cli-v6.1.0"
+    },
+    {
+      "name": "Operative Package (v1.15.0)",
+      "author": "ethereum",
+      "created_at": "2025-02-06T14:05:59Z",
+      "days_since_launch": 82,
+      "html_url": "https://github.com/ethereum/go-ethereum/releases/tag/v1.15.0"
+    },
+    {
+      "name": "testnet-v1.42.1",
+      "author": "MystenLabs",
+      "created_at": "2025-02-05T03:31:05Z",
+      "days_since_launch": 83,
+      "html_url": "https://github.com/MystenLabs/sui/releases/tag/testnet-v1.42.1"
+    },
+    {
+      "name": "[Testnet] Aptos Node Release v1.27.0",
+      "author": "aptos-labs",
+      "created_at": "2025-02-04T16:56:13Z",
+      "days_since_launch": 84,
+      "html_url": "https://github.com/aptos-labs/aptos-core/releases/tag/aptos-node-v1.27.0-rc"
+    },
+    {
+      "name": "testnet-v1.42.0",
+      "author": "MystenLabs",
+      "created_at": "2025-02-04T02:44:40Z",
+      "days_since_launch": 84,
+      "html_url": "https://github.com/MystenLabs/sui/releases/tag/testnet-v1.42.0"
+    },
+    {
+      "name": "[Mainnet] Aptos Framework Release v1.26.0",
+      "author": "aptos-labs",
+      "created_at": "2025-02-04T01:13:39Z",
+      "days_since_launch": 84,
+      "html_url": "https://github.com/aptos-labs/aptos-core/releases/tag/aptos-framework-v1.26.0"
+    },
+    {
+      "name": "devnet-v1.42.0",
+      "author": "MystenLabs",
+      "created_at": "2025-02-03T16:55:36Z",
+      "days_since_launch": 85,
+      "html_url": "https://github.com/MystenLabs/sui/releases/tag/devnet-v1.42.0"
+    },
+    {
+      "name": "Rust 1.84.1",
+      "author": "rust-lang",
+      "created_at": "2025-01-30T18:45:59Z",
+      "days_since_launch": 88,
+      "html_url": "https://github.com/rust-lang/rust/releases/tag/1.84.1"
+    },
+    {
+      "name": "v1.5.4-beta",
+      "author": "bnb-chain",
+      "created_at": "2025-01-30T13:33:48Z",
+      "days_since_launch": 89,
+      "html_url": "https://github.com/bnb-chain/bsc/releases/tag/v1.5.4-beta"
+    },
+    {
+      "name": "v1.4.17",
+      "author": "bnb-chain",
+      "created_at": "2025-01-30T13:22:23Z",
+      "days_since_launch": 89,
+      "html_url": "https://github.com/bnb-chain/bsc/releases/tag/v1.4.17"
+    },
+    {
+      "name": "Schwarzschild (v1.14.13)",
+      "author": "ethereum",
+      "created_at": "2025-01-30T13:12:40Z",
+      "days_since_launch": 89,
+      "html_url": "https://github.com/ethereum/go-ethereum/releases/tag/v1.14.13"
+    },
+    {
+      "name": "[Mainnet] Aptos Node Release v1.25.2",
+      "author": "aptos-labs",
+      "created_at": "2025-01-29T22:01:00Z",
+      "days_since_launch": 89,
+      "html_url": "https://github.com/aptos-labs/aptos-core/releases/tag/aptos-node-v1.25.2"
+    },
+    {
+      "name": "mainnet-v1.41.1",
+      "author": "MystenLabs",
+      "created_at": "2025-01-28T22:58:38Z",
+      "days_since_launch": 90,
+      "html_url": "https://github.com/MystenLabs/sui/releases/tag/mainnet-v1.41.1"
+    },
+    {
+      "name": "Etna.2 - Keystore Removal",
+      "author": "ava-labs",
+      "created_at": "2025-01-28T17:48:56Z",
+      "days_since_launch": 90,
+      "html_url": "https://github.com/ava-labs/avalanchego/releases/tag/v1.12.2"
+    },
+    {
+      "name": "testnet-v1.41.1",
+      "author": "MystenLabs",
+      "created_at": "2025-01-27T23:09:58Z",
+      "days_since_launch": 91,
+      "html_url": "https://github.com/MystenLabs/sui/releases/tag/testnet-v1.41.1"
+    },
+    {
+      "name": "[Mainnet] Aptos Node Release v1.26.0",
+      "author": "aptos-labs",
+      "created_at": "2025-01-26T17:53:46Z",
+      "days_since_launch": 92,
+      "html_url": "https://github.com/aptos-labs/aptos-core/releases/tag/aptos-node-v1.26.0"
+    },
+    {
+      "name": "Aptos CLI Release v6.0.2",
+      "author": "aptos-labs",
+      "created_at": "2025-01-24T23:14:15Z",
+      "days_since_launch": 94,
+      "html_url": "https://github.com/aptos-labs/aptos-core/releases/tag/aptos-cli-v6.0.2"
+    },
+    {
+      "name": "[Testnet] Aptos Node Release v1.26.0",
+      "author": "aptos-labs",
+      "created_at": "2025-01-24T19:36:46Z",
+      "days_since_launch": 94,
+      "html_url": "https://github.com/aptos-labs/aptos-core/releases/tag/aptos-node-v1.26.0-rc"
+    },
+    {
+      "name": "v0.4.1rc1",
+      "author": "vyperlang",
+      "created_at": "2025-01-20T19:05:04Z",
+      "days_since_launch": 98,
+      "html_url": "https://github.com/vyperlang/vyper/releases/tag/v0.4.1rc1"
+    },
+    {
+      "name": "Aptos CLI Release v6.0.1",
+      "author": "aptos-labs",
+      "created_at": "2025-01-16T20:34:10Z",
+      "days_since_launch": 102,
+      "html_url": "https://github.com/aptos-labs/aptos-core/releases/tag/aptos-cli-v6.0.1"
+    },
+    {
+      "name": "Aptos CLI Release v6.0.0",
+      "author": "aptos-labs",
+      "created_at": "2025-01-14T17:40:36Z",
+      "days_since_launch": 105,
+      "html_url": "https://github.com/aptos-labs/aptos-core/releases/tag/aptos-cli-v6.0.0"
+    },
+    {
+      "name": "Algorand 4.0.1",
+      "author": "algorand",
+      "created_at": "2025-01-10T20:08:06Z",
+      "days_since_launch": 108,
+      "html_url": "https://github.com/algorand/go-algorand/releases/tag/v4.0.1-stable"
+    },
+    {
+      "name": "Rust 1.84.0",
+      "author": "rust-lang",
+      "created_at": "2025-01-09T15:41:49Z",
+      "days_since_launch": 110,
+      "html_url": "https://github.com/rust-lang/rust/releases/tag/1.84.0"
+    },
+    {
+      "name": "v5.2.0",
+      "author": "OpenZeppelin",
+      "created_at": "2025-01-09T15:04:47Z",
+      "days_since_launch": 110,
+      "html_url": "https://github.com/OpenZeppelin/openzeppelin-contracts/releases/tag/v5.2.0"
+    },
+    {
+      "name": "Algorand BetaNet 4.0.1",
+      "author": "algorand",
+      "created_at": "2025-01-08T21:50:03Z",
+      "days_since_launch": 110,
+      "html_url": "https://github.com/algorand/go-algorand/releases/tag/v4.0.1-beta"
+    },
+    {
+      "name": "v1.5.3-beta",
+      "author": "bnb-chain",
+      "created_at": "2025-01-07T13:36:37Z",
+      "days_since_launch": 112,
+      "html_url": "https://github.com/bnb-chain/bsc/releases/tag/v1.5.3-beta"
+    },
+    {
+      "name": "v0.4.1b4",
+      "author": "vyperlang",
+      "created_at": "2025-01-03T15:44:14Z",
+      "days_since_launch": 116,
+      "html_url": "https://github.com/vyperlang/vyper/releases/tag/v0.4.1b4"
+    },
+    {
+      "name": "v1.5.2-alpha",
+      "author": "bnb-chain",
+      "created_at": "2024-12-25T05:02:40Z",
+      "days_since_launch": 125,
+      "html_url": "https://github.com/bnb-chain/bsc/releases/tag/v1.5.2-alpha"
+    },
+    {
+      "name": "Algorand BetaNet 4.0.0",
+      "author": "algorand",
+      "created_at": "2024-12-20T19:36:51Z",
+      "days_since_launch": 129,
+      "html_url": "https://github.com/algorand/go-algorand/releases/tag/v4.0.0-beta"
+    },
+    {
+      "name": "[Mainnet] Aptos Node Release v1.25.1",
+      "author": "aptos-labs",
+      "created_at": "2024-12-18T17:53:49Z",
+      "days_since_launch": 131,
+      "html_url": "https://github.com/aptos-labs/aptos-core/releases/tag/aptos-node-v1.25.1"
+    },
+    {
+      "name": "Etna.1 - P-Chain Mempool",
+      "author": "ava-labs",
+      "created_at": "2024-12-17T22:57:39Z",
+      "days_since_launch": 132,
+      "html_url": "https://github.com/ava-labs/avalanchego/releases/tag/v1.12.1"
+    },
+    {
+      "name": "v5.2.0-rc.1",
+      "author": "OpenZeppelin",
+      "created_at": "2024-12-16T20:36:50Z",
+      "days_since_launch": 133,
+      "html_url": "https://github.com/OpenZeppelin/openzeppelin-contracts/releases/tag/v5.2.0-rc.1"
+    },
+    {
+      "name": "v0.4.1b3",
+      "author": "vyperlang",
+      "created_at": "2024-12-14T18:29:57Z",
+      "days_since_launch": 135,
+      "html_url": "https://github.com/vyperlang/vyper/releases/tag/v0.4.1b3"
+    },
+    {
+      "name": "2.4.0",
+      "author": "near",
+      "created_at": "2024-12-10T21:33:24Z",
+      "days_since_launch": 139,
+      "html_url": "https://github.com/near/nearcore/releases/tag/2.4.0"
+    },
+    {
+      "name": "v1.5.1-alpha",
+      "author": "bnb-chain",
+      "created_at": "2024-12-09T13:23:57Z",
+      "days_since_launch": 141,
+      "html_url": "https://github.com/bnb-chain/bsc/releases/tag/v1.5.1-alpha"
+    },
+    {
+      "name": "v0.20.0",
+      "author": "OpenZeppelin",
+      "created_at": "2024-12-06T17:55:33Z",
+      "days_since_launch": 143,
+      "html_url": "https://github.com/OpenZeppelin/cairo-contracts/releases/tag/v0.20.0"
+    },
+    {
+      "name": "2.4.0-rc.2",
+      "author": "near",
+      "created_at": "2024-12-06T11:50:47Z",
+      "days_since_launch": 144,
+      "html_url": "https://github.com/near/nearcore/releases/tag/2.4.0-rc.2"
+    },
+    {
+      "name": "v1.5.0-alpha",
+      "author": "bnb-chain",
+      "created_at": "2024-12-06T08:52:48Z",
+      "days_since_launch": 144,
+      "html_url": "https://github.com/bnb-chain/bsc/releases/tag/v1.5.0-alpha"
+    },
+    {
+      "name": "v5.2.0-rc.0",
+      "author": "OpenZeppelin",
+      "created_at": "2024-12-04T17:51:09Z",
+      "days_since_launch": 145,
+      "html_url": "https://github.com/OpenZeppelin/openzeppelin-contracts/releases/tag/v5.2.0-rc.0"
+    },
+    {
+      "name": "Etna - Reinventing Subnets",
+      "author": "ava-labs",
+      "created_at": "2024-12-02T21:49:52Z",
+      "days_since_launch": 147,
+      "html_url": "https://github.com/ava-labs/avalanchego/releases/tag/v1.12.0"
+    },
+    {
+      "name": "Rust 1.83.0",
+      "author": "rust-lang",
+      "created_at": "2024-11-28T14:01:53Z",
+      "days_since_launch": 152,
+      "html_url": "https://github.com/rust-lang/rust/releases/tag/1.83.0"
+    },
+    {
+      "name": "Algorand 3.27.0",
+      "author": "algorand",
+      "created_at": "2024-11-25T19:09:53Z",
+      "days_since_launch": 154,
+      "html_url": "https://github.com/algorand/go-algorand/releases/tag/v3.27.0-stable"
+    },
+    {
+      "name": "v0.4.1b2",
+      "author": "vyperlang",
+      "created_at": "2024-11-25T17:08:45Z",
+      "days_since_launch": 155,
+      "html_url": "https://github.com/vyperlang/vyper/releases/tag/v0.4.1b2"
+    },
+    {
+      "name": "v1.4.16",
+      "author": "bnb-chain",
+      "created_at": "2024-11-25T09:00:14Z",
+      "days_since_launch": 155,
+      "html_url": "https://github.com/bnb-chain/bsc/releases/tag/v1.4.16"
+    },
+    {
+      "name": "v0.20.0-rc.0",
+      "author": "OpenZeppelin",
+      "created_at": "2024-11-20T15:33:47Z",
+      "days_since_launch": 160,
+      "html_url": "https://github.com/OpenZeppelin/cairo-contracts/releases/tag/v0.20.0-rc.0"
+    },
+    {
+      "name": "Algorand BetaNet 3.27.0",
+      "author": "algorand",
+      "created_at": "2024-11-19T21:13:54Z",
+      "days_since_launch": 160,
+      "html_url": "https://github.com/algorand/go-algorand/releases/tag/v3.27.0-beta"
+    },
+    {
+      "name": "2.4.0-rc.1",
+      "author": "near",
+      "created_at": "2024-11-19T14:29:08Z",
+      "days_since_launch": 161,
+      "html_url": "https://github.com/near/nearcore/releases/tag/2.4.0-rc.1"
+    },
+    {
+      "name": "Gei Hinnom (v1.14.12)",
+      "author": "ethereum",
+      "created_at": "2024-11-19T13:50:11Z",
+      "days_since_launch": 161,
+      "html_url": "https://github.com/ethereum/go-ethereum/releases/tag/v1.14.12"
+    },
+    {
+      "name": "Etna - Reinventing Subnets - Fuji Pre-Release",
+      "author": "ava-labs",
+      "created_at": "2024-11-18T22:57:48Z",
+      "days_since_launch": 161,
+      "html_url": "https://github.com/ava-labs/avalanchego/releases/tag/v1.12.0-fuji"
+    },
+    {
+      "name": "Durango.13 - Etna Compatible",
+      "author": "ava-labs",
+      "created_at": "2024-11-18T20:42:36Z",
+      "days_since_launch": 161,
+      "html_url": "https://github.com/ava-labs/avalanchego/releases/tag/v1.11.13"
+    },
+    {
+      "name": "2.3.1",
+      "author": "near",
+      "created_at": "2024-11-13T13:36:17Z",
+      "days_since_launch": 167,
+      "html_url": "https://github.com/near/nearcore/releases/tag/2.3.1"
+    },
+    {
+      "name": "v0.19.0",
+      "author": "OpenZeppelin",
+      "created_at": "2024-11-08T11:28:56Z",
+      "days_since_launch": 172,
+      "html_url": "https://github.com/OpenZeppelin/cairo-contracts/releases/tag/v0.19.0"
+    },
+    {
+      "name": "2.3.0",
+      "author": "near",
+      "created_at": "2024-10-30T15:06:50Z",
+      "days_since_launch": 181,
+      "html_url": "https://github.com/near/nearcore/releases/tag/2.3.0"
+    },
+    {
+      "name": "v0.18.0",
+      "author": "OpenZeppelin",
+      "created_at": "2024-10-17T20:59:23Z",
+      "days_since_launch": 193,
+      "html_url": "https://github.com/OpenZeppelin/cairo-contracts/releases/tag/v0.18.0"
+    },
+    {
+      "name": "2.3.0-rc.4",
+      "author": "near",
+      "created_at": "2024-10-17T20:20:48Z",
+      "days_since_launch": 193,
+      "html_url": "https://github.com/near/nearcore/releases/tag/2.3.0-rc.4"
+    },
+    {
+      "name": "Rust 1.82.0",
+      "author": "rust-lang",
+      "created_at": "2024-10-17T16:44:28Z",
+      "days_since_launch": 194,
+      "html_url": "https://github.com/rust-lang/rust/releases/tag/1.82.0"
+    },
+    {
+      "name": "v5.1.0",
+      "author": "OpenZeppelin",
+      "created_at": "2024-10-17T11:52:59Z",
+      "days_since_launch": 194,
+      "html_url": "https://github.com/OpenZeppelin/openzeppelin-contracts/releases/tag/v5.1.0"
+    },
+    {
+      "name": "v0.4.1b1",
+      "author": "vyperlang",
+      "created_at": "2024-10-15T17:03:50Z",
+      "days_since_launch": 196,
+      "html_url": "https://github.com/vyperlang/vyper/releases/tag/v0.4.1b1"
+    },
+    {
+      "name": "Durango.12 - Etna Prep",
+      "author": "ava-labs",
+      "created_at": "2024-10-14T19:19:16Z",
+      "days_since_launch": 196,
+      "html_url": "https://github.com/ava-labs/avalanchego/releases/tag/v1.11.12"
+    },
+    {
+      "name": "Release v1.18.26",
+      "author": "solana-labs",
+      "created_at": "2024-10-12T16:56:46Z",
+      "days_since_launch": 199,
+      "html_url": "https://github.com/solana-labs/solana/releases/tag/v1.18.26"
+    },
+    {
+      "name": "2.3.0-rc.3",
+      "author": "near",
+      "created_at": "2024-10-11T17:54:53Z",
+      "days_since_launch": 199,
+      "html_url": "https://github.com/near/nearcore/releases/tag/2.3.0-rc.3"
+    },
+    {
+      "name": "2.3.0-rc.2",
+      "author": "near",
+      "created_at": "2024-10-10T13:58:39Z",
+      "days_since_launch": 201,
+      "html_url": "https://github.com/near/nearcore/releases/tag/2.3.0-rc.2"
+    },
+    {
+      "name": "Version 0.8.28",
+      "author": "ethereum",
+      "created_at": "2024-10-09T06:01:59Z",
+      "days_since_launch": 202,
+      "html_url": "https://github.com/ethereum/solidity/releases/tag/v0.8.28"
+    },
+    {
+      "name": "Release v1.18.25",
+      "author": "solana-labs",
+      "created_at": "2024-10-04T02:06:47Z",
+      "days_since_launch": 207,
+      "html_url": "https://github.com/solana-labs/solana/releases/tag/v1.18.25"
+    },
+    {
+      "name": "v5.1.0-rc.0",
+      "author": "OpenZeppelin",
+      "created_at": "2024-10-03T14:37:01Z",
+      "days_since_launch": 208,
+      "html_url": "https://github.com/OpenZeppelin/openzeppelin-contracts/releases/tag/v5.1.0-rc.0"
+    },
+    {
+      "name": "2.3.0-rc.1",
+      "author": "near",
+      "created_at": "2024-10-02T01:40:32Z",
+      "days_since_launch": 209,
+      "html_url": "https://github.com/near/nearcore/releases/tag/2.3.0-rc.1"
+    },
+    {
+      "name": "Makhaira (v1.14.11)",
+      "author": "ethereum",
+      "created_at": "2024-10-01T13:17:59Z",
+      "days_since_launch": 210,
+      "html_url": "https://github.com/ethereum/go-ethereum/releases/tag/v1.14.11"
+    },
+    {
+      "name": "Algorand 3.26.0",
+      "author": "algorand",
+      "created_at": "2024-09-27T18:02:38Z",
+      "days_since_launch": 213,
+      "html_url": "https://github.com/algorand/go-algorand/releases/tag/v3.26.0-stable"
+    },
+    {
+      "name": "Kopis (v1.14.10)",
+      "author": "ethereum",
+      "created_at": "2024-09-27T11:12:54Z",
+      "days_since_launch": 214,
+      "html_url": "https://github.com/ethereum/go-ethereum/releases/tag/v1.14.10"
+    },
+    {
+      "name": "v0.17.0",
+      "author": "OpenZeppelin",
+      "created_at": "2024-09-23T19:11:46Z",
+      "days_since_launch": 217,
+      "html_url": "https://github.com/OpenZeppelin/cairo-contracts/releases/tag/v0.17.0"
+    },
+    {
+      "name": "v1.4.15",
+      "author": "bnb-chain",
+      "created_at": "2024-09-19T07:02:02Z",
+      "days_since_launch": 222,
+      "html_url": "https://github.com/bnb-chain/bsc/releases/tag/v1.4.15"
+    },
+    {
+      "name": "Algorand BetaNet 3.26.0",
+      "author": "algorand",
+      "created_at": "2024-09-18T18:32:39Z",
+      "days_since_launch": 222,
+      "html_url": "https://github.com/algorand/go-algorand/releases/tag/v3.26.0-beta"
+    },
+    {
+      "name": "Aegis (v1.14.9)",
+      "author": "ethereum",
+      "created_at": "2024-09-18T12:32:56Z",
+      "days_since_launch": 223,
+      "html_url": "https://github.com/ethereum/go-ethereum/releases/tag/v1.14.9"
+    },
+    {
+      "name": "2.2.1",
+      "author": "near",
+      "created_at": "2024-09-16T13:58:45Z",
+      "days_since_launch": 225,
+      "html_url": "https://github.com/near/nearcore/releases/tag/2.2.1"
+    },
+    {
+      "name": "2.2.1-rc.1",
+      "author": "near",
+      "created_at": "2024-09-16T13:55:53Z",
+      "days_since_launch": 225,
+      "html_url": "https://github.com/near/nearcore/releases/tag/2.2.1-rc.1"
+    },
+    {
+      "name": "2.2.0",
+      "author": "near",
+      "created_at": "2024-09-09T16:50:32Z",
+      "days_since_launch": 232,
+      "html_url": "https://github.com/near/nearcore/releases/tag/2.2.0"
+    },
+    {
+      "name": "Rust 1.81.0",
+      "author": "rust-lang",
+      "created_at": "2024-09-05T16:06:28Z",
+      "days_since_launch": 236,
+      "html_url": "https://github.com/rust-lang/rust/releases/tag/1.81.0"
+    },
+    {
+      "name": "2.2.0-rc.2",
+      "author": "near",
+      "created_at": "2024-09-04T14:36:12Z",
+      "days_since_launch": 237,
+      "html_url": "https://github.com/near/nearcore/releases/tag/2.2.0-rc.2"
+    },
+    {
+      "name": "Version 0.8.27",
+      "author": "ethereum",
+      "created_at": "2024-09-04T07:46:51Z",
+      "days_since_launch": 237,
+      "html_url": "https://github.com/ethereum/solidity/releases/tag/v0.8.27"
+    },
+    {
+      "name": "Durango.11 - SoV Networking",
+      "author": "ava-labs",
+      "created_at": "2024-09-03T23:34:12Z",
+      "days_since_launch": 237,
+      "html_url": "https://github.com/ava-labs/avalanchego/releases/tag/v1.11.11"
+    },
+    {
+      "name": "Release v1.18.23",
+      "author": "solana-labs",
+      "created_at": "2024-08-31T00:57:53Z",
+      "days_since_launch": 241,
+      "html_url": "https://github.com/solana-labs/solana/releases/tag/v1.18.23"
+    },
+    {
+      "name": "v0.16.0",
+      "author": "OpenZeppelin",
+      "created_at": "2024-08-30T17:36:18Z",
+      "days_since_launch": 242,
+      "html_url": "https://github.com/OpenZeppelin/cairo-contracts/releases/tag/v0.16.0"
+    },
+    {
+      "name": "v1.4.14",
+      "author": "bnb-chain",
+      "created_at": "2024-08-27T02:45:20Z",
+      "days_since_launch": 245,
+      "html_url": "https://github.com/bnb-chain/bsc/releases/tag/v1.4.14"
+    },
+    {
+      "name": "2.2.0-rc.1",
+      "author": "near",
+      "created_at": "2024-08-26T14:21:44Z",
+      "days_since_launch": 246,
+      "html_url": "https://github.com/near/nearcore/releases/tag/2.2.0-rc.1"
+    },
+    {
+      "name": "2.1.1",
+      "author": "near",
+      "created_at": "2024-08-20T09:14:25Z",
+      "days_since_launch": 252,
+      "html_url": "https://github.com/near/nearcore/releases/tag/2.1.1"
+    },
+    {
+      "name": "v0.15.1",
+      "author": "OpenZeppelin",
+      "created_at": "2024-08-14T04:57:00Z",
+      "days_since_launch": 258,
+      "html_url": "https://github.com/OpenZeppelin/cairo-contracts/releases/tag/v0.15.1"
+    },
+    {
+      "name": "2.1.0-rc.3",
+      "author": "near",
+      "created_at": "2024-08-12T15:45:37Z",
+      "days_since_launch": 260,
+      "html_url": "https://github.com/near/nearcore/releases/tag/2.1.0-rc.3"
+    },
+    {
+      "name": "Rayingri (v1.14.8)",
+      "author": "ethereum",
+      "created_at": "2024-08-12T12:16:16Z",
+      "days_since_launch": 260,
+      "html_url": "https://github.com/ethereum/go-ethereum/releases/tag/v1.14.8"
+    },
+    {
+      "name": "Release v1.18.22",
+      "author": "solana-labs",
+      "created_at": "2024-08-09T00:03:02Z",
+      "days_since_launch": 263,
+      "html_url": "https://github.com/solana-labs/solana/releases/tag/v1.18.22"
+    },
+    {
+      "name": "v0.15.0",
+      "author": "OpenZeppelin",
+      "created_at": "2024-08-08T18:13:56Z",
+      "days_since_launch": 263,
+      "html_url": "https://github.com/OpenZeppelin/cairo-contracts/releases/tag/v0.15.0"
+    },
+    {
+      "name": "Rust 1.80.1",
+      "author": "rust-lang",
+      "created_at": "2024-08-08T14:07:45Z",
+      "days_since_launch": 264,
+      "html_url": "https://github.com/rust-lang/rust/releases/tag/1.80.1"
+    },
+    {
+      "name": "v1.4.13",
+      "author": "bnb-chain",
+      "created_at": "2024-08-08T08:38:42Z",
+      "days_since_launch": 264,
+      "html_url": "https://github.com/bnb-chain/bsc/releases/tag/v1.4.13"
+    },
+    {
+      "name": "2.0.0",
+      "author": "near",
+      "created_at": "2024-08-05T16:09:02Z",
+      "days_since_launch": 267,
+      "html_url": "https://github.com/near/nearcore/releases/tag/2.0.0"
+    },
+    {
+      "name": "Release v1.18.21",
+      "author": "solana-labs",
+      "created_at": "2024-08-03T05:36:31Z",
+      "days_since_launch": 269,
+      "html_url": "https://github.com/solana-labs/solana/releases/tag/v1.18.21"
+    },
+    {
+      "name": "2.1.0-rc.2",
+      "author": "near",
+      "created_at": "2024-07-31T19:12:08Z",
+      "days_since_launch": 271,
+      "html_url": "https://github.com/near/nearcore/releases/tag/2.1.0-rc.2"
+    },
+    {
+      "name": "2.1.0-rc.1",
+      "author": "near",
+      "created_at": "2024-07-30T12:22:39Z",
+      "days_since_launch": 273,
+      "html_url": "https://github.com/near/nearcore/releases/tag/2.1.0-rc.1"
+    },
+    {
+      "name": "Durango.10 - Block Status Removal",
+      "author": "ava-labs",
+      "created_at": "2024-07-25T22:28:35Z",
+      "days_since_launch": 277,
+      "html_url": "https://github.com/ava-labs/avalanchego/releases/tag/v1.11.10"
+    },
+    {
+      "name": "Rust 1.80.0",
+      "author": "rust-lang",
+      "created_at": "2024-07-25T12:02:37Z",
+      "days_since_launch": 278,
+      "html_url": "https://github.com/rust-lang/rust/releases/tag/1.80.0"
+    },
+    {
+      "name": "Mainnet-beta - v1.18.20",
+      "author": "solana-labs",
+      "created_at": "2024-07-24T21:06:04Z",
+      "days_since_launch": 278,
+      "html_url": "https://github.com/solana-labs/solana/releases/tag/v1.18.20"
+    },
+    {
+      "name": "2.0.0-rc.5",
+      "author": "near",
+      "created_at": "2024-07-24T17:17:30Z",
+      "days_since_launch": 279,
+      "html_url": "https://github.com/near/nearcore/releases/tag/2.0.0-rc.5"
+    },
+    {
+      "name": "v1.4.12",
+      "author": "bnb-chain",
+      "created_at": "2024-07-24T04:07:13Z",
+      "days_since_launch": 279,
+      "html_url": "https://github.com/bnb-chain/bsc/releases/tag/v1.4.12"
+    },
+    {
+      "name": "Release v1.18.19",
+      "author": "solana-labs",
+      "created_at": "2024-07-22T00:49:25Z",
+      "days_since_launch": 281,
+      "html_url": "https://github.com/solana-labs/solana/releases/tag/v1.18.19"
+    },
+    {
+      "name": "2.0.0-rc.3",
+      "author": "near",
+      "created_at": "2024-07-18T16:35:56Z",
+      "days_since_launch": 285,
+      "html_url": "https://github.com/near/nearcore/releases/tag/2.0.0-rc.3"
+    },
+    {
+      "name": "Trident (v1.14.7)",
+      "author": "ethereum",
+      "created_at": "2024-07-11T12:34:03Z",
+      "days_since_launch": 292,
+      "html_url": "https://github.com/ethereum/go-ethereum/releases/tag/v1.14.7"
+    },
+    {
+      "name": "Mainnet-beta - v1.18.18",
+      "author": "solana-labs",
+      "created_at": "2024-07-10T21:38:33Z",
+      "days_since_launch": 292,
+      "html_url": "https://github.com/solana-labs/solana/releases/tag/v1.18.18"
+    },
+    {
+      "name": "2.0.0-rc.2",
+      "author": "near",
+      "created_at": "2024-07-10T21:08:12Z",
+      "days_since_launch": 292,
+      "html_url": "https://github.com/near/nearcore/releases/tag/2.0.0-rc.2"
+    },
+    {
+      "name": "v0.15.0-rc.0",
+      "author": "OpenZeppelin",
+      "created_at": "2024-07-10T10:05:28Z",
+      "days_since_launch": 293,
+      "html_url": "https://github.com/OpenZeppelin/cairo-contracts/releases/tag/v0.15.0-rc.0"
+    },
+    {
+      "name": "Durango.9 - Consensus Engine Improvements",
+      "author": "ava-labs",
+      "created_at": "2024-07-03T22:10:06Z",
+      "days_since_launch": 299,
+      "html_url": "https://github.com/ava-labs/avalanchego/releases/tag/v1.11.9"
+    },
+    {
+      "name": "Talaria (v1.14.6)",
+      "author": "ethereum",
+      "created_at": "2024-07-02T13:19:57Z",
+      "days_since_launch": 301,
+      "html_url": "https://github.com/ethereum/go-ethereum/releases/tag/v1.14.6"
+    },
+    {
+      "name": "v1.4.11",
+      "author": "bnb-chain",
+      "created_at": "2024-06-27T09:37:26Z",
+      "days_since_launch": 306,
+      "html_url": "https://github.com/bnb-chain/bsc/releases/tag/v1.4.11"
+    },
+    {
+      "name": "v1.4.10",
+      "author": "bnb-chain",
+      "created_at": "2024-06-21T08:13:48Z",
+      "days_since_launch": 312,
+      "html_url": "https://github.com/bnb-chain/bsc/releases/tag/v1.4.10"
+    },
+    {
+      "name": "v0.4.0 (\"Nagini\")",
+      "author": "vyperlang",
+      "created_at": "2024-06-20T16:27:25Z",
+      "days_since_launch": 313,
+      "html_url": "https://github.com/vyperlang/vyper/releases/tag/v0.4.0"
+    },
+    {
+      "name": "Testnet - v1.18.17",
+      "author": "solana-labs",
+      "created_at": "2024-06-17T22:14:32Z",
+      "days_since_launch": 315,
+      "html_url": "https://github.com/solana-labs/solana/releases/tag/v1.18.17"
+    },
+    {
+      "name": "v0.14.0",
+      "author": "OpenZeppelin",
+      "created_at": "2024-06-14T22:17:54Z",
+      "days_since_launch": 318,
+      "html_url": "https://github.com/OpenZeppelin/cairo-contracts/releases/tag/v0.14.0"
+    },
+    {
+      "name": "Algorand 3.25.0",
+      "author": "algorand",
+      "created_at": "2024-06-13T17:13:19Z",
+      "days_since_launch": 320,
+      "html_url": "https://github.com/algorand/go-algorand/releases/tag/v3.25.0-stable"
+    },
+    {
+      "name": "Rust 1.79.0",
+      "author": "rust-lang",
+      "created_at": "2024-06-13T14:04:38Z",
+      "days_since_launch": 320,
+      "html_url": "https://github.com/rust-lang/rust/releases/tag/1.79.0"
+    },
+    {
+      "name": "Durango.8 - Metrics Overhaul",
+      "author": "ava-labs",
+      "created_at": "2024-06-12T17:05:20Z",
+      "days_since_launch": 321,
+      "html_url": "https://github.com/ava-labs/avalanchego/releases/tag/v1.11.8"
+    },
+    {
+      "name": "v1.4.9",
+      "author": "bnb-chain",
+      "created_at": "2024-06-11T03:51:22Z",
+      "days_since_launch": 322,
+      "html_url": "https://github.com/bnb-chain/bsc/releases/tag/v1.4.9"
+    },
+    {
+      "name": "Algorand BetaNet 3.25.0",
+      "author": "algorand",
+      "created_at": "2024-06-10T13:28:22Z",
+      "days_since_launch": 323,
+      "html_url": "https://github.com/algorand/go-algorand/releases/tag/v3.25.0-beta"
+    },
+    {
+      "name": "Testnet - v1.18.16",
+      "author": "solana-labs",
+      "created_at": "2024-06-08T03:11:00Z",
+      "days_since_launch": 325,
+      "html_url": "https://github.com/solana-labs/solana/releases/tag/v1.18.16"
+    },
+    {
+      "name": "Bothros (v1.14.5)",
+      "author": "ethereum",
+      "created_at": "2024-06-06T13:17:53Z",
+      "days_since_launch": 327,
+      "html_url": "https://github.com/ethereum/go-ethereum/releases/tag/v1.14.5"
+    },
+    {
+      "name": "Durango.7 - Metrics Overhaul Preparation",
+      "author": "ava-labs",
+      "created_at": "2024-06-05T21:57:41Z",
+      "days_since_launch": 327,
+      "html_url": "https://github.com/ava-labs/avalanchego/releases/tag/v1.11.7"
+    },
+    {
+      "name": "Triodia (v1.14.4)",
+      "author": "ethereum",
+      "created_at": "2024-06-05T08:06:37Z",
+      "days_since_launch": 328,
+      "html_url": "https://github.com/ethereum/go-ethereum/releases/tag/v1.14.4"
+    },
+    {
+      "name": "Mainnet v1.18.15",
+      "author": "solana-labs",
+      "created_at": "2024-05-31T03:49:18Z",
+      "days_since_launch": 333,
+      "html_url": "https://github.com/solana-labs/solana/releases/tag/v1.18.15"
+    },
+    {
+      "name": "v0.4.0rc6",
+      "author": "vyperlang",
+      "created_at": "2024-05-30T20:17:21Z",
+      "days_since_launch": 333,
+      "html_url": "https://github.com/vyperlang/vyper/releases/tag/v0.4.0rc6"
+    },
+    {
+      "name": "Durango.6 - Bootstrapping Execution Improvements",
+      "author": "ava-labs",
+      "created_at": "2024-05-23T15:58:55Z",
+      "days_since_launch": 341,
+      "html_url": "https://github.com/ava-labs/avalanchego/releases/tag/v1.11.6"
+    },
+    {
+      "name": "v1.4.8",
+      "author": "bnb-chain",
+      "created_at": "2024-05-21T10:30:28Z",
+      "days_since_launch": 343,
+      "html_url": "https://github.com/bnb-chain/bsc/releases/tag/v1.4.8"
+    },
+    {
+      "name": "Version 0.8.26",
+      "author": "ethereum",
+      "created_at": "2024-05-21T08:39:27Z",
+      "days_since_launch": 343,
+      "html_url": "https://github.com/ethereum/solidity/releases/tag/v0.8.26"
+    },
+    {
+      "name": "v0.13.0",
+      "author": "OpenZeppelin",
+      "created_at": "2024-05-20T16:37:30Z",
+      "days_since_launch": 344,
+      "html_url": "https://github.com/OpenZeppelin/cairo-contracts/releases/tag/v0.13.0"
+    },
+    {
+      "name": "Mainnet v1.17.34",
+      "author": "solana-labs",
+      "created_at": "2024-05-18T05:32:26Z",
+      "days_since_launch": 346,
+      "html_url": "https://github.com/solana-labs/solana/releases/tag/v1.17.34"
+    },
+    {
+      "name": "Testnet v1.18.14",
+      "author": "solana-labs",
+      "created_at": "2024-05-18T05:28:16Z",
+      "days_since_launch": 346,
+      "html_url": "https://github.com/solana-labs/solana/releases/tag/v1.18.14"
+    },
+    {
+      "name": "v1.4.7",
+      "author": "bnb-chain",
+      "created_at": "2024-05-17T08:18:29Z",
+      "days_since_launch": 347,
+      "html_url": "https://github.com/bnb-chain/bsc/releases/tag/v1.4.7"
+    },
+    {
+      "name": "v0.4.0rc5",
+      "author": "vyperlang",
+      "created_at": "2024-05-16T14:23:27Z",
+      "days_since_launch": 348,
+      "html_url": "https://github.com/vyperlang/vyper/releases/tag/v0.4.0rc5"
+    },
+    {
+      "name": "Algorand 3.24.0",
+      "author": "algorand",
+      "created_at": "2024-05-15T17:27:31Z",
+      "days_since_launch": 349,
+      "html_url": "https://github.com/algorand/go-algorand/releases/tag/v3.24.0-stable"
+    },
+    {
+      "name": "v0.4.0rc4",
+      "author": "vyperlang",
+      "created_at": "2024-05-15T17:16:33Z",
+      "days_since_launch": 349,
+      "html_url": "https://github.com/vyperlang/vyper/releases/tag/v0.4.0rc4"
+    },
+    {
+      "name": "Testnet v1.18.13",
+      "author": "solana-labs",
+      "created_at": "2024-05-14T06:27:09Z",
+      "days_since_launch": 350,
+      "html_url": "https://github.com/solana-labs/solana/releases/tag/v1.18.13"
+    },
+    {
+      "name": "Algorand BetaNet 3.24.0",
+      "author": "algorand",
+      "created_at": "2024-05-10T16:27:21Z",
+      "days_since_launch": 354,
+      "html_url": "https://github.com/algorand/go-algorand/releases/tag/v3.24.0-beta"
+    },
+    {
+      "name": "Fuel Depot (v1.14.3)",
+      "author": "ethereum",
+      "created_at": "2024-05-09T10:34:54Z",
+      "days_since_launch": 355,
+      "html_url": "https://github.com/ethereum/go-ethereum/releases/tag/v1.14.3"
+    },
+    {
+      "name": "v0.4.0rc3",
+      "author": "vyperlang",
+      "created_at": "2024-05-08T16:09:00Z",
+      "days_since_launch": 356,
+      "html_url": "https://github.com/vyperlang/vyper/releases/tag/v0.4.0rc3"
+    },
+    {
+      "name": "Ker (v1.14.2)",
+      "author": "ethereum",
+      "created_at": "2024-05-08T14:26:01Z",
+      "days_since_launch": 356,
+      "html_url": "https://github.com/ethereum/go-ethereum/releases/tag/v1.14.2"
+    },
+    {
+      "name": "Mainnet v1.17.33",
+      "author": "solana-labs",
+      "created_at": "2024-05-07T17:21:47Z",
+      "days_since_launch": 357,
+      "html_url": "https://github.com/solana-labs/solana/releases/tag/v1.17.33"
+    },
+    {
+      "name": "Rust 1.78.0",
+      "author": "rust-lang",
+      "created_at": "2024-05-02T12:39:08Z",
+      "days_since_launch": 362,
+      "html_url": "https://github.com/rust-lang/rust/releases/tag/1.78.0"
+    },
+    {
+      "name": "Durango.5 - Bootstrapping Optimizations",
+      "author": "ava-labs",
+      "created_at": "2024-04-30T17:02:39Z",
+      "days_since_launch": 364,
+      "html_url": "https://github.com/ava-labs/avalanchego/releases/tag/v1.11.5"
+    },
+    {
+      "name": "v1.4.6",
+      "author": "bnb-chain",
+      "created_at": "2024-04-29T06:07:29Z",
+      "days_since_launch": 365,
+      "html_url": "https://github.com/bnb-chain/bsc/releases/tag/v1.4.6"
+    },
+    {
+      "name": "Release v1.17.32",
+      "author": "solana-labs",
+      "created_at": "2024-04-27T06:07:18Z",
+      "days_since_launch": 367,
+      "html_url": "https://github.com/solana-labs/solana/releases/tag/v1.17.32"
+    },
+    {
+      "name": "Testnet v1.18.12",
+      "author": "solana-labs",
+      "created_at": "2024-04-26T07:18:19Z",
+      "days_since_launch": 368,
+      "html_url": "https://github.com/solana-labs/solana/releases/tag/v1.18.12"
+    },
+    {
+      "name": "Asteria (v1.14.0)",
+      "author": "ethereum",
+      "created_at": "2024-04-24T08:02:49Z",
+      "days_since_launch": 370,
+      "html_url": "https://github.com/ethereum/go-ethereum/releases/tag/v1.14.0"
+    },
+    {
+      "name": "v0.12.0",
+      "author": "OpenZeppelin",
+      "created_at": "2024-04-22T21:21:16Z",
+      "days_since_launch": 371,
+      "html_url": "https://github.com/OpenZeppelin/cairo-contracts/releases/tag/v0.12.0"
+    },
+    {
+      "name": "Ontamalca (v1.13.15)",
+      "author": "ethereum",
+      "created_at": "2024-04-17T05:22:00Z",
+      "days_since_launch": 377,
+      "html_url": "https://github.com/ethereum/go-ethereum/releases/tag/v1.13.15"
+    },
+    {
+      "name": "v0.4.0rc2",
+      "author": "vyperlang",
+      "created_at": "2024-04-14T02:50:43Z",
+      "days_since_launch": 380,
+      "html_url": "https://github.com/vyperlang/vyper/releases/tag/v0.4.0rc2"
+    },
+    {
+      "name": "Mainnet v1.17.31",
+      "author": "solana-labs",
+      "created_at": "2024-04-11T23:31:43Z",
+      "days_since_launch": 382,
+      "html_url": "https://github.com/solana-labs/solana/releases/tag/v1.17.31"
+    },
+    {
+      "name": "Testnet v1.18.11",
+      "author": "solana-labs",
+      "created_at": "2024-04-11T22:55:16Z",
+      "days_since_launch": 382,
+      "html_url": "https://github.com/solana-labs/solana/releases/tag/v1.18.11"
+    },
+    {
+      "name": "v0.4.0rc1",
+      "author": "vyperlang",
+      "created_at": "2024-04-10T17:12:42Z",
+      "days_since_launch": 384,
+      "html_url": "https://github.com/vyperlang/vyper/releases/tag/v0.4.0rc1"
+    },
+    {
+      "name": "v1.4.5",
+      "author": "bnb-chain",
+      "created_at": "2024-04-10T13:33:55Z",
+      "days_since_launch": 384,
+      "html_url": "https://github.com/bnb-chain/bsc/releases/tag/v1.4.5"
+    },
+    {
+      "name": "Rust 1.77.2",
+      "author": "rust-lang",
+      "created_at": "2024-04-09T21:39:36Z",
+      "days_since_launch": 384,
+      "html_url": "https://github.com/rust-lang/rust/releases/tag/1.77.2"
+    },
+    {
+      "name": "Durango.4 - Interval Tree Bootstrapping",
+      "author": "ava-labs",
+      "created_at": "2024-04-09T20:32:28Z",
+      "days_since_launch": 384,
+      "html_url": "https://github.com/ava-labs/avalanchego/releases/tag/v1.11.4"
+    },
+    {
+      "name": "Release v1.17.30",
+      "author": "solana-labs",
+      "created_at": "2024-04-08T15:51:18Z",
+      "days_since_launch": 386,
+      "html_url": "https://github.com/solana-labs/solana/releases/tag/v1.17.30"
+    },
+    {
+      "name": "Release v1.18.10",
+      "author": "solana-labs",
+      "created_at": "2024-04-08T15:39:10Z",
+      "days_since_launch": 386,
+      "html_url": "https://github.com/solana-labs/solana/releases/tag/v1.18.10"
+    },
+    {
+      "name": "v0.4.0b6",
+      "author": "vyperlang",
+      "created_at": "2024-04-06T17:17:58Z",
+      "days_since_launch": 388,
+      "html_url": "https://github.com/vyperlang/vyper/releases/tag/v0.4.0b6"
+    },
+    {
+      "name": "v1.4.4-beta",
+      "author": "bnb-chain",
+      "created_at": "2024-04-02T11:24:18Z",
+      "days_since_launch": 392,
+      "html_url": "https://github.com/bnb-chain/bsc/releases/tag/v1.4.4-beta"
+    },
+    {
+      "name": "v1.3.13",
+      "author": "bnb-chain",
+      "created_at": "2024-04-01T04:36:44Z",
+      "days_since_launch": 393,
+      "html_url": "https://github.com/bnb-chain/bsc/releases/tag/v1.3.13"
+    },
+    {
+      "name": "v0.11.0",
+      "author": "OpenZeppelin",
+      "created_at": "2024-03-29T15:58:00Z",
+      "days_since_launch": 396,
+      "html_url": "https://github.com/OpenZeppelin/cairo-contracts/releases/tag/v0.11.0"
+    },
+    {
+      "name": "Testnet - v1.18.9",
+      "author": "solana-labs",
+      "created_at": "2024-03-29T15:08:41Z",
+      "days_since_launch": 396,
+      "html_url": "https://github.com/solana-labs/solana/releases/tag/v1.18.9"
+    },
+    {
+      "name": "Release v1.17.29",
+      "author": "solana-labs",
+      "created_at": "2024-03-29T14:56:32Z",
+      "days_since_launch": 396,
+      "html_url": "https://github.com/solana-labs/solana/releases/tag/v1.17.29"
+    },
+    {
+      "name": "Rust 1.77.1",
+      "author": "rust-lang",
+      "created_at": "2024-03-28T12:22:58Z",
+      "days_since_launch": 397,
+      "html_url": "https://github.com/rust-lang/rust/releases/tag/1.77.1"
+    },
+    {
+      "name": "Mainnet - v1.17.28",
+      "author": "solana-labs",
+      "created_at": "2024-03-23T04:11:46Z",
+      "days_since_launch": 402,
+      "html_url": "https://github.com/solana-labs/solana/releases/tag/v1.17.28"
+    },
+    {
+      "name": "Testnet - v1.18.8",
+      "author": "solana-labs",
+      "created_at": "2024-03-23T03:54:05Z",
+      "days_since_launch": 402,
+      "html_url": "https://github.com/solana-labs/solana/releases/tag/v1.18.8"
+    },
+    {
+      "name": "Durango.3 - Legacy Gossip Removal",
+      "author": "ava-labs",
+      "created_at": "2024-03-21T22:15:24Z",
+      "days_since_launch": 403,
+      "html_url": "https://github.com/ava-labs/avalanchego/releases/tag/v1.11.3"
+    },
+    {
+      "name": "Rust 1.77.0",
+      "author": "rust-lang",
+      "created_at": "2024-03-21T12:57:04Z",
+      "days_since_launch": 404,
+      "html_url": "https://github.com/rust-lang/rust/releases/tag/1.77.0"
+    },
+    {
+      "name": "v1.4.3-alpha",
+      "author": "bnb-chain",
+      "created_at": "2024-03-21T12:47:44Z",
+      "days_since_launch": 404,
+      "html_url": "https://github.com/bnb-chain/bsc/releases/tag/v1.4.3-alpha"
+    },
+    {
+      "name": "Algorand 3.23.1",
+      "author": "algorand",
+      "created_at": "2024-03-18T16:42:09Z",
+      "days_since_launch": 407,
+      "html_url": "https://github.com/algorand/go-algorand/releases/tag/v3.23.1-stable"
+    },
+    {
+      "name": "Testnet - v1.18.7",
+      "author": "solana-labs",
+      "created_at": "2024-03-18T14:56:11Z",
+      "days_since_launch": 407,
+      "html_url": "https://github.com/solana-labs/solana/releases/tag/v1.18.7"
+    },
+    {
+      "name": "Mainnet - v1.17.27",
+      "author": "solana-labs",
+      "created_at": "2024-03-18T04:11:12Z",
+      "days_since_launch": 407,
+      "html_url": "https://github.com/solana-labs/solana/releases/tag/v1.17.27"
+    },
+    {
+      "name": "Algorand BetaNet 3.23.1",
+      "author": "algorand",
+      "created_at": "2024-03-16T13:24:28Z",
+      "days_since_launch": 409,
+      "html_url": "https://github.com/algorand/go-algorand/releases/tag/v3.23.1-beta"
+    },
+    {
+      "name": "Version 0.8.25",
+      "author": "ethereum",
+      "created_at": "2024-03-14T10:29:02Z",
+      "days_since_launch": 411,
+      "html_url": "https://github.com/ethereum/solidity/releases/tag/v0.8.25"
+    },
+    {
+      "name": "Testnet - v1.18.6",
+      "author": "solana-labs",
+      "created_at": "2024-03-13T18:56:46Z",
+      "days_since_launch": 411,
+      "html_url": "https://github.com/solana-labs/solana/releases/tag/v1.18.6"
+    },
+    {
+      "name": "Mainnet - v1.17.26",
+      "author": "solana-labs",
+      "created_at": "2024-03-13T15:42:15Z",
+      "days_since_launch": 412,
+      "html_url": "https://github.com/solana-labs/solana/releases/tag/v1.17.26"
+    },
+    {
+      "name": "v0.4.0b5",
+      "author": "vyperlang",
+      "created_at": "2024-03-12T15:24:00Z",
+      "days_since_launch": 413,
+      "html_url": "https://github.com/vyperlang/vyper/releases/tag/v0.4.0b5"
+    },
+    {
+      "name": "Testnet - v1.18.5",
+      "author": "solana-labs",
+      "created_at": "2024-03-09T20:06:20Z",
+      "days_since_launch": 415,
+      "html_url": "https://github.com/solana-labs/solana/releases/tag/v1.18.5"
+    },
+    {
+      "name": "Algorand BetaNet 3.23.0",
+      "author": "algorand",
+      "created_at": "2024-03-08T16:48:44Z",
+      "days_since_launch": 417,
+      "html_url": "https://github.com/algorand/go-algorand/releases/tag/v3.23.0-beta"
+    },
+    {
+      "name": "v0.4.0b4",
+      "author": "vyperlang",
+      "created_at": "2024-03-08T05:12:25Z",
+      "days_since_launch": 417,
+      "html_url": "https://github.com/vyperlang/vyper/releases/tag/v0.4.0b4"
+    },
+    {
+      "name": "v0.10.0",
+      "author": "OpenZeppelin",
+      "created_at": "2024-03-07T18:23:12Z",
+      "days_since_launch": 417,
+      "html_url": "https://github.com/OpenZeppelin/cairo-contracts/releases/tag/v0.10.0"
+    },
+    {
+      "name": "v0.4.0b3",
+      "author": "vyperlang",
+      "created_at": "2024-03-06T20:39:39Z",
+      "days_since_launch": 418,
+      "html_url": "https://github.com/vyperlang/vyper/releases/tag/v0.4.0b3"
+    },
+    {
+      "name": "Algorand BetaNet 3.22.1",
+      "author": "algorand",
+      "created_at": "2024-03-05T18:19:09Z",
+      "days_since_launch": 419,
+      "html_url": "https://github.com/algorand/go-algorand/releases/tag/v3.22.1-beta"
+    },
+    {
+      "name": "v0.4.0b2",
+      "author": "vyperlang",
+      "created_at": "2024-03-05T17:12:48Z",
+      "days_since_launch": 420,
+      "html_url": "https://github.com/vyperlang/vyper/releases/tag/v0.4.0b2"
+    },
+    {
+      "name": "Algorand 3.22.1",
+      "author": "algorand",
+      "created_at": "2024-03-05T02:01:30Z",
+      "days_since_launch": 420,
+      "html_url": "https://github.com/algorand/go-algorand/releases/tag/v3.22.1-stable"
+    },
+    {
+      "name": "Durango.2 - Push Gossip Redesign",
+      "author": "ava-labs",
+      "created_at": "2024-03-01T00:47:22Z",
+      "days_since_launch": 424,
+      "html_url": "https://github.com/ava-labs/avalanchego/releases/tag/v1.11.2"
+    },
+    {
+      "name": "v4.9.6",
+      "author": "OpenZeppelin",
+      "created_at": "2024-02-29T17:04:26Z",
+      "days_since_launch": 425,
+      "html_url": "https://github.com/OpenZeppelin/openzeppelin-contracts/releases/tag/v4.9.6"
+    },
+    {
+      "name": "v5.0.2",
+      "author": "OpenZeppelin",
+      "created_at": "2024-02-29T16:44:22Z",
+      "days_since_launch": 425,
+      "html_url": "https://github.com/OpenZeppelin/openzeppelin-contracts/releases/tag/v5.0.2"
+    },
+    {
+      "name": "v0.9.0",
+      "author": "OpenZeppelin",
+      "created_at": "2024-02-27T21:43:36Z",
+      "days_since_launch": 426,
+      "html_url": "https://github.com/OpenZeppelin/cairo-contracts/releases/tag/v0.9.0"
+    },
+    {
+      "name": "v0.8.1",
+      "author": "OpenZeppelin",
+      "created_at": "2024-02-27T21:43:31Z",
+      "days_since_launch": 426,
+      "html_url": "https://github.com/OpenZeppelin/cairo-contracts/releases/tag/v0.8.1"
+    },
+    {
+      "name": "v0.8.0",
+      "author": "OpenZeppelin",
+      "created_at": "2024-02-27T15:07:41Z",
+      "days_since_launch": 427,
+      "html_url": "https://github.com/OpenZeppelin/cairo-contracts/releases/tag/v0.8.0"
+    },
+    {
+      "name": "Altaaya (v1.13.14)",
+      "author": "ethereum",
+      "created_at": "2024-02-27T11:51:11Z",
+      "days_since_launch": 427,
+      "html_url": "https://github.com/ethereum/go-ethereum/releases/tag/v1.13.14"
+    },
+    {
+      "name": "v0.4.0b1 (\u201cNagini\u201d)",
+      "author": "vyperlang",
+      "created_at": "2024-02-26T19:39:39Z",
+      "days_since_launch": 427,
+      "html_url": "https://github.com/vyperlang/vyper/releases/tag/v0.4.0b1"
+    },
+    {
+      "name": "Durango.1 - Disable Push Re-Gossip",
+      "author": "ava-labs",
+      "created_at": "2024-02-23T15:41:15Z",
+      "days_since_launch": 431,
+      "html_url": "https://github.com/ava-labs/avalanchego/releases/tag/v1.11.1"
+    },
+    {
+      "name": "Durango - C-Chain Warp Messaging",
+      "author": "ava-labs",
+      "created_at": "2024-02-21T21:30:01Z",
+      "days_since_launch": 432,
+      "html_url": "https://github.com/ava-labs/avalanchego/releases/tag/v1.11.0"
+    },
+    {
+      "name": "Alsages (v1.13.13)",
+      "author": "ethereum",
+      "created_at": "2024-02-21T14:48:38Z",
+      "days_since_launch": 433,
+      "html_url": "https://github.com/ethereum/go-ethereum/releases/tag/v1.13.13"
+    },
+    {
+      "name": "Edolus (v1.13.12)",
+      "author": "ethereum",
+      "created_at": "2024-02-09T06:58:48Z",
+      "days_since_launch": 445,
+      "html_url": "https://github.com/ethereum/go-ethereum/releases/tag/v1.13.12"
+    },
+    {
+      "name": "Rust 1.76.0",
+      "author": "rust-lang",
+      "created_at": "2024-02-08T14:07:00Z",
+      "days_since_launch": 446,
+      "html_url": "https://github.com/rust-lang/rust/releases/tag/1.76.0"
+    },
+    {
+      "name": "Durango - C-Chain Warp Messaging - Fuji Pre-Release",
+      "author": "ava-labs",
+      "created_at": "2024-02-01T20:41:40Z",
+      "days_since_launch": 452,
+      "html_url": "https://github.com/ava-labs/avalanchego/releases/tag/v1.11.0-fuji"
+    },
+    {
+      "name": "Algorand 3.22.0",
+      "author": "algorand",
+      "created_at": "2024-02-01T16:18:26Z",
+      "days_since_launch": 453,
+      "html_url": "https://github.com/algorand/go-algorand/releases/tag/v3.22.0-stable"
+    },
+    {
+      "name": "Cortina.19 - Options Before Verification",
+      "author": "ava-labs",
+      "created_at": "2024-01-29T19:31:16Z",
+      "days_since_launch": 455,
+      "html_url": "https://github.com/ava-labs/avalanchego/releases/tag/v1.10.19"
+    },
+    {
+      "name": "Version 0.8.24",
+      "author": "ethereum",
+      "created_at": "2024-01-25T09:32:10Z",
+      "days_since_launch": 460,
+      "html_url": "https://github.com/ethereum/solidity/releases/tag/v0.8.24"
+    },
+    {
+      "name": "Algorand BetaNet 3.22.0",
+      "author": "algorand",
+      "created_at": "2024-01-24T16:04:54Z",
+      "days_since_launch": 461,
+      "html_url": "https://github.com/algorand/go-algorand/releases/tag/v3.22.0-beta"
+    },
+    {
+      "name": "Tremanre (v1.13.11)",
+      "author": "ethereum",
+      "created_at": "2024-01-24T10:52:24Z",
+      "days_since_launch": 461,
+      "html_url": "https://github.com/ethereum/go-ethereum/releases/tag/v1.13.11"
+    },
+    {
+      "name": "Cortina.18 - Optimize Peer Discovery",
+      "author": "ava-labs",
+      "created_at": "2024-01-18T19:32:32Z",
+      "days_since_launch": 466,
+      "html_url": "https://github.com/ava-labs/avalanchego/releases/tag/v1.10.18"
+    },
+    {
+      "name": "Sharjila B (v1.13.10)",
+      "author": "ethereum",
+      "created_at": "2024-01-11T17:21:29Z",
+      "days_since_launch": 474,
+      "html_url": "https://github.com/ethereum/go-ethereum/releases/tag/v1.13.10"
+    },
+    {
+      "name": "Algorand 3.21.0",
+      "author": "algorand",
+      "created_at": "2024-01-02T22:22:38Z",
+      "days_since_launch": 482,
+      "html_url": "https://github.com/algorand/go-algorand/releases/tag/v3.21.0-stable"
+    },
+    {
+      "name": "Rust 1.75.0",
+      "author": "rust-lang",
+      "created_at": "2023-12-28T16:21:50Z",
+      "days_since_launch": 488,
+      "html_url": "https://github.com/rust-lang/rust/releases/tag/1.75.0"
+    },
+    {
+      "name": "Algorand BetaNet 3.21.0",
+      "author": "algorand",
+      "created_at": "2023-12-19T18:38:03Z",
+      "days_since_launch": 496,
+      "html_url": "https://github.com/algorand/go-algorand/releases/tag/v3.21.0-beta"
+    },
+    {
+      "name": "v0.3.1",
+      "author": "OpenZeppelin",
+      "created_at": "2023-12-12T05:20:47Z",
+      "days_since_launch": 504,
+      "html_url": "https://github.com/OpenZeppelin/cairo-contracts/releases/tag/v0.3.1"
+    },
+    {
+      "name": "v0.3.2",
+      "author": "OpenZeppelin",
+      "created_at": "2023-12-12T05:19:08Z",
+      "days_since_launch": 504,
+      "html_url": "https://github.com/OpenZeppelin/cairo-contracts/releases/tag/v0.3.2"
+    },
+    {
+      "name": "v0.4.0b",
+      "author": "OpenZeppelin",
+      "created_at": "2023-12-12T05:19:06Z",
+      "days_since_launch": 504,
+      "html_url": "https://github.com/OpenZeppelin/cairo-contracts/releases/tag/v0.4.0b"
+    },
+    {
+      "name": "v0.4.0",
+      "author": "OpenZeppelin",
+      "created_at": "2023-12-12T05:19:03Z",
+      "days_since_launch": 504,
+      "html_url": "https://github.com/OpenZeppelin/cairo-contracts/releases/tag/v0.4.0"
+    },
+    {
+      "name": "v0.5.0",
+      "author": "OpenZeppelin",
+      "created_at": "2023-12-12T05:18:59Z",
+      "days_since_launch": 504,
+      "html_url": "https://github.com/OpenZeppelin/cairo-contracts/releases/tag/v0.5.0"
+    },
+    {
+      "name": "v0.5.1",
+      "author": "OpenZeppelin",
+      "created_at": "2023-12-12T05:18:57Z",
+      "days_since_launch": 504,
+      "html_url": "https://github.com/OpenZeppelin/cairo-contracts/releases/tag/v0.5.1"
+    },
+    {
+      "name": "v0.6.0",
+      "author": "OpenZeppelin",
+      "created_at": "2023-12-12T05:18:56Z",
+      "days_since_launch": 504,
+      "html_url": "https://github.com/OpenZeppelin/cairo-contracts/releases/tag/v0.6.0"
+    },
+    {
+      "name": "v0.6.1",
+      "author": "OpenZeppelin",
+      "created_at": "2023-12-12T05:18:54Z",
+      "days_since_launch": 504,
+      "html_url": "https://github.com/OpenZeppelin/cairo-contracts/releases/tag/v0.6.1"
+    },
+    {
+      "name": "v0.3.0",
+      "author": "OpenZeppelin",
+      "created_at": "2023-12-12T05:17:00Z",
+      "days_since_launch": 504,
+      "html_url": "https://github.com/OpenZeppelin/cairo-contracts/releases/tag/v0.3.0"
+    },
+    {
+      "name": "v4.9.5",
+      "author": "OpenZeppelin",
+      "created_at": "2023-12-08T18:27:27Z",
+      "days_since_launch": 507,
+      "html_url": "https://github.com/OpenZeppelin/openzeppelin-contracts/releases/tag/v4.9.5"
+    },
+    {
+      "name": "v5.0.1",
+      "author": "OpenZeppelin",
+      "created_at": "2023-12-07T21:54:32Z",
+      "days_since_launch": 508,
+      "html_url": "https://github.com/OpenZeppelin/openzeppelin-contracts/releases/tag/v5.0.1"
+    },
+    {
+      "name": "v4.9.4",
+      "author": "OpenZeppelin",
+      "created_at": "2023-12-07T21:52:26Z",
+      "days_since_launch": 508,
+      "html_url": "https://github.com/OpenZeppelin/openzeppelin-contracts/releases/tag/v4.9.4"
+    },
+    {
+      "name": "Rust 1.74.1",
+      "author": "rust-lang",
+      "created_at": "2023-12-07T14:23:55Z",
+      "days_since_launch": 509,
+      "html_url": "https://github.com/rust-lang/rust/releases/tag/1.74.1"
+    },
+    {
+      "name": "Algorand 3.20.1",
+      "author": "algorand",
+      "created_at": "2023-12-05T17:37:59Z",
+      "days_since_launch": 511,
+      "html_url": "https://github.com/algorand/go-algorand/releases/tag/v3.20.1-stable"
+    },
+    {
+      "name": "Cortina.17 - Optimized Block Gossip",
+      "author": "ava-labs",
+      "created_at": "2023-12-02T00:39:15Z",
+      "days_since_launch": 514,
+      "html_url": "https://github.com/ava-labs/avalanchego/releases/tag/v1.10.17"
+    },
+    {
+      "name": "Algorand BetaNet 3.20.1",
+      "author": "algorand",
+      "created_at": "2023-11-29T17:53:41Z",
+      "days_since_launch": 516,
+      "html_url": "https://github.com/algorand/go-algorand/releases/tag/v3.20.1-beta"
+    },
+    {
+      "name": "Cortina.16 - Concurrent Trie Prefetching",
+      "author": "ava-labs",
+      "created_at": "2023-11-23T00:47:37Z",
+      "days_since_launch": 523,
+      "html_url": "https://github.com/ava-labs/avalanchego/releases/tag/v1.10.16"
+    },
+    {
+      "name": "Algorand BetaNet 3.20.0",
+      "author": "algorand",
+      "created_at": "2023-11-17T14:09:33Z",
+      "days_since_launch": 529,
+      "html_url": "https://github.com/algorand/go-algorand/releases/tag/v3.20.0-beta"
+    },
+    {
+      "name": "Rust 1.74.0",
+      "author": "rust-lang",
+      "created_at": "2023-11-16T13:49:31Z",
+      "days_since_launch": 530,
+      "html_url": "https://github.com/rust-lang/rust/releases/tag/1.74.0"
+    },
+    {
+      "name": "Version 0.8.23",
+      "author": "ethereum",
+      "created_at": "2023-11-08T11:32:56Z",
+      "days_since_launch": 538,
+      "html_url": "https://github.com/ethereum/solidity/releases/tag/v0.8.23"
+    },
+    {
+      "name": "v0.8.0-beta.1",
+      "author": "OpenZeppelin",
+      "created_at": "2023-11-08T06:18:12Z",
+      "days_since_launch": 538,
+      "html_url": "https://github.com/OpenZeppelin/cairo-contracts/releases/tag/v0.8.0-beta.1"
+    },
+    {
+      "name": "Cortina.15 - PebbleDB",
+      "author": "ava-labs",
+      "created_at": "2023-11-02T02:11:47Z",
+      "days_since_launch": 544,
+      "html_url": "https://github.com/ava-labs/avalanchego/releases/tag/v1.10.15"
+    },
+    {
+      "name": "Cortina.14 - Validator Set Management Redesign",
+      "author": "ava-labs",
+      "created_at": "2023-10-26T06:08:05Z",
+      "days_since_launch": 551,
+      "html_url": "https://github.com/ava-labs/avalanchego/releases/tag/v1.10.14"
+    },
+    {
+      "name": "Version 0.8.22",
+      "author": "ethereum",
+      "created_at": "2023-10-25T10:32:32Z",
+      "days_since_launch": 552,
+      "html_url": "https://github.com/ethereum/solidity/releases/tag/v0.8.22"
+    },
+    {
+      "name": "Algorand 3.19.0",
+      "author": "algorand",
+      "created_at": "2023-10-20T20:16:57Z",
+      "days_since_launch": 556,
+      "html_url": "https://github.com/algorand/go-algorand/releases/tag/v3.19.0-stable"
+    },
+    {
+      "name": "Cortina.13 - API Locking Refactor",
+      "author": "ava-labs",
+      "created_at": "2023-10-17T21:30:02Z",
+      "days_since_launch": 559,
+      "html_url": "https://github.com/ava-labs/avalanchego/releases/tag/v1.10.13"
+    },
+    {
+      "name": "Algorand BetaNet 3.19.0",
+      "author": "algorand",
+      "created_at": "2023-10-14T00:18:52Z",
+      "days_since_launch": 563,
+      "html_url": "https://github.com/algorand/go-algorand/releases/tag/v3.19.0-beta"
+    },
+    {
+      "name": "Cortina.12 - Dual-Alpha Support",
+      "author": "ava-labs",
+      "created_at": "2023-10-11T02:18:27Z",
+      "days_since_launch": 566,
+      "html_url": "https://github.com/ava-labs/avalanchego/releases/tag/v1.10.12"
+    },
+    {
+      "name": "v5.0.0",
+      "author": "OpenZeppelin",
+      "created_at": "2023-10-05T18:02:19Z",
+      "days_since_launch": 571,
+      "html_url": "https://github.com/OpenZeppelin/openzeppelin-contracts/releases/tag/v5.0.0"
+    },
+    {
+      "name": "Rust 1.73.0",
+      "author": "rust-lang",
+      "created_at": "2023-10-05T16:10:31Z",
+      "days_since_launch": 572,
+      "html_url": "https://github.com/rust-lang/rust/releases/tag/1.73.0"
+    },
+    {
+      "name": "Algorand BetaNet 3.18.1",
+      "author": "algorand",
+      "created_at": "2023-10-04T16:01:33Z",
+      "days_since_launch": 573,
+      "html_url": "https://github.com/algorand/go-algorand/releases/tag/v3.18.1-beta"
+    },
+    {
+      "name": "v0.3.10 (\"Black Adder\")",
+      "author": "vyperlang",
+      "created_at": "2023-10-04T13:16:44Z",
+      "days_since_launch": 573,
+      "html_url": "https://github.com/vyperlang/vyper/releases/tag/v0.3.10"
+    },
+    {
+      "name": "v5.0.0-rc.2",
+      "author": "OpenZeppelin",
+      "created_at": "2023-10-02T20:31:43Z",
+      "days_since_launch": 574,
+      "html_url": "https://github.com/OpenZeppelin/openzeppelin-contracts/releases/tag/v5.0.0-rc.2"
+    },
+    {
+      "name": "v5.0.0-rc.1",
+      "author": "OpenZeppelin",
+      "created_at": "2023-09-28T23:44:33Z",
+      "days_since_launch": 578,
+      "html_url": "https://github.com/OpenZeppelin/openzeppelin-contracts/releases/tag/v5.0.0-rc.1"
+    },
+    {
+      "name": "v0.3.10rc5",
+      "author": "vyperlang",
+      "created_at": "2023-09-28T21:55:05Z",
+      "days_since_launch": 578,
+      "html_url": "https://github.com/vyperlang/vyper/releases/tag/v0.3.10rc5"
+    },
+    {
+      "name": "v0.3.10rc4",
+      "author": "vyperlang",
+      "created_at": "2023-09-27T13:06:03Z",
+      "days_since_launch": 580,
+      "html_url": "https://github.com/vyperlang/vyper/releases/tag/v0.3.10rc4"
+    },
+    {
+      "name": "Cortina.11 - ArchiveDB",
+      "author": "ava-labs",
+      "created_at": "2023-09-22T21:42:39Z",
+      "days_since_launch": 584,
+      "html_url": "https://github.com/ava-labs/avalanchego/releases/tag/v1.10.11"
+    },
+    {
+      "name": "v5.0.0-rc.0",
+      "author": "OpenZeppelin",
+      "created_at": "2023-09-19T15:44:42Z",
+      "days_since_launch": 588,
+      "html_url": "https://github.com/OpenZeppelin/openzeppelin-contracts/releases/tag/v5.0.0-rc.0"
+    },
+    {
+      "name": "Rust 1.72.1",
+      "author": "rust-lang",
+      "created_at": "2023-09-19T14:06:19Z",
+      "days_since_launch": 588,
+      "html_url": "https://github.com/rust-lang/rust/releases/tag/1.72.1"
+    },
+    {
+      "name": "v0.3.10rc3",
+      "author": "vyperlang",
+      "created_at": "2023-09-07T21:45:35Z",
+      "days_since_launch": 599,
+      "html_url": "https://github.com/vyperlang/vyper/releases/tag/v0.3.10rc3"
+    },
+    {
+      "name": "v0.3.10rc2",
+      "author": "vyperlang",
+      "created_at": "2023-09-06T21:51:33Z",
+      "days_since_launch": 600,
+      "html_url": "https://github.com/vyperlang/vyper/releases/tag/v0.3.10rc2"
+    },
+    {
+      "name": "v0.3.10rc1",
+      "author": "vyperlang",
+      "created_at": "2023-09-06T20:35:03Z",
+      "days_since_launch": 600,
+      "html_url": "https://github.com/vyperlang/vyper/releases/tag/v0.3.10rc1"
+    },
+    {
+      "name": "Rust 1.72.0",
+      "author": "rust-lang",
+      "created_at": "2023-08-24T13:46:47Z",
+      "days_since_launch": 614,
+      "html_url": "https://github.com/rust-lang/rust/releases/tag/1.72.0"
+    },
+    {
+      "name": "Rust 1.71.1",
+      "author": "rust-lang",
+      "created_at": "2023-08-03T18:11:43Z",
+      "days_since_launch": 634,
+      "html_url": "https://github.com/rust-lang/rust/releases/tag/1.71.1"
+    },
+    {
+      "name": "v4.9.3",
+      "author": "OpenZeppelin",
+      "created_at": "2023-07-28T21:17:07Z",
+      "days_since_launch": 640,
+      "html_url": "https://github.com/OpenZeppelin/openzeppelin-contracts/releases/tag/v4.9.3"
+    },
+    {
+      "name": "Version 0.8.21",
+      "author": "ethereum",
+      "created_at": "2023-07-19T08:56:46Z",
+      "days_since_launch": 650,
+      "html_url": "https://github.com/ethereum/solidity/releases/tag/v0.8.21"
+    },
+    {
+      "name": "Rust 1.71.0",
+      "author": "rust-lang",
+      "created_at": "2023-07-13T14:04:08Z",
+      "days_since_launch": 656,
+      "html_url": "https://github.com/rust-lang/rust/releases/tag/1.71.0"
+    },
+    {
+      "name": "v4.9.2",
+      "author": "OpenZeppelin",
+      "created_at": "2023-06-16T20:51:45Z",
+      "days_since_launch": 682,
+      "html_url": "https://github.com/OpenZeppelin/openzeppelin-contracts/releases/tag/v4.9.2"
+    },
+    {
+      "name": "v4.9.1",
+      "author": "OpenZeppelin",
+      "created_at": "2023-06-07T01:43:57Z",
+      "days_since_launch": 692,
+      "html_url": "https://github.com/OpenZeppelin/openzeppelin-contracts/releases/tag/v4.9.1"
+    },
+    {
+      "name": "v4.9.0",
+      "author": "OpenZeppelin",
+      "created_at": "2023-06-07T01:10:35Z",
+      "days_since_launch": 692,
+      "html_url": "https://github.com/OpenZeppelin/openzeppelin-contracts/releases/tag/v4.9.0"
+    },
+    {
+      "name": "v4.9.0-rc.1",
+      "author": "OpenZeppelin",
+      "created_at": "2023-06-07T01:09:52Z",
+      "days_since_launch": 692,
+      "html_url": "https://github.com/OpenZeppelin/openzeppelin-contracts/releases/tag/v4.9.0-rc.1"
+    },
+    {
+      "name": "Rust 1.70.0",
+      "author": "rust-lang",
+      "created_at": "2023-06-01T18:52:46Z",
+      "days_since_launch": 697,
+      "html_url": "https://github.com/rust-lang/rust/releases/tag/1.70.0"
+    },
+    {
+      "name": "v0.3.9 (\"Common Adder\")",
+      "author": "vyperlang",
+      "created_at": "2023-05-29T14:50:34Z",
+      "days_since_launch": 701,
+      "html_url": "https://github.com/vyperlang/vyper/releases/tag/v0.3.9"
+    },
+    {
+      "name": "v0.3.8",
+      "author": "vyperlang",
+      "created_at": "2023-05-23T14:48:21Z",
+      "days_since_launch": 707,
+      "html_url": "https://github.com/vyperlang/vyper/releases/tag/v0.3.8"
+    },
+    {
+      "name": "Version 0.8.20",
+      "author": "ethereum",
+      "created_at": "2023-05-10T10:21:29Z",
+      "days_since_launch": 720,
+      "html_url": "https://github.com/ethereum/solidity/releases/tag/v0.8.20"
+    },
+    {
+      "name": "v4.9.0-rc.0",
+      "author": "OpenZeppelin",
+      "created_at": "2023-05-09T20:38:42Z",
+      "days_since_launch": 720,
+      "html_url": "https://github.com/OpenZeppelin/openzeppelin-contracts/releases/tag/v4.9.0-rc.0"
+    },
+    {
+      "name": "Rust 1.69.0",
+      "author": "rust-lang",
+      "created_at": "2023-04-20T14:39:39Z",
+      "days_since_launch": 740,
+      "html_url": "https://github.com/rust-lang/rust/releases/tag/1.69.0"
+    },
+    {
+      "name": "v4.8.3",
+      "author": "OpenZeppelin",
+      "created_at": "2023-04-13T20:18:25Z",
+      "days_since_launch": 746,
+      "html_url": "https://github.com/OpenZeppelin/openzeppelin-contracts/releases/tag/v4.8.3"
+    },
+    {
+      "name": "Rust 1.68.2",
+      "author": "rust-lang",
+      "created_at": "2023-03-28T12:56:02Z",
+      "days_since_launch": 763,
+      "html_url": "https://github.com/rust-lang/rust/releases/tag/1.68.2"
+    },
+    {
+      "name": "Rust 1.68.1",
+      "author": "rust-lang",
+      "created_at": "2023-03-23T14:21:23Z",
+      "days_since_launch": 768,
+      "html_url": "https://github.com/rust-lang/rust/releases/tag/1.68.1"
+    },
+    {
+      "name": "Rust 1.68.0",
+      "author": "rust-lang",
+      "created_at": "2023-03-09T14:45:20Z",
+      "days_since_launch": 782,
+      "html_url": "https://github.com/rust-lang/rust/releases/tag/1.68.0"
+    },
+    {
+      "name": "v4.8.2",
+      "author": "OpenZeppelin",
+      "created_at": "2023-03-02T23:03:13Z",
+      "days_since_launch": 788,
+      "html_url": "https://github.com/OpenZeppelin/openzeppelin-contracts/releases/tag/v4.8.2"
+    },
+    {
+      "name": "Version 0.8.19",
+      "author": "ethereum",
+      "created_at": "2023-02-22T13:25:21Z",
+      "days_since_launch": 797,
+      "html_url": "https://github.com/ethereum/solidity/releases/tag/v0.8.19"
+    },
+    {
+      "name": "Rust 1.67.1",
+      "author": "rust-lang",
+      "created_at": "2023-02-09T15:32:27Z",
+      "days_since_launch": 810,
+      "html_url": "https://github.com/rust-lang/rust/releases/tag/1.67.1"
+    },
+    {
+      "name": "Version 0.8.18",
+      "author": "ethereum",
+      "created_at": "2023-02-01T14:36:41Z",
+      "days_since_launch": 818,
+      "html_url": "https://github.com/ethereum/solidity/releases/tag/v0.8.18"
+    },
+    {
+      "name": "v4.8.1",
+      "author": "OpenZeppelin",
+      "created_at": "2023-01-13T18:34:07Z",
+      "days_since_launch": 836,
+      "html_url": "https://github.com/OpenZeppelin/openzeppelin-contracts/releases/tag/v4.8.1"
+    },
+    {
+      "name": "v4.8.0",
+      "author": "OpenZeppelin",
+      "created_at": "2022-11-08T14:29:29Z",
+      "days_since_launch": 903,
+      "html_url": "https://github.com/OpenZeppelin/openzeppelin-contracts/releases/tag/v4.8.0"
+    },
+    {
+      "name": "v0.3.7",
+      "author": "vyperlang",
+      "created_at": "2022-09-27T00:42:12Z",
+      "days_since_launch": 945,
+      "html_url": "https://github.com/vyperlang/vyper/releases/tag/v0.3.7"
+    },
+    {
+      "name": "v4.8.0-rc.1",
+      "author": "OpenZeppelin",
+      "created_at": "2022-09-23T16:59:30Z",
+      "days_since_launch": 949,
+      "html_url": "https://github.com/OpenZeppelin/openzeppelin-contracts/releases/tag/v4.8.0-rc.1"
+    },
+    {
+      "name": "Version 0.8.17",
+      "author": "ethereum",
+      "created_at": "2022-09-08T14:35:41Z",
+      "days_since_launch": 964,
+      "html_url": "https://github.com/ethereum/solidity/releases/tag/v0.8.17"
+    },
+    {
+      "name": "v4.8.0-rc.0",
+      "author": "OpenZeppelin",
+      "created_at": "2022-09-07T21:08:32Z",
+      "days_since_launch": 964,
+      "html_url": "https://github.com/OpenZeppelin/openzeppelin-contracts/releases/tag/v4.8.0-rc.0"
+    },
+    {
+      "name": "v4.7.3",
+      "author": "OpenZeppelin",
+      "created_at": "2022-08-10T18:48:57Z",
+      "days_since_launch": 992,
+      "html_url": "https://github.com/OpenZeppelin/openzeppelin-contracts/releases/tag/v4.7.3"
+    },
+    {
+      "name": "Version 0.8.16",
+      "author": "ethereum",
+      "created_at": "2022-08-08T12:59:34Z",
+      "days_since_launch": 995,
+      "html_url": "https://github.com/ethereum/solidity/releases/tag/v0.8.16"
+    },
+    {
+      "name": "v4.7.2",
+      "author": "OpenZeppelin",
+      "created_at": "2022-07-27T19:54:01Z",
+      "days_since_launch": 1006,
+      "html_url": "https://github.com/OpenZeppelin/openzeppelin-contracts/releases/tag/v4.7.2"
+    },
+    {
+      "name": "Version 0.8.15",
+      "author": "ethereum",
+      "created_at": "2022-06-15T13:56:19Z",
+      "days_since_launch": 1049,
+      "html_url": "https://github.com/ethereum/solidity/releases/tag/v0.8.15"
+    },
+    {
+      "name": "Version 0.8.14",
+      "author": "ethereum",
+      "created_at": "2022-05-17T11:55:13Z",
+      "days_since_launch": 1078,
+      "html_url": "https://github.com/ethereum/solidity/releases/tag/v0.8.14"
+    },
+    {
+      "name": "Version 0.8.13",
+      "author": "ethereum",
+      "created_at": "2022-03-16T12:54:28Z",
+      "days_since_launch": 1140,
+      "html_url": "https://github.com/ethereum/solidity/releases/tag/v0.8.13"
+    },
+    {
+      "name": "Version 0.8.12",
+      "author": "ethereum",
+      "created_at": "2022-02-16T09:49:57Z",
+      "days_since_launch": 1168,
+      "html_url": "https://github.com/ethereum/solidity/releases/tag/v0.8.12"
+    },
+    {
+      "name": "Version 0.8.11",
+      "author": "ethereum",
+      "created_at": "2021-12-20T14:00:55Z",
+      "days_since_launch": 1226,
+      "html_url": "https://github.com/ethereum/solidity/releases/tag/v0.8.11"
+    },
+    {
+      "name": "Version 0.8.10",
+      "author": "ethereum",
+      "created_at": "2021-11-09T08:56:08Z",
+      "days_since_launch": 1267,
+      "html_url": "https://github.com/ethereum/solidity/releases/tag/v0.8.10"
+    },
+    {
+      "name": "Version 0.8.9",
+      "author": "ethereum",
+      "created_at": "2021-09-29T13:19:38Z",
+      "days_since_launch": 1308,
+      "html_url": "https://github.com/ethereum/solidity/releases/tag/v0.8.9"
+    },
+    {
+      "name": "Version 0.8.8",
+      "author": "ethereum",
+      "created_at": "2021-09-27T15:29:47Z",
+      "days_since_launch": 1310,
+      "html_url": "https://github.com/ethereum/solidity/releases/tag/v0.8.8"
+    },
+    {
+      "name": "Version 0.8.7",
+      "author": "ethereum",
+      "created_at": "2021-08-11T12:14:21Z",
+      "days_since_launch": 1357,
+      "html_url": "https://github.com/ethereum/solidity/releases/tag/v0.8.7"
+    },
+    {
+      "name": "Version 0.8.6",
+      "author": "ethereum",
+      "created_at": "2021-06-22T11:30:55Z",
+      "days_since_launch": 1407,
+      "html_url": "https://github.com/ethereum/solidity/releases/tag/v0.8.6"
+    },
+    {
+      "name": "Version 0.8.5",
+      "author": "ethereum",
+      "created_at": "2021-06-10T11:04:38Z",
+      "days_since_launch": 1419,
+      "html_url": "https://github.com/ethereum/solidity/releases/tag/v0.8.5"
+    },
+    {
+      "name": "Version 0.8.4",
+      "author": "ethereum",
+      "created_at": "2021-04-21T13:09:37Z",
+      "days_since_launch": 1469,
+      "html_url": "https://github.com/ethereum/solidity/releases/tag/v0.8.4"
+    },
+    {
+      "name": "Version 0.8.3",
+      "author": "ethereum",
+      "created_at": "2021-03-23T11:56:28Z",
+      "days_since_launch": 1498,
+      "html_url": "https://github.com/ethereum/solidity/releases/tag/v0.8.3"
+    },
+    {
+      "name": "Version 0.8.2",
+      "author": "ethereum",
+      "created_at": "2021-03-02T15:54:34Z",
+      "days_since_launch": 1519,
+      "html_url": "https://github.com/ethereum/solidity/releases/tag/v0.8.2"
+    },
+    {
+      "name": "Version 0.8.1",
+      "author": "ethereum",
+      "created_at": "2021-01-27T12:12:43Z",
+      "days_since_launch": 1553,
+      "html_url": "https://github.com/ethereum/solidity/releases/tag/v0.8.1"
+    },
+    {
+      "name": "Version 0.8.0",
+      "author": "ethereum",
+      "created_at": "2020-12-16T17:04:09Z",
+      "days_since_launch": 1595,
+      "html_url": "https://github.com/ethereum/solidity/releases/tag/v0.8.0"
+    }
+  ]
+}

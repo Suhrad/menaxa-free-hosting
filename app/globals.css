@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #0a0a0a;
+  --foreground: #ffffff;
+  --primary: #3b82f6;
+  --primary-hover: #2563eb;
+  --secondary: #1f2937;
+  --accent: #10b981;
+  --muted: #374151;
+  --border: #1f2937;
+  --card: #111827;
+  --card-hover: #1f2937;
+  --text-primary: #f3f4f6;
+  --text-secondary: #9ca3af;
+  --success: #10b981;
+  --warning: #f59e0b;
+  --danger: #ef4444;
+  --info: #3b82f6;
+}
+
+@layer base {
+  body {
+    @apply bg-[var(--background)] text-[var(--text-primary)];
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-[var(--card)] rounded-lg border border-[var(--border)] shadow-lg transition-all duration-200 hover:border-[var(--primary)] hover:shadow-[0_0_15px_rgba(59,130,246,0.2)];
+  }
+
+  .btn-primary {
+    @apply bg-[var(--primary)] text-white px-4 py-2 rounded-lg hover:bg-[var(--primary-hover)] transition-colors duration-200;
+  }
+
+  .btn-secondary {
+    @apply bg-[var(--secondary)] text-[var(--text-primary)] px-4 py-2 rounded-lg hover:bg-[var(--muted)] transition-colors duration-200;
+  }
+
+  .input-field {
+    @apply bg-[var(--secondary)] border border-[var(--border)] rounded-lg px-4 py-2 text-[var(--text-primary)] focus:outline-none focus:ring-2 focus:ring-[var(--primary)] focus:border-transparent;
+  }
+
+  .badge {
+    @apply px-2 py-1 rounded-full text-xs font-medium;
+  }
+
+  .badge-success {
+    @apply bg-[var(--success)]/10 text-[var(--success)];
+  }
+
+  .badge-warning {
+    @apply bg-[var(--warning)]/10 text-[var(--warning)];
+  }
+
+  .badge-danger {
+    @apply bg-[var(--danger)]/10 text-[var(--danger)];
+  }
+
+  .badge-info {
+    @apply bg-[var(--info)]/10 text-[var(--info)];
+  }
+
+  .stat-card {
+    @apply card hover:bg-gray-800 transition-colors duration-200;
+  }
+  
+  .dashboard-grid {
+    @apply grid gap-6 md:grid-cols-2 lg:grid-cols-3;
+  }
+
+  .sidebar {
+    @apply bg-black border-r border-gray-800;
+  }
+
+  .table-header {
+    @apply bg-black border-b border-gray-800;
+  }
+
+  .table-row {
+    @apply hover:bg-gray-900 border-b border-gray-800;
+  }
+} 

@@ -1,0 +1,230 @@
+[
+  {
+    "name": "Pakala",
+    "short_description": "Symbolic execution engine for smart contracts aimed at identifying logical flaws and vulnerabilities.",
+    "Link": "https://github.com/palkeo/pakala",
+    "Category": "Symbolic Execution"
+  },
+  {
+    "name": "VeriSmart",
+    "short_description": "Symbolic execution framework focused on the formal verification of Ethereum smart contracts.",
+    "Link": "https://github.com/kupl/VeriSmart-public",
+    "Category": "Symbolic Execution"
+  },
+  {
+    "name": "RA",
+    "short_description": "Tool for symbolic analysis of smart contracts with a focus on runtime behavior.",
+    "Link": "https://github.com/wanidon/RA",
+    "Category": "Symbolic Execution"
+  },
+  {
+    "name": "Manticore",
+    "short_description": "Binary and smart contract symbolic execution tool developed by Trail of Bits.",
+    "Link": "https://github.com/trailofbits/manticore",
+    "Category": "Symbolic Execution"
+  },
+  {
+    "name": "Echidna",
+    "short_description": "Smart contract fuzzer for property-based testing using Solidity assertions.",
+    "Link": "https://github.com/crytic/echidna",
+    "Category": "Fuzzing Tools"
+  },
+  {
+    "name": "SoliAudit",
+    "short_description": "Automated fuzzer for Solidity contracts used to find common security issues.",
+    "Link": "https://github.com/jianwei76/SoliAudit",
+    "Category": "Fuzzing Tools"
+  },
+  {
+    "name": "Medusa",
+    "short_description": "High-coverage fuzzer for Ethereum smart contracts, part of the Crytic suite.",
+    "Link": "https://github.com/crytic/medusa",
+    "Category": "Fuzzing Tools"
+  },
+  {
+    "name": "ItyFuzz",
+    "short_description": "A highly customizable fuzzer for Ethereum smart contracts developed by Fuzzland.",
+    "Link": "https://github.com/fuzzland/ityfuzz",
+    "Category": "Fuzzing Tools"
+  },
+  {
+    "name": "EVMFuzzer",
+    "short_description": "A fuzzing tool for discovering vulnerabilities in Ethereum Virtual Machine implementations.",
+    "Link": "https://github.com/EVMFuzzer/EVMFuzzer",
+    "Category": "Fuzzing Tools"
+  },
+  {
+    "name": "sFuzz",
+    "short_description": "Coverage-guided fuzzer designed to analyze Ethereum smart contracts.",
+    "Link": "https://github.com/duytai/sFuzz",
+    "Category": "Fuzzing Tools"
+  },
+  {
+    "name": "EthVer",
+    "short_description": "Formal verification tool for analyzing correctness of Ethereum smart contracts.",
+    "Link": "https://github.com/lukmaz/ethver",
+    "Category": "Formal Verification"
+  },
+  {
+    "name": "VeriSol",
+    "short_description": "Microsoft\u2019s formal verification tool for Ethereum smart contracts using symbolic execution and theorem proving.",
+    "Link": "https://github.com/microsoft/verisol",
+    "Category": "Formal Verification"
+  },
+  {
+    "name": "Halmos",
+    "short_description": "Framework by a16z that provides formal reasoning and model checking for smart contracts.",
+    "Link": "https://github.com/a16z/halmos",
+    "Category": "Formal Verification"
+  },
+  {
+    "name": "Mythril",
+    "short_description": "Popular symbolic analysis tool used for vulnerability detection in Ethereum smart contracts.",
+    "Link": "https://github.com/Consensys/mythril",
+    "Category": "General"
+  },
+  {
+    "name": "Maian",
+    "short_description": "Analysis tool for identifying trace vulnerabilities in Ethereum contracts, such as suicidal or leaking contracts.",
+    "Link": "https://github.com/ivicanikolicsg/MAIAN",
+    "Category": "General"
+  },
+  {
+    "name": "Eth2Vec",
+    "short_description": "A graph-based learning approach for analyzing Ethereum bytecode using vector embeddings.",
+    "Link": "https://github.com/fseclab-osaka/eth2vec",
+    "Category": "Static Analysis"
+  },
+  {
+    "name": "FEther",
+    "short_description": "Archived lightweight wallet for Ethereum nodes, allowing for easy contract interaction.",
+    "Link": "https://github.com/openethereum/fether",
+    "Category": "Static Analysis"
+  },
+  {
+    "name": "Gas Gauge",
+    "short_description": "Web-based tool for visualizing and analyzing gas usage of Solidity functions.",
+    "Link": "https://github.com/gasgauge/gasgauge.github.io",
+    "Category": "Static Analysis"
+  },
+  {
+    "name": "NeuCheck",
+    "short_description": "Tool developed by Northeastern University for automated smart contract analysis to identify critical vulnerabilities.",
+    "Link": "https://github.com/Northeastern-University-Blockchain/NeuCheck",
+    "Category": "Static Analysis"
+  },
+  {
+    "name": "SIF",
+    "short_description": "Security Inspection Framework for detecting bugs in Ethereum smart contracts.",
+    "Link": "https://github.com/chao-peng/SIF",
+    "Category": "Static Analysis"
+  },
+  {
+    "name": "Slither",
+    "short_description": "Industry-standard static analysis framework that helps find vulnerabilities in Solidity codebases.",
+    "Link": "https://github.com/crytic/slither",
+    "Category": "Static Analysis"
+  },
+  {
+    "name": "SmartBugs",
+    "short_description": "Benchmarking and testing framework for smart contract vulnerability tools.",
+    "Link": "https://github.com/smartbugs/smartbugs",
+    "Category": "Static Analysis"
+  },
+  {
+    "name": "SmartCheck",
+    "short_description": "Static analysis tool for Solidity code that converts smart contracts into an XML-based intermediate representation.",
+    "Link": "https://github.com/smartdec/smartcheck",
+    "Category": "Static Analysis"
+  },
+  {
+    "name": "SmartEmbed",
+    "short_description": "Semantic-aware analysis tool for Ethereum bytecode focusing on similarity detection.",
+    "Link": "https://github.com/beyondacm/SmartEmbed",
+    "Category": "Static Analysis"
+  },
+  {
+    "name": "SolAnalyzer",
+    "short_description": "Archived tool to identify issues in Solidity smart contracts using pattern recognition.",
+    "Link": "https://github.com/EricR/solanalyzer",
+    "Category": "Static Analysis"
+  },
+  {
+    "name": "solhint",
+    "short_description": "Linter for Solidity code that helps enforce coding style and catch programming errors.",
+    "Link": "https://github.com/protofire/solhint?tab=readme-ov-file",
+    "Category": "Static Analysis"
+  },
+  {
+    "name": "SolidityCheck",
+    "short_description": "Lightweight static analyzer for smart contracts written in Solidity.",
+    "Link": "https://github.com/xf97/SolidityCheck",
+    "Category": "Static Analysis"
+  },
+  {
+    "name": "EthIR",
+    "short_description": "Intermediate representation tool for Ethereum bytecode used for static contract analysis.",
+    "Link": "https://github.com/costa-group/EthIR",
+    "Category": "Static Analysis"
+  },
+  {
+    "name": "HoneyBadger",
+    "short_description": "Static analyzer focused on detecting honeypot contracts on Ethereum.",
+    "Link": "https://github.com/christoftorres/HoneyBadger?tab=readme-ov-file",
+    "Category": "Static Analysis"
+  },
+  {
+    "name": "Osiris",
+    "short_description": "Symbolic execution engine tailored for detecting integer bugs in smart contracts.",
+    "Link": "https://github.com/christoftorres/Osiris",
+    "Category": "Static Analysis"
+  },
+  {
+    "name": "Oyente",
+    "short_description": "One of the earliest symbolic execution tools for analyzing Ethereum contracts.",
+    "Link": "https://github.com/enzymefinance/oyente",
+    "Category": "Static Analysis"
+  },
+  {
+    "name": "rattle",
+    "short_description": "Static analysis framework to decompile and simplify Ethereum smart contract bytecode.",
+    "Link": "https://github.com/crytic/rattle",
+    "Category": "Static Analysis"
+  },
+  {
+    "name": "Securify v2.0",
+    "short_description": "Advanced formal verification tool developed by ETH Zurich for detecting vulnerabilities in Ethereum smart contracts.",
+    "Link": "https://github.com/eth-sri/securify2?tab=readme-ov-file",
+    "Category": "Static Analysis"
+  },
+  {
+    "name": "teEther",
+    "short_description": "Exploitation tool for automatically finding inputs that trigger vulnerabilities in smart contracts.",
+    "Link": "https://github.com/nescio007/teether",
+    "Category": "Static Analysis"
+  },
+  {
+    "name": "Vandal",
+    "short_description": "Framework for static analysis and decompilation of Ethereum smart contracts.",
+    "Link": "https://github.com/usyd-blockchain/vandal",
+    "Category": "Static Analysis"
+  },
+  {
+    "name": "Conkas",
+    "short_description": "Context-aware static analyzer for Ethereum smart contracts.",
+    "Link": "https://github.com/nveloso/conkas",
+    "Category": "Static Analysis"
+  },
+  {
+    "name": "Aderyn",
+    "short_description": "Security toolkit by Cyfrin for symbolic execution and static analysis of Solidity smart contracts.",
+    "Link": "https://github.com/Cyfrin/aderyn",
+    "Category": "Static Analysis"
+  },
+  {
+    "name": "AChecker",
+    "short_description": "Formal analysis framework designed to verify security properties in smart contracts.",
+    "Link": "https://github.com/DependableSystemsLab/AChecker",
+    "Category": "Static Analysis"
+  }
+]

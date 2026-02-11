@@ -1,0 +1,446 @@
+[
+  {
+    "name":"Telenor Sweden Public Bug Bounty Program",
+    "url":"https:\/\/yeswehack.com\/programs\/telenor-sweden-public-bug-bounty-program",
+    "logo":null,
+    "max_bounty":5000.0
+  },
+  {
+    "name":"Infomaniak Bug Bounty program",
+    "url":"https:\/\/yeswehack.com\/programs\/infomaniak-bug-bounty-program",
+    "logo":null,
+    "max_bounty":5000.0
+  },
+  {
+    "name":"Louis Vuitton Malletier - Public Bug Bounty Program",
+    "url":"https:\/\/yeswehack.com\/programs\/louis-vuitton-malletier-public-bug-bounty-program",
+    "logo":null,
+    "max_bounty":4000.0
+  },
+  {
+    "name":"Swiss Post - E-Voting",
+    "url":"https:\/\/yeswehack.com\/programs\/swiss-post-evoting",
+    "logo":null,
+    "max_bounty":230000.0
+  },
+  {
+    "name":"GRW Trading FZE - Open Bug Bounty Program",
+    "url":"https:\/\/yeswehack.com\/programs\/grw-trading-fze-bug-bounty-program",
+    "logo":null,
+    "max_bounty":3000.0
+  },
+  {
+    "name":"Swiss Post",
+    "url":"https:\/\/yeswehack.com\/programs\/swiss-post",
+    "logo":null,
+    "max_bounty":10000.0
+  },
+  {
+    "name":"systemd Bug Bounty Program",
+    "url":"https:\/\/yeswehack.com\/programs\/systemd-bug-bounty-program",
+    "logo":null,
+    "max_bounty":10000.0
+  },
+  {
+    "name":"ATG Public Bug Bounty Program",
+    "url":"https:\/\/yeswehack.com\/programs\/atg-public-bug-bounty-program",
+    "logo":null,
+    "max_bounty":4000.0
+  },
+  {
+    "name":"Swapcard",
+    "url":"https:\/\/yeswehack.com\/programs\/swapcard",
+    "logo":null,
+    "max_bounty":2000.0
+  },
+  {
+    "name":"VFS Global Bug Bounty Program",
+    "url":"https:\/\/yeswehack.com\/programs\/vfs-global-bug-bounty-program",
+    "logo":null,
+    "max_bounty":1500.0
+  },
+  {
+    "name":"YesWeHack Dojo",
+    "url":"https:\/\/yeswehack.com\/programs\/dojo",
+    "logo":null,
+    "max_bounty":null
+  },
+  {
+    "name":"Pine Labs Bug Bounty Program",
+    "url":"https:\/\/yeswehack.com\/programs\/pine-labs-bug-bounty-program",
+    "logo":null,
+    "max_bounty":1000.0
+  },
+  {
+    "name":"DECATHLON",
+    "url":"https:\/\/yeswehack.com\/programs\/decathlon",
+    "logo":null,
+    "max_bounty":2500.0
+  },
+  {
+    "name":"ownCloud \u2013 Bug Bounty Program",
+    "url":"https:\/\/yeswehack.com\/programs\/owncloud-bug-bounty-program",
+    "logo":null,
+    "max_bounty":5000.0
+  },
+  {
+    "name":"Paddle.com Public Bug Bounty Program",
+    "url":"https:\/\/yeswehack.com\/programs\/paddle-com-public-bug-bounty-program",
+    "logo":null,
+    "max_bounty":3000.0
+  },
+  {
+    "name":"OTTO.DE Bug Bounty",
+    "url":"https:\/\/yeswehack.com\/programs\/otto-de-bug-bounty",
+    "logo":null,
+    "max_bounty":2500.0
+  },
+  {
+    "name":"Okto - Bug Bounty Program",
+    "url":"https:\/\/yeswehack.com\/programs\/okto-bug-bounty-program",
+    "logo":null,
+    "max_bounty":2000.0
+  },
+  {
+    "name":"Coindcx - Bug Bounty Program",
+    "url":"https:\/\/yeswehack.com\/programs\/coindcx-bug-bounty-program",
+    "logo":null,
+    "max_bounty":2000.0
+  },
+  {
+    "name":"Sant\u00e9 Publique France Bug Bounty Program",
+    "url":"https:\/\/yeswehack.com\/programs\/sante-publique-france-bugbounty-public-program",
+    "logo":null,
+    "max_bounty":1500.0
+  },
+  {
+    "name":"Doctolib",
+    "url":"https:\/\/yeswehack.com\/programs\/doctolib-public-bug-bounty-program",
+    "logo":null,
+    "max_bounty":50000.0
+  },
+  {
+    "name":"KOMOJU - Public Bug Bounty Program",
+    "url":"https:\/\/yeswehack.com\/programs\/komoju-public-bug-bounty-program",
+    "logo":null,
+    "max_bounty":7000.0
+  },
+  {
+    "name":"Cryptobox",
+    "url":"https:\/\/yeswehack.com\/programs\/cryptobox-bug-bounty",
+    "logo":null,
+    "max_bounty":5000.0
+  },
+  {
+    "name":"HARMAN International - Web Applications",
+    "url":"https:\/\/yeswehack.com\/programs\/harman-international-web-applications",
+    "logo":null,
+    "max_bounty":4000.0
+  },
+  {
+    "name":"Programme de prime aux bogues du Gouvernement du Qu\u00e9bec",
+    "url":"https:\/\/yeswehack.com\/programs\/programmes-de-primes-aux-bogues-du-gouvernement-du-quebec-cgcd",
+    "logo":null,
+    "max_bounty":3000.0
+  },
+  {
+    "name":"OneDoc",
+    "url":"https:\/\/yeswehack.com\/programs\/onedoc-sa-bug-bounty-program",
+    "logo":null,
+    "max_bounty":5000.0
+  },
+  {
+    "name":"3DS OUTSCALE",
+    "url":"https:\/\/yeswehack.com\/programs\/outscale",
+    "logo":null,
+    "max_bounty":5000.0
+  },
+  {
+    "name":"Contentsquare Bug Bounty Program",
+    "url":"https:\/\/yeswehack.com\/programs\/contentsquare-bug-bounty-program",
+    "logo":null,
+    "max_bounty":2500.0
+  },
+  {
+    "name":"OVHcloud",
+    "url":"https:\/\/yeswehack.com\/programs\/ovh",
+    "logo":null,
+    "max_bounty":10000.0
+  },
+  {
+    "name":"FDJ United (Online Betting and Gaming) - Bug Bounty program",
+    "url":"https:\/\/yeswehack.com\/programs\/fdj-united-online-betting-gaming-bug-bounty-program",
+    "logo":null,
+    "max_bounty":7000.0
+  },
+  {
+    "name":"Mon Espace Sant\u00e9 (MES)",
+    "url":"https:\/\/yeswehack.com\/programs\/mon-espace-sante-mes",
+    "logo":null,
+    "max_bounty":8000.0
+  },
+  {
+    "name":"Blackbox BforBank Mobile",
+    "url":"https:\/\/yeswehack.com\/programs\/blackbox-bforbank-mobile",
+    "logo":null,
+    "max_bounty":4000.0
+  },
+  {
+    "name":"toom Baumarkt GmbH - Bug Bounty Program (toom.de)",
+    "url":"https:\/\/yeswehack.com\/programs\/toom-baumarkt-gmbh-bug-bounty-program",
+    "logo":null,
+    "max_bounty":3000.0
+  },
+  {
+    "name":"Maya - Public Bug Bounty Program",
+    "url":"https:\/\/yeswehack.com\/programs\/maya-public-bug-bounty-program",
+    "logo":null,
+    "max_bounty":5000.0
+  },
+  {
+    "name":"FranceConnect \/ FranceConnect+ - DINUM",
+    "url":"https:\/\/yeswehack.com\/programs\/franceconnect-proconnect-public",
+    "logo":null,
+    "max_bounty":30000.0
+  },
+  {
+    "name":"Sequoia PGP Bug Bounty Program",
+    "url":"https:\/\/yeswehack.com\/programs\/sequoia-pgp-bug-bounty-program",
+    "logo":null,
+    "max_bounty":10000.0
+  },
+  {
+    "name":"OpenPGP.js Bug Bounty Program",
+    "url":"https:\/\/yeswehack.com\/programs\/openpgp-js-bug-bounty-program",
+    "logo":null,
+    "max_bounty":10000.0
+  },
+  {
+    "name":"Apache Log4j - Bug Bounty Program",
+    "url":"https:\/\/yeswehack.com\/programs\/log4j-bug-bounty-program",
+    "logo":null,
+    "max_bounty":10000.0
+  },
+  {
+    "name":"ntpd-rs Bug Bounty Program",
+    "url":"https:\/\/yeswehack.com\/programs\/pendulum-bug-bounty-program",
+    "logo":null,
+    "max_bounty":10000.0
+  },
+  {
+    "name":"GNOME Bug Bounty Program",
+    "url":"https:\/\/yeswehack.com\/programs\/gnome-bug-bounty-program",
+    "logo":null,
+    "max_bounty":10000.0
+  },
+  {
+    "name":"GovTech - Vulnerability Disclosure Programme",
+    "url":"https:\/\/yeswehack.com\/programs\/govtech-vulnerability-disclosure-programme-policy",
+    "logo":null,
+    "max_bounty":null
+  },
+  {
+    "name":"Ooredoo QPSC - Customer Portal Bug Bounty Program",
+    "url":"https:\/\/yeswehack.com\/programs\/ooredoo-qpsc-bug-bounty-program",
+    "logo":null,
+    "max_bounty":1500.0
+  },
+  {
+    "name":"Th\u00fcringer Aufbaubank Bug Bounty Program",
+    "url":"https:\/\/yeswehack.com\/programs\/thuringer-aufbaubank-bug-bounty-program",
+    "logo":null,
+    "max_bounty":5000.0
+  },
+  {
+    "name":"DANA Bug Bounty Program",
+    "url":"https:\/\/yeswehack.com\/programs\/dana-bug-bounty-program",
+    "logo":null,
+    "max_bounty":3000.0
+  },
+  {
+    "name":"VINCI SA - Public program",
+    "url":"https:\/\/yeswehack.com\/programs\/vincisa-public-program",
+    "logo":null,
+    "max_bounty":3000.0
+  },
+  {
+    "name":"BookBeat",
+    "url":"https:\/\/yeswehack.com\/programs\/bookbeat",
+    "logo":null,
+    "max_bounty":2000.0
+  },
+  {
+    "name":"Ezviz - Bug Bounty Program",
+    "url":"https:\/\/yeswehack.com\/programs\/ezviz-bug-bounty-program",
+    "logo":null,
+    "max_bounty":3000.0
+  },
+  {
+    "name":"Harman International Lifestyle Products & Services",
+    "url":"https:\/\/yeswehack.com\/programs\/harman-international-public-bug-bounty",
+    "logo":null,
+    "max_bounty":4000.0
+  },
+  {
+    "name":"Yes We Hack",
+    "url":"https:\/\/yeswehack.com\/programs\/yes-we-hack",
+    "logo":null,
+    "max_bounty":15000.0
+  },
+  {
+    "name":"Spacelift.io - Bug Bounty Program",
+    "url":"https:\/\/yeswehack.com\/programs\/spacelift-io-bug-bounty-program",
+    "logo":null,
+    "max_bounty":3600.0
+  },
+  {
+    "name":"DINUM - Tchap - Bug Bounty Program",
+    "url":"https:\/\/yeswehack.com\/programs\/tchap-public",
+    "logo":null,
+    "max_bounty":20000.0
+  },
+  {
+    "name":"DRACOON \u2013\u00a0Bug Bounty Program",
+    "url":"https:\/\/yeswehack.com\/programs\/dracoon-bug-bounty-program",
+    "logo":null,
+    "max_bounty":5000.0
+  },
+  {
+    "name":"Bug Bounty Program - BlaBlaCar",
+    "url":"https:\/\/yeswehack.com\/programs\/bug-bounty-program-blablacar",
+    "logo":null,
+    "max_bounty":3000.0
+  },
+  {
+    "name":"Deezer Bug Bounty Program",
+    "url":"https:\/\/yeswehack.com\/programs\/deezer-bug-bounty-program-2019",
+    "logo":null,
+    "max_bounty":2000.0
+  },
+  {
+    "name":"Ant Group Security Response Center - Bug Bounty Program",
+    "url":"https:\/\/yeswehack.com\/programs\/ant-group-security-response-center-bug-bounty-program",
+    "logo":null,
+    "max_bounty":2500.0
+  },
+  {
+    "name":"Bug Bounty SNCF Connect",
+    "url":"https:\/\/yeswehack.com\/programs\/bug-bounty-sncf-connect-1",
+    "logo":null,
+    "max_bounty":10000.0
+  },
+  {
+    "name":"Moneybox Bug Bounty",
+    "url":"https:\/\/yeswehack.com\/programs\/moneybox-bug-bounty",
+    "logo":null,
+    "max_bounty":2000.0
+  },
+  {
+    "name":"Qwant",
+    "url":"https:\/\/yeswehack.com\/programs\/qwant",
+    "logo":null,
+    "max_bounty":5000.0
+  },
+  {
+    "name":"Sogexia",
+    "url":"https:\/\/yeswehack.com\/programs\/sogexia",
+    "logo":null,
+    "max_bounty":2000.0
+  },
+  {
+    "name":"PowerDNS",
+    "url":"https:\/\/yeswehack.com\/programs\/powerdns",
+    "logo":null,
+    "max_bounty":8000.0
+  },
+  {
+    "name":"Withings",
+    "url":"https:\/\/yeswehack.com\/programs\/withings-public-program",
+    "logo":null,
+    "max_bounty":3000.0
+  },
+  {
+    "name":"Alasco GmbH - Bug Bounty Program",
+    "url":"https:\/\/yeswehack.com\/programs\/alasco-gmbh-bug-bounty-program",
+    "logo":null,
+    "max_bounty":1000.0
+  },
+  {
+    "name":"DataDome Bot Bounty",
+    "url":"https:\/\/yeswehack.com\/programs\/datadome-bot-bounty",
+    "logo":null,
+    "max_bounty":5000.0
+  },
+  {
+    "name":"MatrixALM",
+    "url":"https:\/\/yeswehack.com\/programs\/matrixalm",
+    "logo":null,
+    "max_bounty":1500.0
+  },
+  {
+    "name":"Cybermalveillance.gouv.fr  - sensibilization, prevention and support in terms of cybersecurity",
+    "url":"https:\/\/yeswehack.com\/programs\/cybermalveillance-gouv-fr-sensibilization-prevention-and-support-in-terms-of-cybersecurity",
+    "logo":null,
+    "max_bounty":2000.0
+  },
+  {
+    "name":"ZECIBLE PUBLIC BUG BOUNTY PROGRAM",
+    "url":"https:\/\/yeswehack.com\/programs\/zecible-public-bug-bounty-program",
+    "logo":null,
+    "max_bounty":2000.0
+  },
+  {
+    "name":"BETA.GOUV.FR - AGORA GOUV - Public Bug Bounty Program",
+    "url":"https:\/\/yeswehack.com\/programs\/agora",
+    "logo":null,
+    "max_bounty":3000.0
+  },
+  {
+    "name":"DINUM - D\u00e9marches Simplifi\u00e9es - Public Bug Bounty Program",
+    "url":"https:\/\/yeswehack.com\/programs\/demarches-simplifiees-public",
+    "logo":null,
+    "max_bounty":5000.0
+  },
+  {
+    "name":"DataDome Bug Bounty",
+    "url":"https:\/\/yeswehack.com\/programs\/datadome-bug-bounty",
+    "logo":null,
+    "max_bounty":3000.0
+  },
+  {
+    "name":"TeamViewer - Bounty Program",
+    "url":"https:\/\/yeswehack.com\/programs\/teamviewer-bounty-program",
+    "logo":null,
+    "max_bounty":10000.0
+  },
+  {
+    "name":"OX App Suite",
+    "url":"https:\/\/yeswehack.com\/programs\/app-suite",
+    "logo":null,
+    "max_bounty":5000.0
+  },
+  {
+    "name":"Dovecot",
+    "url":"https:\/\/yeswehack.com\/programs\/dovecot",
+    "logo":null,
+    "max_bounty":5000.0
+  },
+  {
+    "name":"Dailymotion public bug bounty",
+    "url":"https:\/\/yeswehack.com\/programs\/dailymotion-public-bug-bounty",
+    "logo":null,
+    "max_bounty":3000.0
+  },
+  {
+    "name":"Tencent Bug Bounty Program",
+    "url":"https:\/\/yeswehack.com\/programs\/tencent-bug-bounty-program",
+    "logo":null,
+    "max_bounty":6425.0
+  },
+  {
+    "name":"Salt Mobile SA - Bug Bounty Program",
+    "url":"https:\/\/yeswehack.com\/programs\/salt-mobile-sa-bug-bounty-program",
+    "logo":null,
+    "max_bounty":2000.0
+  }
+]
