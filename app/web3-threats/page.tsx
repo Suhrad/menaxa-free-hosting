@@ -95,14 +95,21 @@ export default function Web3ThreatsPage() {
         const response = await fetch(apiUrl('/web3-threats'));
         const payload = await response.json();
 
-        if (!response.ok) {
-          console.error('Web3 API error:', payload);
-          setExploits([]);
-          setTotalRecords(0);
-          return;
+        let data = payload as Partial<ApiResponse>;
+
+        // Primary backend can be unavailable on free hosting; transparently fall back.
+        if (!response.ok || !Array.isArray(data.data)) {
+          const fallbackResponse = await fetch('/api/web3-threats-fallback');
+          const fallbackPayload = await fallbackResponse.json();
+          if (!fallbackResponse.ok) {
+            console.error('Web3 fallback API error:', fallbackPayload);
+            setExploits([]);
+            setTotalRecords(0);
+            return;
+          }
+          data = fallbackPayload as Partial<ApiResponse>;
         }
 
-        const data = payload as Partial<ApiResponse>;
         const safeData = Array.isArray(data.data) ? data.data : [];
         setExploits(safeData as ExploitDetail[]);
         setTotalRecords(typeof data.total_records === 'number' ? data.total_records : safeData.length);
