@@ -63,6 +63,19 @@ interface RandomDomain {
 
 type TimeFilter = '3m' | '6m' | '1y' | 'all';
 
+const isDataFreshEnough = (rows: ExploitDetail[]): boolean => {
+  if (!Array.isArray(rows) || rows.length === 0) return false;
+  const latest = rows.reduce<number>((maxTs, row) => {
+    if (!row?.date) return maxTs;
+    const ts = new Date(row.date).getTime();
+    if (Number.isNaN(ts)) return maxTs;
+    return Math.max(maxTs, ts);
+  }, 0);
+  if (!latest) return false;
+  const ninetyDaysMs = 90 * 24 * 60 * 60 * 1000;
+  return Date.now() - latest <= ninetyDaysMs;
+};
+
 export default function Web3ThreatsPage() {
   const [exploits, setExploits] = useState<ExploitDetail[]>([]);
   const [selectedExploit, setSelectedExploit] = useState<ExploitDetail | null>(null);
@@ -99,7 +112,7 @@ export default function Web3ThreatsPage() {
           if (response.ok) {
             const payload = await response.json();
             const parsed = payload as Partial<ApiResponse>;
-            if (Array.isArray(parsed.data)) {
+            if (Array.isArray(parsed.data) && isDataFreshEnough(parsed.data as ExploitDetail[])) {
               data = parsed;
             }
           }
