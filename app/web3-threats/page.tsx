@@ -92,13 +92,23 @@ export default function Web3ThreatsPage() {
     const fetchData = async () => {
       setLoading(true);
       try {
-        const response = await fetch(apiUrl('/web3-threats'));
-        const payload = await response.json();
+        let data: Partial<ApiResponse> | null = null;
 
-        let data = payload as Partial<ApiResponse>;
+        try {
+          const response = await fetch(apiUrl('/web3-threats'));
+          if (response.ok) {
+            const payload = await response.json();
+            const parsed = payload as Partial<ApiResponse>;
+            if (Array.isArray(parsed.data)) {
+              data = parsed;
+            }
+          }
+        } catch (primaryError) {
+          console.error('Web3 primary API failed:', primaryError);
+        }
 
         // Primary backend can be unavailable on free hosting; transparently fall back.
-        if (!response.ok || !Array.isArray(data.data)) {
+        if (!data) {
           const fallbackResponse = await fetch('/api/web3-threats-fallback');
           const fallbackPayload = await fallbackResponse.json();
           if (!fallbackResponse.ok) {
