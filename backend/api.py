@@ -34,11 +34,17 @@ PRELOAD_HEAVY_DATA = env_bool("PRELOAD_HEAVY_DATA", False)
 # Use your own proxy domain here (e.g. Cloudflare Worker URL). Keep provider URL out of app config.
 UPSTREAM_DATA_BASE_URL = (
     os.getenv("UPSTREAM_DATA_BASE_URL")
-    or os.getenv("CYBERMONIT_DATA_BASE_URL")  # backward compatibility
     or ""
 ).rstrip("/")
 CURRENT_YEAR_SYNC_MAX_AGE_HOURS = int(os.getenv("CURRENT_YEAR_SYNC_MAX_AGE_HOURS", "6"))
 UPSTREAM_PROXY_TOKEN = os.getenv("UPSTREAM_PROXY_TOKEN", "").strip()
+
+
+def get_feed_root_dir() -> Path:
+    """
+    Canonical local data directory for third-party feed snapshots.
+    """
+    return Path("data/external_feed")
 
 # Add CORS middleware
 app.add_middleware(
@@ -175,7 +181,7 @@ def get_latest_rekt_file():
 def get_latest_eol_file():
     """Get the EOL data JSON file"""
     try:
-        eol_file = Path("data/cybermonit/eol.json")
+        eol_file = get_feed_root_dir() / "eol.json"
         logger.info(f"Looking for EOL file: {eol_file.absolute()}")
         
         if not eol_file.exists():
@@ -190,7 +196,7 @@ def get_latest_eol_file():
 def get_leaks_file():
     """Get the leaks data JSON file"""
     try:
-        leaks_file = Path("data/cybermonit/leak.json")
+        leaks_file = get_feed_root_dir() / "leak.json"
         logger.info(f"Looking for leaks file: {leaks_file.absolute()}")
         
         if not leaks_file.exists():
@@ -205,7 +211,7 @@ def get_leaks_file():
 def get_news_file():
     """Get the news data JSON file"""
     try:
-        news_file = Path("data/cybermonit/newsen.json")
+        news_file = get_feed_root_dir() / "newsen.json"
         logger.info(f"Looking for news file: {news_file.absolute()}")
         
         if not news_file.exists():
@@ -235,7 +241,7 @@ def get_phishing_file():
 def get_cve_files(year: str = None):
     """Get CVE data JSON files for a specific year or all years"""
     try:
-        cve_dir = Path("data/cybermonit/cve")
+        cve_dir = get_feed_root_dir() / "cve"
         logger.info(f"Looking for CVE files in directory: {cve_dir.absolute()}")
         
         if not cve_dir.exists():
@@ -272,7 +278,7 @@ def sync_cve_year_file(year: int, force: bool = False) -> bool:
             logger.info("UPSTREAM_DATA_BASE_URL not configured; skipping upstream CVE sync")
             return False
 
-        cve_dir = Path("data/cybermonit/cve")
+        cve_dir = get_feed_root_dir() / "cve"
         cve_dir.mkdir(parents=True, exist_ok=True)
         target = cve_dir / f"{year}.json"
 
@@ -699,8 +705,9 @@ def load_cve_year_data(year: str) -> List[Dict[str, Any]]:
 def get_web3_releases_file():
     """Get the Web3 releases JSON file"""
     try:
+        feed_root = get_feed_root_dir()
         candidates = [
-            Path("data/cybermonit/web3-releases.json"),
+            feed_root / "web3-releases.json",
             Path("data/web3-releases.json"),
         ]
 

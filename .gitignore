@@ -43,3 +43,14 @@ backend/data/ransomwhe-re-data/*.json
 backend/data/web3_releases_*.json
 
 .vercel
+
+# Private operational docs / source notes (do not commit)
+**/INTERNAL_RUNBOOK.md
+**/internal/
+**/*.private.md
+
+# Cloudflare local/state files
+cloudflare/**/.wrangler/
+cloudflare/**/.dev.vars
+cloudflare/**/.env
+cloudflare/**/.env.*

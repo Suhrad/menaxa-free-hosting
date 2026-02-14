@@ -64,7 +64,7 @@ def fetch_github_releases(repo, headers):
         logger.error(f"Error fetching releases for {repo}: {str(e)}")
         return []
 
-def fetch_all_releases(output_dir="./data/cybermonit", github_token=None):
+def fetch_all_releases(output_dir="./data/external_feed", github_token=None):
     """Fetch releases for all tracked repositories"""
     headers = {
         "Accept": "application/vnd.github.v3+json",

@@ -33,6 +33,36 @@ interface NewsApiResponse {
   data: NewsArticle[];
 }
 
+interface Web3Exploit {
+  date?: string;
+  funds_lost?: number | null;
+}
+
+const fetchJsonWithTimeout = async (url: string, timeoutMs = 12000) => {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
+  try {
+    const response = await fetch(url, { signal: controller.signal });
+    const payload = await response.json();
+    return { ok: response.ok, payload };
+  } finally {
+    clearTimeout(timer);
+  }
+};
+
+const isWeb3DataFreshEnough = (rows: Web3Exploit[]): boolean => {
+  if (!Array.isArray(rows) || rows.length === 0) return false;
+  const latest = rows.reduce<number>((maxTs, row) => {
+    if (!row?.date) return maxTs;
+    const ts = new Date(row.date).getTime();
+    if (Number.isNaN(ts)) return maxTs;
+    return Math.max(maxTs, ts);
+  }, 0);
+  if (!latest) return false;
+  const ninetyDaysMs = 90 * 24 * 60 * 60 * 1000;
+  return Date.now() - latest <= ninetyDaysMs;
+};
+
 export default function Home() {
   const [loading, setLoading] = useState(true);
   const [onboardingStep, setOnboardingStep] = useState<'entry' | 'profile' | 'welcome' | 'complete'>('entry');
@@ -89,67 +119,91 @@ export default function Home() {
     const fetchData = async () => {
       setLoading(true);
       try {
-        // Fetch news data
-        const newsResponse = await fetch(apiUrl('/news'));
-        const newsData: NewsApiResponse = await newsResponse.json();
-        setNewsArticles(newsData.data.slice(0, 5)); // Get only first 5 news items
+        const [newsResult, eolResult, leaksResult] = await Promise.allSettled([
+          fetchJsonWithTimeout(apiUrl('/news')),
+          fetchJsonWithTimeout(apiUrl('/eol')),
+          fetchJsonWithTimeout(apiUrl('/leaks')),
+        ]);
 
-        // Fetch EOL data summary
-        const eolResponse = await fetch(apiUrl('/eol'));
-        const eolData = await eolResponse.json();
-        
-        // Calculate EOL stats
-        const eolItems = Object.values(eolData.data).flat();
-        const today = new Date();
-        const activeCount = eolItems.filter((item: any) => 
-          item.eol === false || (typeof item.eol === 'string' && new Date(item.eol) > today)
-        ).length;
-        const criticalCount = eolItems.filter((item: any) => 
-          typeof item.eol === 'string' && 
-          new Date(item.eol) > today && 
-          (new Date(item.eol).getTime() - today.getTime()) / (1000 * 60 * 60 * 24) < 30
-        ).length;
-        const expiredCount = eolItems.filter((item: any) => 
-          typeof item.eol === 'string' && new Date(item.eol) < today
-        ).length;
+        if (newsResult.status === 'fulfilled' && newsResult.value.ok) {
+          const newsData = newsResult.value.payload as NewsApiResponse;
+          setNewsArticles(Array.isArray(newsData.data) ? newsData.data.slice(0, 5) : []);
+        } else {
+          setNewsArticles([]);
+        }
 
-        setEolData({
-          activeCount,
-          criticalCount,
-          expiredCount
-        });
+        if (eolResult.status === 'fulfilled' && eolResult.value.ok) {
+          const eolPayload = eolResult.value.payload as any;
+          const eolItems = Object.values(eolPayload?.data ?? {}).flat();
+          const today = new Date();
+          const activeCount = eolItems.filter((item: any) =>
+            item.eol === false || (typeof item.eol === 'string' && new Date(item.eol) > today)
+          ).length;
+          const criticalCount = eolItems.filter((item: any) =>
+            typeof item.eol === 'string' &&
+            new Date(item.eol) > today &&
+            (new Date(item.eol).getTime() - today.getTime()) / (1000 * 60 * 60 * 24) < 30
+          ).length;
+          const expiredCount = eolItems.filter((item: any) =>
+            typeof item.eol === 'string' && new Date(item.eol) < today
+          ).length;
+          setEolData({ activeCount, criticalCount, expiredCount });
+        } else {
+          setEolData({ activeCount: 0, criticalCount: 0, expiredCount: 0 });
+        }
 
-        // Fetch data leaks summary
-        const leaksResponse = await fetch(apiUrl('/leaks'));
-        const leaksData = await leaksResponse.json();
-        const breaches = leaksData.data;
-        
-        setLeaksData({
-          totalBreaches: breaches.length,
-          exposedRecords: breaches.reduce((total: number, breach: any) => total + breach.leak_count, 0),
-          majorBreaches: breaches.filter((breach: any) => breach.leak_count >= 1000000).length
-        });
+        if (leaksResult.status === 'fulfilled' && leaksResult.value.ok) {
+          const leaksPayload = leaksResult.value.payload as any;
+          const breaches = Array.isArray(leaksPayload?.data) ? leaksPayload.data : [];
+          setLeaksData({
+            totalBreaches: breaches.length,
+            exposedRecords: breaches.reduce((total: number, breach: any) => total + (breach.leak_count ?? 0), 0),
+            majorBreaches: breaches.filter((breach: any) => (breach.leak_count ?? 0) >= 1000000).length
+          });
+        } else {
+          setLeaksData({ totalBreaches: 0, exposedRecords: 0, majorBreaches: 0 });
+        }
 
-        // Fetch web3 data from rekt database
-        const web3Response = await fetch(apiUrl('/web3-threats'));
-        const web3Data = await web3Response.json();
-        const exploits = web3Data.data;
+        // Fetch web3 data with fallback when primary backend is stale/unavailable
+        let exploits: Web3Exploit[] = [];
+        try {
+          const web3Primary = await fetchJsonWithTimeout(apiUrl('/web3-threats'));
+          const primaryRows = Array.isArray((web3Primary.payload as any)?.data)
+            ? ((web3Primary.payload as any).data as Web3Exploit[])
+            : [];
+          if (web3Primary.ok && primaryRows.length > 0 && isWeb3DataFreshEnough(primaryRows)) {
+            exploits = primaryRows;
+          }
+        } catch (web3PrimaryError) {
+          console.error('Homepage web3 primary API failed:', web3PrimaryError);
+        }
+
+        if (exploits.length === 0) {
+          try {
+            const web3Fallback = await fetchJsonWithTimeout('/api/web3-threats-fallback');
+            if (web3Fallback.ok && Array.isArray((web3Fallback.payload as any)?.data)) {
+              exploits = (web3Fallback.payload as any).data as Web3Exploit[];
+            }
+          } catch (web3FallbackError) {
+            console.error('Homepage web3 fallback API failed:', web3FallbackError);
+          }
+        }
 
         // Calculate total incidents and losses for all time periods
         const now = new Date();
         const threeMonthsAgo = new Date(now.getTime() - (90 * 24 * 60 * 60 * 1000));
-        const sixMonthsAgo = new Date(now.getTime() - (180 * 24 * 60 * 60 * 1000));
-        const oneYearAgo = new Date(now.getTime() - (365 * 24 * 60 * 60 * 1000));
 
         // Filter exploits for the last 3 months (matching Web3 Threats default view)
-        const recentExploits = exploits.filter((exploit: any) => {
+        const recentExploits = exploits.filter((exploit) => {
+          if (!exploit?.date) return false;
           const exploitDate = new Date(exploit.date);
+          if (Number.isNaN(exploitDate.getTime())) return false;
           return exploitDate >= threeMonthsAgo;
         });
 
         // Calculate stats based on recent exploits (3M)
         const totalIncidents = recentExploits.length;
-        const totalLosses = recentExploits.reduce((sum: number, exploit: any) => sum + (exploit.funds_lost ?? 0), 0);
+        const totalLosses = recentExploits.reduce((sum: number, exploit) => sum + (exploit.funds_lost ?? 0), 0);
         const avgLoss = totalIncidents > 0 ? totalLosses / totalIncidents : 0;
 
         setWeb3Data({

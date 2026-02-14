@@ -31,7 +31,7 @@ def main() -> int:
         ("scam-db.py", [str(python_bin), "scam-db.py"]),
         ("github_releases_pull.py", [str(python_bin), "github_releases_pull.py"]),
         ("rekt_db_pull.py", [str(python_bin), "rekt_db_pull.py"]),
-        ("cybermonit.py", [str(python_bin), "cybermonit.py"]),
+        ("external_feed_sync.py", [str(python_bin), "external_feed_sync.py"]),
     ]
 
     print(f"[{datetime.now().isoformat()}] Starting latest data pull")

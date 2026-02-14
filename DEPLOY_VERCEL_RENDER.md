@@ -50,7 +50,7 @@ This keeps the real data source out of your app/network logs.
 cd /Users/suhrad/Documents/FINAL/a/cloudflare/upstream-proxy
 npx wrangler login
 npx wrangler secret put ORIGIN_BASE_URL
-# Paste real upstream base URL when prompted (example: https://data.cybermonit.com)
+# Paste your private upstream base URL when prompted
 npx wrangler secret put UPSTREAM_PROXY_TOKEN
 # Paste a long random token
 npx wrangler deploy

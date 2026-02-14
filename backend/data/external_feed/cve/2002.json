@@ -1,0 +1,956 @@
+[
+    {
+        "cve_id": "CVE-1999-0020",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-1999-0032.  Reason: This candidate is a duplicate of CVE-1999-0032.  Notes: All CVE users should reference CVE-1999-0032 instead of this candidate.  All references and descriptions in this candidate have been removed to prevent accidental usage",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Konsultidyny: CVE-1999-0032.Powód: ten kandydat jest duplikatem CVE-1999-0032.UWAGI: Wszyscy użytkownicy CVE powinni odwoływać się do CVE-1999-0032 zamiast tego kandydata.Wszystkie odniesienia i opisy w tym kandydatku zostały usunięte, aby zapobiec przypadkowemu użyciu",
+        "publishedDate": "1999-01-01T05:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-1999-0110",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-1999-0315.  Reason: This candidate's original description had a typo that delayed it from being detected as a duplicate of CVE-1999-0315.  Notes: All CVE users should reference CVE-1999-0315 instead of this candidate.  All references and descriptions in this candidate have been removed to prevent accidental usage",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Konsultidyny: CVE-1999-0315.Powód: Oryginalny opis tego kandydata miał literówkę, która opóźniła go od wykrycia jako duplikat CVE-1999-0315.Uwagi: Wszyscy użytkownicy CVE powinni odwoływać się do CVE-1999-0315 zamiast tego kandydata.Wszystkie odniesienia i opisy w tym kandydatku zostały usunięte, aby zapobiec przypadkowemu użyciu",
+        "publishedDate": "1999-01-01T05:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-1999-0187",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-1999-0022.  Reason: This candidate is a duplicate of CVE-1999-0022.  Notes: All CVE users should reference CVE-1999-0022 instead of this candidate.  All references and descriptions in this candidate have been removed to prevent accidental usage",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Konsultidyny: CVE-1999-0022.Powód: ten kandydat jest duplikatem CVE-1999-0022.Uwagi: Wszyscy użytkownicy CVE powinni odwoływać się do CVE-1999-0022 zamiast tego kandydata.Wszystkie odniesienia i opisy w tym kandydatku zostały usunięte, aby zapobiec przypadkowemu użyciu",
+        "publishedDate": "1999-01-01T05:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-1999-0199",
+        "description": "manual/search.texi in the GNU C Library (aka glibc) before 2.2 lacks a statement about the unspecified tdelete return value upon deletion of a tree's root, which might allow attackers to access a dangling pointer in an application whose developer was unaware of a documentation update from 1999.",
+        "description_pl": "Manual/Search.texi w bibliotece GNU C (aka GLIBC) przed 2.2 nie ma stwierdzenia o nieokreślonej wartości zwracanej TDelete po usunięciu korzenia drzewa, co może pozwolić atakującym uzyskać dostęp do wiszącego wskaźnika w aplikacji, której programista nie był świadomy aktualizacji dokumentacji z 1999 r.",
+        "publishedDate": "2020-10-06T13:15Z",
+        "score": 9.8,
+        "severity": "krytyczna",
+        "severity_en": "critical"
+    },
+    {
+        "cve_id": "CVE-1999-0282",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-1999-1584, CVE-1999-1586.  Reason: This candidate combined references from one issue with the description from another issue.  Notes: Users should consult CVE-1999-1584 and CVE-1999-1586 to obtain the appropriate name.  All references and descriptions in this candidate have been removed to prevent accidental usage",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Konsulids: CVE-1999-1584, CVE-1999-1586.Powód: ten kandydat połączył referencje z jednego problemu z opisem z innego problemu.Uwagi: Użytkownicy powinni skonsultować się z CVE-1999-1584 i CVE-1999-1586, aby uzyskać odpowiednią nazwę.Wszystkie odniesienia i opisy w tym kandydatku zostały usunięte, aby zapobiec przypadkowemu użyciu",
+        "publishedDate": "1997-09-23T04:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-1999-0335",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-1999-0032. Reason: This candidate is a duplicate of CVE-1999-0032. Notes: All CVE users should reference CVE-1999-0032 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Konsultidyny: CVE-1999-0032.Powód: ten kandydat jest duplikatem CVE-1999-0032.UWAGI: Wszyscy użytkownicy CVE powinni odwoływać się do CVE-1999-0032 zamiast tego kandydata.Wszystkie odniesienia i opisy w tym kandydatku zostały usunięte, aby zapobiec przypadkowemu użyciu",
+        "publishedDate": "1996-08-01T04:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-1999-0531",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: None.  Reason: this candidate is solely about a configuration that does not directly introduce security vulnerabilities, so it is more appropriate to cover under the Common Configuration Enumeration (CCE).  Notes: the former description is: \"An SMTP service supports EXPN, VRFY, HELP, ESMTP, and/or EHLO.",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: ten kandydat dotyczy wyłącznie konfiguracji, która nie wprowadza bezpośrednio luk w zabezpieczeniach, dlatego bardziej odpowiednie jest pokrycie w ramach wspólnego wyliczenia konfiguracji (CCE).Uwagi: Pierwszy opis brzmi: „Usługa SMTP obsługuje EXPN, VRFY, HELP, ESMTP i/lub EHLO.",
+        "publishedDate": "1999-01-01T05:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-1999-0614",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: None.  Reason: this candidate is solely about a configuration that does not directly introduce security vulnerabilities, so it is more appropriate to cover under the Common Configuration Enumeration (CCE).  Notes: the former description is: \"The FTP service is running.",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: ten kandydat dotyczy wyłącznie konfiguracji, która nie wprowadza bezpośrednio luk w zabezpieczeniach, dlatego bardziej odpowiednie jest pokrycie w ramach wspólnego wyliczenia konfiguracji (CCE).Uwagi: Pierwszy opis brzmi: „Usługa FTP działa.",
+        "publishedDate": "1999-01-01T05:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-1999-0615",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: None.  Reason: this candidate is solely about a configuration that does not directly introduce security vulnerabilities, so it is more appropriate to cover under the Common Configuration Enumeration (CCE).  Notes: the former description is: \"The SNMP service is running.",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: ten kandydat dotyczy wyłącznie konfiguracji, która nie wprowadza bezpośrednio luk w zabezpieczeniach, dlatego bardziej odpowiednie jest pokrycie w ramach wspólnego wyliczenia konfiguracji (CCE).Uwagi: Pierwszy opis brzmi: „Usługa SNMP działa.",
+        "publishedDate": "1999-01-01T05:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-1999-0616",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: None.  Reason: this candidate is solely about a configuration that does not directly introduce security vulnerabilities, so it is more appropriate to cover under the Common Configuration Enumeration (CCE).  Notes: the former description is: \"The TFTP service is running.",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: ten kandydat dotyczy wyłącznie konfiguracji, która nie wprowadza bezpośrednio luk w zabezpieczeniach, dlatego bardziej odpowiednie jest pokrycie w ramach wspólnego wyliczenia konfiguracji (CCE).Uwagi: Pierwszy opis brzmi: „Usługa TFTP działa.",
+        "publishedDate": "1999-01-01T05:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-1999-0617",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: None.  Reason: this candidate is solely about a configuration that does not directly introduce security vulnerabilities, so it is more appropriate to cover under the Common Configuration Enumeration (CCE).  Notes: the former description is: \"The SMTP service is running.",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: ten kandydat dotyczy wyłącznie konfiguracji, która nie wprowadza bezpośrednio luk w zabezpieczeniach, dlatego bardziej odpowiednie jest pokrycie w ramach wspólnego wyliczenia konfiguracji (CCE).Uwagi: Pierwszy opis brzmi: „Usługa SMTP działa.",
+        "publishedDate": "1999-01-01T05:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-1999-0619",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: None.  Reason: this candidate is solely about a configuration that does not directly introduce security vulnerabilities, so it is more appropriate to cover under the Common Configuration Enumeration (CCE).  Notes: the former description is: \"The Telnet service is running.",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: ten kandydat dotyczy wyłącznie konfiguracji, która nie wprowadza bezpośrednio luk w zabezpieczeniach, dlatego bardziej odpowiednie jest pokrycie w ramach wspólnego wyliczenia konfiguracji (CCE).Uwagi: Pierwszy opis brzmi: „Usługa Telnet działa.",
+        "publishedDate": "1999-01-01T05:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-1999-0620",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: None.  Reason: this candidate is solely about a configuration that does not directly introduce security vulnerabilities, so it is more appropriate to cover under the Common Configuration Enumeration (CCE).  Notes: the former description is: \"A component service related to NIS is running.",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: ten kandydat dotyczy wyłącznie konfiguracji, która nie wprowadza bezpośrednio luk w zabezpieczeniach, dlatego bardziej odpowiednie jest pokrycie w ramach wspólnego wyliczenia konfiguracji (CCE).Uwagi: Pierwszy opis brzmi: „Uruchamia usługa komponentów związana z NIS.",
+        "publishedDate": "1999-01-01T05:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-1999-0621",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: None.  Reason: this candidate is solely about a configuration that does not directly introduce security vulnerabilities, so it is more appropriate to cover under the Common Configuration Enumeration (CCE).  Notes: the former description is: \"A component service related to NETBIOS is running.",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: ten kandydat dotyczy wyłącznie konfiguracji, która nie wprowadza bezpośrednio luk w zabezpieczeniach, dlatego bardziej odpowiednie jest pokrycie w ramach wspólnego wyliczenia konfiguracji (CCE).Uwagi: Pierwszy opis brzmi: „Uruchamia usługa komponentów związana z Netbios.",
+        "publishedDate": "1999-01-01T05:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-1999-0622",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: None.  Reason: this candidate is solely about a configuration that does not directly introduce security vulnerabilities, so it is more appropriate to cover under the Common Configuration Enumeration (CCE).  Notes: the former description is: \"A component service related to DNS service is running.",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: ten kandydat dotyczy wyłącznie konfiguracji, która nie wprowadza bezpośrednio luk w zabezpieczeniach, dlatego bardziej odpowiednie jest pokrycie w ramach wspólnego wyliczenia konfiguracji (CCE).Uwagi: Pierwszy opis brzmi: „Uruchamia usługa komponentów związana z usługą DNS.",
+        "publishedDate": "1999-01-01T05:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-1999-0623",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: None.  Reason: this candidate is solely about a configuration that does not directly introduce security vulnerabilities, so it is more appropriate to cover under the Common Configuration Enumeration (CCE).  Notes: the former description is: \"The X Windows service is running.",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: ten kandydat dotyczy wyłącznie konfiguracji, która nie wprowadza bezpośrednio luk w zabezpieczeniach, dlatego bardziej odpowiednie jest pokrycie w ramach wspólnego wyliczenia konfiguracji (CCE).Uwagi: Pierwszy opis brzmi: „Usługa X Windows działa.",
+        "publishedDate": "1999-01-01T05:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-1999-0631",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: None.  Reason: this candidate is solely about a configuration that does not directly introduce security vulnerabilities, so it is more appropriate to cover under the Common Configuration Enumeration (CCE).  Notes: the former description is: \"The NFS service is running.",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: ten kandydat dotyczy wyłącznie konfiguracji, która nie wprowadza bezpośrednio luk w zabezpieczeniach, dlatego bardziej odpowiednie jest pokrycie w ramach wspólnego wyliczenia konfiguracji (CCE).Uwagi: Pierwszy opis brzmi: „Usługa NFS działa.",
+        "publishedDate": "1999-01-01T05:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-1999-0633",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: None.  Reason: this candidate is solely about a configuration that does not directly introduce security vulnerabilities, so it is more appropriate to cover under the Common Configuration Enumeration (CCE).  Notes: the former description is: \"The HTTP/WWW service is running.",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: ten kandydat dotyczy wyłącznie konfiguracji, która nie wprowadza bezpośrednio luk w zabezpieczeniach, dlatego bardziej odpowiednie jest pokrycie w ramach wspólnego wyliczenia konfiguracji (CCE).Uwagi: Pierwszy opis brzmi: „Usługa HTTP/WWW działa.",
+        "publishedDate": "1999-01-01T05:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-1999-0634",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: None.  Reason: this candidate is solely about a configuration that does not directly introduce security vulnerabilities, so it is more appropriate to cover under the Common Configuration Enumeration (CCE).  Notes: the former description is: \"The SSH service is running.",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: ten kandydat dotyczy wyłącznie konfiguracji, która nie wprowadza bezpośrednio luk w zabezpieczeniach, dlatego bardziej odpowiednie jest pokrycie w ramach wspólnego wyliczenia konfiguracji (CCE).Uwagi: Pierwszy opis brzmi: „Usługa SSH działa.",
+        "publishedDate": "1999-01-01T05:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-1999-0642",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: None.  Reason: this candidate is solely about a configuration that does not directly introduce security vulnerabilities, so it is more appropriate to cover under the Common Configuration Enumeration (CCE).  Notes: the former description is: \"A POP service is running.",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: ten kandydat dotyczy wyłącznie konfiguracji, która nie wprowadza bezpośrednio luk w zabezpieczeniach, dlatego bardziej odpowiednie jest pokrycie w ramach wspólnego wyliczenia konfiguracji (CCE).UWAGI: Pierwszy opis brzmi: „Uruchamia usługa pop.",
+        "publishedDate": "1999-01-01T05:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-1999-0643",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: None.  Reason: this candidate is solely about a configuration that does not directly introduce security vulnerabilities, so it is more appropriate to cover under the Common Configuration Enumeration (CCE).  Notes: the former description is: \"The IMAP service is running.",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: ten kandydat dotyczy wyłącznie konfiguracji, która nie wprowadza bezpośrednio luk w zabezpieczeniach, dlatego bardziej odpowiednie jest pokrycie w ramach wspólnego wyliczenia konfiguracji (CCE).Uwagi: Pierwszy opis brzmi: „Usługa IMAP działa.",
+        "publishedDate": "1999-01-01T05:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-1999-0644",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: None.  Reason: this candidate is solely about a configuration that does not directly introduce security vulnerabilities, so it is more appropriate to cover under the Common Configuration Enumeration (CCE).  Notes: the former description is: \"The NNTP news service is running.",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: ten kandydat dotyczy wyłącznie konfiguracji, która nie wprowadza bezpośrednio luk w zabezpieczeniach, dlatego bardziej odpowiednie jest pokrycie w ramach wspólnego wyliczenia konfiguracji (CCE).Uwagi: Pierwszy opis brzmi: „Usługa informacyjna NNTP działa.",
+        "publishedDate": "1999-01-01T05:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-1999-0645",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: None.  Reason: this candidate is solely about a configuration that does not directly introduce security vulnerabilities, so it is more appropriate to cover under the Common Configuration Enumeration (CCE).  Notes: the former description is: \"The IRC service is running.",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: ten kandydat dotyczy wyłącznie konfiguracji, która nie wprowadza bezpośrednio luk w zabezpieczeniach, dlatego bardziej odpowiednie jest pokrycie w ramach wspólnego wyliczenia konfiguracji (CCE).Uwagi: Pierwszy opis brzmi: „Usługa IRC działa.",
+        "publishedDate": "1999-01-01T05:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-1999-0646",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: None.  Reason: this candidate is solely about a configuration that does not directly introduce security vulnerabilities, so it is more appropriate to cover under the Common Configuration Enumeration (CCE).  Notes: the former description is: \"The LDAP service is running.",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: ten kandydat dotyczy wyłącznie konfiguracji, która nie wprowadza bezpośrednio luk w zabezpieczeniach, dlatego bardziej odpowiednie jest pokrycie w ramach wspólnego wyliczenia konfiguracji (CCE).Uwagi: Pierwszy opis brzmi: „Usługa LDAP działa.",
+        "publishedDate": "1999-01-01T05:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-1999-0647",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: None.  Reason: this candidate is solely about a configuration that does not directly introduce security vulnerabilities, so it is more appropriate to cover under the Common Configuration Enumeration (CCE).  Notes: the former description is: \"The bootparam (bootparamd) service is running.",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: ten kandydat dotyczy wyłącznie konfiguracji, która nie wprowadza bezpośrednio luk w zabezpieczeniach, dlatego bardziej odpowiednie jest pokrycie w ramach wspólnego wyliczenia konfiguracji (CCE).UWAGI: Pierwszy opis brzmi: „Uruchamia usługa bootparam (bootparamd).",
+        "publishedDate": "1999-01-01T05:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-1999-0648",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: None.  Reason: this candidate is solely about a configuration that does not directly introduce security vulnerabilities, so it is more appropriate to cover under the Common Configuration Enumeration (CCE).  Notes: the former description is: \"The X25 service is running.",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: ten kandydat dotyczy wyłącznie konfiguracji, która nie wprowadza bezpośrednio luk w zabezpieczeniach, dlatego bardziej odpowiednie jest pokrycie w ramach wspólnego wyliczenia konfiguracji (CCE).Uwagi: Pierwszy opis brzmi: „Usługa X25 działa.",
+        "publishedDate": "1999-01-01T05:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-1999-0649",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: None.  Reason: this candidate is solely about a configuration that does not directly introduce security vulnerabilities, so it is more appropriate to cover under the Common Configuration Enumeration (CCE).  Notes: the former description is: \"The FSP service is running.",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: ten kandydat dotyczy wyłącznie konfiguracji, która nie wprowadza bezpośrednio luk w zabezpieczeniach, dlatego bardziej odpowiednie jest pokrycie w ramach wspólnego wyliczenia konfiguracji (CCE).Uwagi: Pierwszy opis brzmi: „Usługa FSP działa.",
+        "publishedDate": "1999-01-01T05:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-1999-0652",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: None.  Reason: this candidate is solely about a configuration that does not directly introduce security vulnerabilities, so it is more appropriate to cover under the Common Configuration Enumeration (CCE).  Notes: the former description is: \"A database service is running, e.g. a SQL server, Oracle, or mySQL.",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: ten kandydat dotyczy wyłącznie konfiguracji, która nie wprowadza bezpośrednio luk w zabezpieczeniach, dlatego bardziej odpowiednie jest pokrycie w ramach wspólnego wyliczenia konfiguracji (CCE).UWAGI: Pierwszy opis brzmi: „Usługa bazy danych uruchomi się, np. SQL Server, Oracle lub MySQL.",
+        "publishedDate": "1999-01-01T05:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-1999-0655",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: None.  Reason: this candidate is not about any specific product, protocol, or design, so it is out of scope of CVE.  Notes: the former description is: \"A service may include useful information in its banner or help function (such as the name and version), making it useful for information gathering activities.",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: ten kandydat nie dotyczy żadnego konkretnego produktu, protokołu ani projektowania, więc nie jest on wykonywany w zakresie CVE.Uwagi: Pierwszy opis brzmi: „Usługa może zawierać przydatne informacje w swoim banerie lub funkcji pomocy (np. Nazwa i wersja), co czyni ją przydatną do gromadzenia informacji.",
+        "publishedDate": "1999-01-01T05:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-1999-0658",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: None.  Reason: this candidate is solely about a configuration that does not directly introduce security vulnerabilities, so it is more appropriate to cover under the Common Configuration Enumeration (CCE).  Notes: the former description is: \"DCOM is running.",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: ten kandydat dotyczy wyłącznie konfiguracji, która nie wprowadza bezpośrednio luk w zabezpieczeniach, dlatego bardziej odpowiednie jest pokrycie w ramach wspólnego wyliczenia konfiguracji (CCE).Uwagi: Pierwszy opis brzmi: „DCOM działa.",
+        "publishedDate": "1999-01-01T05:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-1999-0659",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: None.  Reason: this candidate is solely about a configuration that does not directly introduce security vulnerabilities, so it is more appropriate to cover under the Common Configuration Enumeration (CCE).  Notes: the former description is: \"A Windows NT Primary Domain Controller (PDC) or Backup Domain Controller (BDC) is present.",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: ten kandydat dotyczy wyłącznie konfiguracji, która nie wprowadza bezpośrednio luk w zabezpieczeniach, dlatego bardziej odpowiednie jest pokrycie w ramach wspólnego wyliczenia konfiguracji (CCE).UWAGI: Pierwszy opis brzmi: „Obecny jest kontroler domeny głównej Windows NT (PDC) lub kontroler domeny kopii zapasowej (BDC).",
+        "publishedDate": "1999-01-01T05:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-1999-0660",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: None.  Reason: this candidate is not about any specific product, protocol, or design, so it is out of scope of CVE.  It might be more appropriate to cover under the Common Configuration Enumeration (CCE).  Notes: the former description is: \"A hacker utility, back door, or Trojan Horse is installed on a system, e.g. NetBus, Back Orifice, Rootkit, etc.",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: ten kandydat nie dotyczy żadnego konkretnego produktu, protokołu ani projektowania, więc nie jest on wykonywany w zakresie CVE.Możliwe może być pokrycie wspólnego wyliczenia konfiguracji (CCE).Uwagi: Pierwszy opis brzmi: „Narzędzie hakerów, tylne drzwi lub koń trojański jest zainstalowany w systemie, np. Netbus, otchłanie, rootkit itp.",
+        "publishedDate": "1999-01-01T05:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-1999-1056",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-1999-1395.  Reason: This candidate is a duplicate of CVE-1999-1395.  Notes: All CVE users should reference CVE-1999-1395 instead of this candidate.  All references and descriptions in this candidate have been removed to prevent accidental usage",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Konsultidyny: CVE-1999-1395.Powód: ten kandydat jest duplikatem CVE-1999-1395.UWAGI: Wszyscy użytkownicy CVE powinni odwoływać się do CVE-1999-1395 zamiast tego kandydata.Wszystkie odniesienia i opisy w tym kandydatku zostały usunięte, aby zapobiec przypadkowemu użyciu",
+        "publishedDate": "1992-12-31T05:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-1999-1108",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-1999-1107.  Reason: This candidate is a duplicate of CVE-1999-1107.  Notes: All CVE users should reference CVE-1999-1107 instead of this candidate.  All references and descriptions in this candidate have been removed to prevent accidental usage",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Konsultidyny: CVE-1999-1107.Powód: ten kandydat jest duplikatem CVE-1999-1107.UWAGI: Wszyscy użytkownicy CVE powinni odwoływać się do CVE-1999-1107 zamiast tego kandydata.Wszystkie odniesienia i opisy w tym kandydatku zostały usunięte, aby zapobiec przypadkowemu użyciu",
+        "publishedDate": "1998-11-18T05:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-1999-1310",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-1999-1022.  Reason: This candidate is a duplicate of CVE-1999-1022.  Notes: All CVE users should reference CVE-1999-1022 instead of this candidate.  All references and descriptions in this candidate have been removed to prevent accidental usage",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Konsultidyny: CVE-1999-1022.Powód: ten kandydat jest duplikatem CVE-1999-1022.UWAGI: Wszyscy użytkownicy CVE powinni odwoływać się do CVE-1999-1022 zamiast tego kandydata.Wszystkie odniesienia i opisy w tym kandydatku zostały usunięte, aby zapobiec przypadkowemu użyciu",
+        "publishedDate": "1994-11-04T05:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-1999-1594",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Notes: none",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: ten kandydat został wycofany przez jego CNA.Uwagi: Brak",
+        "publishedDate": "2020-11-05T20:15Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-1999-1595",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Notes: none",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: ten kandydat został wycofany przez jego CNA.Uwagi: Brak",
+        "publishedDate": "2020-11-05T20:15Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-1999-1596",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Notes: none",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: ten kandydat został wycofany przez jego CNA.Uwagi: Brak",
+        "publishedDate": "2020-11-05T20:15Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-1999-1597",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Notes: none",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: ten kandydat został wycofany przez jego CNA.Uwagi: Brak",
+        "publishedDate": "2020-11-05T20:15Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-1999-1598",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Notes: none",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: ten kandydat został wycofany przez jego CNA.Uwagi: Brak",
+        "publishedDate": "2020-11-05T20:15Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2000-0744",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2000-0743. Reason: This candidate is a duplicate of CVE-2000-0743. Notes: All CVE users should reference CVE-2000-0743 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Konsultidyny: CVE-2000-0743.Powód: ten kandydat jest duplikatem CVE-2000-0743.Uwagi: Wszyscy użytkownicy CVE powinni odwoływać się do CVE-2000-0743 zamiast tego kandydata.Wszystkie odniesienia i opisy w tym kandydatku zostały usunięte, aby zapobiec przypadkowemu użyciu",
+        "publishedDate": "2000-10-20T04:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2000-1248",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Notes: none",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: ten kandydat został wycofany przez jego CNA.Uwagi: Brak",
+        "publishedDate": "2020-11-05T20:15Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2000-1249",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Notes: none",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: ten kandydat został wycofany przez jego CNA.Uwagi: Brak",
+        "publishedDate": "2020-11-05T20:15Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2000-1250",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Notes: none",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: ten kandydat został wycofany przez jego CNA.Uwagi: Brak",
+        "publishedDate": "2020-11-05T20:15Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2000-1251",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Notes: none",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: ten kandydat został wycofany przez jego CNA.Uwagi: Brak",
+        "publishedDate": "2020-11-05T20:15Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2000-1252",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Notes: none",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: ten kandydat został wycofany przez jego CNA.Uwagi: Brak",
+        "publishedDate": "2020-11-05T20:15Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2001-0654",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: The CNA or individual who requested this candidate did not associate it with any vulnerability during 2001. Notes: none",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: CNA lub osoba, która poprosiła tego kandydata, nie kojarzyły go z żadną podatnością w 2001 r.",
+        "publishedDate": "2017-05-11T14:29Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2001-0655",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: The CNA or individual who requested this candidate did not associate it with any vulnerability during 2001. Notes: none",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: CNA lub osoba, która poprosiła tego kandydata, nie kojarzyły go z żadną podatnością w 2001 r.",
+        "publishedDate": "2017-05-11T14:29Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2001-0656",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: The CNA or individual who requested this candidate did not associate it with any vulnerability during 2001. Notes: none",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: CNA lub osoba, która poprosiła tego kandydata, nie kojarzyły go z żadną podatnością w 2001 r.",
+        "publishedDate": "2017-05-11T14:29Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2001-0657",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: The CNA or individual who requested this candidate did not associate it with any vulnerability during 2001. Notes: none",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: CNA lub osoba, która poprosiła tego kandydata, nie kojarzyły go z żadną podatnością w 2001 r.",
+        "publishedDate": "2017-05-11T14:29Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2001-0798",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: The CNA or individual who requested this candidate did not associate it with any vulnerability during 2001. Notes: none",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: CNA lub osoba, która poprosiła tego kandydata, nie kojarzyły go z żadną podatnością w 2001 r.",
+        "publishedDate": "2017-05-11T14:29Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2001-0802",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: The CNA or individual who requested this candidate did not associate it with any vulnerability during 2001. Notes: none",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: CNA lub osoba, która poprosiła tego kandydata, nie kojarzyły go z żadną podatnością w 2001 r.",
+        "publishedDate": "2017-05-11T14:29Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2001-0810",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: The CNA or individual who requested this candidate did not associate it with any vulnerability during 2001. Notes: none",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: CNA lub osoba, która poprosiła tego kandydata, nie kojarzyły go z żadną podatnością w 2001 r.",
+        "publishedDate": "2017-05-11T14:29Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2001-0811",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: The CNA or individual who requested this candidate did not associate it with any vulnerability during 2001. Notes: none",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: CNA lub osoba, która poprosiła tego kandydata, nie kojarzyły go z żadną podatnością w 2001 r.",
+        "publishedDate": "2017-05-11T14:29Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2001-0812",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: The CNA or individual who requested this candidate did not associate it with any vulnerability during 2001. Notes: none",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: CNA lub osoba, która poprosiła tego kandydata, nie kojarzyły go z żadną podatnością w 2001 r.",
+        "publishedDate": "2017-05-11T14:29Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2001-0813",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: The CNA or individual who requested this candidate did not associate it with any vulnerability during 2001. Notes: none",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: CNA lub osoba, która poprosiła tego kandydata, nie kojarzyły go z żadną podatnością w 2001 r.",
+        "publishedDate": "2017-05-11T14:29Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2001-0814",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: The CNA or individual who requested this candidate did not associate it with any vulnerability during 2001. Notes: none",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: CNA lub osoba, która poprosiła tego kandydata, nie kojarzyły go z żadną podatnością w 2001 r.",
+        "publishedDate": "2017-05-11T14:29Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2001-1121",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2001-1084. Reason: This candidate is a duplicate of CVE-2001-1084. Notes: All CVE users should reference CVE-2001-1084 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Konsultidyny: CVE-2001-1084.Powód: ten kandydat jest duplikatem CVE-2001-1084.UWAGI: Wszyscy użytkownicy CVE powinni odwoływać się do CVE-2001-1084 zamiast tego kandydata.Wszystkie odniesienia i opisy w tym kandydatku zostały usunięte, aby zapobiec przypadkowemu użyciu",
+        "publishedDate": "2001-07-02T04:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2001-1167",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-2001-0976.  Reason: This candidate is a duplicate of CVE-2001-0976.  Notes: CVE-2001-0976 should be used instead of this candidate.  All references and descriptions in this candidate have been removed to prevent accidental usage",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Konsultidyny: CVE-2001-0976.Powód: ten kandydat jest duplikatem CVE-2001-0976.Uwagi: Zamiast tego kandydata należy użyć CVE-2001-0976.Wszystkie odniesienia i opisy w tym kandydatku zostały usunięte, aby zapobiec przypadkowemu użyciu",
+        "publishedDate": "2001-08-28T04:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2001-1492",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-2001-1460.  Reason: This candidate is a refinement duplicate of CVE-2001-1460.  Notes: All CVE users should reference CVE-2001-1460 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Konsultidyny: CVE-2001-1460.Powód: ten kandydat jest duplikatem wyrafinowania CVE-2001-1460.UWAGI: Wszyscy użytkownicy CVE powinni odwoływać się do CVE-2001-1460 zamiast tego kandydata.Wszystkie odniesienia i opisy w tym kandydatku zostały usunięte, aby zapobiec przypadkowemu użyciu",
+        "publishedDate": "2001-12-31T05:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2001-1588",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Notes: none",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: ten kandydat został wycofany przez jego CNA.Uwagi: Brak",
+        "publishedDate": "2020-11-05T20:15Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2001-1589",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Notes: none",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: ten kandydat został wycofany przez jego CNA.Uwagi: Brak",
+        "publishedDate": "2020-11-05T20:15Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2001-1590",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Notes: none",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: ten kandydat został wycofany przez jego CNA.Uwagi: Brak",
+        "publishedDate": "2020-11-05T20:15Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2001-1591",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Notes: none",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: ten kandydat został wycofany przez jego CNA.Uwagi: Brak",
+        "publishedDate": "2020-11-05T20:15Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2001-1592",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Notes: none",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: ten kandydat został wycofany przez jego CNA.Uwagi: Brak",
+        "publishedDate": "2020-11-05T20:15Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2002-0035",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: The CNA or individual who requested this candidate did not associate it with any vulnerability during 2002. Notes: none",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: CNA lub osoba, która poprosiła tego kandydata, nie kojarzyły go z żadną podatnością w 2002 r.",
+        "publishedDate": "2017-05-11T14:29Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2002-0192",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-2002-0193, CVE-2002-1564.  Reason: This candidate was published with a description that identified a different vulnerability than what was identified in the original authoritative reference.  Notes: Consult CVE-2002-0193 or CVE-2002-1564 to find the identifier for the proper issue",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Konsultidyny: CVE-2002-0193, CVE-2002-1564.Powód: ten kandydat został opublikowany z opisem, który zidentyfikował inną lukę niż to, co zostało zidentyfikowane w oryginalnym autorytatywnym odniesieniu.UWAGI: Skonsultuj CVE-2002-0193 lub CVE-2002-1564, aby znaleźć identyfikator właściwego problemu",
+        "publishedDate": "2002-05-29T04:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2002-0390",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2002-0639. Reason: This candidate is a reservation duplicate of CVE-2002-0639. Notes: All CVE users should reference CVE-2002-0639 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Konsultidyny: CVE-2002-0639.Powód: ten kandydat jest duplikatem zastrzeżeń CVE-2002-0639.Uwagi: Wszyscy użytkownicy CVE powinni odwoływać się do CVE-2002-0639 zamiast tego kandydata.Wszystkie odniesienia i opisy w tym kandydatku zostały usunięte, aby zapobiec przypadkowemu użyciu",
+        "publishedDate": "2019-07-21T15:15Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2002-0633",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: The CNA or individual who requested this candidate did not associate it with any vulnerability during 2002. Notes: none",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: CNA lub osoba, która poprosiła tego kandydata, nie kojarzyły go z żadną podatnością w 2002 r.",
+        "publishedDate": "2017-05-11T14:29Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2002-0634",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: The CNA or individual who requested this candidate did not associate it with any vulnerability during 2002. Notes: none",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: CNA lub osoba, która poprosiła tego kandydata, nie kojarzyły go z żadną podatnością w 2002 r.",
+        "publishedDate": "2017-05-11T14:29Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2002-0635",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: The CNA or individual who requested this candidate did not associate it with any vulnerability during 2002. Notes: none",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: CNA lub osoba, która poprosiła tego kandydata, nie kojarzyły go z żadną podatnością w 2002 r.",
+        "publishedDate": "2017-05-11T14:29Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2002-0646",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-2002-0371.  Reason: This candidate is a reservation duplicate of CVE-2002-0371.  Notes: CVE-2002-0371 should be used instead of this candidate.  All references and descriptions in this candidate have been removed to prevent accidental usage",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Konsultidyny: CVE-2002-0371.Powód: ten kandydat jest duplikatem zastrzeżeń CVE-2002-0371.Uwagi: Zamiast tego kandydata należy użyć CVE-2002-0371.Wszystkie odniesienia i opisy w tym kandydatku zostały usunięte, aby zapobiec przypadkowemu użyciu",
+        "publishedDate": "2005-05-02T04:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2002-0828",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-2002-0862.  Reason: This is a duplicate of CVE-2002-0862.  Notes: All CVE users should reference CVE-2002-0862 instead of this candidate.  All references and descriptions in this candidate have been removed to prevent accidental usage",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Konsultidyny: CVE-2002-0862.Powód: Jest to duplikat CVE-2002-0862.Uwagi: Wszyscy użytkownicy CVE powinni odwoływać się do CVE-2002-0862 zamiast tego kandydata.Wszystkie odniesienia i opisy w tym kandydatku zostały usunięte, aby zapobiec przypadkowemu użyciu",
+        "publishedDate": "2002-08-12T04:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2002-0841",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-2002-0842.  Reason: This candidate is a duplicate of CVE-2002-0842.  The duplicate assignment was made before public disclosure.  Notes: none",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Konsultidyny: CVE-2002-0842.Powód: ten kandydat jest duplikatem CVE-2002-0842.Dublikowane zadanie zostało wykonane przed publicznym ujawnieniem.Uwagi: Brak",
+        "publishedDate": "2003-03-03T05:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2002-1161",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-2002-1380.  Reason: This candidate is a reservation duplicate of CVE-2002-1380.  Notes: none",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Konsultidyny: CVE-2002-1380.Powód: ten kandydat jest duplikatem zastrzeżeń CVE-2002-1380.Uwagi: Brak",
+        "publishedDate": "2002-12-23T05:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2002-1234",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-2002-0180.  Reason: This candidate is a an out-of-band assignment duplicate of CVE-2002-0180.  Notes: All CVE users should reference CVE-2002-0180 instead of this candidate.  All references and descriptions in this candidate have been removed to prevent accidental usage",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Konsulids: CVE-2002-0180.Powód: ten kandydat jest duplikatem zadań poza pasmem CVE-2002-0180.Uwagi: Wszyscy użytkownicy CVE powinni odwoływać się do CVE-2002-0180 zamiast tego kandydata.Wszystkie odniesienia i opisy w tym kandydatku zostały usunięte, aby zapobiec przypadkowemu użyciu",
+        "publishedDate": "2002-11-04T05:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2002-1259",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-2002-1286.  Reason: This candidate is a reservation duplicate of CVE-2002-1286.  Notes: All CVE users should reference CVE-2002-1286 instead of this candidate.  All references and descriptions in this candidate have been removed to prevent accidental usage",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Konsultidyny: CVE-2002-1286.Powód: ten kandydat jest duplikatem zastrzeżeń CVE-2002-1286.UWAGI: Wszyscy użytkownicy CVE powinni odwoływać się do CVE-2002-1286 zamiast tego kandydata.Wszystkie odniesienia i opisy w tym kandydatku zostały usunięte, aby zapobiec przypadkowemu użyciu",
+        "publishedDate": "2002-12-23T05:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2002-1261",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-2002-1292.  Reason: This candidate is a reservation duplicate of CVE-2002-1292.  Notes: All CVE users should reference CVE-2002-1292 instead of this candidate.  All references and descriptions in this candidate have been removed to prevent accidental usage",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Konsultidyny: CVE-2002-1292.Powód: ten kandydat jest duplikatem zastrzeżeń CVE-2002-1292.Uwagi: Wszyscy użytkownicy CVE powinni odwoływać się do CVE-2002-1292 zamiast tego kandydata.Wszystkie odniesienia i opisy w tym kandydatku zostały usunięte, aby zapobiec przypadkowemu użyciu",
+        "publishedDate": "2002-12-23T05:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2002-1263",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-2002-1295.  Reason: This candidate is a reservation duplicate of CVE-2002-1295.  Notes: All CVE users should reference CVE-2002-1295 instead of this candidate.  All references and descriptions in this candidate have been removed to prevent accidental usage",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Konsultidyny: CVE-2002-1295.Powód: ten kandydat jest duplikatem zastrzeżeń CVE-2002-1295.UWAGI: Wszyscy użytkownicy CVE powinni odwoływać się do CVE-2002-1295 zamiast tego kandydata.Wszystkie odniesienia i opisy w tym kandydatku zostały usunięte, aby zapobiec przypadkowemu użyciu",
+        "publishedDate": "2003-01-07T05:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2002-1297",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: The CNA or individual who requested this candidate did not associate it with any vulnerability during 2002. Notes: none",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: CNA lub osoba, która poprosiła tego kandydata, nie kojarzyły go z żadną podatnością w 2002 r.",
+        "publishedDate": "2017-05-11T14:29Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2002-1298",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: The CNA or individual who requested this candidate did not associate it with any vulnerability during 2002. Notes: none",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: CNA lub osoba, która poprosiła tego kandydata, nie kojarzyły go z żadną podatnością w 2002 r.",
+        "publishedDate": "2017-05-11T14:29Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2002-1299",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: The CNA or individual who requested this candidate did not associate it with any vulnerability during 2002. Notes: none",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: CNA lub osoba, która poprosiła tego kandydata, nie kojarzyły go z żadną podatnością w 2002 r.",
+        "publishedDate": "2017-05-11T14:29Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2002-1300",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: The CNA or individual who requested this candidate did not associate it with any vulnerability during 2002. Notes: none",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: CNA lub osoba, która poprosiła tego kandydata, nie kojarzyły go z żadną podatnością w 2002 r.",
+        "publishedDate": "2017-05-11T14:29Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2002-1301",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: The CNA or individual who requested this candidate did not associate it with any vulnerability during 2002. Notes: none",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: CNA lub osoba, która poprosiła tego kandydata, nie kojarzyły go z żadną podatnością w 2002 r.",
+        "publishedDate": "2017-05-11T14:29Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2002-1302",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: The CNA or individual who requested this candidate did not associate it with any vulnerability during 2002. Notes: none",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: CNA lub osoba, która poprosiła tego kandydata, nie kojarzyły go z żadną podatnością w 2002 r.",
+        "publishedDate": "2017-05-11T14:29Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2002-1303",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: The CNA or individual who requested this candidate did not associate it with any vulnerability during 2002. Notes: none",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: CNA lub osoba, która poprosiła tego kandydata, nie kojarzyły go z żadną podatnością w 2002 r.",
+        "publishedDate": "2017-05-11T14:29Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2002-1304",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: The CNA or individual who requested this candidate did not associate it with any vulnerability during 2002. Notes: none",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: CNA lub osoba, która poprosiła tego kandydata, nie kojarzyły go z żadną podatnością w 2002 r.",
+        "publishedDate": "2017-05-11T14:29Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2002-1305",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: The CNA or individual who requested this candidate did not associate it with any vulnerability during 2002. Notes: none",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: CNA lub osoba, która poprosiła tego kandydata, nie kojarzyły go z żadną podatnością w 2002 r.",
+        "publishedDate": "2017-05-11T14:29Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2002-1370",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-2002-1367.  Reason: This CAN was originally assigned for the theft of root certificates in CUPS, but it was later deemed to be a legitimate result of exploiting a different vulnerability, CVE-2002-1367, so it is not a distinct vulnerability.  Notes: All CVE users should reference CVE-2002-1367 instead of this candidate.  All references and descriptions in this candidate have been removed to prevent accidental usage",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Konsultidyny: CVE-2002-1367.Powód: można to pierwotnie przypisać do kradzieży certyfikatów korzeniowych w kubkach, ale później uznano go za uzasadniony wynik wykorzystania innej podatności, CVE-2002-1367, więc nie jest to wyraźna podatność.Uwagi: Wszyscy użytkownicy CVE powinni odwoływać się do CVE-2002-1367 zamiast tego kandydata.Wszystkie odniesienia i opisy w tym kandydatku zostały usunięte, aby zapobiec przypadkowemu użyciu",
+        "publishedDate": "2005-05-02T04:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2002-1404",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-2002-1348.  Reason: This candidate is a reservation duplicate of CVE-2002-1348.  Notes: All CVE users should reference CVE-2002-1348 instead of this candidate.  All references and descriptions in this candidate have been removed to prevent accidental usage",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Konsultidyny: CVE-2002-1348.Powód: ten kandydat jest duplikatem zastrzeżeń CVE-2002-1348.UWAGI: Wszyscy użytkownicy CVE powinni odwoływać się do CVE-2002-1348 zamiast tego kandydata.Wszystkie odniesienia i opisy w tym kandydatku zostały usunięte, aby zapobiec przypadkowemu użyciu",
+        "publishedDate": "2003-02-19T05:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2002-1638",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-2002-2153.  Reason: This candidate is a duplicate of CVE-2002-2153.  Notes: All CVE users should reference CVE-2002-2153 instead of this candidate.  All references and descriptions in this candidate have been removed to prevent accidental usage",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Konsultidyny: CVE-2002-2153.Powód: ten kandydat jest duplikatem CVE-2002-2153.Uwagi: Wszyscy użytkownicy CVE powinni odwoływać się do CVE-2002-2153 zamiast tego kandydata.Wszystkie odniesienia i opisy w tym kandydatku zostały usunięte, aby zapobiec przypadkowemu użyciu",
+        "publishedDate": "2002-05-27T04:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2002-20001",
+        "description": "The Diffie-Hellman Key Agreement Protocol allows remote attackers (from the client side) to send arbitrary numbers that are actually not public keys, and trigger expensive server-side DHE modular-exponentiation calculations, aka a D(HE)at or D(HE)ater attack. The client needs very little CPU resources and network bandwidth. The attack may be more disruptive in cases where a client can require a server to select its largest supported key size. The basic attack scenario is that the client must claim that it can only communicate with DHE, and the server must be configured to allow DHE.",
+        "description_pl": "Protokół umowy Diffie-Hellman umożliwia zdalnym atakującym (od strony klienta) wysyłanie dowolnych liczb, które w rzeczywistości nie są klucze publiczne, i wyzwalają drogie obliczenia modułowe DHE po stronie serwera, a także AKA D (HE) At lub D (He) Ater Attack.Klient potrzebuje bardzo małych zasobów procesora i przepustowości sieci.Atak może być bardziej destrukcyjny w przypadkach, w których klient może wymagać serwera, aby wybrać swój największy obsługiwany rozmiar klucza.Podstawowym scenariuszem ataku jest to, że klient musi twierdzić, że może on komunikować się tylko z DHE, a serwer musi zostać skonfigurowany, aby umożliwić DHE.",
+        "publishedDate": "2021-11-11T19:15Z",
+        "score": 7.5,
+        "severity": "wysoka",
+        "severity_en": "high"
+    },
+    {
+        "cve_id": "CVE-2002-20002",
+        "description": "The Net::EasyTCP package before 0.15 for Perl always uses Perl's builtin rand(), which is not a strong random number generator, for cryptographic keys.",
+        "description_pl": "Pakiet NET :: EasyTCP przed 0,15 dla Perla zawsze używa Bilildin Rand (), który nie jest silnym generatorem liczb losowych dla klawiszy kryptograficznych.",
+        "publishedDate": "2025-01-02T05:15Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2002-2135",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-2002-1618.  Reason: This candidate is a duplicate of CVE-2002-1618.  Notes: All CVE users should reference CVE-2002-1618 instead of this candidate.  All references and descriptions in this candidate have been removed to prevent accidental usage",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Konsultidyny: CVE-2002-1618.Powód: ten kandydat jest duplikatem CVE-2002-1618.UWAGI: Wszyscy użytkownicy CVE powinni odwoływać się do CVE-2002-1618 zamiast tego kandydata.Wszystkie odniesienia i opisy w tym kandydatku zostały usunięte, aby zapobiec przypadkowemu użyciu",
+        "publishedDate": "2002-12-31T05:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2002-2136",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-2002-1590.  Reason: This candidate is a duplicate of CVE-2002-1590.  Notes: All CVE users should reference CVE-2002-1590 instead of this candidate.  All references and descriptions in this candidate have been removed to prevent accidental usage",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Konsultidyny: CVE-2002-1590.Powód: ten kandydat jest duplikatem CVE-2002-1590.Uwagi: Wszyscy użytkownicy CVE powinni odwoływać się do CVE-2002-1590 zamiast tego kandydata.Wszystkie odniesienia i opisy w tym kandydatku zostały usunięte, aby zapobiec przypadkowemu użyciu",
+        "publishedDate": "2002-12-31T05:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2002-2147",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-2002-1828.  Reason: This candidate is a duplicate of CVE-2002-1828.  Notes: All CVE users should reference CVE-2002-1828 instead of this candidate.  All references and descriptions in this candidate have been removed to prevent accidental usage",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Konsultidyny: CVE-2002-1828.Powód: ten kandydat jest duplikatem CVE-2002-1828.UWAGI: Wszyscy użytkownicy CVE powinni odwoływać się do CVE-2002-1828 zamiast tego kandydata.Wszystkie odniesienia i opisy w tym kandydatku zostały usunięte, aby zapobiec przypadkowemu użyciu",
+        "publishedDate": "2002-12-31T05:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2002-2151",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-2002-1651.  Reason: This candidate is a duplicate of CVE-2002-1651.  Notes: All CVE users should reference CVE-2002-1651 instead of this candidate.  All references and descriptions in this candidate have been removed to prevent accidental usage",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Konsultidyny: CVE-2002-1651.Powód: ten kandydat jest duplikatem CVE-2002-1651.Uwagi: Wszyscy użytkownicy CVE powinni odwoływać się do CVE-2002-1651 zamiast tego kandydata.Wszystkie odniesienia i opisy w tym kandydatku zostały usunięte, aby zapobiec przypadkowemu użyciu",
+        "publishedDate": "2002-12-31T05:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2002-2157",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-2002-1660.  Reason: This candidate is a duplicate of CVE-2002-1660.  Notes: All CVE users should reference CVE-2002-1660 instead of this candidate.  All references and descriptions in this candidate have been removed to prevent accidental usage",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Konsultidyny: CVE-2002-1660.Powód: ten kandydat jest duplikatem CVE-2002-1660.Uwagi: Wszyscy użytkownicy CVE powinni odwoływać się do CVE-2002-1660 zamiast tego kandydata.Wszystkie odniesienia i opisy w tym kandydatku zostały usunięte, aby zapobiec przypadkowemu użyciu",
+        "publishedDate": "2002-12-31T05:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2002-2160",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-2002-1798.  Reason: This candidate is a duplicate of CVE-2002-1798.  Notes: All CVE users should reference CVE-2002-1798 instead of this candidate.  All references and descriptions in this candidate have been removed to prevent accidental usage",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Konsultidyny: CVE-2002-1798.Powód: ten kandydat jest duplikatem CVE-2002-1798.UWAGI: Wszyscy użytkownicy CVE powinni odwoływać się do CVE-2002-1798 zamiast tego kandydata.Wszystkie odniesienia i opisy w tym kandydatku zostały usunięte, aby zapobiec przypadkowemu użyciu",
+        "publishedDate": "2002-12-31T05:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2002-2194",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-2002-1589.  Reason: This candidate is a duplicate of CVE-2002-1589.  Notes: All CVE users should reference CVE-2002-1589 instead of this candidate.  All references and descriptions in this candidate have been removed to prevent accidental usage",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Konsultidyny: CVE-2002-1589.Powód: ten kandydat jest duplikatem CVE-2002-1589.Uwagi: Wszyscy użytkownicy CVE powinni odwoływać się do CVE-2002-1589 zamiast tego kandydata.Wszystkie odniesienia i opisy w tym kandydatku zostały usunięte, aby zapobiec przypadkowemu użyciu",
+        "publishedDate": "2002-12-31T05:00Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2002-2438",
+        "description": "TCP firewalls could be circumvented by sending a SYN Packets with other flags (like e.g. RST flag) set, which was not correctly discarded by the Linux TCP stack after firewalling.",
+        "description_pl": "Zapory ogniowe TCP można by obchodzić, wysyłając zestaw pakietów SYN z innymi flagami (np. Flagą RST), który nie został poprawnie odrzucony przez stos Linux TCP po zaporze.",
+        "publishedDate": "2021-05-18T12:15Z",
+        "score": 7.5,
+        "severity": "wysoka",
+        "severity_en": "high"
+    },
+    {
+        "cve_id": "CVE-2002-2439",
+        "description": "Integer overflow in the new[] operator in gcc before 4.8.0 allows attackers to have unspecified impacts.",
+        "description_pl": "Przepełnienie liczb całkowitych w nowym operatorze [] w GCC przed 4.8.0 umożliwia atakującym na nieokreślone skutki.",
+        "publishedDate": "2019-10-23T18:15Z",
+        "score": 7.8,
+        "severity": "wysoka",
+        "severity_en": "high"
+    },
+    {
+        "cve_id": "CVE-2002-2440",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Notes: none",
+        "description_pl": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Notes: none",
+        "publishedDate": "2020-11-05T20:15Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2002-2441",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Notes: none",
+        "description_pl": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Notes: none",
+        "publishedDate": "2020-11-05T20:15Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2002-2442",
+        "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Notes: none",
+        "description_pl": "Odrzucony powód: Nie używaj tego numeru kandydata.Consultids: Brak.Powód: ten kandydat został wycofany przez jego CNA.Uwagi: Brak",
+        "publishedDate": "2020-11-05T20:15Z",
+        "score": null,
+        "severity": "brak",
+        "severity_en": "none"
+    },
+    {
+        "cve_id": "CVE-2002-2444",
+        "description": "Snoopy before 2.0.0 has a security hole in exec cURL",
+        "description_pl": "Snoopy przed 2.0.0 ma otwór bezpieczeństwa w Exec Curl",
+        "publishedDate": "2019-10-28T14:15Z",
+        "score": 9.8,
+        "severity": "krytyczna",
+        "severity_en": "critical"
+    }
+]

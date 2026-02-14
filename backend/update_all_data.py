@@ -40,9 +40,9 @@ def update_data():
     print("\nRunning phishing URL collector...")
     run_command(f"python3 {script_dir}/phishing_url_collector.py")
     
-    # Run the cybermonit script
-    print("\nRunning cybermonit...")
-    run_command(f"python3 {script_dir}/cybermonit.py")
+    # Run external feed sync script
+    print("\nRunning external feed sync...")
+    run_command(f"python3 {script_dir}/external_feed_sync.py")
     
     # Run the rekt database pull script
     #print("\nRunning rekt database pull...")
@@ -84,4 +84,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

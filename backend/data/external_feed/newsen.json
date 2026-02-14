@@ -1,0 +1,2588 @@
+[
+    {
+        "title": "[Virtual Event] Shields Up: Key Technologies Reshaping Cybersecurity Defenses",
+        "link": "https://www.darkreading.com/events/shields-up-key-technologies-reshaping-cybersecurity-defenses",
+        "pubDate": "2026-03-19T15:00:00",
+        "source": "DarkReading"
+    },
+    {
+        "title": "Exposed Training Open the Door for Crypto-Mining in Fortune 500 Cloud Environments",
+        "link": "https://thehackernews.com/2026/02/exposed-training-open-door-for-crypto.html",
+        "pubDate": "2026-02-11T11:30:00",
+        "source": "TheHackerNews"
+    },
+    {
+        "title": "Microsoft Patches 59 Vulnerabilities Including Six Actively Exploited Zero-Days",
+        "link": "https://thehackernews.com/2026/02/microsoft-patches-59-vulnerabilities.html",
+        "pubDate": "2026-02-11T10:22:00",
+        "source": "TheHackerNews"
+    },
+    {
+        "title": "SSHStalker Botnet Uses IRC C2 to Control Linux Systems via Legacy Kernel Exploits",
+        "link": "https://thehackernews.com/2026/02/sshstalker-botnet-uses-irc-c2-to.html",
+        "pubDate": "2026-02-11T09:56:00",
+        "source": "TheHackerNews"
+    },
+    {
+        "title": "North Korea-Linked UNC1069 Uses AI Lures to Attack Cryptocurrency Organizations",
+        "link": "https://thehackernews.com/2026/02/north-korea-linked-unc1069-uses-ai.html",
+        "pubDate": "2026-02-11T06:50:00",
+        "source": "TheHackerNews"
+    },
+    {
+        "title": "Microsoft releases Windows 11 26H1 for select and upcoming CPUs",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-11-26h1-for-select-and-upcoming-cpus/",
+        "pubDate": "2026-02-11T02:06:42",
+        "source": "BleepingComputer"
+    },
+    {
+        "title": "ISC Stormcast For Wednesday, February 11th, 2026 https://isc.sans.edu/podcastdetail/9804, (Wed, Feb 11th)",
+        "link": "https://isc.sans.edu/diary/rss/32702",
+        "pubDate": "2026-02-11T02:05:02",
+        "source": "SANS Technology Institute"
+    },
+    {
+        "title": "Asia Fumbles With Throttling Back Telnet Traffic in Region",
+        "link": "https://www.darkreading.com/threat-intelligence/asia-fumbles-telnet-threat-traffic",
+        "pubDate": "2026-02-11T02:00:00",
+        "source": "DarkReading"
+    },
+    {
+        "title": "New Linux botnet SSHStalker uses old-school IRC for C2 comms",
+        "link": "https://www.bleepingcomputer.com/news/security/new-linux-botnet-sshstalker-uses-old-school-irc-for-c2-comms/",
+        "pubDate": "2026-02-10T23:09:48",
+        "source": "BleepingComputer"
+    },
+    {
+        "title": "North Korean hackers use new macOS malware in crypto-theft attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/north-korean-hackers-use-new-macos-malware-in-crypto-theft-attacks/",
+        "pubDate": "2026-02-10T22:17:35",
+        "source": "BleepingComputer"
+    },
+    {
+        "title": "SolarWinds WHD Attacks Highlight Risks of Exposed Apps",
+        "link": "https://www.darkreading.com/vulnerabilities-threats/solarwinds-whd-attacks-exposed-apps",
+        "pubDate": "2026-02-10T22:00:53",
+        "source": "DarkReading"
+    },
+    {
+        "title": "In Bypassing MFA, ZeroDayRAT Is 'Textbook Stalkerware'",
+        "link": "https://www.darkreading.com/threat-intelligence/zerodayrat-brings-commercial-spyware-to-mass-market",
+        "pubDate": "2026-02-10T21:37:15",
+        "source": "DarkReading"
+    },
+    {
+        "title": "Microsoft Patches 6 Actively Exploited Zero-Days",
+        "link": "https://www.darkreading.com/vulnerabilities-threats/microsoft-fixes-6-actively-exploited-zero-days",
+        "pubDate": "2026-02-10T21:00:36",
+        "source": "DarkReading"
+    },
+    {
+        "title": "Malicious 7-Zip site distributes installer laced with proxy tool",
+        "link": "https://www.bleepingcomputer.com/news/security/malicious-7-zip-site-distributes-installer-laced-with-proxy-tool/",
+        "pubDate": "2026-02-10T19:12:55",
+        "source": "BleepingComputer"
+    },
+    {
+        "title": "Microsoft releases Windows 10 KB5075912 extended security update",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5075912-extended-security-update/",
+        "pubDate": "2026-02-10T19:06:13",
+        "source": "BleepingComputer"
+    },
+    {
+        "title": "Microsoft Patch Tuesday - February 2026, (Tue, Feb 10th)",
+        "link": "https://isc.sans.edu/diary/rss/32700",
+        "pubDate": "2026-02-10T19:04:00",
+        "source": "SANS Technology Institute"
+    },
+    {
+        "title": "Microsoft February 2026 Patch Tuesday fixes 6 zero-days, 58 flaws",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-february-2026-patch-tuesday-fixes-6-zero-days-58-flaws/",
+        "pubDate": "2026-02-10T18:51:46",
+        "source": "BleepingComputer"
+    },
+    {
+        "title": "Windows 11 KB5077181 & KB5075941 cumulative updates released",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5077181-and-kb5075941-cumulative-updates-released/",
+        "pubDate": "2026-02-10T18:43:53",
+        "source": "BleepingComputer"
+    },
+    {
+        "title": "DPRK Operatives Impersonate Professionals on LinkedIn to Infiltrate Companies",
+        "link": "https://thehackernews.com/2026/02/dprk-operatives-impersonate.html",
+        "pubDate": "2026-02-10T17:44:00",
+        "source": "TheHackerNews"
+    },
+    {
+        "title": "Microsoft prepares to refresh Secure Boot’s digital certificate",
+        "link": "https://www.cybersecuritydive.com/news/microsoft-secure-boot-certificate-update/811846/",
+        "pubDate": "2026-02-10T17:14:14",
+        "source": "Cybersecurity dive"
+    },
+    {
+        "title": "Volvo Group North America customer data exposed in Conduent hack",
+        "link": "https://www.bleepingcomputer.com/news/security/volvo-group-north-america-customer-data-exposed-in-conduent-hack/",
+        "pubDate": "2026-02-10T17:04:18",
+        "source": "BleepingComputer"
+    },
+    {
+        "title": "Microsoft rolls out new Secure Boot certificates before June expiration",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-new-secure-boot-certificates-before-june-expiration/",
+        "pubDate": "2026-02-10T17:00:00",
+        "source": "BleepingComputer"
+    },
+    {
+        "title": "Ivanti EPMM exploitation widespread as governments, others targeted",
+        "link": "https://www.cybersecuritydive.com/news/ivanti-epmm-exploitation-widespread-as-governments-others-targeted/811827/",
+        "pubDate": "2026-02-10T16:17:50",
+        "source": "Cybersecurity dive"
+    },
+    {
+        "title": "OT Attacks Get Scary With 'Living-off-the-Plant' Techniques",
+        "link": "https://www.darkreading.com/ics-ot-security/ot-attacks-living-off-the-plant",
+        "pubDate": "2026-02-10T16:14:29",
+        "source": "DarkReading"
+    },
+    {
+        "title": "Polish power grid hack offers lessons for critical infrastructure operators, CISA says",
+        "link": "https://www.cybersecuritydive.com/news/cisa-critical-infrastructure-warning-poland-energy-hack/811819/",
+        "pubDate": "2026-02-10T15:55:35",
+        "source": "Cybersecurity dive"
+    },
+    {
+        "title": "Microsoft 365 outage takes down admin center in North America",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-outage-takes-down-admin-center-in-north-america/",
+        "pubDate": "2026-02-10T15:45:15",
+        "source": "BleepingComputer"
+    },
+    {
+        "title": "How to Automate AWS Incident Investigation with Tines and AI",
+        "link": "https://www.bleepingcomputer.com/news/security/how-to-automate-aws-incident-investigation-with-tines-and-ai/",
+        "pubDate": "2026-02-10T15:01:11",
+        "source": "BleepingComputer"
+    },
+    {
+        "title": "Reynolds Ransomware Embeds BYOVD Driver to Disable EDR Security Tools",
+        "link": "https://thehackernews.com/2026/02/reynolds-ransomware-embeds-byovd-driver.html",
+        "pubDate": "2026-02-10T14:36:00",
+        "source": "TheHackerNews"
+    },
+    {
+        "title": "From Ransomware to Residency: Inside the Rise of the Digital Parasite",
+        "link": "https://thehackernews.com/2026/02/from-ransomware-to-residency-inside.html",
+        "pubDate": "2026-02-10T13:59:00",
+        "source": "TheHackerNews"
+    },
+    {
+        "title": "Fortinet Patches Critical SQLi Flaw Enabling Unauthenticated Code Execution",
+        "link": "https://thehackernews.com/2026/02/fortinet-patches-critical-sqli-flaw.html",
+        "pubDate": "2026-02-10T13:30:00",
+        "source": "TheHackerNews"
+    },
+    {
+        "title": "Microsoft announces new mobile-style Windows security controls",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-new-mobile-style-windows-security-controls/",
+        "pubDate": "2026-02-10T13:16:32",
+        "source": "BleepingComputer"
+    },
+    {
+        "title": "ZeroDayRAT malware grants full access to Android, iOS devices",
+        "link": "https://www.bleepingcomputer.com/news/security/zerodayrat-malware-grants-full-access-to-android-ios-devices/",
+        "pubDate": "2026-02-10T13:00:00",
+        "source": "BleepingComputer"
+    },
+    {
+        "title": "NIST Allocates Over $3 Million to Small Businesses Advancing AI, Biotechnology, Semiconductors, Quantum and More",
+        "link": "https://www.nist.gov/news-events/news/2026/02/nist-allocates-over-3-million-small-businesses-advancing-ai-biotechnology",
+        "pubDate": "2026-02-10T12:00:00",
+        "source": "NIST US"
+    },
+    {
+        "title": "ZAST.AI Raises $6M Pre-A to Scale \"Zero False Positive\" AI-Powered Code Security",
+        "link": "https://thehackernews.com/2026/02/zastai-raises-6m-pre-to-scale-zero.html",
+        "pubDate": "2026-02-10T11:40:00",
+        "source": "TheHackerNews"
+    },
+    {
+        "title": "Warlock Ransomware Breaches SmarterTools Through Unpatched SmarterMail Server",
+        "link": "https://thehackernews.com/2026/02/warlock-ransomware-breaches.html",
+        "pubDate": "2026-02-10T10:24:00",
+        "source": "TheHackerNews"
+    },
+    {
+        "title": "Dutch Authorities Confirm Ivanti Zero-Day Exploit Exposed Employee Contact Data",
+        "link": "https://thehackernews.com/2026/02/dutch-authorities-confirm-ivanti-zero.html",
+        "pubDate": "2026-02-10T08:22:00",
+        "source": "TheHackerNews"
+    },
+    {
+        "title": "Fugitive behind $73M 'pig butchering' scheme gets 20 years in prison",
+        "link": "https://www.bleepingcomputer.com/news/security/fugitive-behind-73m-pig-butchering-scheme-gets-20-years-in-prison/",
+        "pubDate": "2026-02-10T08:17:54",
+        "source": "BleepingComputer"
+    },
+    {
+        "title": "ISC Stormcast For Tuesday, February 10th, 2026 https://isc.sans.edu/podcastdetail/9802, (Tue, Feb 10th)",
+        "link": "https://isc.sans.edu/diary/rss/32698",
+        "pubDate": "2026-02-10T02:00:02",
+        "source": "SANS Technology Institute"
+    },
+    {
+        "title": "TransUnion's Real Networks Deal Focuses on Robocall Blocking",
+        "link": "https://www.darkreading.com/cyber-risk/transunion-s-real-networks-deal-focuses-on-robocall-blocking",
+        "pubDate": "2026-02-09T23:05:21",
+        "source": "DarkReading"
+    },
+    {
+        "title": "Chinese cyberspies breach Singapore's four largest telcos",
+        "link": "https://www.bleepingcomputer.com/news/security/chinese-cyberspies-breach-singapores-four-largest-telcos/",
+        "pubDate": "2026-02-09T22:47:53",
+        "source": "BleepingComputer"
+    },
+    {
+        "title": "Warlock Gang Breaches SmarterTools Via SmarterMail Bugs",
+        "link": "https://www.darkreading.com/application-security/warlock-gang-breaches-smartertools-smartermail-bugs",
+        "pubDate": "2026-02-09T21:59:02",
+        "source": "DarkReading"
+    },
+    {
+        "title": "TeamPCP Turns Cloud Infrastructure Into Crime Bots",
+        "link": "https://www.darkreading.com/cloud-security/teampcp-cloud-infrastructure-crime-bots",
+        "pubDate": "2026-02-09T21:14:34",
+        "source": "DarkReading"
+    },
+    {
+        "title": "'Reynolds' Bundles BYOVD With Ransomware Payload",
+        "link": "https://www.darkreading.com/threat-intelligence/black-basta-bundles-byovd-ransomware-payload",
+        "pubDate": "2026-02-09T20:14:22",
+        "source": "DarkReading"
+    },
+    {
+        "title": "What Organizations Need to Change When Managing Printers",
+        "link": "https://www.darkreading.com/cybersecurity-operations/what-organizations-need-to-change-when-managing-printers",
+        "pubDate": "2026-02-09T17:22:18",
+        "source": "DarkReading"
+    },
+    {
+        "title": "China-Linked UNC3886 Targets Singapore Telecom Sector in Cyber Espionage Campaign",
+        "link": "https://thehackernews.com/2026/02/china-linked-unc3886-targets-singapore.html",
+        "pubDate": "2026-02-09T17:01:00",
+        "source": "TheHackerNews"
+    },
+    {
+        "title": "FTC data highlights online threats to consumers and businesses",
+        "link": "https://www.cybersecuritydive.com/news/ftc-ransomware-scams-fraud-report/811705/",
+        "pubDate": "2026-02-09T15:58:06",
+        "source": "Cybersecurity dive"
+    },
+    {
+        "title": "Threat actors target SolarWinds Web Help Desk flaw",
+        "link": "https://www.cybersecuritydive.com/news/threat-actors-target-solarwinds-web-help-desk-flaw/811702/",
+        "pubDate": "2026-02-09T15:45:12",
+        "source": "Cybersecurity dive"
+    },
+    {
+        "title": "SolarWinds Web Help Desk Exploited for RCE in Multi-Stage Attacks on Exposed Servers",
+        "link": "https://thehackernews.com/2026/02/solarwinds-web-help-desk-exploited-for.html",
+        "pubDate": "2026-02-09T14:42:00",
+        "source": "TheHackerNews"
+    },
+    {
+        "title": "⚡ Weekly Recap: AI Skill Malware, 31Tbps DDoS, Notepad++ Hack, LLM Backdoors and More",
+        "link": "https://thehackernews.com/2026/02/weekly-recap-ai-skill-malware-31tbps.html",
+        "pubDate": "2026-02-09T12:59:00",
+        "source": "TheHackerNews"
+    },
+    {
+        "title": "Space: The Final Frontier for Standards",
+        "link": "https://www.nist.gov/news-events/news/2026/02/space-final-frontier-standards",
+        "pubDate": "2026-02-09T12:00:00",
+        "source": "NIST US"
+    },
+    {
+        "title": "ISC Stormcast For Monday, February 9th, 2026 https://isc.sans.edu/podcastdetail/9800, (Mon, Feb 9th)",
+        "link": "https://isc.sans.edu/diary/rss/32694",
+        "pubDate": "2026-02-09T11:47:32",
+        "source": "SANS Technology Institute"
+    },
+    {
+        "title": "Quick Howto: Extract URLs from RTF files, (Mon, Feb 9th)",
+        "link": "https://isc.sans.edu/diary/rss/32692",
+        "pubDate": "2026-02-09T11:38:16",
+        "source": "SANS Technology Institute"
+    },
+    {
+        "title": "YARA-X 1.13.0 Release, (Mon, Feb 9th)",
+        "link": "https://isc.sans.edu/diary/rss/32690",
+        "pubDate": "2026-02-09T11:37:46",
+        "source": "SANS Technology Institute"
+    },
+    {
+        "title": "How Top CISOs Solve Burnout and Speed up MTTR without Extra Hiring",
+        "link": "https://thehackernews.com/2026/02/how-top-cisos-solve-burnout-and-speed.html",
+        "pubDate": "2026-02-09T11:23:00",
+        "source": "TheHackerNews"
+    },
+    {
+        "title": "Bloody Wolf Targets Uzbekistan, Russia Using NetSupport RAT in Spear-Phishing Campaign",
+        "link": "https://thehackernews.com/2026/02/bloody-wolf-targets-uzbekistan-russia.html",
+        "pubDate": "2026-02-09T10:58:00",
+        "source": "TheHackerNews"
+    },
+    {
+        "title": "New research: 3 big challenges facing security teams (and how to overcome them)",
+        "link": "https://www.cybersecuritydive.com/spons/new-research-3-big-challenges-facing-security-teams-and-how-to-overcome-t/811185/",
+        "pubDate": "2026-02-09T10:00:00",
+        "source": "Cybersecurity dive"
+    },
+    {
+        "title": "TeamPCP Worm Exploits Cloud Infrastructure to Build Criminal Infrastructure",
+        "link": "https://thehackernews.com/2026/02/teampcp-worm-exploits-cloud.html",
+        "pubDate": "2026-02-09T08:37:00",
+        "source": "TheHackerNews"
+    },
+    {
+        "title": "BeyondTrust Fixes Critical Pre-Auth RCE Vulnerability in Remote Support and PRA",
+        "link": "https://thehackernews.com/2026/02/beyondtrust-fixes-critical-pre-auth-rce.html",
+        "pubDate": "2026-02-09T08:03:00",
+        "source": "TheHackerNews"
+    },
+    {
+        "title": "OpenClaw Integrates VirusTotal Scanning to Detect Malicious ClawHub Skills",
+        "link": "https://thehackernews.com/2026/02/openclaw-integrates-virustotal-scanning.html",
+        "pubDate": "2026-02-08T07:32:00",
+        "source": "TheHackerNews"
+    },
+    {
+        "title": "German Agencies Warn of Signal Phishing Targeting Politicians, Military, Journalists",
+        "link": "https://thehackernews.com/2026/02/german-agencies-warn-of-signal-phishing.html",
+        "pubDate": "2026-02-07T11:15:00",
+        "source": "TheHackerNews"
+    },
+    {
+        "title": "'Encrypt It Already' Campaign Pushes Big Tech to Prioritize E2E Encryption",
+        "link": "https://www.darkreading.com/cloud-security/encrypt-it-already-pushes-big-tech-e2e-encryption",
+        "pubDate": "2026-02-06T16:34:41",
+        "source": "DarkReading"
+    },
+    {
+        "title": "Shai-hulud: The Hidden Costs of Supply Chain Attacks",
+        "link": "https://www.darkreading.com/application-security/shai-hulud-hidden-cost-supply-chain-attacks",
+        "pubDate": "2026-02-06T16:25:14",
+        "source": "DarkReading"
+    },
+    {
+        "title": "OpenClaw's Gregarious Insecurities Make Safe Usage Difficult",
+        "link": "https://www.darkreading.com/application-security/openclaw-insecurities-safe-usage-difficult",
+        "pubDate": "2026-02-06T15:42:15",
+        "source": "DarkReading"
+    },
+    {
+        "title": "Ransomware attacks against education sector slow worldwide",
+        "link": "https://www.cybersecuritydive.com/news/ransomware-attacks-against-education-sector-slow-worldwide/811588/",
+        "pubDate": "2026-02-06T15:13:00",
+        "source": "Cybersecurity dive"
+    },
+    {
+        "title": "China-Linked DKnife AitM Framework Targets Routers for Traffic Hijacking, Malware Delivery",
+        "link": "https://thehackernews.com/2026/02/china-linked-dknife-aitm-framework.html",
+        "pubDate": "2026-02-06T14:56:00",
+        "source": "TheHackerNews"
+    },
+    {
+        "title": "CISA Orders Removal of Unsupported Edge Devices to Reduce Federal Network Risk",
+        "link": "https://thehackernews.com/2026/02/cisa-orders-removal-of-unsupported-edge.html",
+        "pubDate": "2026-02-06T13:43:00",
+        "source": "TheHackerNews"
+    },
+    {
+        "title": "Asian State-Backed Group TGR-STA-1030 Breaches 70 Government, Infrastructure Entities",
+        "link": "https://thehackernews.com/2026/02/asian-state-backed-group-tgr-sta-1030.html",
+        "pubDate": "2026-02-06T12:07:00",
+        "source": "TheHackerNews"
+    },
+    {
+        "title": "How Samsung Knox Helps Stop Your Network Security Breach",
+        "link": "https://thehackernews.com/2026/02/how-samsung-knox-helps-stop-your-network-security-breach.html",
+        "pubDate": "2026-02-06T10:30:00",
+        "source": "TheHackerNews"
+    },
+    {
+        "title": "Compromised dYdX npm and PyPI Packages Deliver Wallet Stealers and RAT Malware",
+        "link": "https://thehackernews.com/2026/02/compromised-dydx-npm-and-pypi-packages.html",
+        "pubDate": "2026-02-06T08:40:00",
+        "source": "TheHackerNews"
+    },
+    {
+        "title": "Claude Opus 4.6 Finds 500+ High-Severity Flaws Across Major Open-Source Libraries",
+        "link": "https://thehackernews.com/2026/02/claude-opus-46-finds-500-high-severity.html",
+        "pubDate": "2026-02-06T05:49:00",
+        "source": "TheHackerNews"
+    },
+    {
+        "title": "ISC Stormcast For Friday, February 6th, 2026 https://isc.sans.edu/podcastdetail/9798, (Fri, Feb 6th)",
+        "link": "https://isc.sans.edu/diary/rss/32688",
+        "pubDate": "2026-02-06T02:05:02",
+        "source": "SANS Technology Institute"
+    },
+    {
+        "title": "EnCase Driver Weaponized as EDR Killers Persist",
+        "link": "https://www.darkreading.com/threat-intelligence/encase-driver-weaponized-edr-killers-persist",
+        "pubDate": "2026-02-05T22:35:20",
+        "source": "DarkReading"
+    },
+    {
+        "title": "Agentic AI Site 'Moltbook' Is Riddled With Security Risks",
+        "link": "https://www.darkreading.com/cyber-risk/agentic-ai-moltbook-security-risks",
+        "pubDate": "2026-02-05T22:03:29",
+        "source": "DarkReading"
+    },
+    {
+        "title": "Data Tool to Triage Exploited Vulnerabilities Can Make KEV More Useful",
+        "link": "https://www.darkreading.com/threat-intelligence/data-tool-triage-exploited-vulnerabilities-make-kev-catalog-more-useful",
+        "pubDate": "2026-02-05T20:53:34",
+        "source": "DarkReading"
+    },
+    {
+        "title": "CISA orders feds to disconnect unsupported network edge devices",
+        "link": "https://www.cybersecuritydive.com/news/cisa-edge-devices-binding-operational-directive/811539/",
+        "pubDate": "2026-02-05T20:29:08",
+        "source": "Cybersecurity dive"
+    },
+    {
+        "title": "AISURU/Kimwolf Botnet Launches Record-Setting 31.4 Tbps DDoS Attack",
+        "link": "https://thehackernews.com/2026/02/aisurukimwolf-botnet-launches-record.html",
+        "pubDate": "2026-02-05T17:25:00",
+        "source": "TheHackerNews"
+    },
+    {
+        "title": "Critical flaw in SolarWinds Web Help Desk under exploitation",
+        "link": "https://www.cybersecuritydive.com/news/critical-flaw-solarwinds-web-help-desk-exploitation/811487/",
+        "pubDate": "2026-02-05T16:19:59",
+        "source": "Cybersecurity dive"
+    },
+    {
+        "title": "Asian government’s espionage campaign breached critical infrastructure in 37 countries",
+        "link": "https://www.cybersecuritydive.com/news/asian-governments-espionage-campaign-breached-critical-infrastructure-in-3/811472/",
+        "pubDate": "2026-02-05T15:34:18",
+        "source": "Cybersecurity dive"
+    },
+    {
+        "title": "Cyber Success Trifecta: Education, Certifications &amp; Experience",
+        "link": "https://www.darkreading.com/cybersecurity-operations/the-trifecta-of-cyber-success-education-certifications-and-experience",
+        "pubDate": "2026-02-05T14:00:00",
+        "source": "DarkReading"
+    },
+    {
+        "title": "ThreatsDay Bulletin: Codespaces RCE, AsyncRAT C2, BYOVD Abuse, AI Cloud Intrusions & 15+ Stories",
+        "link": "https://thehackernews.com/2026/02/threatsday-bulletin-codespaces-rce.html",
+        "pubDate": "2026-02-05T12:57:00",
+        "source": "TheHackerNews"
+    },
+    {
+        "title": "The Buyer’s Guide to AI Usage Control",
+        "link": "https://thehackernews.com/2026/02/the-buyers-guide-to-ai-usage-control.html",
+        "pubDate": "2026-02-05T11:30:00",
+        "source": "TheHackerNews"
+    },
+    {
+        "title": "Infy Hackers Resume Operations with New C2 Servers After Iran Internet Blackout Ends",
+        "link": "https://thehackernews.com/2026/02/infy-hackers-resume-operations-with-new.html",
+        "pubDate": "2026-02-05T10:25:00",
+        "source": "TheHackerNews"
+    },
+    {
+        "title": "Broken Phishing URLs, (Thu, Feb 5th)",
+        "link": "https://isc.sans.edu/diary/rss/32686",
+        "pubDate": "2026-02-05T08:43:02",
+        "source": "SANS Technology Institute"
+    },
+    {
+        "title": "Malicious Script Delivering More Maliciousness, (Wed, Feb 4th)",
+        "link": "https://isc.sans.edu/diary/rss/32682",
+        "pubDate": "2026-02-05T07:58:23",
+        "source": "SANS Technology Institute"
+    },
+    {
+        "title": "Protests Don't Impede Iranian Spying on Expats, Syrians, Israelis",
+        "link": "https://www.darkreading.com/cyberattacks-data-breaches/iran-spies-expats-syrians-israelis",
+        "pubDate": "2026-02-05T07:00:00",
+        "source": "DarkReading"
+    },
+    {
+        "title": "Critical n8n Flaw CVE-2026-25049 Enables System Command Execution via Malicious Workflows",
+        "link": "https://thehackernews.com/2026/02/critical-n8n-flaw-cve-2026-25049.html",
+        "pubDate": "2026-02-05T06:16:00",
+        "source": "TheHackerNews"
+    },
+    {
+        "title": "Malicious NGINX Configurations Enable Large-Scale Web Traffic Hijacking Campaign",
+        "link": "https://thehackernews.com/2026/02/hackers-exploit-react2shell-to-hijack.html",
+        "pubDate": "2026-02-05T04:56:00",
+        "source": "TheHackerNews"
+    },
+    {
+        "title": "ISC Stormcast For Thursday, February 5th, 2026 https://isc.sans.edu/podcastdetail/9796, (Thu, Feb 5th)",
+        "link": "https://isc.sans.edu/diary/rss/32684",
+        "pubDate": "2026-02-05T02:10:11",
+        "source": "SANS Technology Institute"
+    },
+    {
+        "title": "Ransomware Gang Goes Full 'Godfather' With Cartel",
+        "link": "https://www.darkreading.com/cyber-risk/ransomware-gang-full-godfather-cartel",
+        "pubDate": "2026-02-04T22:14:19",
+        "source": "DarkReading"
+    },
+    {
+        "title": "CISA Makes Unpublicized Ransomware Updates to KEV Catalog",
+        "link": "https://www.darkreading.com/threat-intelligence/cisa-hidden-ransomware-updates-kev-catalog",
+        "pubDate": "2026-02-04T21:48:57",
+        "source": "DarkReading"
+    },
+    {
+        "title": "Attackers Use Windows Screensavers to Drop Malware, RMM Tools",
+        "link": "https://www.darkreading.com/application-security/attackers-use-screensavers-drop-malware-rmm-tools",
+        "pubDate": "2026-02-04T21:06:28",
+        "source": "DarkReading"
+    },
+    {
+        "title": "Microsoft Develops Scanner to Detect Backdoors in Open-Weight Large Language Models",
+        "link": "https://thehackernews.com/2026/02/microsoft-develops-scanner-to-detect.html",
+        "pubDate": "2026-02-04T17:52:00",
+        "source": "TheHackerNews"
+    },
+    {
+        "title": "DEAD#VAX Malware Campaign Deploys AsyncRAT via IPFS-Hosted VHD Phishing Files",
+        "link": "https://thehackernews.com/2026/02/deadvax-malware-campaign-deploys.html",
+        "pubDate": "2026-02-04T17:24:00",
+        "source": "TheHackerNews"
+    },
+    {
+        "title": "China-Linked Amaranth-Dragon Exploits WinRAR Flaw in Espionage Campaigns",
+        "link": "https://thehackernews.com/2026/02/china-linked-amaranth-dragon-exploits.html",
+        "pubDate": "2026-02-04T14:09:00",
+        "source": "TheHackerNews"
+    },
+    {
+        "title": "Extra Extra! Announcing DR Global Latin America",
+        "link": "https://www.darkreading.com/cybersecurity-operations/announcing-dr-global-latin-america",
+        "pubDate": "2026-02-04T13:30:00",
+        "source": "DarkReading"
+    },
+    {
+        "title": "Big Breach or Smooth Sailing? Mexican Gov't Faces Leak Allegations",
+        "link": "https://www.darkreading.com/cyberattacks-data-breaches/big-breach-or-nada-de-nada-mexican-govt-faces-leak-allegations",
+        "pubDate": "2026-02-04T13:00:00",
+        "source": "DarkReading"
+    },
+    {
+        "title": "Orchid Security Introduces Continuous Identity Observability for Enterprise Applications",
+        "link": "https://thehackernews.com/2026/02/orchid-security-introduces-continuous.html",
+        "pubDate": "2026-02-04T11:58:00",
+        "source": "TheHackerNews"
+    },
+    {
+        "title": "Google Looker Bugs Allow Cross-Tenant RCE, Data Exfil",
+        "link": "https://www.darkreading.com/application-security/google-looker-bugs-cross-tenant-rce-data-exfil",
+        "pubDate": "2026-02-04T11:00:00",
+        "source": "DarkReading"
+    },
+    {
+        "title": "The First 90 Seconds: How Early Decisions Shape Incident Response Investigations",
+        "link": "https://thehackernews.com/2026/02/the-first-90-seconds-how-early.html",
+        "pubDate": "2026-02-04T10:00:00",
+        "source": "TheHackerNews"
+    },
+    {
+        "title": "Microsoft Warns Python Infostealers Target macOS via Fake Ads and Installers",
+        "link": "https://thehackernews.com/2026/02/microsoft-warns-python-infostealers.html",
+        "pubDate": "2026-02-04T07:42:00",
+        "source": "TheHackerNews"
+    },
+    {
+        "title": "Eclipse Foundation Mandates Pre-Publish Security Checks for Open VSX Extensions",
+        "link": "https://thehackernews.com/2026/02/eclipse-foundation-mandates-pre-publish.html",
+        "pubDate": "2026-02-04T06:26:00",
+        "source": "TheHackerNews"
+    },
+    {
+        "title": "CISA Adds Actively Exploited SolarWinds Web Help Desk RCE to KEV Catalog",
+        "link": "https://thehackernews.com/2026/02/cisa-adds-actively-exploited-solarwinds.html",
+        "pubDate": "2026-02-04T05:50:00",
+        "source": "TheHackerNews"
+    },
+    {
+        "title": "Russian Hackers Weaponize Microsoft Office Bug in Just 3 Days",
+        "link": "https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-weaponize-office-bug-within-days",
+        "pubDate": "2026-02-03T21:52:22",
+        "source": "DarkReading"
+    },
+    {
+        "title": "GlassWorm Malware Returns to Shatter Developer Ecosystems",
+        "link": "https://www.darkreading.com/application-security/glassworm-malware-developer-ecosystems",
+        "pubDate": "2026-02-03T20:55:51",
+        "source": "DarkReading"
+    },
+    {
+        "title": "AI May Supplant Pen Testers, But Oversight &amp; Trust Are Not There Yet",
+        "link": "https://www.darkreading.com/cybersecurity-operations/ai-supplant-pen-testers-oversight-trust-not-there-yet",
+        "pubDate": "2026-02-03T18:03:46",
+        "source": "DarkReading"
+    },
+    {
+        "title": "Docker Fixes Critical Ask Gordon AI Flaw Allowing Code Execution via Image Metadata",
+        "link": "https://thehackernews.com/2026/02/docker-fixes-critical-ask-gordon-ai.html",
+        "pubDate": "2026-02-03T16:41:00",
+        "source": "TheHackerNews"
+    },
+    {
+        "title": "8-Minute Access: AI Accelerates Breach of AWS Environment",
+        "link": "https://www.darkreading.com/cloud-security/8-minute-access-ai-aws-environment-breach",
+        "pubDate": "2026-02-03T16:38:11",
+        "source": "DarkReading"
+    },
+    {
+        "title": "Dark Patterns Undermine Security, One Click at a Time",
+        "link": "https://www.darkreading.com/cyber-risk/dark-patterns-undermine-security-one-click-at-a-time",
+        "pubDate": "2026-02-03T16:30:41",
+        "source": "DarkReading"
+    },
+    {
+        "title": "[Webinar] The Smarter SOC Blueprint: Learn What to Build, Buy, and Automate",
+        "link": "https://thehackernews.com/2026/02/webinar-smarter-soc-blueprint-learn.html",
+        "pubDate": "2026-02-03T14:14:00",
+        "source": "TheHackerNews"
+    },
+    {
+        "title": "Hackers Exploit Metro4Shell RCE Flaw in React Native CLI npm Package",
+        "link": "https://thehackernews.com/2026/02/hackers-exploit-metro4shell-rce-flaw-in.html",
+        "pubDate": "2026-02-03T14:00:00",
+        "source": "TheHackerNews"
+    },
+    {
+        "title": "When Cloud Outages Ripple Across the Internet",
+        "link": "https://thehackernews.com/2026/02/when-cloud-outages-ripple-across.html",
+        "pubDate": "2026-02-03T11:00:00",
+        "source": "TheHackerNews"
+    },
+    {
+        "title": "APT28 Uses Microsoft Office CVE-2026-21509 in Espionage-Focused Malware Attacks",
+        "link": "https://thehackernews.com/2026/02/apt28-uses-microsoft-office-cve-2026.html",
+        "pubDate": "2026-02-03T09:12:00",
+        "source": "TheHackerNews"
+    },
+    {
+        "title": "Mozilla Adds One-Click Option to Disable Generative AI Features in Firefox",
+        "link": "https://thehackernews.com/2026/02/mozilla-adds-one-click-option-to.html",
+        "pubDate": "2026-02-03T05:39:00",
+        "source": "TheHackerNews"
+    },
+    {
+        "title": "Notepad++ Hosting Breach Attributed to China-Linked Lotus Blossom Hacking Group",
+        "link": "https://thehackernews.com/2026/02/notepad-hosting-breach-attributed-to.html",
+        "pubDate": "2026-02-03T04:55:00",
+        "source": "TheHackerNews"
+    },
+    {
+        "title": "Attackers Harvest Dropbox Logins Via Fake PDF Lures",
+        "link": "https://www.darkreading.com/cloud-security/attackers-harvest-dropbox-logins-fake-pdf-lures",
+        "pubDate": "2026-02-02T22:21:33",
+        "source": "DarkReading"
+    },
+    {
+        "title": "County Pays $600K to Wrongfully Jailed Pen Testers",
+        "link": "https://www.darkreading.com/cybersecurity-operations/county-pays-600k-wrongfully-jailed-pen-testers",
+        "pubDate": "2026-02-02T21:57:51",
+        "source": "DarkReading"
+    },
+    {
+        "title": "Chinese Hackers Hijack Notepad++ Updates for 6 Months",
+        "link": "https://www.darkreading.com/application-security/chinese-hackers-hijack-notepad-updates-6-months",
+        "pubDate": "2026-02-02T19:57:02",
+        "source": "DarkReading"
+    },
+    {
+        "title": "Researchers Find 341 Malicious ClawHub Skills Stealing Data from OpenClaw Users",
+        "link": "https://thehackernews.com/2026/02/researchers-find-341-malicious-clawhub.html",
+        "pubDate": "2026-02-02T17:49:00",
+        "source": "TheHackerNews"
+    },
+    {
+        "title": "OpenClaw Bug Enables One-Click Remote Code Execution via Malicious Link",
+        "link": "https://thehackernews.com/2026/02/openclaw-bug-enables-one-click-remote.html",
+        "pubDate": "2026-02-02T16:28:00",
+        "source": "TheHackerNews"
+    },
+    {
+        "title": "ShinyHunters Expands Scope of SaaS Extortion Attacks",
+        "link": "https://www.darkreading.com/cyberattacks-data-breaches/shinyhunters-expands-scope-saas-extortion-attacks",
+        "pubDate": "2026-02-02T16:07:57",
+        "source": "DarkReading"
+    },
+    {
+        "title": "Microsoft Begins NTLM Phase-Out With Three-Stage Plan to Move Windows to Kerberos",
+        "link": "https://thehackernews.com/2026/02/microsoft-begins-ntlm-phase-out-with.html",
+        "pubDate": "2026-02-02T15:59:00",
+        "source": "TheHackerNews"
+    },
+    {
+        "title": "Torq Moves SOCs Beyond SOAR With AI-Powered Hyper Automation",
+        "link": "https://www.darkreading.com/remote-workforce/torq-moves-socs-soar-ai-powered-hyper-automation",
+        "pubDate": "2026-01-30T22:14:31",
+        "source": "DarkReading"
+    },
+    {
+        "title": "2026: The Year Agentic AI Becomes the Attack-Surface Poster Child",
+        "link": "https://www.darkreading.com/threat-intelligence/2026-agentic-ai-attack-surface-poster-child",
+        "pubDate": "2026-01-30T21:16:15",
+        "source": "DarkReading"
+    },
+    {
+        "title": "Out-of-the-Box Expectations for 2026 Reveal a Grab Bag of Risk",
+        "link": "https://www.darkreading.com/threat-intelligence/cyber-expectations-2026-grab-bag-risk",
+        "pubDate": "2026-01-30T21:14:32",
+        "source": "DarkReading"
+    },
+    {
+        "title": "Tenable Tackles AI Governance, Shadow AI Risks, Data Exposure",
+        "link": "https://www.darkreading.com/cyber-risk/tenable-tackles-ai-governance-shadow-ai-risks-data-exposure",
+        "pubDate": "2026-01-30T20:23:53",
+        "source": "DarkReading"
+    },
+    {
+        "title": "OpenClaw AI Runs Wild in Business Environments",
+        "link": "https://www.darkreading.com/application-security/openclaw-ai-runs-wild-business-environments",
+        "pubDate": "2026-01-30T16:40:34",
+        "source": "DarkReading"
+    },
+    {
+        "title": "Chinese APTs Hacking Asian Orgs With High-End Malware",
+        "link": "https://www.darkreading.com/cyberattacks-data-breaches/chinese-apts-asian-orgs-high-end-malware",
+        "pubDate": "2026-01-30T02:00:00",
+        "source": "DarkReading"
+    },
+    {
+        "title": "Trump Administration Rescinds Biden-Era Software Guidance",
+        "link": "https://www.darkreading.com/application-security/trump-administration-rescinds-biden-era-sbom-guidance",
+        "pubDate": "2026-01-29T22:25:07",
+        "source": "DarkReading"
+    },
+    {
+        "title": "Second Round of Critical RCE Bugs in n8n Spikes Corporate Risk",
+        "link": "https://www.darkreading.com/vulnerabilities-threats/critical-flaws-n8n-compromise-customer-security",
+        "pubDate": "2026-01-29T21:53:01",
+        "source": "DarkReading"
+    },
+    {
+        "title": "'Semantic Chaining' Jailbreak Dupes Gemini Nano Banana, Grok 4",
+        "link": "https://www.darkreading.com/vulnerabilities-threats/semantic-chaining-jailbreak-gemini-nano-banana-grok-4",
+        "pubDate": "2026-01-29T16:09:01",
+        "source": "DarkReading"
+    },
+    {
+        "title": "From Quantum to AI Risks: Preparing for Cybersecurity's Future",
+        "link": "https://www.darkreading.com/cybersecurity-operations/quantum-ai-risks-cybersecuritys-future",
+        "pubDate": "2026-01-29T15:32:24",
+        "source": "DarkReading"
+    },
+    {
+        "title": "How Can CISOs Respond to Ransomware Getting More Violent?",
+        "link": "https://www.darkreading.com/cyber-risk/how-cisos-respond-ransomware-getting-more-violent",
+        "pubDate": "2026-01-28T22:51:36",
+        "source": "DarkReading"
+    },
+    {
+        "title": "Months After Patch, WinRAR Bug Poised to Hit SMBs Hardest",
+        "link": "https://www.darkreading.com/application-security/months-after-patch-winrar-bug-poised-smbs-hardest",
+        "pubDate": "2026-01-28T22:48:09",
+        "source": "DarkReading"
+    },
+    {
+        "title": "Fortinet Confirms New Zero-Day Behind Malicious SSO Logins",
+        "link": "https://www.darkreading.com/vulnerabilities-threats/fortinet-new-zero-day-malicious-sso-logins",
+        "pubDate": "2026-01-28T21:14:27",
+        "source": "DarkReading"
+    },
+    {
+        "title": "Consumers Reluctant to Shop at Stores That Don't Take Security Seriously",
+        "link": "https://www.darkreading.com/cyber-risk/consumers-reluctant-to-shop-at-stores-hit-by-cyberattacks",
+        "pubDate": "2026-01-28T20:24:40",
+        "source": "DarkReading"
+    },
+    {
+        "title": "China-Backed 'PeckBirdy' Takes Flight for Cross-Platform Attacks",
+        "link": "https://www.darkreading.com/threat-intelligence/china-backed-peckbirdy-cross-platform-attacks",
+        "pubDate": "2026-01-28T16:19:22",
+        "source": "DarkReading"
+    },
+    {
+        "title": "Surging Cyberattacks Boost Latin America to Riskiest Region",
+        "link": "https://www.darkreading.com/cyber-risk/surging-cyberattacks-latin-america-riskiest-region",
+        "pubDate": "2026-01-28T14:00:00",
+        "source": "DarkReading"
+    },
+    {
+        "title": "New Android Theft Protection Feature Updates: Smarter, Stronger",
+        "link": "http://security.googleblog.com/2026/01/android-theft-protection-feature-updates.html",
+        "pubDate": "2026-01-27T16:59:00",
+        "source": "Google Security Blog"
+    },
+    {
+        "title": "NCSC issues warning over hacktivist groups disrupting UK organisations and online services",
+        "link": "https://www.ncsc.gov.uk/news/ncsc-issues-warning-over-hacktivist-groups-disrupting-uk-organisations-online-services",
+        "pubDate": "2026-01-19T12:36:43",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Pro-Russia hacktivist activity continues to target UK organisations",
+        "link": "https://www.ncsc.gov.uk/news/pro-russia-hacktivist-activity-continues-to-target-uk-organisations",
+        "pubDate": "2026-01-19T08:31:15",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "CAISI Issues Request for Information About Securing AI Agent Systems",
+        "link": "https://www.nist.gov/news-events/news/2026/01/caisi-issues-request-information-about-securing-ai-agent-systems",
+        "pubDate": "2026-01-12T12:00:00",
+        "source": "NIST US"
+    },
+    {
+        "title": "NIST Launches Centers for AI in Manufacturing and Critical Infrastructure",
+        "link": "https://www.nist.gov/news-events/news/2025/12/nist-launches-centers-ai-manufacturing-and-critical-infrastructure",
+        "pubDate": "2025-12-22T12:00:00",
+        "source": "NIST US"
+    },
+    {
+        "title": "NIST Physicists Bring Unruly Molecules to the Quantum Party",
+        "link": "https://www.nist.gov/news-events/news/2025/12/nist-physicists-bring-unruly-molecules-quantum-party",
+        "pubDate": "2025-12-18T12:00:00",
+        "source": "NIST US"
+    },
+    {
+        "title": "Securing Smart Speakers for Home Health Care: NIST Offers New Guidelines",
+        "link": "https://www.nist.gov/news-events/news/2025/12/securing-smart-speakers-home-health-care-nist-offers-new-guidelines",
+        "pubDate": "2025-12-17T12:00:00",
+        "source": "NIST US"
+    },
+    {
+        "title": "Draft NIST Guidelines Rethink Cybersecurity for the AI Era",
+        "link": "https://www.nist.gov/news-events/news/2025/12/draft-nist-guidelines-rethink-cybersecurity-ai-era",
+        "pubDate": "2025-12-16T12:00:00",
+        "source": "NIST US"
+    },
+    {
+        "title": "Department of Commerce Announces Transition of Baldrige Performance Excellence Program",
+        "link": "https://www.nist.gov/news-events/news/2025/12/department-commerce-announces-transition-baldrige-performance-excellence",
+        "pubDate": "2025-12-11T12:00:00",
+        "source": "NIST US"
+    },
+    {
+        "title": "HTTPS certificate industry phasing out less secure domain validation methods",
+        "link": "http://security.googleblog.com/2025/12/https-certificate-industry-phasing-out.html",
+        "pubDate": "2025-12-10T20:00:00",
+        "source": "Google Security Blog"
+    },
+    {
+        "title": "Mistaking AI vulnerability could lead to large-scale breaches, NCSC warns",
+        "link": "https://www.ncsc.gov.uk/news/mistaking-ai-vulnerability-could-lead-to-large-scale-breaches",
+        "pubDate": "2025-12-10T12:30:04",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Further Hardening Android GPUs",
+        "link": "http://security.googleblog.com/2025/12/further-hardening-android-gpus.html",
+        "pubDate": "2025-12-09T17:00:00",
+        "source": "Google Security Blog"
+    },
+    {
+        "title": "Architecting Security for Agentic Capabilities in Chrome",
+        "link": "http://security.googleblog.com/2025/12/architecting-security-for-agentic.html",
+        "pubDate": "2025-12-08T18:03:00",
+        "source": "Google Security Blog"
+    },
+    {
+        "title": "Android expands pilot for in-call scam protection for financial apps",
+        "link": "http://security.googleblog.com/2025/12/android-expands-pilot-in-call-scam-protection-financial-apps.html",
+        "pubDate": "2025-12-03T16:59:00",
+        "source": "Google Security Blog"
+    },
+    {
+        "title": "Almost 1 billion attempts to access malicious sites blocked by new government cyber tool",
+        "link": "https://www.ncsc.gov.uk/news/almost-one-billion-attempts-access-malicious-sites-blocked-by-new-government-cyber-tool",
+        "pubDate": "2025-12-03T14:16:14",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "What Time Is It on Mars? NIST Physicists Have the Answer.",
+        "link": "https://www.nist.gov/news-events/news/2025/12/what-time-it-mars-nist-physicists-have-answer",
+        "pubDate": "2025-12-01T12:00:00",
+        "source": "NIST US"
+    },
+    {
+        "title": "Android Quick Share Support for AirDrop: A Secure Approach to Cross-Platform File Sharing",
+        "link": "http://security.googleblog.com/2025/11/android-quick-share-support-for-airdrop-security.html",
+        "pubDate": "2025-11-20T17:00:00",
+        "source": "Google Security Blog"
+    },
+    {
+        "title": "Building a Sustainable Metals Infrastructure: NIST Report Highlights Key Strategies",
+        "link": "https://www.nist.gov/news-events/news/2025/11/building-sustainable-metals-infrastructure-nist-report-highlights-key",
+        "pubDate": "2025-11-20T12:00:00",
+        "source": "NIST US"
+    },
+    {
+        "title": "Bargain hunters urged to stay alert to cyber scams ahead of holiday shopping season",
+        "link": "https://www.ncsc.gov.uk/news/stay-alert-to-holiday-shopping-cyber-scams",
+        "pubDate": "2025-11-17T10:08:03",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Rust in Android: move fast and fix things",
+        "link": "http://security.googleblog.com/2025/11/rust-in-android-move-fast-fix-things.html",
+        "pubDate": "2025-11-13T16:59:00",
+        "source": "Google Security Blog"
+    },
+    {
+        "title": "How Android provides the most effective protection to keep you safe from mobile scams",
+        "link": "http://security.googleblog.com/2025/10/how-android-protects-you-from-scams.html",
+        "pubDate": "2025-10-30T16:59:00",
+        "source": "Google Security Blog"
+    },
+    {
+        "title": "Groundbreaking cyber advice will help construction firms build strong foundations against online threats",
+        "link": "https://www.ncsc.gov.uk/news/groundbreaking-cyber-advice-will-help-construction-firms-build-strong-foundations-against-online-threats",
+        "pubDate": "2025-10-30T13:59:40",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Charities offered latest insight into key cyber threats to help keep out attackers",
+        "link": "https://www.ncsc.gov.uk/news/charities-offered-latest-insight-into-key-cyber-threats-to-help-keep-out-attackers",
+        "pubDate": "2025-10-29T15:25:42",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "HTTPS by default",
+        "link": "http://security.googleblog.com/2025/10/https-by-default.html",
+        "pubDate": "2025-10-28T17:01:00",
+        "source": "Google Security Blog"
+    },
+    {
+        "title": "UK experiencing four 'nationally significant' cyber attacks every week",
+        "link": "https://www.ncsc.gov.uk/news/uk-experiencing-four-nationally-significant-cyber-attacks-weekly",
+        "pubDate": "2025-10-16T13:13:35",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Confirmed compromise of F5 network",
+        "link": "https://www.ncsc.gov.uk/news/confirmed-compromise-f5-network",
+        "pubDate": "2025-10-15T12:50:18",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Small businesses to receive cyber security boost with new toolkit from experts",
+        "link": "https://www.ncsc.gov.uk/news/small-businesses-receive-cyber-security-boost-with-new-toolkit-from-experts",
+        "pubDate": "2025-10-13T09:52:09",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Active exploitation of vulnerability affecting Oracle E-Business Suite",
+        "link": "https://www.ncsc.gov.uk/news/active-exploitation-vulnerability-affecting-oracle-ebusiness-suite",
+        "pubDate": "2025-10-06T09:30:52",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "CAISI Evaluation of DeepSeek AI Models Finds Shortcomings and Risks",
+        "link": "https://www.nist.gov/news-events/news/2025/09/caisi-evaluation-deepseek-ai-models-finds-shortcomings-and-risks",
+        "pubDate": "2025-09-30T12:00:00",
+        "source": "NIST US"
+    },
+    {
+        "title": "NIST Engineers Design 5 New Ways to Connect Concrete Pieces for More Resilient Buildings",
+        "link": "https://www.nist.gov/news-events/news/2025/09/nist-engineers-design-5-new-ways-connect-concrete-pieces-more-resilient",
+        "pubDate": "2025-09-29T12:00:00",
+        "source": "NIST US"
+    },
+    {
+        "title": "NCSC statement following reports of nursery data incident",
+        "link": "https://www.ncsc.gov.uk/news/nursery-data-incident",
+        "pubDate": "2025-09-25T16:21:30",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NCSC warns of persistent malware campaign targeting Cisco devices",
+        "link": "https://www.ncsc.gov.uk/news/persistent-malicious-targeting-cisco-devices",
+        "pubDate": "2025-09-25T11:55:28",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Accelerating adoption of AI for cybersecurity at DEF CON 33",
+        "link": "http://security.googleblog.com/2025/09/accelerating-adoption-of-ai-for.html",
+        "pubDate": "2025-09-24T18:42:00",
+        "source": "Google Security Blog"
+    },
+    {
+        "title": "NIST Issues Broad Agency Announcement for Proposals to Advance Microelectronics Technologies",
+        "link": "https://www.nist.gov/news-events/news/2025/09/nist-issues-broad-agency-announcement-proposals-advance-microelectronics",
+        "pubDate": "2025-09-24T12:00:00",
+        "source": "NIST US"
+    },
+    {
+        "title": "NCSC statement: Incident impacting Collins Aerospace",
+        "link": "https://www.ncsc.gov.uk/news/collins-aerospace-incident",
+        "pubDate": "2025-09-22T08:05:07",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NIST Awards More Than $3 Million to Support Cybersecurity Workforce Development Across 13 States",
+        "link": "https://www.nist.gov/news-events/news/2025/09/nist-awards-more-3-million-support-cybersecurity-workforce-development",
+        "pubDate": "2025-09-17T12:00:00",
+        "source": "NIST US"
+    },
+    {
+        "title": "Supporting Rowhammer research to protect the DRAM ecosystem",
+        "link": "http://security.googleblog.com/2025/09/supporting-rowhammer-research-to.html",
+        "pubDate": "2025-09-15T17:01:00",
+        "source": "Google Security Blog"
+    },
+    {
+        "title": "How Pixel and Android are bringing a new level of trust to your images with C2PA Content Credentials",
+        "link": "http://security.googleblog.com/2025/09/pixel-android-trusted-images-c2pa-content-credentials.html",
+        "pubDate": "2025-09-10T15:59:00",
+        "source": "Google Security Blog"
+    },
+    {
+        "title": "In Quantum Sensing, What Beats Beating Noise? Meeting Noise Halfway.",
+        "link": "https://www.nist.gov/news-events/news/2025/09/quantum-sensing-what-beats-beating-noise-meeting-noise-halfway",
+        "pubDate": "2025-09-10T12:00:00",
+        "source": "NIST US"
+    },
+    {
+        "title": "Champlain Towers South Investigation Nears Completion of Technical Work",
+        "link": "https://www.nist.gov/news-events/news/2025/09/champlain-towers-south-investigation-nears-completion-technical-work",
+        "pubDate": "2025-09-09T12:00:00",
+        "source": "NIST US"
+    },
+    {
+        "title": "NIST’s ‘Living Reference Material’ Could Accelerate R&amp;D of Lifesaving Biological Drugs",
+        "link": "https://www.nist.gov/news-events/news/2025/09/nists-living-reference-material-could-accelerate-rd-lifesaving-biological",
+        "pubDate": "2025-09-08T12:00:00",
+        "source": "NIST US"
+    },
+    {
+        "title": "NCSC statement: Incident impacting Jaguar Land Rover",
+        "link": "https://www.ncsc.gov.uk/news/jlr-incident",
+        "pubDate": "2025-09-05T10:32:58",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Some Air Cleaners Release Harmful By-Products. Now We Have a Way to Measure Them.",
+        "link": "https://www.nist.gov/news-events/news/2025/09/some-air-cleaners-release-harmful-products-now-we-have-way-measure-them",
+        "pubDate": "2025-09-02T12:00:00",
+        "source": "NIST US"
+    },
+    {
+        "title": "UK and allies expose China-based technology companies for enabling global cyber campaign against critical networks",
+        "link": "https://www.ncsc.gov.uk/news/uk-allies-expose-china-tech-companies-enabling-cyber-campaign",
+        "pubDate": "2025-08-27T14:41:48",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NIST Revises Security and Privacy Control Catalog to Improve Software Update and Patch Releases",
+        "link": "https://www.nist.gov/news-events/news/2025/08/nist-revises-security-and-privacy-control-catalog-improve-software-update",
+        "pubDate": "2025-08-27T12:00:00",
+        "source": "NIST US"
+    },
+    {
+        "title": "New Technique for Measuring DNA Damage Could Improve Cancer Therapy and Radiological Emergency Response",
+        "link": "https://www.nist.gov/news-events/news/2025/08/new-technique-measuring-dna-damage-could-improve-cancer-therapy-and",
+        "pubDate": "2025-08-21T12:00:00",
+        "source": "NIST US"
+    },
+    {
+        "title": "NIST Researchers Develop More Accurate Formula for Measuring Particle Concentration",
+        "link": "https://www.nist.gov/news-events/news/2025/08/nist-researchers-develop-more-accurate-formula-measuring-particle",
+        "pubDate": "2025-08-20T12:00:00",
+        "source": "NIST US"
+    },
+    {
+        "title": "NIST Awards Over $1.8 Million to Small Businesses Advancing AI, Semiconductors, Additive Manufacturing and More",
+        "link": "https://www.nist.gov/news-events/news/2025/08/nist-awards-over-18-million-small-businesses-advancing-ai-semiconductors",
+        "pubDate": "2025-08-18T12:00:00",
+        "source": "NIST US"
+    },
+    {
+        "title": "NIST Guidelines Can Help Organizations Detect Face Photo Morphs, Deter Identity Fraud",
+        "link": "https://www.nist.gov/news-events/news/2025/08/nist-guidelines-can-help-organizations-detect-face-photo-morphs-deter",
+        "pubDate": "2025-08-18T12:00:00",
+        "source": "NIST US"
+    },
+    {
+        "title": "NIST Finalizes ‘Lightweight Cryptography’ Standard to Protect Small Devices",
+        "link": "https://www.nist.gov/news-events/news/2025/08/nist-finalizes-lightweight-cryptography-standard-protect-small-devices",
+        "pubDate": "2025-08-13T12:00:00",
+        "source": "NIST US"
+    },
+    {
+        "title": "Android’s pKVM Becomes First Globally Certified Software to Achieve Prestigious SESIP Level 5 Security Certification",
+        "link": "http://security.googleblog.com/2025/08/Android-pKVM-Certified-SESIP-Level-5.html",
+        "pubDate": "2025-08-12T16:00:00",
+        "source": "Google Security Blog"
+    },
+    {
+        "title": "NIST to Provide Updates on Construction Safety Team Investigations in September Advisory Committee Meeting",
+        "link": "https://www.nist.gov/news-events/news/2025/08/nist-provide-updates-construction-safety-team-investigations-september",
+        "pubDate": "2025-08-06T12:00:00",
+        "source": "NIST US"
+    },
+    {
+        "title": "New NIST Reference Material to Strengthen Quality Control for Biological Drugs",
+        "link": "https://www.nist.gov/news-events/news/2025/07/new-nist-reference-material-strengthen-quality-control-biological-drugs",
+        "pubDate": "2025-07-31T12:00:00",
+        "source": "NIST US"
+    },
+    {
+        "title": "NIST Consortium and Draft Guidelines Aim to Improve Security in Software Development",
+        "link": "https://www.nist.gov/news-events/news/2025/07/nist-consortium-and-draft-guidelines-aim-improve-security-software",
+        "pubDate": "2025-07-30T12:00:00",
+        "source": "NIST US"
+    },
+    {
+        "title": "NIST Makes First Detection of Cannabis in Breath From Edibles",
+        "link": "https://www.nist.gov/news-events/news/2025/07/nist-makes-first-detection-cannabis-breath-edibles",
+        "pubDate": "2025-07-24T12:00:00",
+        "source": "NIST US"
+    },
+    {
+        "title": "Active exploitation of vulnerability affecting Microsoft Office SharePoint Server products in the UK",
+        "link": "https://www.ncsc.gov.uk/news/active-exploitation-of-vulnerability-affecting-microsoft-office-sharepoint-server-products-in-the-uk",
+        "pubDate": "2025-07-22T08:44:33",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Introducing OSS Rebuild: Open Source, Rebuilt to Last",
+        "link": "http://security.googleblog.com/2025/07/introducing-oss-rebuild-open-source.html",
+        "pubDate": "2025-07-21T21:34:00",
+        "source": "Google Security Blog"
+    },
+    {
+        "title": "UK calls out Russian military intelligence for use of espionage tool",
+        "link": "https://www.ncsc.gov.uk/news/uk-call-out-russian-military-intelligence-use-espionage-tool",
+        "pubDate": "2025-07-18T11:19:36",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NIST’s Alex Maranghides Receives Service to America Medal",
+        "link": "https://www.nist.gov/news-events/news/2025/07/nists-alex-maranghides-receives-service-america-medal",
+        "pubDate": "2025-07-17T12:00:00",
+        "source": "NIST US"
+    },
+    {
+        "title": "NIST Releases Trove of Genetic Data to Spur Cancer Research",
+        "link": "https://www.nist.gov/news-events/news/2025/07/nist-releases-trove-genetic-data-spur-cancer-research",
+        "pubDate": "2025-07-16T12:00:00",
+        "source": "NIST US"
+    },
+    {
+        "title": "NIST Shares Preliminary Findings From Hurricane Maria Investigation",
+        "link": "https://www.nist.gov/news-events/news/2025/07/nist-shares-preliminary-findings-hurricane-maria-investigation",
+        "pubDate": "2025-07-14T12:00:00",
+        "source": "NIST US"
+    },
+    {
+        "title": "NIST Ion Clock Sets New Record for Most Accurate Clock in the World",
+        "link": "https://www.nist.gov/news-events/news/2025/07/nist-ion-clock-sets-new-record-most-accurate-clock-world",
+        "pubDate": "2025-07-14T12:00:00",
+        "source": "NIST US"
+    },
+    {
+        "title": "Advancing Protection in Chrome on Android",
+        "link": "http://security.googleblog.com/2025/07/advancing-protection-in-chrome-on.html",
+        "pubDate": "2025-07-08T17:36:00",
+        "source": "Google Security Blog"
+    },
+    {
+        "title": "New NIST Method Precisely Measures Radioactivity in Tiny Samples",
+        "link": "https://www.nist.gov/news-events/news/2025/07/new-nist-method-precisely-measures-radioactivity-tiny-samples",
+        "pubDate": "2025-07-08T12:00:00",
+        "source": "NIST US"
+    },
+    {
+        "title": "Bioinspired Materials Can Take a Punch",
+        "link": "https://www.nist.gov/news-events/news/2025/06/bioinspired-materials-can-take-punch",
+        "pubDate": "2025-06-24T12:00:00",
+        "source": "NIST US"
+    },
+    {
+        "title": "NIST Releases Extensive Video Update on Champlain Towers South Investigation",
+        "link": "https://www.nist.gov/news-events/news/2025/06/nist-releases-extensive-video-update-champlain-towers-south-investigation",
+        "pubDate": "2025-06-23T12:00:00",
+        "source": "NIST US"
+    },
+    {
+        "title": "NIST Names Shyam Sunder Associate Director for Laboratory Programs",
+        "link": "https://www.nist.gov/news-events/news/2025/06/nist-names-shyam-sunder-associate-director-laboratory-programs",
+        "pubDate": "2025-06-20T12:00:00",
+        "source": "NIST US"
+    },
+    {
+        "title": "Mitigating prompt injection attacks with a layered defense strategy",
+        "link": "http://security.googleblog.com/2025/06/mitigating-prompt-injection-attacks.html",
+        "pubDate": "2025-06-13T16:03:00",
+        "source": "Google Security Blog"
+    },
+    {
+        "title": "NIST Offers 19 Ways to Build Zero Trust Architectures",
+        "link": "https://www.nist.gov/news-events/news/2025/06/nist-offers-19-ways-build-zero-trust-architectures",
+        "pubDate": "2025-06-11T12:00:00",
+        "source": "NIST US"
+    },
+    {
+        "title": "NIST and Partners Use Quantum Mechanics to Make a Factory for Random Numbers",
+        "link": "https://www.nist.gov/news-events/news/2025/06/nist-and-partners-use-quantum-mechanics-make-factory-random-numbers",
+        "pubDate": "2025-06-11T12:00:00",
+        "source": "NIST US"
+    },
+    {
+        "title": "New NIST Standard Helps Deliver the Right Dosage of Cancer-Fighting Drugs",
+        "link": "https://www.nist.gov/news-events/news/2025/06/new-nist-standard-helps-deliver-right-dosage-cancer-fighting-drugs",
+        "pubDate": "2025-06-03T12:00:00",
+        "source": "NIST US"
+    },
+    {
+        "title": "Sustaining Digital Certificate Security - Upcoming Changes to the Chrome Root Store",
+        "link": "http://security.googleblog.com/2025/05/sustaining-digital-certificate-security-chrome-root-store-changes.html",
+        "pubDate": "2025-05-30T14:59:00",
+        "source": "Google Security Blog"
+    },
+    {
+        "title": "Tracking the Cost of Quantum Factoring",
+        "link": "http://security.googleblog.com/2025/05/tracking-cost-of-quantum-factori.html",
+        "pubDate": "2025-05-23T11:57:00",
+        "source": "Google Security Blog"
+    },
+    {
+        "title": "UK and allies expose Russian intelligence campaign targeting western logistics and technology organisations",
+        "link": "https://www.ncsc.gov.uk/news/uk-partners-expose-russian-intelligence-campaign",
+        "pubDate": "2025-05-22T15:23:34",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NIST Moonlight Data Will Help Satellites Get a More Accurate Look at Earth",
+        "link": "https://www.nist.gov/news-events/news/2025/05/nist-moonlight-data-will-help-satellites-get-more-accurate-look-earth",
+        "pubDate": "2025-05-20T12:00:00",
+        "source": "NIST US"
+    },
+    {
+        "title": "NCSC statement: Incident impacting retailers",
+        "link": "https://www.ncsc.gov.uk/news/retailers-incident",
+        "pubDate": "2025-05-15T09:59:23",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "What’s New in Android Security and Privacy in 2025",
+        "link": "http://security.googleblog.com/2025/05/whats-new-in-android-security-privacy-2025.html",
+        "pubDate": "2025-05-13T16:59:00",
+        "source": "Google Security Blog"
+    },
+    {
+        "title": "Advanced Protection: Google’s Strongest Security for Mobile Devices",
+        "link": "http://security.googleblog.com/2025/05/advanced-protection-mobile-devices.html",
+        "pubDate": "2025-05-13T16:59:00",
+        "source": "Google Security Blog"
+    },
+    {
+        "title": "Using AI to stop tech support scams in Chrome",
+        "link": "http://security.googleblog.com/2025/05/using-ai-to-stop-tech-support-scams-in.html",
+        "pubDate": "2025-05-08T16:59:00",
+        "source": "Google Security Blog"
+    },
+    {
+        "title": "UK's schoolgirl cyber security champions joined by undeclared war star at prestigious awards night",
+        "link": "https://www.ncsc.gov.uk/news/cyber-security-champions-joined-by-undeclared-war-star-at-prestigious-awards-nights",
+        "pubDate": "2025-05-08T11:57:09",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "UK pioneering global move away from passwords",
+        "link": "https://www.ncsc.gov.uk/news/government-adopt-passkey-technology-digital-services",
+        "pubDate": "2025-05-08T06:50:00",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Preparing for post-quantum threat will make \"fixing the Millennium Bug look easy\"",
+        "link": "https://www.ncsc.gov.uk/news/preparing-for-post-quantum-threat",
+        "pubDate": "2025-05-07T13:07:41",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "New assurance initiatives to help boost confidence in cyber resilience",
+        "link": "https://www.ncsc.gov.uk/news/new-assurance-initiatives-boost-cyber-resilience",
+        "pubDate": "2025-05-06T17:00:47",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "UK critical systems at increased risk from 'digital divide' created by AI threats",
+        "link": "https://www.ncsc.gov.uk/news/ai-to-2027-threat-assessment",
+        "pubDate": "2025-05-06T09:02:48",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "BADBAZAAR and MOONSHINE: Spyware targeting Uyghur, Taiwanese and Tibetan groups and civil society actors",
+        "link": "https://www.ncsc.gov.uk/news/advisory-badbazaar-moonshine",
+        "pubDate": "2025-04-09T07:53:28",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "BADBAZAAR and MOONSHINE: Technical analysis and mitigations",
+        "link": "https://www.ncsc.gov.uk/news/advisory-badbazaar-moonshine-technical-analysis-mitigations",
+        "pubDate": "2025-04-09T02:36:37",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NCSC and partners share guidance for communities at high risk of digital surveillance",
+        "link": "https://www.ncsc.gov.uk/news/ncsc-partners-share-guidance-for-communities-at-high-risk-of-digital-surveillance",
+        "pubDate": "2025-04-09T02:35:04",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Google announces Sec-Gemini v1, a new experimental cybersecurity model",
+        "link": "http://security.googleblog.com/2025/04/google-launches-sec-gemini-v1-new.html",
+        "pubDate": "2025-04-04T18:53:00",
+        "source": "Google Security Blog"
+    },
+    {
+        "title": "Taming the Wild West of ML: Practical Model Signing with Sigstore",
+        "link": "http://security.googleblog.com/2025/04/taming-wild-west-of-ml-practical-model.html",
+        "pubDate": "2025-04-04T17:00:00",
+        "source": "Google Security Blog"
+    },
+    {
+        "title": "Vulnerability affecting Next.js web development framework",
+        "link": "https://www.ncsc.gov.uk/news/vulnerability-affecting-nextjs-web-development-framework",
+        "pubDate": "2025-03-31T12:50:03",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "New security requirements adopted by HTTPS certificate industry",
+        "link": "http://security.googleblog.com/2025/03/new-security-requirements-adopted-by.html",
+        "pubDate": "2025-03-27T20:49:00",
+        "source": "Google Security Blog"
+    },
+    {
+        "title": "Titan Security Keys now available in more countries",
+        "link": "http://security.googleblog.com/2025/03/titan-security-keys-now-available-in.html",
+        "pubDate": "2025-03-26T17:00:00",
+        "source": "Google Security Blog"
+    },
+    {
+        "title": "Cyber chiefs unveil new roadmap for post-quantum cryptography migration",
+        "link": "https://www.ncsc.gov.uk/news/pqc-migration-roadmap-unveiled",
+        "pubDate": "2025-03-19T10:34:00",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NCSC joins partners to issue warning about China state-sponsored cyber activity targeting CNI networks",
+        "link": "https://www.ncsc.gov.uk/news/ncsc-joins-partners-to-issue-warning-about-chinese-cyber-activity-targeting-cni",
+        "pubDate": "2025-03-13T11:31:13",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NCSC joins industry to offer unprecedented protection for public from scams",
+        "link": "https://www.ncsc.gov.uk/news/ncsc-joins-industry-to-offer-unprecedented-protection-for-public-from-scams",
+        "pubDate": "2025-03-13T11:27:11",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NCSC issues fresh guidance following recent rise in supply chain cyber attacks",
+        "link": "https://www.ncsc.gov.uk/news/ncsc-issues-fresh-guidance-following-recent-rise-in-supply-chain-cyber-attacks",
+        "pubDate": "2025-03-13T11:26:51",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NCSC enters new partnership for PDNS delivery",
+        "link": "https://www.ncsc.gov.uk/news/ncsc-new-pdns-partnership",
+        "pubDate": "2025-03-13T11:26:37",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NCSC Cyber Incident Response scheme now available to more organisations",
+        "link": "https://www.ncsc.gov.uk/news/ncsc-cyber-incident-response-scheme-available-more-organisations",
+        "pubDate": "2025-03-13T11:26:17",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NCSC consolidates advice on secure home learning",
+        "link": "https://www.ncsc.gov.uk/news/ncsc-consolidates-advice-on-secure-home-learning",
+        "pubDate": "2025-03-13T11:25:59",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NCSC CEO shares insights  into securing UK elections in cyber space at major international conference",
+        "link": "https://www.ncsc.gov.uk/news/ncsc-ceo-shares-insights-international-conference",
+        "pubDate": "2025-03-13T11:24:22",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NCSC CEO meets with cyber security leaders in India",
+        "link": "https://www.ncsc.gov.uk/news/ncsc-ceo-meets-with-cyber-security-leaders-in-india",
+        "pubDate": "2025-03-13T11:23:59",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NCSC CEO Lindy Cameron urges UK organisations to take action",
+        "link": "https://www.ncsc.gov.uk/news/ncsc-ceo-lindy-cameron-urges-uk-organisations-to-take-action",
+        "pubDate": "2025-03-13T11:12:06",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NCSC CEO highlights important role Boards have to play in cyber security",
+        "link": "https://www.ncsc.gov.uk/news/ncsc-ceo-highlights-important-role-boards-have-to-play-in-cyber-security",
+        "pubDate": "2025-03-12T13:51:52",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NCSC CEO at UK-INDIA Week 2023",
+        "link": "https://www.ncsc.gov.uk/news/ncsc-ceo-at-uk-india-week-2023",
+        "pubDate": "2025-03-12T13:51:30",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NCSC CEO appears at major US cyber security summit",
+        "link": "https://www.ncsc.gov.uk/news/ncsc-ceo-billington",
+        "pubDate": "2025-03-12T13:51:13",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NCSC CEO and Information Commissioner sign Memorandum of Understanding",
+        "link": "https://www.ncsc.gov.uk/news/ncsc-ceo-and-information-commissioner-sign-memorandum-of-understanding",
+        "pubDate": "2025-03-12T13:47:18",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NCSC announces Richard Horne as new CEO",
+        "link": "https://www.ncsc.gov.uk/news/ncsc-annouces-new-ceo",
+        "pubDate": "2025-03-12T13:47:01",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NCSC announces new joint directors for software security research institute",
+        "link": "https://www.ncsc.gov.uk/news/ncsc-announces-new-joint-directors-for-software-security-research-institute",
+        "pubDate": "2025-03-12T13:46:43",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NCSC and partners issue warning over North Korean state-sponsored cyber campaign to steal military and nuclear secrets",
+        "link": "https://www.ncsc.gov.uk/news/ncsc-partners-vigilant-dprk-sponsored-cyber-campaign",
+        "pubDate": "2025-03-12T13:46:31",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NCSC and partners issue advice to help network defenders mitigate targeting of CISCO firewall platforms",
+        "link": "https://www.ncsc.gov.uk/news/ncsc-partners-advice-mitigate-cisco-firewall-targeting",
+        "pubDate": "2025-03-12T13:21:23",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NCSC and partners issue advice to counter China-linked campaign targeting thousands of devices",
+        "link": "https://www.ncsc.gov.uk/news/ncsc-and-partners-issue-advice-to-counter-china-linked-campaign-targeting-thousands-of-devices",
+        "pubDate": "2025-03-12T13:21:09",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NCSC and law enforcement encourage vigilance when shopping online this Christmas",
+        "link": "https://www.ncsc.gov.uk/news/ncsc-and-law-enforcement-encourage-vigilance-when-shopping-online-this-christmas",
+        "pubDate": "2025-03-12T13:20:57",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NCSC and allies publish advisory on the most commonly exploited vulnerabilities in 2021",
+        "link": "https://www.ncsc.gov.uk/news/ncsc-and-allies-publish-advisory-on-the-most-commonly-exploited-vulnerabilities-in-2021",
+        "pubDate": "2025-03-12T13:20:43",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NCSC advises organisations to act following Russia’s attack on Ukraine",
+        "link": "https://www.ncsc.gov.uk/news/organisations-urged-to-bolster-defences",
+        "pubDate": "2025-03-12T13:20:31",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NCSC and international partners shine a light on Lockbit ransomware threat",
+        "link": "https://www.ncsc.gov.uk/news/ncsc-international-partners-lockbit-ransomware-threat",
+        "pubDate": "2025-03-12T13:20:15",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "National Cyber Security Centre CTO: The tech market isn't working",
+        "link": "https://www.ncsc.gov.uk/news/ncsc-cto-the-tech-market-is-not-working",
+        "pubDate": "2025-03-12T13:19:59",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Nation of digital defenders blow the whistle on over 10 million suspect emails",
+        "link": "https://www.ncsc.gov.uk/news/nation-of-digital-defenders-blow-the-whistle-on-over-10-million-suspect-emails",
+        "pubDate": "2025-03-12T13:16:20",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Microsoft update on brute force and password spraying activity",
+        "link": "https://www.ncsc.gov.uk/news/microsoft-update-brute-force-password-spraying",
+        "pubDate": "2025-03-12T13:15:30",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Legal firms urged to strengthen cyber defences with latest guidance from experts",
+        "link": "https://www.ncsc.gov.uk/news/legal-firms-urged-to-strengthen-cyber-defences",
+        "pubDate": "2025-03-12T13:15:09",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Leading women in tech urge schoolgirls to take on the UK's flagship cyber security contest",
+        "link": "https://www.ncsc.gov.uk/news/schoolgirls-urged-to-take-on-the-uks-flagship-cyber-security-contest",
+        "pubDate": "2025-03-12T13:14:56",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Joint US - UK statement on malicious cyber activity carried out by Russian government",
+        "link": "https://www.ncsc.gov.uk/news/joint-us-uk-statement-malicious-cyber-activity-carried-out-russian-government",
+        "pubDate": "2025-03-12T13:14:43",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Joint security guidance offered to data centre operators and users",
+        "link": "https://www.ncsc.gov.uk/news/joint-security-guidance-offered-to-data-centre-operators-and-users",
+        "pubDate": "2025-03-12T13:13:42",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Joint advisory: Further TTPs associated with SVR cyber actors",
+        "link": "https://www.ncsc.gov.uk/news/joint-advisory-further-ttps-associated-with-svr-cyber-actors",
+        "pubDate": "2025-03-12T13:13:28",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Joint advisory on MuddyWater actor",
+        "link": "https://www.ncsc.gov.uk/news/joint-advisory-observes-muddywater-actors-conducting-cyber-espionage",
+        "pubDate": "2025-03-12T13:13:16",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Joint advisory highlights Microsoft Exchange and Fortinet vulnerabilities",
+        "link": "https://www.ncsc.gov.uk/news/microsoft-exchange-fortinet-vulnerabilities",
+        "pubDate": "2025-03-12T13:13:04",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Joint advisory highlights increased globalised threat of ransomware",
+        "link": "https://www.ncsc.gov.uk/news/joint-advisory-highlights-increased-globalised-threat-of-ransomware",
+        "pubDate": "2025-03-12T13:12:44",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "International leaders to take centre stage at CYBERUK 2023 in Belfast",
+        "link": "https://www.ncsc.gov.uk/news/international-leaders-to-take-centre-stage-at-cyberuk-2023-in-belfast",
+        "pubDate": "2025-03-12T12:33:01",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "International cyber security leaders to appear at flagship UK conference",
+        "link": "https://www.ncsc.gov.uk/news/international-cyber-security-leaders-to-appear-at-flagship-uk-conference",
+        "pubDate": "2025-03-12T12:32:45",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Hostile state actors compromising UK organisations with focus on engineering and industrial control companies",
+        "link": "https://www.ncsc.gov.uk/news/hostile-state-actors-compromising-uk-organisations-focus-engineering-and-industrial-control",
+        "pubDate": "2025-03-12T12:32:23",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Heightened threat of state-aligned groups against western critical national infrastructure",
+        "link": "https://www.ncsc.gov.uk/news/heightened-threat-of-state-aligned-groups",
+        "pubDate": "2025-03-12T12:32:02",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Global ransomware threat expected to rise with AI, NCSC warns",
+        "link": "https://www.ncsc.gov.uk/news/global-ransomware-threat-expected-to-rise-with-ai",
+        "pubDate": "2025-03-12T12:31:32",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Girls gear up for codebreaking showdown as UK’s top cyber skills competition opens for registration",
+        "link": "https://www.ncsc.gov.uk/news/girls-gear-up-for-codebreaking-showdown",
+        "pubDate": "2025-03-12T12:31:18",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Get future ready, set, go: CYBERUK 2024 theme revealed",
+        "link": "https://www.ncsc.gov.uk/news/get-future-ready-set-go-cyberuk-2024-theme-revealed",
+        "pubDate": "2025-03-12T12:31:05",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "GCHQ Director and US cyber chief among speakers confirmed for CYBERUK 2024",
+        "link": "https://www.ncsc.gov.uk/news/gchq-director-us-cyber-chief-confirmed-cyberuk-2024",
+        "pubDate": "2025-03-12T12:30:35",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Five Eyes launch shared security advice campaign for tech startups",
+        "link": "https://www.ncsc.gov.uk/news/five-eyes-launch-shared-advice-tech-startups",
+        "pubDate": "2025-03-12T12:30:16",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Five Eyes cyber leaders provide threat briefing at major US conference",
+        "link": "https://www.ncsc.gov.uk/news/five-eyes-cyber-leaders-provide-threat-briefing-at-major-us-conference",
+        "pubDate": "2025-03-12T12:30:04",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Festive shoppers urged to be Cyber Aware as figures reveal average online losses of £1,000",
+        "link": "https://www.ncsc.gov.uk/news/festive-shoppers-urged-to-be-cyber-aware",
+        "pubDate": "2025-03-12T12:29:52",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Exploitation of vulnerability affecting Palo Alto GlobalProtect Gateway",
+        "link": "https://www.ncsc.gov.uk/news/exploitation-palo-alto-globalprotect-gateway-vulnerability",
+        "pubDate": "2025-03-12T12:25:42",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Exploitation of vulnerability affecting Fortinet FortiManager",
+        "link": "https://www.ncsc.gov.uk/news/vulnerability-fortinet-fortimanager",
+        "pubDate": "2025-03-12T12:25:15",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Exploitation of vulnerabilities affecting Ivanti Connect Secure and Ivanti Policy Secure",
+        "link": "https://www.ncsc.gov.uk/news/exploitation-ivanti-vulnerabilities",
+        "pubDate": "2025-03-12T12:24:53",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Exploitation of vulnerabilities affecting Cisco firewall platforms",
+        "link": "https://www.ncsc.gov.uk/news/exploitation-vulnerabilities-affecting-cisco-firewall-platforms",
+        "pubDate": "2025-03-12T12:23:34",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Exploitation of Cisco IOS XE vulnerabilities affecting UK organisations",
+        "link": "https://www.ncsc.gov.uk/news/cisco-ios-xe-vulnerabilities",
+        "pubDate": "2025-03-12T12:23:11",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Experts reveal latest insights into world of cyber criminals",
+        "link": "https://www.ncsc.gov.uk/news/experts-reveal-insights-cyber-crime-ecosystem",
+        "pubDate": "2025-03-12T12:20:45",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Experts challenge myths around reporting cyber attacks to help break cycle of crime",
+        "link": "https://www.ncsc.gov.uk/news/experts-challenge-myths-around-reporting-cyber-attacks-in-bid-to-help-break-cycle-of-crime",
+        "pubDate": "2025-03-12T12:20:15",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Advisory: Exim mail server vulnerabilities",
+        "link": "https://www.ncsc.gov.uk/news/exim-mail-server-vulnerabilities-advisory",
+        "pubDate": "2025-03-12T12:19:55",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Director GCHQ on global security amid war in Ukraine",
+        "link": "https://www.ncsc.gov.uk/news/director-gchq-speaks-asd-75th-anniversary",
+        "pubDate": "2025-03-12T12:19:28",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "CYBERUK programme unveiled one month ahead of flagship conference",
+        "link": "https://www.ncsc.gov.uk/news/cyberuk-programme-unveiled-one-months-ahead-of-flagship-conference",
+        "pubDate": "2025-03-12T12:18:33",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "CyberFirst Girls triumph in national cyber competition at iconic Jodrell Bank",
+        "link": "https://www.ncsc.gov.uk/news/cyberfirst-girls-iconic-jodrell-bank",
+        "pubDate": "2025-03-12T12:18:19",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "CyberFirst Girls scoop prizes following success in national cyber security competition",
+        "link": "https://www.ncsc.gov.uk/news/cyberfirst-girls-scoop-prizes-following-success-in-national-cyber-security-competition",
+        "pubDate": "2025-03-12T12:18:08",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Cyber security experts team up to protect UK construction projects",
+        "link": "https://www.ncsc.gov.uk/news/joint-ventures-construction-guidance",
+        "pubDate": "2025-03-12T12:17:55",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Cyber insurance industry unites to bear down on ransom payments",
+        "link": "https://www.ncsc.gov.uk/news/cyber-insurance-industry-unites-reduce-ransom-harm",
+        "pubDate": "2025-03-12T12:16:37",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Cyber experts warn of rising threat from irresponsible use of commercial hacking tools over the next five years",
+        "link": "https://www.ncsc.gov.uk/news/cyber-experts-warn-of-rising-threat-from-commercial-hacking-tools-over-the-next-five-years",
+        "pubDate": "2025-03-12T12:16:21",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Cyber Essentials scheme marks a decade of boosting businesses’ cyber defences",
+        "link": "https://www.ncsc.gov.uk/news/cyber-essentials-scheme-marks-a-decade-of-boosting-businesses-cyber-defences",
+        "pubDate": "2025-03-12T12:15:56",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Cyber agencies unveil new guidelines to secure edge devices from increasing threat",
+        "link": "https://www.ncsc.gov.uk/news/cyber-agencies-unveil-new-guidelines-to-secure-edge-devices-from-increasing-threat",
+        "pubDate": "2025-03-12T12:15:40",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Collaboration only way to respond to cyber threats says renowned tech entrepreneur",
+        "link": "https://www.ncsc.gov.uk/news/collaboration-only-way-to-respond-to-cyber-threats-says-renowned-tech-entrepreneur",
+        "pubDate": "2025-03-12T12:15:23",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Code of Practice for Cyber Security and Safety in Engineering",
+        "link": "https://www.ncsc.gov.uk/news/code-of-practice-cyber-security-and-safety-in-engineering",
+        "pubDate": "2025-03-12T12:15:02",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Business leaders urged to grip cyber risks with fresh support from experts",
+        "link": "https://www.ncsc.gov.uk/news/business-leaders-urged-to-grid-cyber-risk-with-fresh-support-from-experts",
+        "pubDate": "2025-03-12T12:14:37",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "British tech startups offered help to keep innovations secure",
+        "link": "https://www.ncsc.gov.uk/news/british-tech-startups-offered-help-to-keep-innovations-secure",
+        "pubDate": "2025-03-12T12:14:02",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Black Friday warning: shoppers urged to protect themselves online as figures reveal rising losses to scams",
+        "link": "https://www.ncsc.gov.uk/news/black-friday-warning-figures-reveal-rising-losses-scams",
+        "pubDate": "2025-03-12T12:13:41",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Black Friday bargain hunters warned of enhanced online scams after millions lost last year",
+        "link": "https://www.ncsc.gov.uk/news/black-friday-bargain-hunters-warned-of-enhanced-online-scams-after-millions-lost-last-year",
+        "pubDate": "2025-03-12T12:11:35",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Big brands urged to 'scam-proof' messages to public",
+        "link": "https://www.ncsc.gov.uk/news/big-brands-urged-to-scam-proof-messages-to-public",
+        "pubDate": "2025-03-12T12:10:53",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Vulnerabilities exploited in VPN products used worldwide",
+        "link": "https://www.ncsc.gov.uk/news/alert-vpn-vulnerabilities",
+        "pubDate": "2025-03-12T12:09:11",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "The NCSC Annual Review 2020",
+        "link": "https://www.ncsc.gov.uk/news/annual-review-2020",
+        "pubDate": "2025-03-12T12:08:47",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "The NCSC Annual Review 2019",
+        "link": "https://www.ncsc.gov.uk/news/annual-review-2019",
+        "pubDate": "2025-03-12T12:08:10",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "All UK schools offered free cyber service to protect against online threats",
+        "link": "https://www.ncsc.gov.uk/news/all-uk-schools-offered-free-cyber-service-to-protect-against-online-threats",
+        "pubDate": "2025-03-12T12:07:57",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Alert: UK organisations should patch Netlogon vulnerability (Zerologon)",
+        "link": "https://www.ncsc.gov.uk/news/alert-organisations-should-patch-netlogon-vulnerability",
+        "pubDate": "2025-03-12T12:07:42",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Alert: Further ransomware attacks on the UK education sector by cyber criminals",
+        "link": "https://www.ncsc.gov.uk/news/alert-targeted-ransomware-attacks-on-uk-education-sector",
+        "pubDate": "2025-03-12T12:06:59",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Alert: Potential legacy risk from malware targeting QNAP NAS devices",
+        "link": "https://www.ncsc.gov.uk/news/legacy-risk-malware-targeting-qnap-nas-devices",
+        "pubDate": "2025-03-12T12:06:46",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Alert: Multiple actors are attempting to exploit MobileIron vulnerability CVE 2020-15505",
+        "link": "https://www.ncsc.gov.uk/news/alert-multiple-actors-attempt-exploit-mobileiron-vulnerability",
+        "pubDate": "2025-03-12T12:06:25",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Alert: Apache Log4j vulnerabilities",
+        "link": "https://www.ncsc.gov.uk/news/apache-log4j-vulnerability",
+        "pubDate": "2025-03-12T12:06:05",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Alert: Actors exploiting Citrix products vulnerability",
+        "link": "https://www.ncsc.gov.uk/news/citrix-alert",
+        "pubDate": "2025-03-12T12:05:40",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Use of credential stuffing tools",
+        "link": "https://www.ncsc.gov.uk/news/use-credential-stuffing-tools",
+        "pubDate": "2025-03-12T12:05:17",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Advisory: Turla group exploits Iranian APT to expand coverage of victims",
+        "link": "https://www.ncsc.gov.uk/news/turla-group-exploits-iran-apt-to-expand-coverage-of-victims",
+        "pubDate": "2025-03-12T12:01:44",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Ongoing DNS hijacking and mitigation advice",
+        "link": "https://www.ncsc.gov.uk/news/ongoing-dns-hijacking-and-mitigation-advice",
+        "pubDate": "2025-03-12T11:58:06",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NCSC and allies reveal most common cyber vulnerabilities exploited in 2022",
+        "link": "https://www.ncsc.gov.uk/news/ncsc-allies-reveal-2022-common-exploited-vulnerabilities",
+        "pubDate": "2025-03-12T11:57:27",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Indicators of compromise for malware used by APT28",
+        "link": "https://www.ncsc.gov.uk/news/indicators-of-compromise-for-malware-used-by-apt28",
+        "pubDate": "2025-03-12T11:57:01",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Advisory: COVID-19 exploited by malicious cyber actors",
+        "link": "https://www.ncsc.gov.uk/news/covid-19-exploited-by-cyber-actors-advisory",
+        "pubDate": "2025-03-12T11:56:22",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Advisory: APT29 targets COVID-19 vaccine development",
+        "link": "https://www.ncsc.gov.uk/news/advisory-apt29-targets-covid-19-vaccine-development",
+        "pubDate": "2025-03-12T11:55:55",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "APT28 exploits known vulnerability to carry out reconnaissance and deploy malware on Cisco routers",
+        "link": "https://www.ncsc.gov.uk/news/apt28-exploits-known-vulnerability-to-carry-out-reconnaissance-and-deploy-malware-on-cisco-routers",
+        "pubDate": "2025-03-12T11:55:29",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "APT10 continuing to target UK organisations",
+        "link": "https://www.ncsc.gov.uk/news/apt10-continuing-target-uk-organisations",
+        "pubDate": "2025-03-12T11:54:05",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Advisory: APT groups target healthcare and essential services",
+        "link": "https://www.ncsc.gov.uk/news/apt-groups-target-healthcare-essential-services-advisory",
+        "pubDate": "2025-03-12T11:52:45",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Joint Advisory: Exploitation of Accellion File Transfer Appliance",
+        "link": "https://www.ncsc.gov.uk/news/ncsc-advisory-on-accellion-file-transfer-appliance-customers",
+        "pubDate": "2025-03-12T11:52:33",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Updated advice on Pulse Connect Secure RCE Vulnerability",
+        "link": "https://www.ncsc.gov.uk/news/advice-on-pulse-connect-secure-rce-vulnerability",
+        "pubDate": "2025-03-12T11:51:47",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Microsoft vulnerabilities exploitation - updated advice",
+        "link": "https://www.ncsc.gov.uk/news/advice-following-microsoft-vulnerabilities-exploitation",
+        "pubDate": "2025-03-12T11:51:30",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Active exploitation of vulnerability affecting Ivanti Connect Secure",
+        "link": "https://www.ncsc.gov.uk/news/active-exploitation-ivanti-vulnerability",
+        "pubDate": "2025-03-12T11:50:39",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "3CX DesktopApp security issue",
+        "link": "https://www.ncsc.gov.uk/news/3cx-desktopapp-security-issue",
+        "pubDate": "2025-03-12T11:48:35",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Most hacked passwords revealed as UK cyber survey exposes gaps in online security",
+        "link": "https://www.ncsc.gov.uk/news/most-hacked-passwords-revealed-as-uk-cyber-survey-exposes-gaps-in-online-security",
+        "pubDate": "2025-03-10T14:45:05",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "The NCSC announces the forthcoming closure of the CCP scheme",
+        "link": "https://www.ncsc.gov.uk/news/forthcoming-closure-of-ccp-scheme",
+        "pubDate": "2025-03-05T09:11:44",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Her Majesty Queen Elizabeth II and GCHQ",
+        "link": "https://www.ncsc.gov.uk/news/her-majesty-queen-elizabeth-ii-and-gchq",
+        "pubDate": "2025-03-05T09:09:19",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "New Sandworm malware Cyclops Blink replaces VPNFilter",
+        "link": "https://www.ncsc.gov.uk/news/joint-advisory-shows-new-sandworm-malware-cyclops-blink-replaces-vpnfilter",
+        "pubDate": "2025-03-05T09:07:36",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "GCHQ reflects on the passing of His Royal Highness The Prince Philip, The Duke of Edinburgh",
+        "link": "https://www.ncsc.gov.uk/news/reflections-on-the-passing-of-hrh-prince-philip",
+        "pubDate": "2025-02-19T14:48:25",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "New proposals to counter ransomware: Have your say",
+        "link": "https://www.ncsc.gov.uk/news/your-say-proposals-to-counter-ransomware",
+        "pubDate": "2025-01-14T10:30:01",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "New advice helps organisations select secure operational technology products in face of rising cyber threat",
+        "link": "https://www.ncsc.gov.uk/news/help-selecting-secure-ot-products-face-cyber-threat",
+        "pubDate": "2025-01-13T15:09:10",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NCSC statement following exploitation of Unitronics programmable logic controllers",
+        "link": "https://www.ncsc.gov.uk/news/ncsc-statement-following-exploitation-of-unitronics-programmable-logic-controllers",
+        "pubDate": "2024-12-19T09:43:08",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "UK and US investigations into harmful international cyber campaigns",
+        "link": "https://www.ncsc.gov.uk/news/uk-and-us-investigation-into-harmful-international-cyber-campaigns",
+        "pubDate": "2024-12-18T07:35:52",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "UK and allies expose evolving tactics of Russian cyber actors",
+        "link": "https://www.ncsc.gov.uk/news/uk-allies-expose-evolving-tactics-of-russian-cyber-actors",
+        "pubDate": "2024-12-17T11:53:03",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "SVR cyber actors adapt tactics for initial cloud access",
+        "link": "https://www.ncsc.gov.uk/news/svr-cyber-actors-adapt-tactics-for-initial-cloud-access",
+        "pubDate": "2024-12-17T11:51:08",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NCSC lifts lid on three random words password logic",
+        "link": "https://www.ncsc.gov.uk/news/ncsc-lifts-lid-on-three-random-words-password-logic",
+        "pubDate": "2024-12-17T11:40:04",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Schoolgirls across the UK crowned winners at cyber competition finals",
+        "link": "https://www.ncsc.gov.uk/news/schoolgirls-across-the-uk-crowned-winners-at-cyber-competition-finals",
+        "pubDate": "2024-12-17T11:38:04",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Schoolgirls across the UK poised to battle for crown of cyber champions",
+        "link": "https://www.ncsc.gov.uk/news/schoolgirls-across-the-uk-poised-to-battle-for-crown-of-cyber-champions",
+        "pubDate": "2024-12-17T11:37:20",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Tech-savvy schools gain recognition from UK experts for championing cyber skills",
+        "link": "https://www.ncsc.gov.uk/news/tech-savvy-schools-gain-recognition-from-uk-experts",
+        "pubDate": "2024-12-17T11:36:23",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Students tackle tech innovation challenge set by UK cyber experts",
+        "link": "https://www.ncsc.gov.uk/news/students-tackle-tech-innovation-challenge-set-by-uks-cyber-experts",
+        "pubDate": "2024-12-17T11:35:39",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Schools offered free cyber defence tools to help keep out attackers",
+        "link": "https://www.ncsc.gov.uk/news/schools-offered-free-cyber-defence-tools-to-help-keep-out-attackers",
+        "pubDate": "2024-12-17T11:33:50",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NCSC reveals top government email impersonation scams taken down in 2022",
+        "link": "https://www.ncsc.gov.uk/news/ncsc-reveals-top-government-email-impersonation-scams-taken-down-in-2022",
+        "pubDate": "2024-12-17T11:21:51",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Schoolgirls across UK prepare to vie for crown of cyber security champion",
+        "link": "https://www.ncsc.gov.uk/news/schoolgirls-across-uk-prepare-to-vie-for-crown-of-cyber-security-champion",
+        "pubDate": "2024-12-17T11:20:24",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Pupils across the UK crowned champions of the NCSC cyber contest for girls",
+        "link": "https://www.ncsc.gov.uk/news/pupils-across-the-uk-crowned-champions-of-the-ncsc-cyber-contest-for-girls",
+        "pubDate": "2024-12-17T11:15:54",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Teachers encouraged to enter schoolgirls into UK's flagship cyber security contest",
+        "link": "https://www.ncsc.gov.uk/news/teachers-encouraged-to-enter-schoolgirls-into-uks-flagship-cyber-security-contest",
+        "pubDate": "2024-12-17T11:08:51",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "UK schoolgirls secure victory as champions of NCSC cyber skills contest",
+        "link": "https://www.ncsc.gov.uk/news/uk-schoolgirls-secure-victory-of-ncsc-cyber-skills-contest",
+        "pubDate": "2024-12-17T11:05:08",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "UK's cultural institutions gather for summit on the cyber threat",
+        "link": "https://www.ncsc.gov.uk/news/uk-cultural-institutions-gather-for-summit-on-the-cyber-threat",
+        "pubDate": "2024-12-17T11:03:56",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Recognising UK-based security researchers who have disclosed vulnerabilities to UK government",
+        "link": "https://www.ncsc.gov.uk/news/recognising-uk-based-security-researchers",
+        "pubDate": "2024-12-17T11:01:57",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NCSC statement following reports of a Synnovis data breach",
+        "link": "https://www.ncsc.gov.uk/news/ncsc-statement-following-reports-of-a-synnovis-data-breach",
+        "pubDate": "2024-12-17T10:47:46",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Team of British women to take part in international cyber event in Japan",
+        "link": "https://www.ncsc.gov.uk/news/team-british-women-take-part-international-cyber-event-japan",
+        "pubDate": "2024-12-17T10:33:03",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "UK girls triumph in national cyber skills contest",
+        "link": "https://www.ncsc.gov.uk/news/uk-girls-triumph-in-national-cyber-skills-contest",
+        "pubDate": "2024-12-04T16:56:09",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Risk facing UK \"widely underestimated\", cyber chief to warn in first major speech",
+        "link": "https://www.ncsc.gov.uk/news/risk-facing-uk-widely-underestimated-cyber-chief-to-warn-in-first-major-speech",
+        "pubDate": "2024-12-02T23:39:25",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "UK and allies warn about shift in cyber attackers exploiting zero-day vulnerabilities",
+        "link": "https://www.ncsc.gov.uk/news/uk-allies-warn-shift-in-cyber-attackers-exploiting-zero-day-vulnerabilities",
+        "pubDate": "2024-11-12T14:59:14",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "UK and US issue alert over cyber actors working on behalf of Iranian state",
+        "link": "https://www.ncsc.gov.uk/news/uk-us-issue-alert-cyber-actors-behalf-iranian-state-carry-targeted-phishing-attacks",
+        "pubDate": "2024-10-21T12:29:22",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Russian foreign intelligence poses global threat with cyber campaign exploiting established vulnerabilities",
+        "link": "https://www.ncsc.gov.uk/news/russian-foreign-intelligence-poses-global-threat-with-cyber-campaign-exploiting-established-vulnerabilities",
+        "pubDate": "2024-10-18T09:04:25",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NCSC warns of widening gap between cyber threats and defence capabilities",
+        "link": "https://www.ncsc.gov.uk/news/ncsc-warns-widening-gap-between-cyber-threats-and-defence-capabilities",
+        "pubDate": "2024-10-16T11:04:02",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NCSC launches Cyber Incident Exercising scheme",
+        "link": "https://www.ncsc.gov.uk/news/ncsc-launches-cyber-incident-exercising-scheme",
+        "pubDate": "2024-09-10T13:36:50",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "UK and allies uncover Russian military unit carrying out cyber attacks and digital sabotage for the first time",
+        "link": "https://www.ncsc.gov.uk/news/uk-allies-uncover-russian-military-carrying-out-cyber-attacks-digital-sabotage",
+        "pubDate": "2024-09-10T07:44:33",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Statement on major IT outage",
+        "link": "https://www.ncsc.gov.uk/news/major-it-outage",
+        "pubDate": "2024-07-19T15:39:41",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NCSC Chief Engineer recognised in prestigious Women in Engineering awards",
+        "link": "https://www.ncsc.gov.uk/news/chief-engineer-receives-women-in-engineering-award",
+        "pubDate": "2024-07-10T11:45:02",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "The NCSC and partners issue alert about evolving techniques used by China state-sponsored cyber attackers",
+        "link": "https://www.ncsc.gov.uk/news/ncsc-and-partners-issue-alert-about-evolving-techniques-used-by-china-state-sponsored-cyber-attacks",
+        "pubDate": "2024-07-09T09:30:21",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "UK and US host international dialogue to advance cyber support for groups that strengthen democracy",
+        "link": "https://www.ncsc.gov.uk/news/uk-us-host-international-dialogue-advance-cyber-support-for-strengthen-democracy",
+        "pubDate": "2024-05-28T13:38:12",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "UK’s tech innovators urged to join fight against ransomware threat",
+        "link": "https://www.ncsc.gov.uk/news/uk-tech-innovators-urged-to-join-fight-against-ransomware-threat",
+        "pubDate": "2024-05-28T13:37:18",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Potential phishing activity update",
+        "link": "https://www.ncsc.gov.uk/news/potential-phishing-activity-update",
+        "pubDate": "2024-05-28T13:35:49",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Registration opens for the first CYBERUK conference in Northern Ireland",
+        "link": "https://www.ncsc.gov.uk/news/registration-opens-for-first-cyberuk-conference-in-northern-ireland",
+        "pubDate": "2024-05-28T13:22:06",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "UK and international partners share advice to help turn the dial on tech product security",
+        "link": "https://www.ncsc.gov.uk/news/uk-and-international-partners-share-advice-to-help-turn-dial-on-tech-product-security",
+        "pubDate": "2024-05-28T13:17:48",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NCSC marks 20th anniversary of first response to state-sponsored cyber attack",
+        "link": "https://www.ncsc.gov.uk/news/20th-anniversary-of-first-response-to-state-sponsored-cyber-attack",
+        "pubDate": "2024-05-28T13:16:09",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NCSC warns of emerging threat to critical national infrastructure",
+        "link": "https://www.ncsc.gov.uk/news/ncsc-warns-of-emerging-threat-to-critical-national-infrastructure",
+        "pubDate": "2024-05-28T13:15:16",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Solicitors urged to help stem the rising tide of ransomware payments",
+        "link": "https://www.ncsc.gov.uk/news/solicitors-urged-to-help-stem-the-rising-tide-of-ransomware-payments",
+        "pubDate": "2024-05-28T12:58:04",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "New analysis highlights strength of Ukraine's defence against “unprecedented” Russian offensive",
+        "link": "https://www.ncsc.gov.uk/news/new-analysis-eccri-highlights-ukraine-defence-against-russian-offensive",
+        "pubDate": "2024-05-28T12:56:42",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "UK cyber chief: \"AI should be developed with security at its core\"",
+        "link": "https://www.ncsc.gov.uk/news/uk-cyber-chief-ai-should-be-developed-with-security-at-its-core",
+        "pubDate": "2024-05-28T12:51:10",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Peace process accelerated Northern Ireland's rise as global cyber security hub, UK cyber chief says",
+        "link": "https://www.ncsc.gov.uk/news/peace-process-accelerated-northern-irelands-rise-global-cyber-security-hub-uk-cyber-chief-says",
+        "pubDate": "2024-05-28T12:48:36",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Security updates released for Microsoft Exchange Servers",
+        "link": "https://www.ncsc.gov.uk/news/security-updates-released-microsoft-exchange-server",
+        "pubDate": "2024-05-28T12:45:26",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NCSC launches package of support to help retailers protect themselves and their customers online",
+        "link": "https://www.ncsc.gov.uk/news/ncsc-launches-package-of-support-to-help-retailers-protect-themselves-and-their-customers-online",
+        "pubDate": "2024-05-28T12:44:12",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NCSC ramps up support for those at high risk of cyber attacks ahead of election",
+        "link": "https://www.ncsc.gov.uk/news/ncsc-support-those-high-risk-cyber-attacks-ahead-election",
+        "pubDate": "2024-05-15T08:47:15",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "UK calls out China state-affiliated actors for malicious cyber targeting of UK democratic institutions and parliamentarians",
+        "link": "https://www.ncsc.gov.uk/news/china-state-affiliated-actors-target-uk-democratic-institutions-parliamentarians",
+        "pubDate": "2024-03-25T16:01:00",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NCSC statement on law enforcement's disruption of LockBit ransomware operation",
+        "link": "https://www.ncsc.gov.uk/news/ncsc-statement-on-law-enforcement-disruption-of-lockbit-ransomware-operation",
+        "pubDate": "2024-02-20T14:46:24",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NCSC and partners issue warning about state-sponsored cyber attackers hiding on critical infrastructure networks",
+        "link": "https://www.ncsc.gov.uk/news/ncsc-and-partners-issue-warning-about-state-sponsored-cyber-attackers-hiding-on-critical-infrastructure-networks",
+        "pubDate": "2024-02-07T18:33:25",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Russian FSB cyber actor Star Blizzard continues worldwide spear-phishing campaigns",
+        "link": "https://www.ncsc.gov.uk/news/star-blizzard-continues-spear-phishing-campaigns",
+        "pubDate": "2023-12-15T10:21:11",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "UK and allies expose Russian intelligence services for cyber campaign of attempted political interference",
+        "link": "https://www.ncsc.gov.uk/news/uk-and-allies-expose-cyber-campaign-attempted-political-interference",
+        "pubDate": "2023-12-07T11:40:11",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "UK and US develop new global guidelines for AI security",
+        "link": "https://www.ncsc.gov.uk/news/uk-develops-new-global-guidelines-ai-security",
+        "pubDate": "2023-11-26T18:28:13",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "UK and Republic of Korea issue warning about DPRK state-linked cyber actors attacking software supply chains",
+        "link": "https://www.ncsc.gov.uk/news/uk-republic-of-korea-issue-warning-dprk-state-linked-cyber-actors-attacking-software-supply-chains",
+        "pubDate": "2023-11-23T16:09:04",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NCSC warns of enduring and significant threat to UK's critical infrastructure",
+        "link": "https://www.ncsc.gov.uk/news/ncsc-warns-enduring-significant-threat-to-uks-critical-infrastructure",
+        "pubDate": "2023-11-13T15:53:34",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "The NCSC announces Ollie Whitehouse as new CTO",
+        "link": "https://www.ncsc.gov.uk/news/ollie-whitehouse-new-ncsc-cto",
+        "pubDate": "2023-08-31T22:37:29",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "UK and allies support Ukraine calling out Russia's GRU for new malware campaign",
+        "link": "https://www.ncsc.gov.uk/news/uk-allies-support-ukraine-calling-out-russia-gru-malware-campaign",
+        "pubDate": "2023-08-31T16:34:23",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Support from British businesses crucial in removing over 235,000 scams, new figures reveal",
+        "link": "https://www.ncsc.gov.uk/news/british-business-support-crucial-in-removing-scams",
+        "pubDate": "2023-07-05T19:25:28",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NCSC statement on MOVEit Transfer vulnerability",
+        "link": "https://www.ncsc.gov.uk/news/moveit-transfer-vulnerability",
+        "pubDate": "2023-06-06T09:52:30",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "UK and allies expose Snake malware threat from Russian cyber actors",
+        "link": "https://www.ncsc.gov.uk/news/uk-and-allies-expose-snake-malware-threat-from-russian-cyber-actors",
+        "pubDate": "2023-05-09T14:01:31",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "UK and international partners publish joint guidance to help communities create secure smart cities",
+        "link": "https://www.ncsc.gov.uk/news/uk-international-partners-joint-guidance-help-create-secure-smart-cities",
+        "pubDate": "2023-04-20T09:42:23",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "UK and US issue warning about APT28 actors exploiting poorly maintained Cisco routers",
+        "link": "https://www.ncsc.gov.uk/news/uk-and-us-issue-warning-about-apt28-actors-exploiting-poorly-maintained-cisco-routers",
+        "pubDate": "2023-04-18T07:18:50",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NCSC launches flagship new services to help millions of small organisations stay safe online",
+        "link": "https://www.ncsc.gov.uk/news/ncsc-launches-new-services-help-small-organisations-online",
+        "pubDate": "2023-03-20T16:23:39",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Organisations helping most vulnerable in society offered free cyber security support",
+        "link": "https://www.ncsc.gov.uk/news/organisations-helping-most-vulnerable-offered-cyber-essentials-support",
+        "pubDate": "2023-03-17T09:21:34",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Political scientist Thomas Rid and US cyber chief Jen Easterly among speakers confirmed for CYBERUK 2023",
+        "link": "https://www.ncsc.gov.uk/news/political-scientist-and-us-cyber-chief-among-speakers-confirmed-for-cyberuk-2023",
+        "pubDate": "2023-02-03T08:07:30",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "SEABORGIUM and TA453 continue their respective spear-phishing campaigns against targets of interest",
+        "link": "https://www.ncsc.gov.uk/news/spear-phishing-campaigns-targets-of-interest",
+        "pubDate": "2023-01-27T10:54:16",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "UK cyber experts warn of targeted phishing attacks from actors based in Russia and Iran",
+        "link": "https://www.ncsc.gov.uk/news/uk-cyber-experts-warn-of-targeted-phishing-attacks-from-actors-based-in-russia-and-iran",
+        "pubDate": "2023-01-25T15:01:56",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Ukraine cyber defenders in UK for high-level talks",
+        "link": "https://www.ncsc.gov.uk/news/ukraine-cyber-defenders-in-uk-for-high-level-talks",
+        "pubDate": "2023-01-18T15:09:03",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NCSC statement on the Royal Mail incident",
+        "link": "https://www.ncsc.gov.uk/news/royal-mail-incident",
+        "pubDate": "2023-01-13T15:36:44",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NCSC CEO delivers international speech on securing the Internet of Things and smart cities",
+        "link": "https://www.ncsc.gov.uk/news/ncsc-ceo-delivers-international-speech-on-securing-the-internet-of-things-and-smart-cities",
+        "pubDate": "2022-10-20T13:34:28",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "UK and allies expose Iranian state agency for exploiting cyber vulnerabilities for ransomware operations",
+        "link": "https://www.ncsc.gov.uk/news/uk-and-allies-expose-iranian-state-agency-for-exploiting-cyber-vulnerabilities-for-ransom-operations",
+        "pubDate": "2022-09-20T13:19:24",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "UK condemns Iranian state-linked actors for cyber attack against Albania",
+        "link": "https://www.ncsc.gov.uk/news/uk-condemns-cyber-attack",
+        "pubDate": "2022-09-08T14:56:56",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NCSC joins US partners to expose global brute force campaign by Russian Intelligence Services",
+        "link": "https://www.ncsc.gov.uk/news/global-brute-force-campaign-advisory",
+        "pubDate": "2022-07-28T14:27:08",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Advisory: Trickbot",
+        "link": "https://www.ncsc.gov.uk/news/trickbot-advisory",
+        "pubDate": "2022-07-28T13:54:05",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NCSC urges organisations to prepare for the long haul on Russia-Ukraine",
+        "link": "https://www.ncsc.gov.uk/news/ncsc-urges-organisations-to-prepare-for-the-long-haul-on-russia-ukraine",
+        "pubDate": "2022-07-05T07:17:44",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Commercial cyber capabilities must be used legally and responsibly, says UK NCSC CEO",
+        "link": "https://www.ncsc.gov.uk/news/lindy-cameron-at-tel-aviv-cyber-week",
+        "pubDate": "2022-06-28T08:54:36",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "UK joins international cyber agency partners to release supply chain guidance",
+        "link": "https://www.ncsc.gov.uk/news/uk-joins-international-cyber-agency-partners-to-release-supply-chain-guidance",
+        "pubDate": "2022-05-11T12:10:48",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "New email security tool launched to help organisations check their defences",
+        "link": "https://www.ncsc.gov.uk/news/new-email-security-tool-launched-to-help-organisations-check-their-defences",
+        "pubDate": "2022-05-10T13:57:10",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Russia behind cyber attack with Europe-wide impact an hour before Ukraine invasion",
+        "link": "https://www.ncsc.gov.uk/news/russia-behind-cyber-attack-with-europe-wide-impact-hour-before-ukraine-invasion",
+        "pubDate": "2022-05-10T11:15:54",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Organisations offered streamlined guidance to help them move to the cloud",
+        "link": "https://www.ncsc.gov.uk/news/organisations-offered-streamlined-guidance-to-help-them-move-to-the-cloud",
+        "pubDate": "2022-05-09T09:29:07",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NCSC significantly expands services to protect UK from record number of online scams",
+        "link": "https://www.ncsc.gov.uk/news/ncsc-significantly-expands-services-to-protect-uk-from-record-number-of-online-scams",
+        "pubDate": "2022-05-09T08:49:38",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NCSC joins the seL4 Foundation",
+        "link": "https://www.ncsc.gov.uk/news/ncsc-joins-the-sel4-foundation",
+        "pubDate": "2022-05-05T13:40:02",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "UK joins international partners to issue advice on latest Russian cyber threat",
+        "link": "https://www.ncsc.gov.uk/news/uk-joins-international-partners-to-issue-advice-on-latest-russian-cyber-threat-",
+        "pubDate": "2022-04-20T15:23:08",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NCSC supports White House call for increased cyber security precautions",
+        "link": "https://www.ncsc.gov.uk/news/ncsc-supports-white-house-call-for-increased-precautions",
+        "pubDate": "2022-03-24T10:41:40",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "New Sandworm malware Cyclops Blink replaces VPNFilter",
+        "link": "https://www.ncsc.gov.uk/news/new-sandworm-malware-cyclops-blink-replaces-vpnfilter",
+        "pubDate": "2022-02-23T15:06:29",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "UK government assess Russian involvement in DDoS attacks on Ukraine",
+        "link": "https://www.ncsc.gov.uk/news/russia-ddos-involvement-in-ukraine",
+        "pubDate": "2022-02-19T08:26:19",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NCSC joins US and Australian partners to reveal latest ransomware trends",
+        "link": "https://www.ncsc.gov.uk/news/ncsc-joins-us-and-australian-partners-to-reveal-latest-ransomware-trends",
+        "pubDate": "2022-02-09T10:51:56",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "UK organisations encouraged to take action in response to current situation in and around Ukraine",
+        "link": "https://www.ncsc.gov.uk/news/uk-organisations-encouraged-to-take-action-around-ukraine-situation",
+        "pubDate": "2022-01-28T09:39:06",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NCSC joins US partners to promote understanding and mitigation of Russian state-sponsored cyber threats",
+        "link": "https://www.ncsc.gov.uk/news/ncsc-us-partners-promote-understanding-mitigation-russian-state-sponsored-cyber-threats",
+        "pubDate": "2022-01-12T15:39:41",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "UK and US call out Russia for SolarWinds compromise",
+        "link": "https://www.ncsc.gov.uk/news/uk-and-us-call-out-russia-for-solarwinds-compromise",
+        "pubDate": "2021-12-01T06:17:52",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "UK and allies publish advice to fix global cyber vulnerabilities",
+        "link": "https://www.ncsc.gov.uk/news/global-cyber-vulnerabilities-advice",
+        "pubDate": "2021-07-28T11:53:50",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "UK and allies hold Chinese state responsible for pervasive pattern of hacking",
+        "link": "https://www.ncsc.gov.uk/news/uk-allies-hold-chinese-state-responsible-for-pervasive-pattern-of-hacking",
+        "pubDate": "2021-07-19T10:45:03",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Joint statement from Ofcom and the National Cyber Security Centre",
+        "link": "https://www.ncsc.gov.uk/news/ncsc-ofcom-statement",
+        "pubDate": "2021-07-13T15:12:55",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NCSC statement on the SolarWinds compromise",
+        "link": "https://www.ncsc.gov.uk/news/ncsc-statement-on-solarwinds-compromise",
+        "pubDate": "2021-05-21T14:12:53",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Update for organisations on Microsoft Exchange Server vulnerabilities",
+        "link": "https://www.ncsc.gov.uk/news/microsoft-exchange-server-vulnerabilities",
+        "pubDate": "2021-03-12T15:50:16",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "UK supports US charges against North Korean cyber actors",
+        "link": "https://www.ncsc.gov.uk/news/uk-supports-us-charges-against-north-korean-cyber-actors",
+        "pubDate": "2021-02-17T16:58:30",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NCSC supports US advisory regarding GRU intrusion set Sandworm",
+        "link": "https://www.ncsc.gov.uk/news/ncsc-supports-sandworm-advisory",
+        "pubDate": "2020-12-16T15:23:46",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Virtual Workspaces vulnerability exploited by malicious cyber actors",
+        "link": "https://www.ncsc.gov.uk/news/virtual-workspaces-vulnerability",
+        "pubDate": "2020-12-07T16:32:08",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "NCSC statement following US advisory on ransomware targeting of US health sector",
+        "link": "https://www.ncsc.gov.uk/news/statement-ransomware-targeting-us-health-sector",
+        "pubDate": "2020-10-29T15:05:57",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "UK condemns Chinese cyber attacks against governments and businesses",
+        "link": "https://www.ncsc.gov.uk/news/uk-condemns-chinese-cyber-attacks-against-businesses-governments",
+        "pubDate": "2020-09-16T17:01:23",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "UK joins international allies in issuing cyber defence advice for organisations",
+        "link": "https://www.ncsc.gov.uk/news/uk-joins-international-allies-in-issuing-cyber-defence-advice-for-organisations",
+        "pubDate": "2020-09-01T12:27:47",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "UK National Cyber Security Centre (NCSC) updates on the Turla Group",
+        "link": "https://www.ncsc.gov.uk/news/turla-group-behind-cyber-attack",
+        "pubDate": "2019-10-21T14:37:51",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Russian state-sponsored cyber actors targeting network infrastructure devices",
+        "link": "https://www.ncsc.gov.uk/news/russian-state-sponsored-cyber-actors-targeting-network-infrastructure-devices",
+        "pubDate": "2019-04-05T08:49:22",
+        "source": "NCSC UK"
+    },
+    {
+        "title": "Phishing campaign",
+        "link": "https://www.ncsc.gov.uk/news/phishing-campaign",
+        "pubDate": "2019-02-20T09:54:20",
+        "source": "NCSC UK"
+    }
+]

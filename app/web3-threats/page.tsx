@@ -76,6 +76,18 @@ const isDataFreshEnough = (rows: ExploitDetail[]): boolean => {
   return Date.now() - latest <= ninetyDaysMs;
 };
 
+const hasRowsInLastMonths = (rows: ExploitDetail[], months: number): boolean => {
+  if (!Array.isArray(rows) || rows.length === 0) return false;
+  const start = new Date();
+  start.setMonth(start.getMonth() - months);
+  return rows.some((row) => {
+    if (!row?.date) return false;
+    const ts = new Date(row.date).getTime();
+    if (Number.isNaN(ts)) return false;
+    return ts >= start.getTime();
+  });
+};
+
 export default function Web3ThreatsPage() {
   const [exploits, setExploits] = useState<ExploitDetail[]>([]);
   const [selectedExploit, setSelectedExploit] = useState<ExploitDetail | null>(null);
@@ -105,6 +117,8 @@ export default function Web3ThreatsPage() {
     const fetchData = async () => {
       setLoading(true);
       try {
+        let primaryData: Partial<ApiResponse> | null = null;
+        let fallbackData: Partial<ApiResponse> | null = null;
         let data: Partial<ApiResponse> | null = null;
 
         try {
@@ -112,30 +126,46 @@ export default function Web3ThreatsPage() {
           if (response.ok) {
             const payload = await response.json();
             const parsed = payload as Partial<ApiResponse>;
-            if (Array.isArray(parsed.data) && isDataFreshEnough(parsed.data as ExploitDetail[])) {
-              data = parsed;
-            }
+            primaryData = parsed;
           }
         } catch (primaryError) {
           console.error('Web3 primary API failed:', primaryError);
         }
 
-        // Primary backend can be unavailable on free hosting; transparently fall back.
+        const primaryRows = Array.isArray(primaryData?.data) ? (primaryData!.data as ExploitDetail[]) : [];
+        if (primaryRows.length > 0 && isDataFreshEnough(primaryRows)) {
+          data = primaryData;
+        }
+
+        // Primary backend can be unavailable or stale on free hosting; transparently fall back.
         if (!data) {
           const fallbackResponse = await fetch('/api/web3-threats-fallback');
           const fallbackPayload = await fallbackResponse.json();
           if (!fallbackResponse.ok) {
             console.error('Web3 fallback API error:', fallbackPayload);
-            setExploits([]);
-            setTotalRecords(0);
-            return;
+          } else {
+            fallbackData = fallbackPayload as Partial<ApiResponse>;
+            data = fallbackData;
           }
-          data = fallbackPayload as Partial<ApiResponse>;
+        }
+
+        // Last-resort: keep stale primary data rather than showing an empty page.
+        if (!data && primaryRows.length > 0) {
+          data = primaryData;
+        }
+
+        if (!data) {
+          setExploits([]);
+          setTotalRecords(0);
+          return;
         }
 
         const safeData = Array.isArray(data.data) ? data.data : [];
         setExploits(safeData as ExploitDetail[]);
         setTotalRecords(typeof data.total_records === 'number' ? data.total_records : safeData.length);
+        if (!hasRowsInLastMonths(safeData as ExploitDetail[], 3)) {
+          setTimeFilter('all');
+        }
       } catch (error) {
         console.error('Error fetching data:', error);
         setExploits([]);
