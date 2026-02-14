@@ -14,3 +14,7 @@ services:
         value: "true"
       - key: PRELOAD_HEAVY_DATA
         value: "false"
+      - key: UPSTREAM_DATA_BASE_URL
+        value: "https://your-proxy-domain.example.com"
+      - key: UPSTREAM_PROXY_TOKEN
+        value: "change-me-in-render-dashboard"

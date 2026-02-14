@@ -31,8 +31,14 @@ def env_bool(name: str, default: bool) -> bool:
 # Render free tier has tight memory limits; keep heavy datasets lazy by default.
 LOW_MEMORY_MODE = env_bool("LOW_MEMORY_MODE", True)
 PRELOAD_HEAVY_DATA = env_bool("PRELOAD_HEAVY_DATA", False)
-CYBERMONIT_DATA_BASE_URL = os.getenv("CYBERMONIT_DATA_BASE_URL", "https://data.cybermonit.com").rstrip("/")
+# Use your own proxy domain here (e.g. Cloudflare Worker URL). Keep provider URL out of app config.
+UPSTREAM_DATA_BASE_URL = (
+    os.getenv("UPSTREAM_DATA_BASE_URL")
+    or os.getenv("CYBERMONIT_DATA_BASE_URL")  # backward compatibility
+    or ""
+).rstrip("/")
 CURRENT_YEAR_SYNC_MAX_AGE_HOURS = int(os.getenv("CURRENT_YEAR_SYNC_MAX_AGE_HOURS", "6"))
+UPSTREAM_PROXY_TOKEN = os.getenv("UPSTREAM_PROXY_TOKEN", "").strip()
 
 # Add CORS middleware
 app.add_middleware(
@@ -262,6 +268,10 @@ def sync_cve_year_file(year: int, force: bool = False) -> bool:
     Returns True when file was updated, False otherwise.
     """
     try:
+        if not UPSTREAM_DATA_BASE_URL:
+            logger.info("UPSTREAM_DATA_BASE_URL not configured; skipping upstream CVE sync")
+            return False
+
         cve_dir = Path("data/cybermonit/cve")
         cve_dir.mkdir(parents=True, exist_ok=True)
         target = cve_dir / f"{year}.json"
@@ -271,8 +281,11 @@ def sync_cve_year_file(year: int, force: bool = False) -> bool:
             if age_seconds < CURRENT_YEAR_SYNC_MAX_AGE_HOURS * 3600:
                 return False
 
-        url = f"{CYBERMONIT_DATA_BASE_URL}/{year}.json"
-        resp = requests.get(url, timeout=90, headers={"User-Agent": "menaxa-backend/1.0"})
+        url = f"{UPSTREAM_DATA_BASE_URL}/{year}.json"
+        headers = {"User-Agent": "menaxa-backend/1.0"}
+        if UPSTREAM_PROXY_TOKEN:
+            headers["X-Upstream-Token"] = UPSTREAM_PROXY_TOKEN
+        resp = requests.get(url, timeout=90, headers=headers)
         if resp.status_code != 200:
             logger.warning(f"Could not sync CVE year {year}: HTTP {resp.status_code}")
             return False

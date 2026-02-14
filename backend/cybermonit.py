@@ -6,11 +6,14 @@ import os
 import argparse
 from datetime import datetime
 
-# Current public CyberMonit data host
-BASE_URL = "https://data.cybermonit.com"
+# Keep real provider URL in environment variables, not in source code.
+BASE_URL = os.getenv("UPSTREAM_DATA_BASE_URL", "").rstrip("/")
+if not BASE_URL:
+    # Backward compatibility only.
+    BASE_URL = os.getenv("CYBERMONIT_DATA_BASE_URL", "").rstrip("/")
 
 def fetch_and_save_file(file_path, output_dir):
-    """Fetch a file from CyberMonit data host and save it locally."""
+    """Fetch a file from the configured upstream data host and save it locally."""
     url = f"{BASE_URL}/{file_path}"
     try:
         response = requests.get(url, timeout=60)
@@ -46,10 +49,14 @@ def fetch_and_save_file(file_path, output_dir):
         print(f"✗ Failed to download: {file_path} (Unknown error: {str(e)})")
 
 def main():
-    parser = argparse.ArgumentParser(description='Fetch data from Supabase storage and save to JSON files')
+    parser = argparse.ArgumentParser(description='Fetch external data feed and save to JSON files')
     parser.add_argument('-o', '--output', default='./data/cybermonit',
                       help='Output directory for saved files')
     args = parser.parse_args()
+
+    if not BASE_URL:
+        print("✗ Missing UPSTREAM_DATA_BASE_URL (or CYBERMONIT_DATA_BASE_URL) environment variable")
+        raise SystemExit(1)
 
     print(f"Starting download to: {args.output}")
     print("-" * 50)
@@ -84,4 +91,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

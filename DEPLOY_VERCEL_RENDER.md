@@ -42,3 +42,23 @@ After both deploy:
 curl https://<your-render-service>.onrender.com/news
 ```
 
+## 6) Hide upstream provider with Cloudflare Worker proxy (recommended)
+
+This keeps the real data source out of your app/network logs.
+
+```bash
+cd /Users/suhrad/Documents/FINAL/a/cloudflare/upstream-proxy
+npx wrangler login
+npx wrangler secret put ORIGIN_BASE_URL
+# Paste real upstream base URL when prompted (example: https://data.cybermonit.com)
+npx wrangler secret put UPSTREAM_PROXY_TOKEN
+# Paste a long random token
+npx wrangler deploy
+```
+
+After deploy, note the Worker URL (example: `https://menaxa-upstream-proxy.<subdomain>.workers.dev`) and set these on Render:
+
+- `UPSTREAM_DATA_BASE_URL=https://<your-worker-domain>`
+- `UPSTREAM_PROXY_TOKEN=<same-token-you-set-in-worker-secret>`
+
+Then redeploy Render.
