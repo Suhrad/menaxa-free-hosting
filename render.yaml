@@ -10,3 +10,7 @@ services:
     envVars:
       - key: PYTHON_VERSION
         value: 3.11.9
+      - key: LOW_MEMORY_MODE
+        value: "true"
+      - key: PRELOAD_HEAVY_DATA
+        value: "false"

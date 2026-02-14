@@ -10,6 +10,7 @@ import re
 import asyncio
 from typing import Dict, Any, List
 import urllib.parse
+import requests
 from bs4 import BeautifulSoup
 import random  # Add random module import
 
@@ -18,6 +19,20 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 app = FastAPI()
+
+
+def env_bool(name: str, default: bool) -> bool:
+    raw = os.getenv(name)
+    if raw is None:
+        return default
+    return raw.strip().lower() in {"1", "true", "yes", "on"}
+
+
+# Render free tier has tight memory limits; keep heavy datasets lazy by default.
+LOW_MEMORY_MODE = env_bool("LOW_MEMORY_MODE", True)
+PRELOAD_HEAVY_DATA = env_bool("PRELOAD_HEAVY_DATA", False)
+CYBERMONIT_DATA_BASE_URL = os.getenv("CYBERMONIT_DATA_BASE_URL", "https://data.cybermonit.com").rstrip("/")
+CURRENT_YEAR_SYNC_MAX_AGE_HOURS = int(os.getenv("CURRENT_YEAR_SYNC_MAX_AGE_HOURS", "6"))
 
 # Add CORS middleware
 app.add_middleware(
@@ -69,6 +84,11 @@ cve_cache: Dict[str, Any] = {
     "last_updated": None,
     "last_file": None
 }
+
+# Small bounded cache used only in low-memory mode for per-year CVE reads.
+cve_year_cache: Dict[str, List[Dict[str, Any]]] = {}
+cve_year_cache_order: List[str] = []
+MAX_CVE_YEARS_IN_MEMORY = 2
 
 # Global cache for Web3 releases data
 web3_releases_cache: Dict[str, Any] = {
@@ -229,9 +249,49 @@ def get_cve_files(year: str = None):
                 raise HTTPException(status_code=404, detail="No CVE data files found")
         
         return json_files
+    except HTTPException:
+        raise
     except Exception as e:
         logger.error(f"Error in get_cve_files: {str(e)}")
         raise HTTPException(status_code=500, detail=f"Error finding CVE files: {str(e)}")
+
+
+def sync_cve_year_file(year: int, force: bool = False) -> bool:
+    """
+    Ensure local CVE year file exists and is reasonably fresh by pulling from CyberMonit.
+    Returns True when file was updated, False otherwise.
+    """
+    try:
+        cve_dir = Path("data/cybermonit/cve")
+        cve_dir.mkdir(parents=True, exist_ok=True)
+        target = cve_dir / f"{year}.json"
+
+        if target.exists() and not force:
+            age_seconds = datetime.now().timestamp() - target.stat().st_mtime
+            if age_seconds < CURRENT_YEAR_SYNC_MAX_AGE_HOURS * 3600:
+                return False
+
+        url = f"{CYBERMONIT_DATA_BASE_URL}/{year}.json"
+        resp = requests.get(url, timeout=90, headers={"User-Agent": "menaxa-backend/1.0"})
+        if resp.status_code != 200:
+            logger.warning(f"Could not sync CVE year {year}: HTTP {resp.status_code}")
+            return False
+
+        parsed = resp.json()
+        if not isinstance(parsed, list):
+            parsed = [parsed]
+
+        with open(target, "w", encoding="utf-8") as f:
+            json.dump(parsed, f, ensure_ascii=False)
+
+        logger.info(f"Synced CVE year file from upstream: {target}")
+        return True
+    except requests.RequestException as e:
+        logger.warning(f"CVE sync skipped for year {year}: Request error {str(e)}")
+        return False
+    except Exception as e:
+        logger.warning(f"CVE sync skipped for year {year}: {str(e)}")
+        return False
 
 def filter_record(record):
     """Filter a record to only include specified fields"""
@@ -478,20 +538,28 @@ async def refresh_phishing_data():
     try:
         phishing_file = get_phishing_file()
         logger.info(f"Refreshing phishing cache from file: {phishing_file}")
-        
+
+        if LOW_MEMORY_MODE:
+            # Do not hold hundreds of thousands of domains in memory.
+            phishing_cache["data"] = None
+            phishing_cache["last_updated"] = datetime.fromtimestamp(phishing_file.stat().st_mtime).isoformat()
+            phishing_cache["last_file"] = phishing_file
+            phishing_cache["total_records"] = None
+            logger.info("Phishing cache metadata refreshed in low-memory mode (data stays on disk)")
+            return
+
         with open(phishing_file, 'r', encoding='utf-8') as f:
             data = json.load(f)
-        
+
         if not data:
             logger.error("Invalid data format in phishing JSON file")
             return
-        
-        # Update cache
+
         phishing_cache["data"] = data
         phishing_cache["last_updated"] = datetime.fromtimestamp(phishing_file.stat().st_mtime).isoformat()
         phishing_cache["last_file"] = phishing_file
         phishing_cache["total_records"] = len(data)
-        
+
         logger.info(f"Phishing cache refreshed with {phishing_cache['total_records']} records")
     except Exception as e:
         logger.error(f"Error refreshing phishing cache: {str(e)}")
@@ -499,6 +567,20 @@ async def refresh_phishing_data():
 async def refresh_cve_data():
     """Refresh the CVE data cache"""
     try:
+        if LOW_MEMORY_MODE:
+            # Keep only metadata; load CVEs per-request by year.
+            cve_files = get_cve_files()
+            years = sorted([f.stem for f in cve_files], reverse=True)
+            cve_cache["data"] = None
+            cve_cache["last_updated"] = datetime.now().isoformat()
+            cve_cache["last_file"] = cve_files[-1] if cve_files else None
+            cve_cache["total_records"] = None
+            cve_cache["available_years"] = years
+            cve_year_cache.clear()
+            cve_year_cache_order.clear()
+            logger.info(f"CVE metadata refreshed in low-memory mode across {len(years)} years")
+            return
+
         cve_files = get_cve_files()
         logger.info(f"Refreshing CVE cache from {len(cve_files)} files")
         
@@ -556,6 +638,51 @@ async def refresh_cve_data():
     except Exception as e:
         logger.error(f"Error refreshing CVE cache: {str(e)}")
 
+
+def load_phishing_domains_from_disk() -> List[str]:
+    phishing_file = get_phishing_file()
+    with open(phishing_file, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+    if not isinstance(data, list):
+        raise HTTPException(status_code=500, detail="Invalid phishing data format")
+    return data
+
+
+def _filter_cve_items(data: Any) -> List[Dict[str, Any]]:
+    if not isinstance(data, list):
+        data = [data]
+
+    filtered_data: List[Dict[str, Any]] = []
+    for item in data:
+        if "description" in item and isinstance(item["description"], str) and "Rejected reason" in item["description"]:
+            continue
+        if item.get("severity") in ["brak", "none"] or item.get("severity_en") in ["brak", "none"]:
+            continue
+        if item.get("score") is None and not item.get("severity"):
+            continue
+        filtered_data.append(item)
+
+    filtered_data.sort(key=lambda x: x.get("publishedDate", ""), reverse=True)
+    return filtered_data
+
+
+def load_cve_year_data(year: str) -> List[Dict[str, Any]]:
+    if year in cve_year_cache:
+        return cve_year_cache[year]
+
+    files = get_cve_files(year=year)
+    with open(files[0], 'r', encoding='utf-8') as f:
+        raw = json.load(f)
+    year_data = _filter_cve_items(raw)
+
+    cve_year_cache[year] = year_data
+    cve_year_cache_order.append(year)
+    if len(cve_year_cache_order) > MAX_CVE_YEARS_IN_MEMORY:
+        evicted = cve_year_cache_order.pop(0)
+        cve_year_cache.pop(evicted, None)
+
+    return year_data
+
 def get_web3_releases_file():
     """Get the Web3 releases JSON file"""
     try:
@@ -611,12 +738,19 @@ async def refresh_web3_releases_data():
 @app.on_event("startup")
 async def startup_event():
     """Initialize cache on startup"""
+    sync_cve_year_file(datetime.now().year)
     await refresh_rekt_data()
     await refresh_eol_data()
     await refresh_leaks_data()
     await refresh_news_data()
-    await refresh_phishing_data()
-    await refresh_cve_data()
+    if PRELOAD_HEAVY_DATA:
+        await refresh_phishing_data()
+        await refresh_cve_data()
+    else:
+        logger.info("Skipping heavy cache preload (phishing/cve) to reduce memory usage")
+        # Still initialize metadata to keep endpoint responses consistent.
+        await refresh_phishing_data()
+        await refresh_cve_data()
     await refresh_web3_releases_data()
     # Start background task to refresh cache periodically (every 5 minutes)
     asyncio.create_task(periodic_refresh())
@@ -625,11 +759,13 @@ async def periodic_refresh():
     """Periodically refresh the cache"""
     while True:
         await asyncio.sleep(300)  # 5 minutes
+        sync_cve_year_file(datetime.now().year)
         await refresh_rekt_data()
         await refresh_eol_data()
         await refresh_leaks_data()
         await refresh_news_data()
-        await refresh_phishing_data()
+        if PRELOAD_HEAVY_DATA:
+            await refresh_phishing_data()
         await refresh_cve_data()
         await refresh_web3_releases_data()
 
@@ -684,12 +820,11 @@ async def get_news_data():
 @app.get("/get-web3-scam-domains")
 async def get_web3_scam_domains():
     """Get 5 random domains from phishing scam database"""
-    if phishing_cache["data"] is None:
+    domains_source = phishing_cache["data"] if phishing_cache["data"] is not None else load_phishing_domains_from_disk()
+    if not domains_source:
         raise HTTPException(status_code=503, detail="Phishing data not yet loaded")
-    
-    # Get 5 random domains from the data
-    # Use random.sample to get unique random items
-    domains = random.sample(phishing_cache["data"], min(5, len(phishing_cache["data"])))
+
+    domains = random.sample(domains_source, min(5, len(domains_source)))
     
     return {
         "last_updated": phishing_cache["last_updated"],
@@ -700,12 +835,11 @@ async def get_web3_scam_domains():
 @app.get("/search")
 async def search_domain(domain: str):
     """Search for a domain in the phishing scam database"""
-    if phishing_cache["data"] is None:
+    domains_source = phishing_cache["data"] if phishing_cache["data"] is not None else load_phishing_domains_from_disk()
+    if not domains_source:
         raise HTTPException(status_code=503, detail="Phishing data not yet loaded")
-    
-    # Search for the domain in the data
-    # Assuming the data is a list of strings (domains)
-    domain_exists = any(d.lower() == domain.lower() for d in phishing_cache["data"])
+
+    domain_exists = any(d.lower() == domain.lower() for d in domains_source)
     
     return {
         "domain": domain,
@@ -734,7 +868,12 @@ async def refresh_all_data(background_tasks: BackgroundTasks):
 @app.get("/get-cves")
 async def get_cves_data(year: str = None, page: int = 1, page_size: int = 100):
     """Get CVE data from cache, optionally filtered by year and paginated"""
-    if cve_cache["data"] is None:
+    current_year = str(datetime.now().year)
+    # Keep current year file fresh enough for daily updates.
+    if year == current_year or year is None:
+        sync_cve_year_file(datetime.now().year)
+
+    if cve_cache.get("available_years") is None and cve_cache["data"] is None:
         raise HTTPException(status_code=503, detail="CVE data not yet loaded")
     
     # Validate pagination parameters
@@ -744,10 +883,21 @@ async def get_cves_data(year: str = None, page: int = 1, page_size: int = 100):
         raise HTTPException(status_code=400, detail="Page size must be between 1 and 1000")
     
     if year:
-        if year not in cve_cache["data"]:
+        if LOW_MEMORY_MODE:
+            try:
+                get_cve_files(year=year)
+            except HTTPException as exc:
+                if exc.status_code == 404:
+                    raise HTTPException(status_code=404, detail=f"No CVE data found for year {year}")
+                raise
+            year_data = load_cve_year_data(year)
+        else:
+            if year not in cve_cache["data"]:
+                raise HTTPException(status_code=404, detail=f"No CVE data found for year {year}")
+            year_data = cve_cache["data"][year]
+
+        if len(year_data) == 0:
             raise HTTPException(status_code=404, detail=f"No CVE data found for year {year}")
-        
-        year_data = cve_cache["data"][year]
         total_records = len(year_data)
         total_pages = (total_records + page_size - 1) // page_size
         
@@ -768,20 +918,49 @@ async def get_cves_data(year: str = None, page: int = 1, page_size: int = 100):
             "data": paginated_data
         }
     
-    # Handle pagination for all years
-    all_data = []
-    for year_data in cve_cache["data"].values():
-        all_data.extend(year_data)
-    
-    total_records = len(all_data)
-    total_pages = (total_records + page_size - 1) // page_size
-    
-    if page > total_pages:
-        raise HTTPException(status_code=400, detail=f"Page {page} does not exist. Total pages: {total_pages}")
-    
-    start_idx = (page - 1) * page_size
-    end_idx = min(start_idx + page_size, total_records)
-    paginated_data = all_data[start_idx:end_idx]
+    if LOW_MEMORY_MODE:
+        years = sorted([f.stem for f in get_cve_files()], reverse=True)
+        cve_cache["available_years"] = years
+        offset = (page - 1) * page_size
+        remaining_skip = offset
+        paginated_data: List[Dict[str, Any]] = []
+        total_records = 0
+
+        for y in years:
+            year_data = load_cve_year_data(y)
+            year_len = len(year_data)
+            total_records += year_len
+
+            if len(paginated_data) >= page_size:
+                continue
+
+            if remaining_skip >= year_len:
+                remaining_skip -= year_len
+                continue
+
+            start = remaining_skip
+            take = min(page_size - len(paginated_data), year_len - start)
+            paginated_data.extend(year_data[start:start + take])
+            remaining_skip = 0
+
+        total_pages = (total_records + page_size - 1) // page_size if total_records else 0
+        if page > max(total_pages, 1):
+            raise HTTPException(status_code=400, detail=f"Page {page} does not exist. Total pages: {total_pages}")
+    else:
+        # Handle pagination for all years
+        all_data = []
+        for year_data in cve_cache["data"].values():
+            all_data.extend(year_data)
+
+        total_records = len(all_data)
+        total_pages = (total_records + page_size - 1) // page_size
+
+        if page > total_pages:
+            raise HTTPException(status_code=400, detail=f"Page {page} does not exist. Total pages: {total_pages}")
+
+        start_idx = (page - 1) * page_size
+        end_idx = min(start_idx + page_size, total_records)
+        paginated_data = all_data[start_idx:end_idx]
     
     return {
         "last_updated": cve_cache["last_updated"],
@@ -789,7 +968,7 @@ async def get_cves_data(year: str = None, page: int = 1, page_size: int = 100):
         "total_pages": total_pages,
         "current_page": page,
         "page_size": page_size,
-        "available_years": cve_cache["available_years"],
+        "available_years": cve_cache.get("available_years", []),
         "data": paginated_data
     }
 

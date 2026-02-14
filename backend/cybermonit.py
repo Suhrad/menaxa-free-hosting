@@ -4,6 +4,7 @@ import requests
 import json
 import os
 import argparse
+from datetime import datetime
 
 # Current public CyberMonit data host
 BASE_URL = "https://data.cybermonit.com"
@@ -57,8 +58,9 @@ def main():
     cve_dir = os.path.join(args.output, 'cve')
     os.makedirs(cve_dir, exist_ok=True)
 
-    # List of CVE year files
-    cve_files = [f"{year}.json" for year in range(2002, 2026)]
+    # List of CVE year files (dynamic; includes current year automatically)
+    current_year = datetime.utcnow().year
+    cve_files = [f"{year}.json" for year in range(2002, current_year + 1)]
     
     # List of other files
     other_files = [
@@ -82,5 +84,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-
 
